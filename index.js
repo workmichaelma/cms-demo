@@ -82,7 +82,7 @@ app.use('/admin', (req, res, next) => {
 	res.sendFile(path.join(__dirname, '/frontend/build', 'index.html'))
 })
 
-const PORT = process.env.PORT || 81
+const PORT = 81
 app.listen(PORT, () => {
 	console.log('Running on ' + PORT + ' mode: ' + process.env.mode)
 })
