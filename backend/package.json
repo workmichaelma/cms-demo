@@ -4,8 +4,9 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "node index.js",
-		"dev": "nodemon index.js --ignore frontend/",
+		"start": "mode=prod node index.js",
+		"uat": "mode=uat node index.js",
+		"dev": "mode=dev nodemon index.js --ignore frontend/",
 		"local": "nodemon index.js --ignore frontend/",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
@@ -13,16 +14,22 @@
 	"author": "",
 	"license": "ISC",
 	"type": "module",
+	"imports": {
+		"#_/*.js": "./*.js"
+	},
 	"dependencies": {
 		"@apollo/server": "^4.7.5",
 		"@textea/json-viewer": "^3.1.1",
 		"body-parser": "^1.20.2",
+		"connect-mongo": "^5.0.0",
 		"cors": "^2.8.5",
 		"dayjs": "^1.11.9",
+		"express-session": "^1.17.3",
 		"graphql": "^16.7.1",
 		"graphql-upload": "^16.0.2",
 		"jotai": "^2.2.2",
 		"lodash": "^4.17.21",
+		"mongoose": "^7.3.4",
 		"nodemon": "^3.0.1",
 		"react-router-dom": "^6.14.1"
 	},

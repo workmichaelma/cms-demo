@@ -6,9 +6,18 @@ import path from 'path'
 import bodyParser from 'body-parser'
 import express from 'express'
 
+import connectMongoDB from '#_/config/mongodb.js'
+
 const __dirname = path.dirname(new URL(import.meta.url).pathname)
 const app = express()
-app.use(cors({ credentials: true, origin: 'http://localhost:3000' }))
+const isLocal = process.env.mode === 'local'
+
+// Allow local access
+if (isLocal) {
+	app.use(cors({ credentials: true, origin: 'http://localhost:3000' }))
+}
+
+connectMongoDB(app)
 
 // A schema is a collection of type definitions (hence "typeDefs")
 // that together define the "shape" of queries that are executed against
@@ -82,7 +91,7 @@ app.use('/admin', (req, res, next) => {
 	res.sendFile(path.join(__dirname, '/frontend/build', 'index.html'))
 })
 
-const PORT = 81
+const PORT = process.env.PORT || 80
 app.listen(PORT, () => {
-	console.log('Running on ' + PORT + ' mode: ' + process.env.mode)
+	console.log('Running on ' + PORT + ', mode: ' + process.env.mode)
 })
