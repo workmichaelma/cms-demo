@@ -19,9 +19,12 @@ const getQueries = async () => {
         field: String
         title: String
         type: String
+        placeholder: String
         is_required: Boolean
         is_password: Boolean
         is_multiple: Boolean
+        is_phone: Boolean
+        is_email: Boolean
       }
 
       type Query {

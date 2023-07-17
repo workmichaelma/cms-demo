@@ -101,6 +101,7 @@ export class Model {
 		this.Schema.plugin(mongooseLeanVirtuals)
 		this.Model = mongoose.model(modelName, this.Schema)
 
+		this.user_id = null
 		this.Schema.statics.findOne = this.findOne
 	}
 
@@ -109,8 +110,16 @@ export class Model {
 		return this.Model.findOne(filter).lean()
 	}
 
+	async updateOne({ _id, body }) {
+		return this.Model.findOneAndUpdate({ _id }, body)
+	}
+
 	async findAll({ filter } = {}) {
 		return this.Model.find(filter).lean()
+	}
+
+	async setUserId(user_id) {
+		this.user_id = user_id
 	}
 
 	async insert({ body, user_id }) {

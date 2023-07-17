@@ -1,12 +1,9 @@
-import { ApolloServer } from '@apollo/server'
-import graphqlUploadExpress from 'graphql-upload/graphqlUploadExpress.mjs'
-import { expressMiddleware } from '@apollo/server/express4'
 import cors from 'cors'
 import path from 'path'
-import bodyParser from 'body-parser'
 import express from 'express'
 
 import connectMongoDB from '#_/config/mongodb.js'
+import connectGraphQL from '#_/graphql/index.js'
 
 const __dirname = path.dirname(new URL(import.meta.url).pathname)
 const app = express()
@@ -71,29 +68,7 @@ const resolvers = {
 	// },
 }
 
-import Query from '#_/graphql/query.js'
-import Resolver from '#_/graphql/resolver.js'
-
-// console.log(await Resolver.getResolvers())
-
-const server = new ApolloServer({
-	typeDefs: await Query.getQueries(),
-	resolvers: await Resolver.getResolvers(),
-	uploads: false,
-})
-
-await server.start()
-
-app.use(express.static(path.join(__dirname, '/frontend/build')))
-app.use(
-	'/graphql',
-	cors(),
-	graphqlUploadExpress(),
-	bodyParser.json(),
-	expressMiddleware(server, {
-		context: async ({ req }) => req,
-	})
-)
+connectGraphQL(app)
 app.use('/admin', (req, res, next) => {
 	res.sendFile(path.join(__dirname, '/frontend/build', 'index.html'))
 })
