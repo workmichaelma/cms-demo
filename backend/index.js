@@ -58,22 +58,27 @@ const books = [
 	},
 ]
 const resolvers = {
-	Query: {
-		books: () => books,
-	},
-	Mutation: {
-		uploadFile: async (_, { file, name }) => {
-			console.log(file.file, name)
-			const { createReadStream, filename, mimetype, encoding } = file.file
-			// Process the file data here
-			return filename
-		},
-	},
+	// Query: {
+	// 	books: () => books,
+	// },
+	// Mutation: {
+	// 	uploadFile: async (_, { file, name }) => {
+	// 		console.log(file.file, name)
+	// 		const { createReadStream, filename, mimetype, encoding } = file.file
+	// 		// Process the file data here
+	// 		return filename
+	// 	},
+	// },
 }
 
+import Query from '#_/graphql/query.js'
+import Resolver from '#_/graphql/resolver.js'
+
+// console.log(await Resolver.getResolvers())
+
 const server = new ApolloServer({
-	typeDefs,
-	resolvers,
+	typeDefs: await Query.getQueries(),
+	resolvers: await Resolver.getResolvers(),
 	uploads: false,
 })
 
@@ -85,7 +90,9 @@ app.use(
 	cors(),
 	graphqlUploadExpress(),
 	bodyParser.json(),
-	expressMiddleware(server)
+	expressMiddleware(server, {
+		context: async ({ req }) => req,
+	})
 )
 app.use('/admin', (req, res, next) => {
 	res.sendFile(path.join(__dirname, '/frontend/build', 'index.html'))
