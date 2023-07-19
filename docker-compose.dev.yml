@@ -22,18 +22,18 @@ services:
     restart: always
     volumes:
       - ./backend:/usr/src/backend
-  cms-frontend-demo:
-    build:
-      context: ./frontend
-    ports:
-      - '3000:3000'
-    depends_on:
-      - mongodb-demo
-    environment:
-      - PORT=3000
-    restart: always
-    volumes:
-      - ./frontend:/usr/src/app/frontend
+  # cms-frontend-demo:
+  #   build:
+  #     context: ./frontend
+  #   ports:
+  #     - '3000:3000'
+  #   depends_on:
+  #     - mongodb-demo
+  #   environment:
+  #     - PORT=3000
+  #   restart: always
+  #   volumes:
+  #     - ./frontend:/usr/src/app/frontend
   mongodb-demo:
     image: mongo:5.0.2
     restart: unless-stopped

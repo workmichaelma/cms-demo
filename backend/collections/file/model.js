@@ -1,9 +1,9 @@
 import { Model } from '#_/lib/model.js'
 import { schema } from './config.js'
 
-export class Company extends Model {
+export class File extends Model {
 	constructor() {
-		super('company', schema)
+		super('file', schema)
 		super.buildModel()
 	}
 }

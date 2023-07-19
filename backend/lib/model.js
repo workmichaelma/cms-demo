@@ -18,6 +18,7 @@ const buildSchema = (schema) => {
 			type: Boolean,
 			default: true,
 		},
+		created_at: { type: Date, default: Date.now },
 	}
 
 	schema.forEach((item) => {
@@ -96,22 +97,37 @@ const buildSchema = (schema) => {
 }
 
 export class Model {
-	constructor(modelName, schema) {
+	constructor(modelName, schema, metadata) {
 		this.Schema = new mongoose.Schema(buildSchema(schema))
 		this.Schema.plugin(mongooseLeanVirtuals)
-		this.Model = mongoose.model(modelName, this.Schema)
 
+		const { addLog = true } = metadata || {}
 		this.user_id = null
-		this.Schema.statics.findOne = this.findOne
+		this.addLog = addLog
+		this.modelName = modelName
+		// this.Schema.statics.findOne = this.findOne
+	}
+
+	buildModel() {
+		this.Model = mongoose.model(this.modelName, this.Schema)
 	}
 
 	async findOne({ filter }) {
-		console.log(filter)
 		return this.Model.findOne(filter).lean()
 	}
 
 	async updateOne({ _id, body }) {
-		return this.Model.findOneAndUpdate({ _id }, body)
+		const { _doc } = await this.Model.findOneAndUpdate({ _id }, body)
+		if (this.addLog) {
+			this.Model.model('log').log({
+				collection_name: this.modelName,
+				action: 'UPDATE',
+				doc_id: _id,
+				old_data: _doc,
+			})
+		}
+
+		return _doc
 	}
 
 	async findAll({ filter } = {}) {
@@ -124,9 +140,17 @@ export class Model {
 
 	async insert({ body, user_id }) {
 		try {
-			const _doc = await this.Model.create(body)
+			const { _doc } = await this.Model.create(body)
 
 			if (_doc) {
+				if (this.addLog) {
+					this.Model.model('log').log({
+						collection_name: this.modelName,
+						action: 'ADD',
+						doc_id: _doc._id,
+						old_data: _doc,
+					})
+				}
 				return _doc
 			} else {
 				throw new Error(`Failed to insert ${modelName}`)

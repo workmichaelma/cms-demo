@@ -1,9 +1,10 @@
 import { Model } from '#_/lib/model.js'
+import { encrypt, decrypt } from '#_/lib/crypto.js'
 import { schema } from './config.js'
 
-export class Company extends Model {
+export class Driver extends Model {
 	constructor() {
-		super('company', schema)
+		super('driver', schema)
 		super.buildModel()
 	}
 }

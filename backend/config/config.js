@@ -40,8 +40,14 @@ const DATABASE = {
 }
 
 const SEESSION_SECRET = 'odf firebase session 20200619'
+const GOOGLE_CLOUD = {
+	bucket: 'vms-storage-upload-dev',
+	project_id: 'ysd-wccl-cloud',
+	key: 'config/key/cloud-storage.json',
+}
 
 export default {
 	DATABASE,
+	GOOGLE_CLOUD,
 	SEESSION_SECRET,
 }

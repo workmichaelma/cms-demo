@@ -19,6 +19,7 @@
 	},
 	"dependencies": {
 		"@apollo/server": "^4.7.5",
+		"@google-cloud/storage": "^6.12.0",
 		"@textea/json-viewer": "^3.1.1",
 		"body-parser": "^1.20.2",
 		"connect-mongo": "^5.0.0",
@@ -29,6 +30,7 @@
 		"graphql": "^16.7.1",
 		"graphql-upload": "^16.0.2",
 		"jotai": "^2.2.2",
+		"just-diff": "^6.0.2",
 		"lodash": "^4.17.21",
 		"mongoose": "^7.3.4",
 		"mongoose-lean-virtuals": "^0.9.1",
