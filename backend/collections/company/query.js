@@ -8,6 +8,7 @@ export const query = `#graphql
   extend type Mutation {
     insertCompany(data: CompanyInput): Boolean
     updateCompany(_id: ID, data: CompanyInput): Boolean
+    deleteCompany(_id: ID): Boolean
   }
 
   input CompanyInput {
@@ -19,6 +20,7 @@ export const query = `#graphql
     address: String
     email: String
     remarks: String
+    status: Boolean
   }
 
   type Company {

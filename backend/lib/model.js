@@ -112,33 +112,42 @@ export class Model {
 		this.Model = mongoose.model(this.modelName, this.Schema)
 	}
 
-	async findOne({ filter }) {
-		return this.Model.findOne(filter).lean()
+	async setUserId(user_id) {
+		this.user_id = user_id
 	}
 
-	async updateOne({ _id, body }) {
-		const { _doc } = await this.Model.findOneAndUpdate({ _id }, body)
-		if (this.addLog) {
-			this.Model.model('log').log({
-				collection_name: this.modelName,
-				action: 'UPDATE',
-				doc_id: _id,
-				old_data: _doc,
-			})
-		}
-
-		return _doc
+	async findOne({ filter }) {
+		return this.Model.findOne(filter).lean()
 	}
 
 	async findAll({ filter } = {}) {
 		return this.Model.find(filter).lean()
 	}
 
-	async setUserId(user_id) {
-		this.user_id = user_id
+	async updateOne({ _id, body }) {
+		try {
+			const { _doc } = await this.Model.findOneAndUpdate({ _id }, body)
+			if (_doc) {
+				if (this.addLog) {
+					this.Model.model('log').log({
+						collection_name: this.modelName,
+						action: 'UPDATE',
+						doc_id: _id,
+						old_data: _doc,
+					})
+				}
+
+				return _doc
+			} else {
+				throw new Error(`Failed to update ${this.modelName} with id ${_id}`)
+			}
+		} catch (e) {
+			console.error(e)
+			return null
+		}
 	}
 
-	async insert({ body, user_id }) {
+	async insert({ body }) {
 		try {
 			const { _doc } = await this.Model.create(body)
 
@@ -153,7 +162,29 @@ export class Model {
 				}
 				return _doc
 			} else {
-				throw new Error(`Failed to insert ${modelName}`)
+				throw new Error(`Failed to insert ${this.modelName}`)
+			}
+		} catch (e) {
+			console.error(e)
+			return null
+		}
+	}
+
+	async deleteOne({ _id }) {
+		try {
+			const ok = await this.Model.deleteOne({ _id })
+
+			if (ok?.deletedCount) {
+				if (this.addLog) {
+					this.Model.model('log').log({
+						collection_name: this.modelName,
+						action: 'DELETE',
+						doc_id: _id,
+					})
+				}
+				return ok
+			} else {
+				throw new Error(`Failed to delete ${this.modelName} with id ${_id}`)
 			}
 		} catch (e) {
 			console.error(e)

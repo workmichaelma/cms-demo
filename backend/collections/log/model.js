@@ -47,6 +47,14 @@ export class Log extends Model {
 				data: JSON.stringify(oldData),
 			})
 		}
+
+		if (action === 'DELETE') {
+			this.Model.create({
+				collection_name,
+				action,
+				doc_id,
+			})
+		}
 	}
 
 	removeDataField(data) {

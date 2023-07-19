@@ -11,5 +11,6 @@ export const query = `#graphql
     license: String
     dob: String
     regmarks: String
+    status: Boolean
   }
 `

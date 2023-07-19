@@ -36,4 +36,14 @@ export const Mutation = {
 		}
 		return false
 	},
+	deleteCompany: async (parent, args, contextValue, info) => {
+		const { company } = contextValue?.Model
+		const { _id } = args
+		const success = await company.deleteOne({ _id })
+
+		if (success) {
+			return true
+		}
+		return false
+	},
 }
