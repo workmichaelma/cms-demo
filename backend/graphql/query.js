@@ -46,7 +46,9 @@ const getQueries = async () => {
 
       type Mutation {
         isHealthy: Boolean
+        insertEntity(collection: Collection!, body: EntityInput): Boolean
         updateEntity(collection: Collection!, _id: ID!, body: EntityInput): Boolean
+        deleteEntity(collection: Collection!, _id: ID!): Boolean
       }
     `,
 	]

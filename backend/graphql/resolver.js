@@ -57,7 +57,27 @@ const getResolvers = async () => {
         }
       }
       return false
-    }
+    },
+    insertEntity: async (parent, args, contextValue, info) => {
+      const { collection, _id, body } = args || {}
+      if (collection) {
+        const Model = contextValue?.Model[collection]
+        const doc = await Model.insert({ body: body[collection] })
+        if (doc && doc._id) {
+          return true
+        }
+      }
+      return false
+    },
+    deleteEntity: async (parent, args, contextValue, info) => {
+      const { collection, _id } = args || {}
+      if (collection) {
+        const Model = contextValue?.Model[collection]
+        const doc = await Model.deleteOne({ _id })
+        return doc
+      }
+      return false
+    },
 	}
 	for (const folder of fs.readdirSync(normalizedPath)) {
 		const resolver = await import(`../collections/${folder}/resolver.js`)

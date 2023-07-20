@@ -1,11 +1,5 @@
 export const query = `#graphql
 
-  extend type Mutation {
-    insertCompany(data: CompanyInput): Boolean
-    updateCompany(_id: ID, data: CompanyInput): Boolean
-    deleteCompany(_id: ID): Boolean
-  }
-
   input CompanyInput {
     short_name: String
     name: String

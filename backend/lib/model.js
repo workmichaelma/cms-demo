@@ -19,6 +19,7 @@ const buildSchema = (schema) => {
 			default: true,
 		},
 		created_at: { type: Date, default: Date.now },
+		updated_at: { type: Date, default: Date.now },
 	}
 
 	forEach(schema, (item) => {

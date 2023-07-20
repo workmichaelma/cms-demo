@@ -1,11 +1,4 @@
 export const query = `#graphql
-
-  extend type Mutation {
-    insertAutotoll(data: AutotollInput): Boolean
-    updateAutotoll(_id: ID, data: AutotollInput): Boolean
-    deleteAutotoll(_id: ID): Boolean
-  }
-
   input AutotollInput {
     autotoll_number: String
   }
