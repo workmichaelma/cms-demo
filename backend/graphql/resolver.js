@@ -1,5 +1,8 @@
 import fs from 'fs'
+import lodash from 'lodash'
 import path from 'path'
+
+const { capitalize } = lodash
 
 const normalizedPath = path.join(
 	path.dirname(new URL(import.meta.url).pathname),
@@ -9,9 +12,52 @@ const normalizedPath = path.join(
 const getResolvers = async () => {
 	let Query = {
 		health: () => true,
+    entity: async (parent, args, contextValue, info) => {
+      const { collection, _id } = args || {}
+      if (collection) {
+        const Model = contextValue?.Model[collection]
+        if (Model) {
+          return Model.findOne({ _id })
+        }
+      }
+      return null
+    },
+    entities: async (parent, args, contextValue, info) => {
+      const { collection } = args || {}
+      if (collection) {
+        const Model = contextValue?.Model[collection]
+        if (Model) {
+          return Model.findAll({})
+        }
+      }
+      return null
+    },
+    page: async (parent, args, contextValue, info) => {
+      const { collection } = args || {}
+      if (collection) {
+        const Model = contextValue?.Model[collection]
+        if (Model) {
+          return {
+            schema: Model.schema
+          }
+        }
+      }
+      return null
+    }
 	}
 	let Mutation = {
 		isHealthy: () => true,
+    updateEntity: async (parent, args, contextValue, info) => {
+      const { collection, _id, body } = args || {}
+      if (collection) {
+        const Model = contextValue?.Model[collection]
+        const doc = await Model.updateOne({ _id, body: body[collection] })
+        if (doc && doc._id) {
+          return true
+        }
+      }
+      return false
+    }
 	}
 	for (const folder of fs.readdirSync(normalizedPath)) {
 		const resolver = await import(`../collections/${folder}/resolver.js`)
@@ -28,6 +74,12 @@ const getResolvers = async () => {
 	return {
 		Query,
 		Mutation,
+    Entity: {
+      __resolveType: (obj, contextValue, info) => {
+        const { collection } = info?.variableValues || {}
+        return capitalize(collection)
+      }
+    }
 	}
 }
 

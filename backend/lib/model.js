@@ -2,7 +2,7 @@ import lodash from 'lodash'
 import mongoose from 'mongoose'
 import mongooseLeanVirtuals from 'mongoose-lean-virtuals'
 
-const { isEmpty, isUndefined } = lodash
+const { forEach, isEmpty, isUndefined } = lodash
 
 const buildSchema = (schema) => {
 	const fields = {
@@ -21,7 +21,7 @@ const buildSchema = (schema) => {
 		created_at: { type: Date, default: Date.now },
 	}
 
-	schema.forEach((item) => {
+	forEach(schema, (item) => {
 		const { field: name } = item
 		if (item.type === 'text') {
 			fields[name] = {
@@ -105,6 +105,7 @@ export class Model {
 		this.user_id = null
 		this.addLog = addLog
 		this.modelName = modelName
+    this.schema = schema
 		// this.Schema.statics.findOne = this.findOne
 	}
 

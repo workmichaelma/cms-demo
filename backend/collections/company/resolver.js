@@ -1,20 +1,6 @@
 import { schema } from './config.js'
 
 export const Query = {
-	companies: async (parent, args, contextValue, info) => {
-		const { company } = contextValue?.Model
-		return company.findAll()
-	},
-	company: async (parent, args, contextValue, info) => {
-		const { company } = contextValue?.Model
-		const { _id } = args
-		return company.findOne({ _id })
-	},
-	companyPage: () => {
-		return {
-			schema,
-		}
-	},
 }
 
 export const Mutation = {

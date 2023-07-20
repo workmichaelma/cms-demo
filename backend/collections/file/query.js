@@ -1,9 +1,11 @@
 export const query = `#graphql
-  extend type Query {
-    file(_id: ID!): File
-  }
 
   type File {
+    _id: ID
+    created_by: User
+    created_at: String
+    updated_by: User
+    updated_at: String
     filename: String
     name: String
     url: String

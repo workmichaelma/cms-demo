@@ -1,28 +1,6 @@
 import { schema } from './config.js'
 
 export const Query = {
-	currentUser: (parent, args, contextValue, info) => {
-		const { session } = contextValue
-		return {
-			username: session.username,
-			display_name: session.display_name,
-			permissions: session.permissions,
-		}
-	},
-	users: async (parent, args, contextValue, info) => {
-		const { user } = contextValue?.Model
-		return user.findAll()
-	},
-	user: async (parent, args, contextValue, info) => {
-		const { user } = contextValue?.Model
-		const { _id } = args
-		return user.findOne({ _id })
-	},
-	userPage: () => {
-		return {
-			schema,
-		}
-	},
 }
 
 export const Mutation = {

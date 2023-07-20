@@ -11,6 +11,16 @@ const getQueries = async () => {
 		`#graphql
 	    scalar File
 
+      enum Collection {
+        _
+      }
+      type _ {
+        _id: String
+      }
+
+      union Entity = _
+      input EntityInput
+
       type Page {
         schema: [Schema]
       }
@@ -29,10 +39,14 @@ const getQueries = async () => {
 
       type Query {
         health: Boolean
+        entity(collection: Collection!, _id: ID!): Entity
+        entities(collection: Collection!): [Entity]
+        page(collection: Collection!): Page
       }
 
       type Mutation {
         isHealthy: Boolean
+        updateEntity(collection: Collection!, _id: ID!, body: EntityInput): Boolean
       }
     `,
 	]

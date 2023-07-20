@@ -1,12 +1,14 @@
 export const query = `#graphql
   extend type Query {
     currentUser: User
-    users: [User]
-    user(_id: ID!): User
-    userPage: Page
   }
 
   type User {
+    _id: ID
+    created_by: User
+    created_at: String
+    updated_by: User
+    updated_at: String
     username: String
     password: String
     is_admin: Boolean
@@ -14,7 +16,17 @@ export const query = `#graphql
     permissions: [String]
   }
 
-  input registerUserInput {
+  extend input EntityInput {
+    user: RegisterUserInput
+  }
+
+  extend enum Collection {
+    user
+  }
+
+  extend union Entity = User
+
+  input RegisterUserInput {
     username: String!
     password: String!
     is_admin: Boolean
@@ -22,14 +34,14 @@ export const query = `#graphql
     permissions: [String]
   }
 
-  input loginInput {
+  input LoginInput {
     username: String!
     password: String!
   }
 
   extend type Mutation {
-    registerUser(data: registerUserInput): Boolean
-    login(data: loginInput): Boolean
+    registerUser(data: RegisterUserInput): Boolean
+    login(data: LoginInput): Boolean
     logout: Boolean
   }
 `

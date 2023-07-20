@@ -1,9 +1,4 @@
 export const query = `#graphql
-  extend type Query {
-    company(_id: ID!): Company
-    companies: [Company]
-    companyPage: Page
-  }
 
   extend type Mutation {
     insertCompany(data: CompanyInput): Boolean
@@ -23,7 +18,22 @@ export const query = `#graphql
     status: Boolean
   }
 
+  extend enum Collection {
+    company
+  }
+
+  extend input EntityInput {
+    company: CompanyInput
+  }
+
+  extend union Entity = Company
+
   type Company {
+    _id: ID
+    created_by: User
+    created_at: String
+    updated_by: User
+    updated_at: String
     short_name: String
     name: String
     name_tc: String
