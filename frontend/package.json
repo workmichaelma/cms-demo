@@ -19,11 +19,17 @@
 		"apollo-cache-inmemory": "^1.6.6",
 		"apollo-client": "^2.6.10",
 		"apollo-upload-client": "^17.0.0",
+		"dayjs": "^1.11.9",
 		"gql": "^1.1.2",
+		"jotai": "^2.2.2",
+		"lodash": "^4.17.21",
 		"mui-file-input": "^2.0.4",
+		"papaparse": "^5.4.1",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
+		"react-router-dom": "^6.14.2",
 		"react-scripts": "5.0.1",
+		"styled-components": "^5.3.10",
 		"web-vitals": "^2.1.4"
 	},
 	"exports": {
@@ -55,6 +61,6 @@
 	},
 	"devDependencies": {
 		"babel-plugin-module-resolver": "^5.0.0",
-		"tailwindcss": "^3.3.1"
+		"tailwindcss": "^3.3.3"
 	}
 }
