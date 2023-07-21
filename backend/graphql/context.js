@@ -5,6 +5,7 @@ import { Driver } from '#_/collections/driver/model.js'
 import { DriverPermit } from '#_/collections/driver_permit/model.js'
 import { File } from '#_/collections/file/model.js'
 import { Log } from '#_/collections/log/model.js'
+import { Vehicle } from '#_/collections/vehicle/model.js'
 import { User } from '#_/collections/user/model.js'
 import mongoose from 'mongoose'
 
@@ -15,6 +16,7 @@ const driver = new Driver()
 const driverPermit = new DriverPermit()
 const file = new File()
 const log = new Log()
+const vehicle = new Vehicle()
 const user = new User()
 
 const getModel = async (props) => {
@@ -29,6 +31,7 @@ const getModel = async (props) => {
     driverPermit.setUserId(user_id)
     file.setUserId(user_id)
     log.setUserId(user_id)
+    vehicle.setUserId(user_id)
     user.setUserId(user_id)
   }
   Model.autotoll = autotoll
@@ -36,6 +39,7 @@ const getModel = async (props) => {
   Model.contractDeduct = contractDeduct
   Model.file = file
   Model.log = log
+  Model.vehicle = vehicle
   Model.user = user
   return Model
 }

@@ -157,10 +157,10 @@ export const schema = [
     free_solo: true,
   },
   {
-    field: 'gross_vehicle_weight',
+    field: 'gross_weight',
     title: '許可車輛總重',
     type: 'text',
-    placeholder: 'gross_vehicle_weight: e.g. 3.8 / 5.5 / 16 / 38',
+    placeholder: 'gross_weight: e.g. 3.8 / 5.5 / 16 / 38',
     // is_number_only: true,
     // is_positive: true,
   },

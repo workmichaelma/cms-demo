@@ -1,0 +1,94 @@
+{
+  // 保存文件时自动格式化
+  "editor.formatOnSave": true,
+
+  // Tab 大小为 2 个空格
+  "editor.tabSize": 2,
+
+  // 按 Tab 键时插入空格
+  "editor.insertSpaces": true,
+
+  // 显示行号
+  "editor.lineNumbers": "on",
+
+  // 自动关闭括号
+  "editor.autoClosingBrackets": "always",
+
+  // 自动关闭引号
+  "editor.autoClosingQuotes": "always",
+
+  // 自动换行
+  "editor.wordWrap": "on",
+
+  // 换行符为 LF
+  "files.eol": "\n",
+
+  // 保存文件时删除行末空格
+  "files.trimTrailingWhitespace": true,
+
+  // 保存文件时删除行末空行
+  "files.trimFinalNewlines": true,
+
+  // 忽略文件保存时的大小写
+  "search.caseSensitive": false,
+
+  // 忽略文件名大小写
+  "search.useIgnoreFiles": true,
+
+  // 自动保存文件
+  "files.autoSave": "onFocusChange",
+
+  // 隐藏编辑器垂直滚动条
+  "editor.hideScrollbar": true,
+
+  // 显示 git 标识
+  "git.decorations.enabled": true,
+
+  // 显示活动行
+  "editor.renderLineHighlight": "gutter",
+
+  // 显示空格
+  "editor.renderWhitespace": "all",
+
+  // 显示所有符号的概览
+  "editor.showGlyphMargin": true,
+
+  // 显示左侧行号区域
+  "editor.glyphMargin": true,
+
+  // 自动更新文件
+  "files.autoSaveDelay": 1500,
+
+  // 忽略文件中的自动保存
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true
+  },
+
+  // 显示空行
+  "editor.showIndentGuides": true,
+
+  // 启用 Emmet 缩写
+  "emmet.triggerExpansionOnTab": true,
+
+  // 自动保存时根据文件类型格式化文件
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+
+  "[json]": {
+    "editor.formatOnSave": true
+  },
+
+  "[html]": {
+    "editor.formatOnSave": true
+  },
+
+  "[css]": {
+    "editor.formatOnSave": true
+  }
+}

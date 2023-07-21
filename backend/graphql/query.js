@@ -1,14 +1,11 @@
 import fs from 'fs'
 import path from 'path'
 
-const normalizedPath = path.join(
-	path.dirname(new URL(import.meta.url).pathname),
-	'../collections/'
-)
+const normalizedPath = path.join(path.dirname(new URL(import.meta.url).pathname), '../collections/')
 
 const getQueries = async () => {
-	const queries = [
-		`#graphql
+  const queries = [
+    `#graphql
 	    scalar File
 
       enum Collection {
@@ -20,6 +17,7 @@ const getQueries = async () => {
 
       union Entity = _
       input EntityInput
+      input ImportEntityInput
 
       type Page {
         schema: [Schema]
@@ -49,17 +47,18 @@ const getQueries = async () => {
         insertEntity(collection: Collection!, body: EntityInput): Boolean
         updateEntity(collection: Collection!, _id: ID!, body: EntityInput): Boolean
         deleteEntity(collection: Collection!, _id: ID!): Boolean
+        importEntities(collection: Collection!, body: ImportEntityInput): Int
       }
     `,
-	]
-	for (const folder of fs.readdirSync(normalizedPath)) {
-		const query = await import(`../collections/${folder}/query.js`)
-		queries.push(query.query)
-	}
+  ]
+  for (const folder of fs.readdirSync(normalizedPath)) {
+    const query = await import(`../collections/${folder}/query.js`)
+    queries.push(query.query)
+  }
 
-	return queries
+  return queries
 }
 
 export default {
-	getQueries,
+  getQueries,
 }
