@@ -1,5 +1,14 @@
 export const schema = [
   {
+    field: 'card_number',
+    title: '油咭號碼',
+    type: 'text',
+    select: true,
+    free_solo: true,
+    is_required: true,
+    unique: true,
+  },
+  {
     field: 'fuel_type',
     title: '燃油種類',
     type: 'text',
@@ -18,13 +27,6 @@ export const schema = [
     field: 'account_number',
     title: '油咭賬號',
     type: 'text',
-  },
-  {
-    field: 'card_number',
-    title: '油咭號碼',
-    type: 'text',
-    select: true,
-    free_solo: true,
   },
   {
     field: 'effective_date',
@@ -52,25 +54,27 @@ export const schema = [
     is_multiple: true,
     type: 'object',
     autopopulate: true,
-    child: {
-      vehicle: {
+    child: [
+      {
+        field: 'vehicle',
         type: 'relation',
         foreign: 'vehicle',
         foreign_label: '_id',
         autopopulate: true,
       },
-      effective_date: {
+      {
+        field: 'effective_date',
         title: 'Installation Date',
         type: 'date',
         is_required: false,
       },
-      end_date: {
+      {
+        field: 'end_date',
         title: 'Remove Date',
         type: 'date',
         is_required: false,
       },
-      createdAt: { type: 'date', default: Date.now, editable: false },
-    },
+    ],
   },
 ]
 

@@ -65,14 +65,8 @@ export class Autotoll extends Model {
               effective_date: vehicle_effective_date || dayjs('2023-1-1'),
               end_date: vehicle_end_date,
             }
-            if (item[autotoll_number]) {
-              item[autotoll_number] = {
-                vehicles: [...obj[autotoll_number].vehicles, vehicleObj],
-              }
-            } else {
-              item[autotoll_number] = {
-                vehicles: [vehicleObj],
-              }
+            item[autotoll_number] = {
+              vehicles: [...(item[autotoll_number]?.vehicles || []), vehicleObj],
             }
           }
           return item

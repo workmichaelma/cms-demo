@@ -1,11 +1,12 @@
 export const query = `#graphql
 
-  type Fuel {
-    _id: ID
-    created_by: User
-    created_at: String
-    updated_by: User
-    updated_at: String
+  extend enum Collection {
+    fuel
+  }
+
+  extend union Entity = Fuel
+
+  input FuelInput {
     status: Boolean
 
     fuel_type: String
@@ -20,13 +21,29 @@ export const query = `#graphql
     fuel: FuelInput
   }
 
-  extend enum Collection {
-    fuel
+  input ImportFuelInput {
+    fuel_type: String
+    provider: String
+    account_number: String
+    card_number: String
+    effective_date: String
+    end_date: String
+
+    vehicle: String
+    vehicle_effective_date: String
+    vehicle_end_date: String
   }
 
-  extend union Entity = Fuel
+  extend input ImportEntityInput {
+    fuel: [ImportFuelInput]
+  }
 
-  input FuelInput {
+  type Fuel {
+    _id: ID
+    created_by: User
+    created_at: String
+    updated_by: User
+    updated_at: String
     status: Boolean
 
     fuel_type: String
