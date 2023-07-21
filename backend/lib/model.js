@@ -109,6 +109,7 @@ export class Model {
   }
 
   buildModel() {
+    this.Schema.statics.findAll = this.findAll.bind(this)
     this.Model = mongoose.model(this.modelName, this.Schema)
   }
 
@@ -120,7 +121,7 @@ export class Model {
     return this.Model.findOne(filter).lean()
   }
 
-  async findAll({ filter } = {}) {
+  async findAll({ filter = {} } = {}) {
     return this.Model.find(filter).lean()
   }
 
@@ -155,6 +156,18 @@ export class Model {
       } else {
         throw new Error(`Failed to update ${this.modelName} with filter ${JSON.stringify(filter)}`)
       }
+    } catch (e) {
+      console.error(e)
+      return null
+    }
+  }
+
+  async updateMany({ filter, body }) {
+    try {
+      const result = await this.Model.updateMany(filter, body)
+      if (this.addLog) {
+      }
+      return result
     } catch (e) {
       console.error(e)
       return null

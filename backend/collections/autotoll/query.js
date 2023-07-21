@@ -7,6 +7,17 @@ export const query = `#graphql
     autotoll: AutotollInput
   }
 
+  input ImportAutotollInput {
+    autotoll_number: String
+    vehicle: String
+    vehicle_effective_date: String
+    vehicle_end_date: String
+  }
+
+  extend input ImportEntityInput {
+    autotoll: [ImportAutotollInput]
+  }
+
   extend enum Collection {
     autotoll
   }

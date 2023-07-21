@@ -23,8 +23,7 @@ export class Vehicle extends Model {
 
         if (!chassis_number) {
           console.error(`Failed to import row[${key}], reason: no chassis_number`)
-        }
-        if (!isEmpty(error)) {
+        } else if (!isEmpty(error)) {
           console.error(`Failed to import row[${key}], reason: ${JSON.stringify(error)}`)
         } else {
           requests.push(super.updateOne({ filter: { chassis_number }, body: args }))
@@ -36,9 +35,7 @@ export class Vehicle extends Model {
       return _docs?.length
     } catch (err) {
       console.error(`Failed to import, reason: ${err}`)
-      return {
-        err,
-      }
+      return 0
     }
   }
 }

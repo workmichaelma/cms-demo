@@ -40,8 +40,8 @@ export const query = `#graphql
   }
 
   extend type Mutation {
-    registerUser(data: RegisterUserInput): Boolean
-    login(data: LoginInput): Boolean
+    registerUser(data: RegisterUserInput!): Boolean
+    login(data: LoginInput!): Boolean
     logout: Boolean
   }
 `

@@ -31,7 +31,12 @@ export const checkFieldIsValidToSchema = ({ schema, args }) => {
   forEach(obj, (value, field) => {
     const config = find(schema, { field })
 
-    if (config && !isUndefined(value) && !isEmpty(value)) {
+    if (isUndefined(value) || isEmpty(value)) {
+      obj[field] = undefined
+    }
+    if (config?.is_required && isUndefined(value)) {
+      error[field] = `[ ${field} ] cannot be null`
+    } else if (config && !isUndefined(value)) {
       switch (config.type) {
         case 'boolean':
           if (!isBoolean(value)) {
@@ -39,7 +44,9 @@ export const checkFieldIsValidToSchema = ({ schema, args }) => {
           }
           return
         case 'date':
-          if (!/^\d{4}-\d{2}-\d{2}$/.test(value)) {
+          if (isUndefined(value) || isEmpty(value)) {
+            obj[field] = undefined
+          } else if (!/^\d{4}-\d{2}-\d{2}$/.test(value)) {
             error[field] = `[ ${field} ], Expected date format. Value: ${value}`
           } else {
             obj[field] = toISOString(value)
@@ -55,10 +62,6 @@ export const checkFieldIsValidToSchema = ({ schema, args }) => {
           break
         default:
           break
-      }
-
-      if (config.is_required && isUndefined(value)) {
-        error[field] = `[ ${field} ] cannot be null`
       }
     }
   })

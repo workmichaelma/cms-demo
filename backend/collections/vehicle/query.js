@@ -122,6 +122,7 @@ export const query = `#graphql
     gratia_payment_scheme: String
     rearview_mirror: String
     spare_key: String
+    spare_key_2: String
     new_car: String
     remarks: String
   }

@@ -1,112 +1,136 @@
 import mongoose from 'mongoose'
 import lodash from 'lodash'
+import dayjs from 'dayjs'
 import { Model } from '#_/lib/model.js'
 import { schema } from './config.js'
 
 import { checkFieldIsValidToSchema } from '#_/lib/common.js'
 
-const {isEmpty} = lodash
+const { isEmpty, findKey, last, reduce, map, compact, uniq } = lodash
 export class Autotoll extends Model {
-	constructor() {
-		super('autotoll', schema)
-		super.buildModel()
-	}
+  constructor() {
+    super('autotoll', schema)
+    super.buildModel()
+  }
 
-  async import ({body}) {
+  async import({ body }) {
     try {
-      const requests = [];
+      const unsetCurrentVehicles = []
+      const requests = {}
 
-      const items = reduce(body, (obj, row, key) => {
-        const { error, fields } = checkFieldIsValidToSchema({ schema, args: row });
-        const { vehicle, vehicle_effective_date, vehicle_end_date, autotoll_number } = fields;
+      const vehicles = await this.Model.model('vehicle').findAll({ filter: { chassis_number: { $in: uniq(compact(map(body, (item) => item.vehicle))) } } })
 
-        if (!isEmpty(error) && vehicle) {
-          const vehicleObj = {
-            vehicle: new mongoose.Types.ObjectId(vehicle),
-            effective_date: vehicle_effective_date,
-            end_date: vehicle_end_date,
-          }
-          if (obj[autotoll_number]) {
-            obj[autotoll_number] = {
-              vehicles: [
-                ...obj[autotoll_number].vehicles,
-                vehicleObj
-              ]
+      const vehicleIds = reduce(
+        vehicles,
+        (obj, curr) => {
+          obj[curr.chassis_number] = curr._id
+          return obj
+        },
+        {}
+      )
+      const items = reduce(
+        body,
+        (item, row, key) => {
+          const { error, obj } = checkFieldIsValidToSchema({
+            schema: [
+              ...schema,
+              {
+                field: 'vehicle',
+                type: 'text',
+              },
+              {
+                field: 'vehicle_effective_date',
+                type: 'date',
+              },
+              {
+                field: 'vehicle_end_date',
+                type: 'date',
+              },
+            ],
+            args: row,
+          })
+          const { vehicle, vehicle_effective_date, vehicle_end_date, autotoll_number } = obj
+
+          const vehicleId = vehicleIds[vehicle]
+
+          if (!autotoll_number) {
+            console.error(`Failed to import row[${key}], reason: no autotoll_number`)
+          } else if (!vehicleId) {
+            console.error(`Failed to import row[${key}], reason: vehicle [${vehicle}] not found`)
+          } else if (!isEmpty(error)) {
+            console.error(`Failed to import row[${key}], reason: ${JSON.stringify(error)}`)
+          } else if (vehicle && autotoll_number) {
+            const vehicleObj = {
+              vehicle: vehicleId,
+              effective_date: vehicle_effective_date || dayjs('2023-1-1'),
+              end_date: vehicle_end_date,
             }
-          } else {
-            obj[autotoll_number] = {
-              vehicles: [
-                vehicleObj
-              ],
+            if (item[autotoll_number]) {
+              item[autotoll_number] = {
+                vehicles: [...obj[autotoll_number].vehicles, vehicleObj],
+              }
+            } else {
+              item[autotoll_number] = {
+                vehicles: [vehicleObj],
+              }
             }
           }
+          return item
+        },
+        {}
+      )
+
+      for (const key in items) {
+        const item = items[key]
+        const latestVehicle = last(item.vehicles).vehicle
+        const update = {
+          $push: {
+            vehicles: item.vehicles,
+          },
         }
-        return obj
-      }, {})
-
-      for (const row of body) {
-        
+        const prevCurrentVehicleKey = findKey(requests, { current_vehicle: latestVehicle })
+        if (prevCurrentVehicleKey) {
+          requests[prevCurrentVehicleKey].current_vehicle = undefined
+        }
+        unsetCurrentVehicles.push(latestVehicle)
+        requests[key] = { current_vehicle: latestVehicle, update }
       }
 
-      for (const row of body) {
-        try {
-          const update = {};
-          const { error, fields } = checkFieldIsValidToSchema({ schema, args: row });
-          const { vehicle, effective_date, end_date, ...args } = fields;
-  
-          if (isEmpty(error) && vehicle) {
-            const vehicleId = vehicle
-              ? new mongoose.Types.ObjectId(vehicle)
-              : null;
-            update.$set = {
-              ...args,
-              current_vehicle: vehicleId,
-            };
-            if (vehicleId) {
-              await this.updateMany(
-                { current_vehicle: vehicleId },
-                { $unset: { current_vehicle: 1 } }
-              );
-              update.$push = {
-                vehicles: {
-                  vehicle: vehicleId,
-                  effective_date: effective_date || dayjs('2023-1-1'),
-                  end_date,
+      return await super
+        .updateMany({
+          filter: {
+            current_vehicle: {
+              $in: unsetCurrentVehicles,
+            },
+          },
+          body: {
+            $unset: {
+              current_vehicle: 1,
+            },
+          },
+        })
+        .then(async () => {
+          const requestResults = await Promise.all(
+            map(requests, ({ update, current_vehicle }, autotoll_number) => {
+              return super.updateOne({
+                filter: {
+                  autotoll_number,
                 },
-              };
-            }
-            const { autotoll_number } = args;
-            const doc = await this.findOneAndUpdate({ autotoll_number }, update, {
-              upsert: true,
-              new: true,
-            });
-  
-            requests.push({
-              err: false,
-              doc,
-            });
-          } else {
-            requests.push({
-              err: true,
-              error,
-            });
-          }
-        } catch (err) {
-          console.error(`Failed to update/insert data, reason: ${err}`);
-          return null;
-        }
-      }
-  
-      const _docs = await Promise.all(requests);
-  
-      return {
-        _docs,
-      };
+                body: {
+                  ...update,
+                  current_vehicle,
+                },
+              })
+            })
+          )
+
+          return requestResults.length
+        })
     } catch (err) {
-      console.error(`Failed to import, reason: ${err}`);
+      console.error(`Failed to import, reason: ${err}`)
       return {
         err,
-      };
+      }
     }
   }
 }
