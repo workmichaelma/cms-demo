@@ -16,6 +16,19 @@ export const query = `#graphql
     gps: GpsInput
   }
 
+  input ImportGpsInput {
+    gps_number: String
+    charge: String
+
+    vehicle: String
+    vehicle_effective_date: String
+    vehicle_end_date: String
+  }
+
+  extend input ImportEntityInput {
+    gps: [ImportGpsInput]
+  }
+
   extend enum Collection {
     gps
   }
