@@ -19,6 +19,23 @@ export const query = `#graphql
     permitArea: PermitAreaInput
   }
 
+  input ImportPermitAreaInput {
+    area: String
+    fee: String
+    remarks: String
+    effective_date: String
+    end_date: String
+    contract_deduct: ID
+
+    vehicle: String
+    vehicle_effective_date: String
+    vehicle_end_date: String
+  }
+
+  extend input ImportEntityInput {
+    permitArea: [ImportPermitAreaInput]
+  }
+
   extend enum Collection {
     permitArea
   }

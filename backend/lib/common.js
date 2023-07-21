@@ -53,11 +53,15 @@ export const checkFieldIsValidToSchema = ({ schema, args }) => {
           }
           return
         case 'number':
-          const numberValue = toNumber(value.replace(/,/g, ''))
-          if (!isNaN(numberValue)) {
-            obj[field] = numberValue
+          if (isUndefined(value) || isEmpty(value)) {
+            obj[field] = undefined
           } else {
-            error[field] = `[ ${field} ], Expected number format. Value: ${value}`
+            const numberValue = toNumber(value.replace(/,/g, ''))
+            if (!isNaN(numberValue)) {
+              obj[field] = numberValue
+            } else {
+              error[field] = `[ ${field} ], Expected number format. Value: ${value}`
+            }
           }
           break
         default:

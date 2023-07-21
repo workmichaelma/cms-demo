@@ -423,15 +423,27 @@ export const schema = [
     is_multiple: true,
     type: 'object',
     autopopulate: true,
-    child: {
-      permit_area: {
+    child: [
+      {
+        field: 'permit_area',
         type: 'relation',
         foreign: 'permit_area',
         foreign_label: '_id',
         autopopulate: true,
       },
-      createdAt: { type: 'date', default: Date.now, editable: false },
-    },
+      {
+        field: 'effective_date',
+        title: 'Effective Date',
+        type: 'date',
+        is_required: false,
+      },
+      {
+        field: 'end_date',
+        title: 'End Date',
+        type: 'date',
+        is_required: false,
+      },
+    ],
   },
   {
     field: 'reg_marks',
