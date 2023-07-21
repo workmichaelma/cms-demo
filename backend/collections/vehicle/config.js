@@ -284,25 +284,27 @@ export const schema = [
     is_multiple: true,
     type: 'object',
     autopopulate: true,
-    child: {
-      contract: {
+    child: [
+      {
+        field: 'contract',
         type: 'relation',
         foreign: 'contract',
         foreign_label: '_id',
         autopopulate: true,
       },
-      effective_date: {
+      {
+        field: 'effective_date',
         title: 'Start Date',
         type: 'date',
         is_required: false,
       },
-      end_date: {
+      {
+        field: 'end_date',
         title: 'End Date',
         type: 'date',
         is_required: false,
       },
-      createdAt: { type: 'date', default: Date.now, editable: false },
-    },
+    ],
   },
   {
     field: 'contract_deducts',

@@ -31,7 +31,26 @@ export class Company extends Model {
       for (const key in body) {
         const row = body[key]
 
-        const { error, obj } = checkFieldIsValidToSchema({ schema, args: row })
+        const { error, obj } = checkFieldIsValidToSchema({
+          schema: [
+            ...schema,
+            {
+              vehicle: {
+                type: 'text',
+              },
+              vehicle_effective_date: {
+                type: 'date',
+              },
+              vehicle_end_date: {
+                type: 'date',
+              },
+              vehicle_value: {
+                type: 'text',
+              },
+            },
+          ],
+          args: row,
+        })
         const { name_tc, vehicle, vehicle_effective_date, vehicle_end_date, vehicle_value, ...args } = obj
 
         if (!name_tc) {

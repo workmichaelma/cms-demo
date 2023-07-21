@@ -18,8 +18,7 @@ export const schema = [
     field: 'title',
     title: '合約英文名稱',
     type: 'text',
-    placeholder:
-      'title: eg. Highways Department Term Contract (Management and Maintenance of Roads in Tai Po and North Districts ...',
+    placeholder: 'title: eg. Highways Department Term Contract (Management and Maintenance of Roads in Tai Po and North Districts ...',
   },
   {
     field: 'title_tc',
@@ -50,24 +49,26 @@ export const schema = [
     is_multiple: true,
     type: 'object',
     autopopulate: true,
-    child: {
-      contract_deduct: {
+    child: [
+      {
+        field: 'contract_deduct',
         type: 'relation',
         foreign: 'contract_deduct',
         foreign_label: '_id',
         autopopulate: true,
       },
-      effective_date: {
+      {
+        field: 'effective_date',
         title: 'Start Date',
         type: 'date',
         is_required: false,
       },
-      end_date: {
+      {
+        field: 'end_date',
         title: 'End Date',
         type: 'date',
         is_required: false,
       },
-      createdAt: { type: 'date', default: Date.now, editable: false },
-    },
+    ],
   },
 ]
