@@ -39,6 +39,7 @@ const getQueries = async () => {
         health: Boolean
         entity(collection: Collection!, _id: ID!): Entity
         entities(collection: Collection!): [Entity]
+        entityDistinctField(collection: Collection!, field: String): [String]
         page(collection: Collection!): Page
       }
 

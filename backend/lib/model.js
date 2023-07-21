@@ -118,6 +118,10 @@ export class Model {
     this.user_id = user_id
   }
 
+  async distinct(field) {
+    return this.Model.distinct(field)
+  }
+
   async findOne({ filter }) {
     return this.Model.findOne(filter).lean()
   }

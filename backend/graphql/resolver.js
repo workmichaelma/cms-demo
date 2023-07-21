@@ -29,6 +29,16 @@ const getResolvers = async () => {
       }
       return null
     },
+    entityDistinctField: async (parent, args, contextValue, info) => {
+      const { collection, field } = args || {}
+      if (collection && field) {
+        const Model = contextValue?.Model[collection]
+        if (Model) {
+          return Model.distinct(field)
+        }
+      }
+      return []
+    },
     page: async (parent, args, contextValue, info) => {
       const { collection } = args || {}
       if (collection) {
@@ -101,7 +111,8 @@ const getResolvers = async () => {
     Entity: {
       __resolveType: (obj, contextValue, info) => {
         const { collection } = info?.variableValues || {}
-        return capitalize(collection)
+
+        return `${capitalize(collection.charAt(0))}${collection.slice(1)}`
       },
     },
   }
