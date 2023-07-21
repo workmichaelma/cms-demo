@@ -1,5 +1,9 @@
 export const query = `#graphql
 
+  extend enum Collection {
+    company
+  }
+
   input CompanyInput {
     short_name: String
     name: String
@@ -12,12 +16,29 @@ export const query = `#graphql
     status: Boolean
   }
 
-  extend enum Collection {
-    company
-  }
-
   extend input EntityInput {
     company: CompanyInput
+  }
+
+  input ImportCompanyInput {
+    short_name: String
+    name: String
+    name_tc: String
+    reg_number: String
+    contact_number: String
+    address: String
+    email: String
+    remarks: String
+    status: Boolean
+
+    vehicle: String
+    vehicle_effective_date: String
+    vehicle_end_date: String
+    vehicle_value: String
+  }
+
+  extend input ImportEntityInput {
+    company: [ImportCompanyInput]
   }
 
   extend union Entity = Company

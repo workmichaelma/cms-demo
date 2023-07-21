@@ -110,6 +110,7 @@ export class Model {
 
   buildModel() {
     this.Schema.statics.findAll = this.findAll.bind(this)
+    this.Schema.statics.updateOne = this.updateOne.bind(this)
     this.Model = mongoose.model(this.modelName, this.Schema)
   }
 
@@ -152,7 +153,7 @@ export class Model {
           })
         }
 
-        return result
+        return result?._doc || result
       } else {
         throw new Error(`Failed to update ${this.modelName} with filter ${JSON.stringify(filter)}`)
       }
