@@ -13,6 +13,7 @@ export const schema = [
     is_multiple: true,
     type: 'object',
     autopopulate: true,
+    default: [],
     child: [
       {
         field: 'vehicle',

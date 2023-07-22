@@ -132,7 +132,7 @@ export class Model {
     return this.Model.find(filter).lean()
   }
 
-  async updateOne({ filter, body, options }) {
+  async updateOne({ filter, body = {}, options }) {
     try {
       let old_data
 

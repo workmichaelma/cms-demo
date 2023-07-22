@@ -17,10 +17,15 @@ export class Autotoll extends Model {
 
   async import({ body }) {
     try {
-      const unsetCurrentVehicles = []
-      const requests = {}
+      const requests = []
 
-      const vehicles = await this.Model.model('vehicle').findAll({ filter: { chassis_number: { $in: uniq(compact(map(body, (item) => item.vehicle))) } } })
+      const vehicles = await this.Model.model('vehicle').findAll({
+        filter: {
+          chassis_number: {
+            $in: uniq(compact(map(body, (item) => item.vehicle))),
+          },
+        },
+      })
 
       const vehicleIds = reduce(
         vehicles,
@@ -30,98 +35,75 @@ export class Autotoll extends Model {
         },
         {}
       )
-      const items = reduce(
-        body,
-        (item, row, key) => {
-          const { error, obj } = checkFieldIsValidToSchema({
-            schema: [
-              ...schema,
-              {
-                field: 'vehicle',
-                type: 'text',
-              },
-              {
-                field: 'vehicle_effective_date',
-                type: 'date',
-              },
-              {
-                field: 'vehicle_end_date',
-                type: 'date',
-              },
-            ],
-            args: row,
-          })
-          const { vehicle, vehicle_effective_date, vehicle_end_date, autotoll_number } = obj
 
-          const vehicleId = vehicleIds[vehicle]
-
-          if (!autotoll_number) {
-            console.error(`Failed to import row[${key}], reason: no autotoll_number`)
-          } else if (!vehicleId) {
-            console.error(`Failed to import row[${key}], reason: vehicle [${vehicle}] not found`)
-          } else if (!isEmpty(error)) {
-            console.error(`Failed to import row[${key}], reason: ${JSON.stringify(error)}`)
-          } else if (vehicle && autotoll_number) {
-            const vehicleObj = {
-              vehicle: vehicleId,
-              effective_date: vehicle_effective_date || dayjs('2023-1-1'),
-              end_date: vehicle_end_date,
-            }
-            item[autotoll_number] = {
-              vehicles: [...(item[autotoll_number]?.vehicles || []), vehicleObj],
-            }
-          }
-          return item
-        },
-        {}
-      )
-
-      for (const key in items) {
-        const item = items[key]
-        const latestVehicle = last(item.vehicles).vehicle
-        const update = {
-          $push: {
-            vehicles: item.vehicles,
-          },
-        }
-        const prevCurrentVehicleKey = findKey(requests, { current_vehicle: latestVehicle })
-        if (prevCurrentVehicleKey) {
-          requests[prevCurrentVehicleKey].current_vehicle = undefined
-        }
-        unsetCurrentVehicles.push(latestVehicle)
-        requests[key] = { current_vehicle: latestVehicle, update }
-      }
-
-      return await super
-        .updateMany({
-          filter: {
-            current_vehicle: {
-              $in: unsetCurrentVehicles,
+      for (const key in body) {
+        const row = body[key]
+        const { error, obj } = checkFieldIsValidToSchema({
+          schema: [
+            ...schema,
+            {
+              field: 'vehicle',
+              type: 'text',
             },
-          },
-          body: {
-            $unset: {
-              current_vehicle: 1,
+            {
+              field: 'vehicle_effective_date',
+              type: 'date',
             },
-          },
+            {
+              field: 'vehicle_end_date',
+              type: 'date',
+            },
+          ],
+          args: row,
         })
-        .then(async () => {
-          const requestResults = await Promise.all(
-            map(requests, ({ update, current_vehicle }, autotoll_number) => {
-              return super.updateOne({
-                filter: {
-                  autotoll_number,
-                },
-                body: {
-                  ...update,
-                  current_vehicle,
-                },
-              })
-            })
+        const {
+          vehicle,
+          vehicle_effective_date,
+          vehicle_end_date,
+          autotoll_number,
+          ...args
+        } = obj
+
+        const vehicleId = vehicleIds[vehicle]
+
+        if (!autotoll_number) {
+          console.error(
+            `Failed to import row[${key}], reason: no autotoll_number`
+          )
+        } else if (!vehicleId) {
+          console.error(
+            `Failed to import row[${key}], reason: vehicle [${vehicle}] not found`
+          )
+        } else if (!isEmpty(error)) {
+          console.error(
+            `Failed to import row[${key}], reason: ${JSON.stringify(error)}`
+          )
+        } else {
+          const _doc = await super.updateOne(
+            { filter: { autotoll_number } },
+            {
+              body: args,
+            }
           )
 
-          return requestResults.length
-        })
+          if (_doc && _doc?._id) {
+            await this.insertVehicle({
+              filter: { _id: _doc?._id },
+              body: {
+                vehicle: vehicleId,
+                effective_date: vehicle_effective_date || dayjs('2023-1-1'),
+                end_date: vehicle_end_date,
+              },
+            })
+          }
+
+          requests.push(_doc)
+        }
+      }
+
+      const requestResult = await Promise.all(requests)
+
+      return requestResult?.length
     } catch (err) {
       console.error(`Failed to import, reason: ${err}`)
       return {
@@ -172,7 +154,9 @@ export class Autotoll extends Model {
 
       return _doc
     } catch (err) {
-      console.error(`Failed to insert vehicle to ${this.modelName}, reason: ${err}`)
+      console.error(
+        `Failed to insert vehicle to ${this.modelName}, reason: ${err}`
+      )
       return null
     }
   }
@@ -197,7 +181,10 @@ export class Autotoll extends Model {
           filter: { _id },
           body: {
             $set: {
-              'vehicles.$[vehicle].end_date': dayjs(effective_date).subtract(1, 'day'),
+              'vehicles.$[vehicle].end_date': dayjs(effective_date).subtract(
+                1,
+                'day'
+              ),
             },
           },
           options: {
