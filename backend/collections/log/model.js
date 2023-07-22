@@ -12,19 +12,16 @@ export class Log extends Model {
     super.buildModel()
   }
 
-  async log({ collection_name, action, doc_id, old_data }) {
+  async log({ collection_name, action, doc_id, old_data, new_data }) {
     const oldData = this.removeDataField(old_data)
+    const newData = this.removeDataField(new_data)
 
     if (action === 'UPDATE') {
-      const new_data = await this.Model.model(collection_name)
-        .findOne({
-          _id: doc_id,
-        })
-        .lean()
-
-      const newData = this.removeDataField(new_data)
-      const difference = diff(this.removeDataField(oldData), this.removeDataField(newData))
-      if (new_data && old_data && !isEmpty(difference)) {
+      const difference = diff(
+        this.removeDataField(oldData),
+        this.removeDataField(newData)
+      )
+      if (!isEmpty(difference)) {
         this.Model.create({
           created_by: this.user_id,
           collection_name,
@@ -43,7 +40,7 @@ export class Log extends Model {
         collection_name,
         action,
         doc_id: doc_id.toString(),
-        data: JSON.stringify(oldData),
+        data: JSON.stringify(newData),
       })
     }
 

@@ -50,7 +50,9 @@ const buildSchema = (schema) => {
       }
     } else if (item.type === 'relation') {
       fields[name] = {
-        type: item.is_multiple ? [mongoose.Schema.Types.ObjectId] : mongoose.Schema.Types.ObjectId,
+        type: item.is_multiple
+          ? [mongoose.Schema.Types.ObjectId]
+          : mongoose.Schema.Types.ObjectId,
         ref: item.foreign,
         required: item.is_required || false,
       }
@@ -132,34 +134,37 @@ export class Model {
 
   async updateOne({ filter, body, options }) {
     try {
-      const result = await this.Model.findOneAndUpdate(filter, body, { upsert: true, ...options })
+      let old_data
 
       if (this.addLog) {
-        if (result === null) {
-          const { _id } = await this.findOne({ filter })
-          if (_id) {
-            this.Model.model('log').log({
-              collection_name: this.modelName,
-              action: 'INSERT',
-              doc_id: _id,
-              old_data: {
-                ...filter,
-                ...body,
-              },
-            })
-          }
-        } else if (result?._doc) {
+        old_data = (await this.findOne({ filter })) || null
+      }
+      const _doc = await this.Model.findOneAndUpdate(filter, body, {
+        upsert: true,
+        lean: true,
+        new: true,
+        ...options,
+      })
+
+      if (this.addLog && _doc?._id) {
+        if (old_data === null) {
+          this.Model.model('log').log({
+            collection_name: this.modelName,
+            action: 'INSERT',
+            doc_id: _doc._id,
+            new_data: _doc,
+          })
+        } else {
           this.Model.model('log').log({
             collection_name: this.modelName,
             action: 'UPDATE',
-            doc_id: result?._doc?._id,
-            old_data: result?._doc,
+            doc_id: _doc._id,
+            new_data: _doc,
+            old_data,
           })
         }
 
-        return result?._doc || result
-      } else {
-        throw new Error(`Failed to update ${this.modelName} with filter ${JSON.stringify(filter)}`)
+        return _doc
       }
     } catch (e) {
       console.error(e)
@@ -189,7 +194,7 @@ export class Model {
             collection_name: this.modelName,
             action: 'INSERT',
             doc_id: _doc._id,
-            old_data: _doc,
+            new_data: _doc,
           })
         }
         return _doc
