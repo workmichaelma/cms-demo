@@ -122,8 +122,8 @@ export class Model {
     return this.Model.distinct(field)
   }
 
-  async findOne({ filter }) {
-    return this.Model.findOne(filter).lean()
+  async findOne({ filter, populate = '' }) {
+    return this.Model.findOne(filter).populate(populate).lean()
   }
 
   async findAll({ filter = {} } = {}) {

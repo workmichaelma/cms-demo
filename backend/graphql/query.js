@@ -7,6 +7,7 @@ const getQueries = async () => {
   const queries = [
     `#graphql
 	    scalar File
+      scalar Money
 
       enum Collection {
         _

@@ -1,8 +1,9 @@
+import lodash from 'lodash'
+import mongoose from 'mongoose'
 import { Model } from '#_/lib/model.js'
 import { encrypt, decrypt } from '#_/lib/crypto.js'
 import { schema } from './config.js'
 import { checkFieldIsValidToSchema } from '#_/lib/common.js'
-import lodash from 'lodash'
 const { isEmpty } = lodash
 
 export class Vehicle extends Model {
@@ -36,6 +37,114 @@ export class Vehicle extends Model {
     } catch (err) {
       console.error(`Failed to import, reason: ${err}`)
       return 0
+    }
+  }
+
+  async getAllAutoTolls({ _id }) {
+    try {
+      const query = [
+        {
+          $match: {
+            'vehicles.vehicle': new mongoose.Types.ObjectId(_id),
+          },
+        },
+        {
+          $unwind: '$vehicles',
+        },
+        {
+          $match: {
+            'vehicles.vehicle': new mongoose.Types.ObjectId(_id),
+          },
+        },
+        {
+          $sort: {
+            'vehicles.updatedAt': 1,
+          },
+        },
+      ]
+
+      const _doc = await this.Model.model('autotoll').aggregate(query)
+
+      if (_doc) {
+        return _doc
+      } else {
+        throw new Error('No Record Found.')
+      }
+    } catch (err) {
+      console.error(`Failed to getAllAutotolls, reason: ${err}`)
+      return null
+    }
+  }
+
+  async getAllGpses({ _id }) {
+    try {
+      const query = [
+        {
+          $match: {
+            'vehicles.vehicle': new mongoose.Types.ObjectId(_id),
+          },
+        },
+        {
+          $unwind: '$vehicles',
+        },
+        {
+          $match: {
+            'vehicles.vehicle': new mongoose.Types.ObjectId(_id),
+          },
+        },
+        {
+          $sort: {
+            'vehicles.updatedAt': 1,
+          },
+        },
+      ]
+
+      const _doc = await this.Model.model('gps').aggregate(query)
+
+      if (_doc) {
+        return _doc
+      } else {
+        throw new Error('No Record Found.')
+      }
+    } catch (err) {
+      console.erro(`Failed to getAllGpses, reason: ${err}`)
+      return null
+    }
+  }
+
+  async getAllFuels({ _id }) {
+    try {
+      const query = [
+        {
+          $match: {
+            'vehicles.vehicle': new mongoose.Types.ObjectId(_id),
+          },
+        },
+        {
+          $unwind: '$vehicles',
+        },
+        {
+          $match: {
+            'vehicles.vehicle': new mongoose.Types.ObjectId(_id),
+          },
+        },
+        {
+          $sort: {
+            'vehicles.updatedAt': 1,
+          },
+        },
+      ]
+
+      const _doc = await this.Model.model('fuel').aggregate(query)
+
+      if (_doc) {
+        return _doc
+      } else {
+        throw new Error('No Record Found.')
+      }
+    } catch (err) {
+      console.error(`Failed to getAllFuels, reason: ${err}`)
+      return null
     }
   }
 }

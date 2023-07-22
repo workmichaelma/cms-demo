@@ -1,6 +1,7 @@
 import fs from 'fs'
 import lodash from 'lodash'
 import path from 'path'
+import { GraphQLScalarType } from 'graphql'
 
 const { capitalize, isEmpty } = lodash
 
@@ -14,7 +15,7 @@ const getResolvers = async () => {
       if (collection) {
         const Model = contextValue?.Model[collection]
         if (Model) {
-          return Model.findOne({ _id })
+          return Model.findOne({ filter: { _id } })
         }
       }
       return null
@@ -93,6 +94,21 @@ const getResolvers = async () => {
       }
     },
   }
+  let Field = {
+    Entity: {
+      __resolveType: (obj, contextValue, info) => {
+        const { collection } = info?.variableValues || {}
+
+        return `${capitalize(collection.charAt(0))}${collection.slice(1)}`
+      },
+    },
+    Money: new GraphQLScalarType({
+      name: 'Money',
+      serialize(value) {
+        return `$${value.toString()}`
+      },
+    }),
+  }
   for (const folder of fs.readdirSync(normalizedPath)) {
     const resolver = await import(`../collections/${folder}/resolver.js`)
     Query = {
@@ -103,18 +119,16 @@ const getResolvers = async () => {
       ...Mutation,
       ...resolver.Mutation,
     }
+    Field = {
+      ...Field,
+      ...resolver.Field,
+    }
   }
 
   return {
     Query,
     Mutation,
-    Entity: {
-      __resolveType: (obj, contextValue, info) => {
-        const { collection } = info?.variableValues || {}
-
-        return `${capitalize(collection.charAt(0))}${collection.slice(1)}`
-      },
-    },
+    ...Field,
   }
 }
 

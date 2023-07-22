@@ -40,6 +40,105 @@ export const query = `#graphql
     spare_key: String
     new_car: String
     remarks: String
+
+    companies: [VehicleCompany]
+    contracts: [VehicleContract]
+    reg_marks: [VehicleRegMark]
+    permit_areas: [VehiclePermitArea]
+    licenses: [VehicleLicense]
+    insurances: [VehicleInsurance]
+    autotolls: [VehicleAutotoll]
+    gpses: [VehicleGps]
+    fuels: [VehicleFuel]
+  }
+
+  type VehicleCompany {
+    doc_id: ID
+    target_id: ID
+    effective_date: String
+    end_date: String
+    name: String
+    value: Money
+  }
+
+  type VehicleContract {
+    doc_id: ID
+    target_id: ID
+    effective_date: String
+    end_date: String
+    contract_number: String
+  }
+
+  type VehicleRegMark {
+    doc_id: ID
+    target_id: ID
+    effective_date: String
+    end_date: String
+    reg_mark: String
+  }
+
+  type VehiclePermitArea {
+    doc_id: ID
+    target_id: ID
+    effective_date: String
+    end_date: String
+    area: String
+    fee: Money
+    contract_number: String
+  }
+
+  type VehicleLicense {
+    doc_id: ID
+    target_id: ID
+    effective_date: String
+    end_date: String
+    license_fee: String
+    special_permit: String
+    permit_fee: String
+    reg_mark: String
+    contract_number: String
+  }
+
+  type VehicleInsurance {
+    doc_id: ID
+    target_id: ID
+    effective_date: String
+    end_date: String
+    insurance_company: String
+    insurance_kind: String
+    policy_number: String
+    policy_number2: String
+    insurance_fee: Money
+    reg_mark: String
+    contract_number: String
+  }
+
+  type VehicleAutotoll {
+    doc_id: ID
+    target_id: ID
+    effective_date: String
+    end_date: String
+    autotoll_number: String
+  }
+
+  type VehicleGps {
+    doc_id: ID
+    target_id: ID
+    effective_date: String
+    end_date: String
+    gps_number: String
+    charge: Money
+  }
+
+  type VehicleFuel {
+    doc_id: ID
+    target_id: ID
+    effective_date: String
+    end_date: String
+    fuel_type: String
+    provider: String
+    account_number: String
+    card_number: String
   }
 
   extend enum Collection {

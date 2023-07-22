@@ -49,7 +49,7 @@ export class GPS extends Model {
             ],
             args: row,
           })
-          const { vehicle, vehicle_effective_date, vehicle_end_date, gps_number } = obj
+          const { vehicle, vehicle_effective_date, vehicle_end_date, gps_number, ...args } = obj
 
           const vehicleId = vehicleIds[vehicle]
 
@@ -67,6 +67,7 @@ export class GPS extends Model {
             }
             item[gps_number] = {
               vehicles: [...(item[gps_number]?.vehicles || []), vehicleObj],
+              body: args,
             }
           }
           return item
@@ -78,6 +79,7 @@ export class GPS extends Model {
         const item = items[key]
         const latestVehicle = last(item.vehicles).vehicle
         const update = {
+          ...item?.body,
           $push: {
             vehicles: item.vehicles,
           },
