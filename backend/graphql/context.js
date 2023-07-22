@@ -10,6 +10,7 @@ import { GPS } from '#_/collections/gps/model.js'
 import { License } from '#_/collections/license/model.js'
 import { Log } from '#_/collections/log/model.js'
 import { PermitArea } from '#_/collections/permit_area/model.js'
+import { RegMark } from '#_/collections/reg_mark/model.js'
 import { Vehicle } from '#_/collections/vehicle/model.js'
 import { User } from '#_/collections/user/model.js'
 import mongoose from 'mongoose'
@@ -26,6 +27,7 @@ const gps = new GPS()
 const license = new License()
 const log = new Log()
 const permitArea = new PermitArea()
+const regMark = new RegMark()
 const vehicle = new Vehicle()
 const user = new User()
 
@@ -46,6 +48,7 @@ const getModel = async (props) => {
     license.setUserId(user_id)
     log.setUserId(user_id)
     permitArea.setUserId(user_id)
+    regMark.setUserId(user_id)
     vehicle.setUserId(user_id)
     user.setUserId(user_id)
   }
@@ -59,6 +62,7 @@ const getModel = async (props) => {
   Model.license = license
   Model.log = log
   Model.permitArea = permitArea
+  Model.regMark = regMark
   Model.vehicle = vehicle
   Model.user = user
   return Model

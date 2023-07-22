@@ -17,6 +17,20 @@ export const query = `#graphql
     regMark: RegMarkInput
   }
 
+  input ImportRegMarkInput {
+    reg_mark: String
+    effective_date: String
+    end_date: String
+
+    vehicle: String
+    vehicle_effective_date: String
+    vehicle_end_date: String
+  }
+
+  extend input ImportEntityInput {
+    regMark: [ImportRegMarkInput]
+  }
+
   extend enum Collection {
     regMark
   }
