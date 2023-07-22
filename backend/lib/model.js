@@ -130,9 +130,9 @@ export class Model {
     return this.Model.find(filter).lean()
   }
 
-  async updateOne({ filter, body }) {
+  async updateOne({ filter, body, options }) {
     try {
-      const result = await this.Model.findOneAndUpdate(filter, body, { upsert: true })
+      const result = await this.Model.findOneAndUpdate(filter, body, { upsert: true, ...options })
 
       if (this.addLog) {
         if (result === null) {

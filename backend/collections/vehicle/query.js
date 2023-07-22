@@ -182,6 +182,20 @@ export const query = `#graphql
     spare_key: String
     new_car: String
     remarks: String
+
+    relation: VehicleRelationInput
+  }
+
+  input VehicleRelationInput {
+    collection: Collection!
+    action: String
+    doc_id: ID
+    target_id: ID
+    status: Boolean
+
+    effective_date: String
+    end_date: String
+    value: String
   }
 
   extend input EntityInput {

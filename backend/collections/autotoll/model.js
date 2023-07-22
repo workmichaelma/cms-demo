@@ -10,6 +10,8 @@ const { isEmpty, findKey, last, reduce, map, compact, uniq } = lodash
 export class Autotoll extends Model {
   constructor() {
     super('autotoll', schema)
+    this.Schema.statics.insertVehicle = this.insertVehicle.bind(this)
+    this.Schema.statics.deleteVehicle = this.deleteVehicle.bind(this)
     super.buildModel()
   }
 
@@ -126,5 +128,108 @@ export class Autotoll extends Model {
         err,
       }
     }
+  }
+
+  async deleteVehicle({ filter, body }) {
+    try {
+      const { _id } = filter
+      const { doc_id } = body
+      const docId = new mongoose.Types.ObjectId(doc_id)
+      const _doc = await super
+        .updateOne({
+          filter: { _id },
+          body: [
+            {
+              $set: {
+                current_vehicle: {
+                  $cond: [
+                    {
+                      $eq: [{ $arrayElemAt: ['$vehicles._id', -1] }, docId],
+                    },
+                    '$$REMOVE',
+                    '$current_vehicle',
+                  ],
+                },
+              },
+            },
+          ],
+          options: {
+            upsert: false,
+          },
+        })
+        .then(async () => {
+          return await super.updateOne({
+            filter: { _id },
+            body: {
+              $pull: {
+                vehicles: {
+                  _id: docId,
+                },
+              },
+            },
+          })
+        })
+
+      return _doc
+    } catch (err) {
+      console.error(`Failed to insert vehicle to ${this.modelName}, reason: ${err}`)
+      return null
+    }
+  }
+
+  async insertVehicle({ filter, body }) {
+    const { _id } = filter
+    const { vehicle, effective_date, ...args } = body
+    const vehicleId = new mongoose.Types.ObjectId(vehicle)
+    const _doc = await super
+      .updateMany({
+        filter: {
+          current_vehicle: vehicleId,
+        },
+        body: {
+          $unset: {
+            current_vehicle: 1,
+          },
+        },
+      })
+      .then(async () => {
+        return await super.updateOne({
+          filter: { _id },
+          body: {
+            $set: {
+              'vehicles.$[vehicle].end_date': dayjs(effective_date).subtract(1, 'day'),
+            },
+          },
+          options: {
+            arrayFilters: [
+              {
+                'vehicle.end_date': { $exists: false },
+              },
+            ],
+            projection: {
+              vehicles: { $slice: -1 },
+            },
+          },
+        })
+      })
+      .then(async () => {
+        return super.updateOne({
+          filter: { _id },
+          body: {
+            $set: {
+              current_vehicle: vehicleId,
+            },
+            $push: {
+              vehicles: {
+                vehicle: vehicleId,
+                effective_date,
+                ...args,
+              },
+            },
+          },
+        })
+      })
+
+    return _doc
   }
 }
