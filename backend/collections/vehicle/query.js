@@ -40,6 +40,7 @@ export const query = `#graphql
     spare_key: String
     new_car: String
     remarks: String
+    current_reg_mark: RegMark
 
     companies: [VehicleCompany]
     contracts: [VehicleContract]

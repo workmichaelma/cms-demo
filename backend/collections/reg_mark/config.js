@@ -26,6 +26,13 @@ export const schema = [
     foreign: 'company',
     foreign_label: '_id',
   },
+  {
+    field: 'current_vehicle',
+    title: 'Vehicle',
+    type: 'relation',
+    foreign: 'vehicle',
+    foreign_label: '_id',
+  },
 ]
 
 // export const pageConfig = {

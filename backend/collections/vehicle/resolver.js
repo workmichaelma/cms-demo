@@ -9,7 +9,10 @@ export const Field = {
     companies: async (parent, args, contextValue, info) => {
       const Model = contextValue?.Model.vehicle
       if (parent && parent?._id) {
-        const _doc = await Model.findOne({ filter: { _id: parent?._id }, populate: { path: 'companies', populate: { path: 'company' } } })
+        const _doc = await Model.findOne({
+          filter: { _id: parent?._id },
+          populate: { path: 'companies', populate: { path: 'company' } },
+        })
         if (_doc?.companies) {
           return _doc.companies.map((doc) => {
             return {
@@ -28,7 +31,10 @@ export const Field = {
     contracts: async (parent, args, contextValue, info) => {
       const Model = contextValue?.Model.vehicle
       if (parent && parent?._id) {
-        const _doc = await Model.findOne({ filter: { _id: parent?._id }, populate: { path: 'contracts', populate: { path: 'contract' } } })
+        const _doc = await Model.findOne({
+          filter: { _id: parent?._id },
+          populate: { path: 'contracts', populate: { path: 'contract' } },
+        })
         if (_doc?.contracts) {
           return _doc.contracts.map((doc) => {
             return {
@@ -46,7 +52,10 @@ export const Field = {
     reg_marks: async (parent, args, contextValue, info) => {
       const Model = contextValue?.Model.vehicle
       if (parent && parent?._id) {
-        const _doc = await Model.findOne({ filter: { _id: parent?._id }, populate: { path: 'reg_marks', populate: { path: 'reg_mark' } } })
+        const _doc = await Model.findOne({
+          filter: { _id: parent?._id },
+          populate: { path: 'reg_marks', populate: { path: 'reg_mark' } },
+        })
         if (_doc?.reg_marks) {
           return _doc.reg_marks.map((doc) => {
             return {
@@ -64,7 +73,16 @@ export const Field = {
     licenses: async (parent, args, contextValue, info) => {
       const Model = contextValue?.Model.vehicle
       if (parent && parent?._id) {
-        const _doc = await Model.findOne({ filter: { _id: parent?._id }, populate: { path: 'licenses', populate: { path: 'license', populate: [{ path: 'contract' }, { path: 'reg_mark' }] } } })
+        const _doc = await Model.findOne({
+          filter: { _id: parent?._id },
+          populate: {
+            path: 'licenses',
+            populate: {
+              path: 'license',
+              populate: [{ path: 'contract' }, { path: 'reg_mark' }],
+            },
+          },
+        })
         if (_doc?.licenses) {
           return _doc.licenses.map((doc) => {
             return {
@@ -85,7 +103,13 @@ export const Field = {
     permit_areas: async (parent, args, contextValue, info) => {
       const Model = contextValue?.Model.vehicle
       if (parent && parent?._id) {
-        const _doc = await Model.findOne({ filter: { _id: parent?._id }, populate: { path: 'permit_areas', populate: { path: 'permit_area', populate: [{ path: 'contract' }] } } })
+        const _doc = await Model.findOne({
+          filter: { _id: parent?._id },
+          populate: {
+            path: 'permit_areas',
+            populate: { path: 'permit_area', populate: [{ path: 'contract' }] },
+          },
+        })
         if (_doc?.permit_areas) {
           return _doc.permit_areas.map((doc) => {
             return {
@@ -105,7 +129,16 @@ export const Field = {
     insurances: async (parent, args, contextValue, info) => {
       const Model = contextValue?.Model.vehicle
       if (parent && parent?._id) {
-        const _doc = await Model.findOne({ filter: { _id: parent?._id }, populate: { path: 'insurances', populate: { path: 'insurance', populate: [{ path: 'contract' }, { path: 'reg_mark' }] } } })
+        const _doc = await Model.findOne({
+          filter: { _id: parent?._id },
+          populate: {
+            path: 'insurances',
+            populate: {
+              path: 'insurance',
+              populate: [{ path: 'contract' }, { path: 'reg_mark' }],
+            },
+          },
+        })
         if (_doc?.insurances) {
           return _doc.insurances.map((doc) => {
             return {
@@ -180,6 +213,21 @@ export const Field = {
               end_date: doc?.vehicles?.end_date,
             }
           })
+        }
+      }
+      return []
+    },
+    current_reg_mark: async (parent, args, contextValue, info) => {
+      const Model = contextValue?.Model.vehicle
+      if (parent && parent?._id) {
+        const _doc = await Model.findOne({
+          filter: { _id: parent?._id },
+          populate: {
+            path: 'current_reg_mark',
+          },
+        })
+        if (_doc?.current_reg_mark) {
+          return _doc.current_reg_mark
         }
       }
       return []

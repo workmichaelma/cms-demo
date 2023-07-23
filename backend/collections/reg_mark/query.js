@@ -44,5 +44,18 @@ export const query = `#graphql
     effective_date: String
     end_date: String
     company: ID
+
+    relation: RegMarkRelationInput
+  }
+
+  input RegMarkRelationInput {
+    collection: Collection!
+    action: String!
+    doc_id: ID
+    target_id: ID
+    status: Boolean
+
+    effective_date: String
+    end_date: String
   }
 `

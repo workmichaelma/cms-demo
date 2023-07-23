@@ -1,0 +1,2427 @@
+[
+  {
+    "reg_mark": "45690T",
+    "vehicle_effective_date": "",
+    "vehicle": "PC9480TD-SM-03-084"
+  },
+  {
+    "reg_mark": "LW6537",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR70L47101042"
+  },
+  {
+    "reg_mark": "MY5431",
+    "vehicle_effective_date": "",
+    "vehicle": "JHMGD18707S227163"
+  },
+  {
+    "reg_mark": "NG2822",
+    "vehicle_effective_date": "",
+    "vehicle": "WDB9061352N344555"
+  },
+  {
+    "reg_mark": "NK1420",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR66LS-7100763"
+  },
+  {
+    "reg_mark": "NS3467",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR75K97100768"
+  },
+  {
+    "reg_mark": "NS3686",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR75K97100767"
+  },
+  {
+    "reg_mark": "NU2943",
+    "vehicle_effective_date": "",
+    "vehicle": "WMAN08ZZ69Y226132"
+  },
+  {
+    "reg_mark": "PG3148",
+    "vehicle_effective_date": "",
+    "vehicle": "JT7X2RB7107001794"
+  },
+  {
+    "reg_mark": "PG3820",
+    "vehicle_effective_date": "",
+    "vehicle": "JT7X2RB7107001834"
+  },
+  {
+    "reg_mark": "PG9122",
+    "vehicle_effective_date": "",
+    "vehicle": "JT7X2RB7107001986"
+  },
+  {
+    "reg_mark": "PK8384",
+    "vehicle_effective_date": "",
+    "vehicle": "JAAN1R75KA7100167"
+  },
+  {
+    "reg_mark": "PM2892",
+    "vehicle_effective_date": "",
+    "vehicle": "NCP20-0331962"
+  },
+  {
+    "reg_mark": "PU4067",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR75HB7101138"
+  },
+  {
+    "reg_mark": "PU8324",
+    "vehicle_effective_date": "",
+    "vehicle": "JT7X2RB7107003098"
+  },
+  {
+    "reg_mark": "RB8428",
+    "vehicle_effective_date": "",
+    "vehicle": "NCP81-0115605"
+  },
+  {
+    "reg_mark": "RS761",
+    "vehicle_effective_date": "",
+    "vehicle": "RFGHV15WYCS004714"
+  },
+  {
+    "reg_mark": "RX2873",
+    "vehicle_effective_date": "",
+    "vehicle": "JTDKD3B3701028250"
+  },
+  {
+    "reg_mark": "SL2396",
+    "vehicle_effective_date": "",
+    "vehicle": "CWB8E-00391"
+  },
+  {
+    "reg_mark": "SS3044",
+    "vehicle_effective_date": "",
+    "vehicle": "JT7X2RB7107001931"
+  },
+  {
+    "reg_mark": "TZ2827",
+    "vehicle_effective_date": "",
+    "vehicle": "KNABX512MGT231030"
+  },
+  {
+    "reg_mark": "TZ2967",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX5DF40F3816051"
+  },
+  {
+    "reg_mark": "TZ4274",
+    "vehicle_effective_date": "",
+    "vehicle": "KNABX512MGT251093"
+  },
+  {
+    "reg_mark": "UA4780",
+    "vehicle_effective_date": "",
+    "vehicle": "JALFVR347F7000252"
+  },
+  {
+    "reg_mark": "UA5334",
+    "vehicle_effective_date": "",
+    "vehicle": "JALFVR347F7001239"
+  },
+  {
+    "reg_mark": "UA6399",
+    "vehicle_effective_date": "",
+    "vehicle": "JALFVR347F7000273"
+  },
+  {
+    "reg_mark": "UA9273",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C135G1816450"
+  },
+  {
+    "reg_mark": "UB1356",
+    "vehicle_effective_date": "",
+    "vehicle": "KNABX512MHT266306"
+  },
+  {
+    "reg_mark": "UB510",
+    "vehicle_effective_date": "",
+    "vehicle": "KNABX512MHT266307"
+  },
+  {
+    "reg_mark": "UB8622",
+    "vehicle_effective_date": "",
+    "vehicle": "JALFXZ777H7000003"
+  },
+  {
+    "reg_mark": "UD8950",
+    "vehicle_effective_date": "",
+    "vehicle": "LVBV4JBB3GJ004078"
+  },
+  {
+    "reg_mark": "UD937",
+    "vehicle_effective_date": "",
+    "vehicle": "LVBV3JBB1GJ019746"
+  },
+  {
+    "reg_mark": "UD9370",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C138G1816491"
+  },
+  {
+    "reg_mark": "UD9464",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C13XG1816492"
+  },
+  {
+    "reg_mark": "UE1051",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C137G1816496"
+  },
+  {
+    "reg_mark": "UE1062",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C132G1816499"
+  },
+  {
+    "reg_mark": "UE2260",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C131G1816493"
+  },
+  {
+    "reg_mark": "UE2736",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C130G1816498"
+  },
+  {
+    "reg_mark": "UE5323",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR75KG7100839"
+  },
+  {
+    "reg_mark": "UE5490",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR75KG7100832"
+  },
+  {
+    "reg_mark": "UE5676",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR75KG7101022"
+  },
+  {
+    "reg_mark": "UE682",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C139G1816497"
+  },
+  {
+    "reg_mark": "UE790",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C133G1816494"
+  },
+  {
+    "reg_mark": "UE9034",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR75KG7101023"
+  },
+  {
+    "reg_mark": "UE9183",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR75KG7100831"
+  },
+  {
+    "reg_mark": "UE9534",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR75KG7101021"
+  },
+  {
+    "reg_mark": "UF3039",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR75HG7102568"
+  },
+  {
+    "reg_mark": "UF3575",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR75HG7102198"
+  },
+  {
+    "reg_mark": "UF3602",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C140F1816069"
+  },
+  {
+    "reg_mark": "UF3985",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR75HG7102666"
+  },
+  {
+    "reg_mark": "UF4213",
+    "vehicle_effective_date": "",
+    "vehicle": "LVBV3JBB2GJ032764"
+  },
+  {
+    "reg_mark": "UF445",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR75KG7101025"
+  },
+  {
+    "reg_mark": "UF7854",
+    "vehicle_effective_date": "",
+    "vehicle": "JHHYCT2H60K012637"
+  },
+  {
+    "reg_mark": "UG2469",
+    "vehicle_effective_date": "",
+    "vehicle": "YV2TH60A0GZ105425"
+  },
+  {
+    "reg_mark": "UG7610",
+    "vehicle_effective_date": "",
+    "vehicle": "MPATFR86JGT003346"
+  },
+  {
+    "reg_mark": "UH4823",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C138G1817334"
+  },
+  {
+    "reg_mark": "UH4833",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C134G1817332"
+  },
+  {
+    "reg_mark": "UH4902",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C136G1817333"
+  },
+  {
+    "reg_mark": "UH7785",
+    "vehicle_effective_date": "",
+    "vehicle": "LVBV3JBB4GJ032765"
+  },
+  {
+    "reg_mark": "UH8299",
+    "vehicle_effective_date": "",
+    "vehicle": "LVBV3JBB6GJ032766"
+  },
+  {
+    "reg_mark": "UH8339",
+    "vehicle_effective_date": "",
+    "vehicle": "LVBV3JBB8GJ032770"
+  },
+  {
+    "reg_mark": "UH9040",
+    "vehicle_effective_date": "",
+    "vehicle": "MPATFR86JGT003347"
+  },
+  {
+    "reg_mark": "UH9367",
+    "vehicle_effective_date": "",
+    "vehicle": "LVBV3JBB1GJ032769"
+  },
+  {
+    "reg_mark": "UH9992",
+    "vehicle_effective_date": "",
+    "vehicle": "LVBV3JBBXGJ032768"
+  },
+  {
+    "reg_mark": "UJ2600",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C133G1817337"
+  },
+  {
+    "reg_mark": "UJ3690",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C135G1817338"
+  },
+  {
+    "reg_mark": "UK2555",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C131G1817336"
+  },
+  {
+    "reg_mark": "UK3474",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C130G1817330"
+  },
+  {
+    "reg_mark": "UK4763",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR75HG7101538"
+  },
+  {
+    "reg_mark": "UK5192",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR75KF7106187"
+  },
+  {
+    "reg_mark": "UK5207",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR75KG7101882"
+  },
+  {
+    "reg_mark": "UK5936",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C130G1817344"
+  },
+  {
+    "reg_mark": "UN2125",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C132G1817345"
+  },
+  {
+    "reg_mark": "VC6946",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C130H1817684"
+  },
+  {
+    "reg_mark": "VT1605",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX5D643J8819683"
+  },
+  {
+    "reg_mark": "WE4787",
+    "vehicle_effective_date": "",
+    "vehicle": "JHDSH1EEKXXX10015"
+  },
+  {
+    "reg_mark": "WK9478",
+    "vehicle_effective_date": "",
+    "vehicle": "LZZ1EXVB8JW354517"
+  },
+  {
+    "reg_mark": "WL3912",
+    "vehicle_effective_date": "",
+    "vehicle": "LZZ1EXVB3FW118817"
+  },
+  {
+    "reg_mark": "WM6182",
+    "vehicle_effective_date": "",
+    "vehicle": "NCP100-2016700"
+  },
+  {
+    "reg_mark": "XD6036",
+    "vehicle_effective_date": "",
+    "vehicle": "LZZ1BBMG7EW869801"
+  },
+  {
+    "reg_mark": "UB3440",
+    "vehicle_effective_date": "",
+    "vehicle": "JN1MC2E26Z0005509"
+  },
+  {
+    "reg_mark": "UC4647",
+    "vehicle_effective_date": "2023-03-20",
+    "vehicle": "MPATFR86JFT003968"
+  },
+  {
+    "reg_mark": "UC4706",
+    "vehicle_effective_date": "",
+    "vehicle": "V93W-0900227"
+  },
+  {
+    "reg_mark": "UC4731",
+    "vehicle_effective_date": "",
+    "vehicle": "V93W-0900228"
+  },
+  {
+    "reg_mark": "UC5614",
+    "vehicle_effective_date": "2023-03-20",
+    "vehicle": "MPATFR86JFT004527"
+  },
+  {
+    "reg_mark": "UC6054",
+    "vehicle_effective_date": "",
+    "vehicle": "V93W-0900230"
+  },
+  {
+    "reg_mark": "UC8508",
+    "vehicle_effective_date": "2023-03-20",
+    "vehicle": "JM6CW1071G0123573"
+  },
+  {
+    "reg_mark": "UC8657",
+    "vehicle_effective_date": "2023-03-20",
+    "vehicle": "JM6CW1071G0123478"
+  },
+  {
+    "reg_mark": "UC8754",
+    "vehicle_effective_date": "2023-03-20",
+    "vehicle": "JM6CW1071G0123582"
+  },
+  {
+    "reg_mark": "UC8850",
+    "vehicle_effective_date": "2023-03-20",
+    "vehicle": "JM6CW1071G0123570"
+  },
+  {
+    "reg_mark": "UC8916",
+    "vehicle_effective_date": "2023-03-20",
+    "vehicle": "JM6CW1071G0123559"
+  },
+  {
+    "reg_mark": "UC9060",
+    "vehicle_effective_date": "2023-03-20",
+    "vehicle": "JM6CW1071G0123499"
+  },
+  {
+    "reg_mark": "UC9330",
+    "vehicle_effective_date": "2023-03-20",
+    "vehicle": "JM6CW1071G0123465"
+  },
+  {
+    "reg_mark": "UD1263",
+    "vehicle_effective_date": "2023-03-20",
+    "vehicle": "MPATFR86JGT001834"
+  },
+  {
+    "reg_mark": "UD387",
+    "vehicle_effective_date": "2023-03-20",
+    "vehicle": "JM6CW1071G0123564"
+  },
+  {
+    "reg_mark": "UD652",
+    "vehicle_effective_date": "2023-03-20",
+    "vehicle": "MPATFR86JGT001835"
+  },
+  {
+    "reg_mark": "UD799",
+    "vehicle_effective_date": "2023-03-20",
+    "vehicle": "MPATFR86JGT001290"
+  },
+  {
+    "reg_mark": "UG6957",
+    "vehicle_effective_date": "2023-03-20",
+    "vehicle": "MPATFR86JGT003344"
+  },
+  {
+    "reg_mark": "UG7204",
+    "vehicle_effective_date": "2023-03-20",
+    "vehicle": "MPATFR86JGT003345"
+  },
+  {
+    "reg_mark": "VF2836",
+    "vehicle_effective_date": "2023-03-20",
+    "vehicle": "JM6CW1071H0127821"
+  },
+  {
+    "reg_mark": "VX8226",
+    "vehicle_effective_date": "2023-03-20",
+    "vehicle": "JM6CW1071H0127979"
+  },
+  {
+    "reg_mark": "WA7411",
+    "vehicle_effective_date": "2023-03-20",
+    "vehicle": "CV5W-1200957"
+  },
+  {
+    "reg_mark": "VA9421",
+    "vehicle_effective_date": "2023-03-20",
+    "vehicle": "JM6CW1071H0126126"
+  },
+  {
+    "reg_mark": "JP9982",
+    "vehicle_effective_date": "",
+    "vehicle": "WVWZZZ9NZ6Y187938"
+  },
+  {
+    "reg_mark": "EC8851",
+    "vehicle_effective_date": "",
+    "vehicle": "FM657L-B00152"
+  },
+  {
+    "reg_mark": "FD9634",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR58LN-7103411"
+  },
+  {
+    "reg_mark": "FZ6137",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR66PR-7100074"
+  },
+  {
+    "reg_mark": "FZ9074",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR66LP-7102394"
+  },
+  {
+    "reg_mark": "GJ3545",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR66LN-7100846"
+  },
+  {
+    "reg_mark": "GL5285",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR66LS-7101395"
+  },
+  {
+    "reg_mark": "GN1959",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR66PS-7100575"
+  },
+  {
+    "reg_mark": "GP4585",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR66LS-7103188"
+  },
+  {
+    "reg_mark": "GV3097",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR66PT-7101394"
+  },
+  {
+    "reg_mark": "GW2661",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR66LT-7103064"
+  },
+  {
+    "reg_mark": "HZ7897",
+    "vehicle_effective_date": "",
+    "vehicle": "JALFTR32NP-3000021"
+  },
+  {
+    "reg_mark": "JL2785",
+    "vehicle_effective_date": "",
+    "vehicle": "JALFVR23PX-300007"
+  },
+  {
+    "reg_mark": "JM1534",
+    "vehicle_effective_date": "",
+    "vehicle": "FH211H-A00363"
+  },
+  {
+    "reg_mark": "JR1813",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR66LS-7103675"
+  },
+  {
+    "reg_mark": "KG7339",
+    "vehicle_effective_date": "",
+    "vehicle": "FM617J-B00071"
+  },
+  {
+    "reg_mark": "LJ3073",
+    "vehicle_effective_date": "",
+    "vehicle": "JALFVR23PV-3000235"
+  },
+  {
+    "reg_mark": "LW5421",
+    "vehicle_effective_date": "",
+    "vehicle": "JALFVR23P57000031"
+  },
+  {
+    "reg_mark": "LW5838",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR70L57100166"
+  },
+  {
+    "reg_mark": "LW6518",
+    "vehicle_effective_date": "",
+    "vehicle": "JALFVR23P57000048"
+  },
+  {
+    "reg_mark": "LW6773",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR70L57100160"
+  },
+  {
+    "reg_mark": "LW6865",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR70L57100071"
+  },
+  {
+    "reg_mark": "LW7228",
+    "vehicle_effective_date": "",
+    "vehicle": "JALFVR23P57000030"
+  },
+  {
+    "reg_mark": "LW7429",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR70L57100072"
+  },
+  {
+    "reg_mark": "LW8653",
+    "vehicle_effective_date": "",
+    "vehicle": "JALFVR23P57000028"
+  },
+  {
+    "reg_mark": "LX3713",
+    "vehicle_effective_date": "",
+    "vehicle": "MPATFS54H4H534030"
+  },
+  {
+    "reg_mark": "LX4280",
+    "vehicle_effective_date": "",
+    "vehicle": "MPATFS54H4H533929"
+  },
+  {
+    "reg_mark": "LZ3597",
+    "vehicle_effective_date": "",
+    "vehicle": "JTDKW223500369768"
+  },
+  {
+    "reg_mark": "MT3060",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR70L17100137"
+  },
+  {
+    "reg_mark": "NA3054",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR66PS-7101461"
+  },
+  {
+    "reg_mark": "NK6526",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR66LV-7100565"
+  },
+  {
+    "reg_mark": "NL4036",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR66PV-7100261"
+  },
+  {
+    "reg_mark": "NN4967",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR70PY7100808"
+  },
+  {
+    "reg_mark": "NN6847",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR70P27100233"
+  },
+  {
+    "reg_mark": "NR6885",
+    "vehicle_effective_date": "",
+    "vehicle": "JALFVR23P57000099"
+  },
+  {
+    "reg_mark": "NS2825",
+    "vehicle_effective_date": "",
+    "vehicle": "JALFVR34787000095"
+  },
+  {
+    "reg_mark": "NS3358",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR75K87100101"
+  },
+  {
+    "reg_mark": "NS4068",
+    "vehicle_effective_date": "",
+    "vehicle": "JALFVR34787000091"
+  },
+  {
+    "reg_mark": "PG4375",
+    "vehicle_effective_date": "",
+    "vehicle": "JT7X2RB7107001808"
+  },
+  {
+    "reg_mark": "PG4718",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR75HA7100772"
+  },
+  {
+    "reg_mark": "PG5132",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR75HA7100779"
+  },
+  {
+    "reg_mark": "PG5346",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR75KA7100644"
+  },
+  {
+    "reg_mark": "PG5418",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR75HA7100777"
+  },
+  {
+    "reg_mark": "PG5466",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR75HA7100686"
+  },
+  {
+    "reg_mark": "PG6110",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR75HA7100685"
+  },
+  {
+    "reg_mark": "PV3148",
+    "vehicle_effective_date": "",
+    "vehicle": "NCP20-0329371"
+  },
+  {
+    "reg_mark": "PZ8606",
+    "vehicle_effective_date": "",
+    "vehicle": "JAAN1R75KB7100239"
+  },
+  {
+    "reg_mark": "RB8492",
+    "vehicle_effective_date": "",
+    "vehicle": "NCP81-0041991"
+  },
+  {
+    "reg_mark": "RD2610",
+    "vehicle_effective_date": "",
+    "vehicle": "JAAN1R75KB7100310"
+  },
+  {
+    "reg_mark": "SB6171",
+    "vehicle_effective_date": "",
+    "vehicle": "JT7X2RB7107005727"
+  },
+  {
+    "reg_mark": "SV6545",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR75HE7103628"
+  },
+  {
+    "reg_mark": "SV6661",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR75HE7102200"
+  },
+  {
+    "reg_mark": "SZ2113",
+    "vehicle_effective_date": "",
+    "vehicle": "JALFVR347E7000431"
+  },
+  {
+    "reg_mark": "TZ2549",
+    "vehicle_effective_date": "",
+    "vehicle": "KNABX512MGT230844"
+  },
+  {
+    "reg_mark": "TZ3980",
+    "vehicle_effective_date": "",
+    "vehicle": "JN1MC2E26Z0005618"
+  },
+  {
+    "reg_mark": "UA1029",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C135G1816447"
+  },
+  {
+    "reg_mark": "UF5705",
+    "vehicle_effective_date": "",
+    "vehicle": "JALFRR90KF7000112"
+  },
+  {
+    "reg_mark": "UF8163",
+    "vehicle_effective_date": "",
+    "vehicle": "JHDFS1ELRXXX10146"
+  },
+  {
+    "reg_mark": "UK3051",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C132G1817331"
+  },
+  {
+    "reg_mark": "UK4958",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C139G1817343"
+  },
+  {
+    "reg_mark": "UK5093",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C137G1817342"
+  },
+  {
+    "reg_mark": "UK5693",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C13XG1817335"
+  },
+  {
+    "reg_mark": "UP1564",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C136G1817347"
+  },
+  {
+    "reg_mark": "UP824",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C138G1817348"
+  },
+  {
+    "reg_mark": "US8996",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C134G1817346"
+  },
+  {
+    "reg_mark": "UT204",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C135G1817341"
+  },
+  {
+    "reg_mark": "VB2408",
+    "vehicle_effective_date": "",
+    "vehicle": "JALFVR347H7000708"
+  },
+  {
+    "reg_mark": "VE5261",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C135H1818538"
+  },
+  {
+    "reg_mark": "VG2245",
+    "vehicle_effective_date": "",
+    "vehicle": "WVWZZZAUZJW904231"
+  },
+  {
+    "reg_mark": "VH3999",
+    "vehicle_effective_date": "",
+    "vehicle": "JTDZZ9H310L000524"
+  },
+  {
+    "reg_mark": "VH6827",
+    "vehicle_effective_date": "",
+    "vehicle": "JALCYH52SA7000068"
+  },
+  {
+    "reg_mark": "VJ1812",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C134H1818711"
+  },
+  {
+    "reg_mark": "WD5604",
+    "vehicle_effective_date": "",
+    "vehicle": "LZZ1BBMG5EW869795"
+  },
+  {
+    "reg_mark": "WE2657",
+    "vehicle_effective_date": "",
+    "vehicle": "WV2ZZZ2KZJX160920"
+  },
+  {
+    "reg_mark": "WH5923",
+    "vehicle_effective_date": "",
+    "vehicle": "LZZ1BBMG5EW871630"
+  },
+  {
+    "reg_mark": "WH6160",
+    "vehicle_effective_date": "",
+    "vehicle": "LZZ1BBMG0EW872071"
+  },
+  {
+    "reg_mark": "WM2396",
+    "vehicle_effective_date": "",
+    "vehicle": "NCP100-2016057"
+  },
+  {
+    "reg_mark": "WM4626",
+    "vehicle_effective_date": "",
+    "vehicle": "NCP100-0134371"
+  },
+  {
+    "reg_mark": "WN7424",
+    "vehicle_effective_date": "",
+    "vehicle": "LZZ1BBMG1FW110837"
+  },
+  {
+    "reg_mark": "WP8952",
+    "vehicle_effective_date": "",
+    "vehicle": "LZZ1BBMGXFW110836"
+  },
+  {
+    "reg_mark": "WP9760",
+    "vehicle_effective_date": "",
+    "vehicle": "LZZ1BBMG8FW110835"
+  },
+  {
+    "reg_mark": "WU935",
+    "vehicle_effective_date": "",
+    "vehicle": "ZA9S5020E6AC38281"
+  },
+  {
+    "reg_mark": "WX6499",
+    "vehicle_effective_date": "",
+    "vehicle": "WV2ZZZ2KZKX098541"
+  },
+  {
+    "reg_mark": "XJ7153",
+    "vehicle_effective_date": "",
+    "vehicle": "WMAN08ZZ2LY410927"
+  },
+  {
+    "reg_mark": "XK6859",
+    "vehicle_effective_date": "",
+    "vehicle": "WMAN08ZZ4LY410833"
+  },
+  {
+    "reg_mark": "XL2301",
+    "vehicle_effective_date": "",
+    "vehicle": "WMAN08ZZ3LY410614"
+  },
+  {
+    "reg_mark": "XL3136",
+    "vehicle_effective_date": "",
+    "vehicle": "WMAN08ZZ9LY410911"
+  },
+  {
+    "reg_mark": "XL6531",
+    "vehicle_effective_date": "",
+    "vehicle": "WMAN08ZZ5LY410775"
+  },
+  {
+    "reg_mark": "SC1169",
+    "vehicle_effective_date": "",
+    "vehicle": "MPATFR86JDT000803"
+  },
+  {
+    "reg_mark": "SC1243",
+    "vehicle_effective_date": "",
+    "vehicle": "MPATFR86JDT001025"
+  },
+  {
+    "reg_mark": "SC1451",
+    "vehicle_effective_date": "",
+    "vehicle": "MPATFR86JDT001024"
+  },
+  {
+    "reg_mark": "SC1670",
+    "vehicle_effective_date": "",
+    "vehicle": "MPATFR86JCT101113"
+  },
+  {
+    "reg_mark": "SC1949",
+    "vehicle_effective_date": "",
+    "vehicle": "MPATFR86JDT000712"
+  },
+  {
+    "reg_mark": "SC749",
+    "vehicle_effective_date": "",
+    "vehicle": "MPATFR86JCT101112"
+  },
+  {
+    "reg_mark": "SC784",
+    "vehicle_effective_date": "",
+    "vehicle": "MPATFR86JDT000713"
+  },
+  {
+    "reg_mark": "WC6538",
+    "vehicle_effective_date": "",
+    "vehicle": "V93W1200157"
+  },
+  {
+    "reg_mark": "WC6616",
+    "vehicle_effective_date": "",
+    "vehicle": "GC27-800141"
+  },
+  {
+    "reg_mark": "WC6861",
+    "vehicle_effective_date": "",
+    "vehicle": "GC27-800129"
+  },
+  {
+    "reg_mark": "WC6977",
+    "vehicle_effective_date": "",
+    "vehicle": "GC27-800142"
+  },
+  {
+    "reg_mark": "WC7570",
+    "vehicle_effective_date": "",
+    "vehicle": "GC27-800133"
+  },
+  {
+    "reg_mark": "WC7791",
+    "vehicle_effective_date": "",
+    "vehicle": "GC27-800134"
+  },
+  {
+    "reg_mark": "WC7918",
+    "vehicle_effective_date": "",
+    "vehicle": "GC27-800145"
+  },
+  {
+    "reg_mark": "WC7989",
+    "vehicle_effective_date": "",
+    "vehicle": "GC27-800136"
+  },
+  {
+    "reg_mark": "WC8123",
+    "vehicle_effective_date": "",
+    "vehicle": "V93W1200153"
+  },
+  {
+    "reg_mark": "XT5031",
+    "vehicle_effective_date": "",
+    "vehicle": "MMCJLKL60LH132461"
+  },
+  {
+    "reg_mark": "XV2254",
+    "vehicle_effective_date": "",
+    "vehicle": "MMCJLKL60LH133842"
+  },
+  {
+    "reg_mark": "XV5734",
+    "vehicle_effective_date": "",
+    "vehicle": "MMCJLKL60LH133859"
+  },
+  {
+    "reg_mark": "XV9581",
+    "vehicle_effective_date": "",
+    "vehicle": "MMCJLKL60LH133832"
+  },
+  {
+    "reg_mark": "XW2239",
+    "vehicle_effective_date": "",
+    "vehicle": "MMCJLKL60LH133838"
+  },
+  {
+    "reg_mark": "XW3727",
+    "vehicle_effective_date": "",
+    "vehicle": "MMCJLKL60LH133888"
+  },
+  {
+    "reg_mark": "NJ9584",
+    "vehicle_effective_date": "",
+    "vehicle": "WMAH21ZZ28M493806"
+  },
+  {
+    "reg_mark": "FX425",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR66LP-7102099"
+  },
+  {
+    "reg_mark": "LW6696",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR70L47101051"
+  },
+  {
+    "reg_mark": "PU6749",
+    "vehicle_effective_date": "",
+    "vehicle": "JT7X2RB7107003071"
+  },
+  {
+    "reg_mark": "TZ2663",
+    "vehicle_effective_date": "",
+    "vehicle": "JN1MC2E26Z0005490"
+  },
+  {
+    "reg_mark": "RY5565",
+    "vehicle_effective_date": "",
+    "vehicle": "YV2TH60AXDB640783"
+  },
+  {
+    "reg_mark": "SJ6369",
+    "vehicle_effective_date": "",
+    "vehicle": "PKC8E-01295"
+  },
+  {
+    "reg_mark": "RY8244",
+    "vehicle_effective_date": "",
+    "vehicle": "YV2TH60A9DB640788"
+  },
+  {
+    "reg_mark": "GS9698",
+    "vehicle_effective_date": "",
+    "vehicle": "JTDBT42EX09070780"
+  },
+  {
+    "reg_mark": "NA8332",
+    "vehicle_effective_date": "",
+    "vehicle": "JTDBT22E300169384"
+  },
+  {
+    "reg_mark": "NZ5472",
+    "vehicle_effective_date": "",
+    "vehicle": "JAAN1R75K87100201"
+  },
+  {
+    "reg_mark": "PH143",
+    "vehicle_effective_date": "",
+    "vehicle": "JT7X2RB7107001934"
+  },
+  {
+    "reg_mark": "PH5912",
+    "vehicle_effective_date": "",
+    "vehicle": "JTFHT02P900060290"
+  },
+  {
+    "reg_mark": "PU7114",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR75HB7101375"
+  },
+  {
+    "reg_mark": "SM7782",
+    "vehicle_effective_date": "",
+    "vehicle": "JT7X2RB8007000179"
+  },
+  {
+    "reg_mark": "TZ5342",
+    "vehicle_effective_date": "",
+    "vehicle": "LVBV4JBB5GJ004082"
+  },
+  {
+    "reg_mark": "VL6274",
+    "vehicle_effective_date": "",
+    "vehicle": "JAAN1R75KJ7100192"
+  },
+  {
+    "reg_mark": "WF4284",
+    "vehicle_effective_date": "",
+    "vehicle": "JTDBT22E400246344"
+  },
+  {
+    "reg_mark": "WF6045",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C139J1820234"
+  },
+  {
+    "reg_mark": "WM7330",
+    "vehicle_effective_date": "",
+    "vehicle": "JTDBT22E700014935"
+  },
+  {
+    "reg_mark": "XC2118",
+    "vehicle_effective_date": "",
+    "vehicle": "LJ11KCBE4L1112027"
+  },
+  {
+    "reg_mark": "XC5122",
+    "vehicle_effective_date": "",
+    "vehicle": "JTDBT22EX03307288"
+  },
+  {
+    "reg_mark": "XE3403",
+    "vehicle_effective_date": "",
+    "vehicle": "JTDBT22E203245000"
+  },
+  {
+    "reg_mark": "XE624",
+    "vehicle_effective_date": "",
+    "vehicle": "JTDBT22E400154621"
+  },
+  {
+    "reg_mark": "XF2777",
+    "vehicle_effective_date": "",
+    "vehicle": "LJ11KCBE8L1112032"
+  },
+  {
+    "reg_mark": "XF2864",
+    "vehicle_effective_date": "",
+    "vehicle": "JTFSAFAP908024441"
+  },
+  {
+    "reg_mark": "XF3617",
+    "vehicle_effective_date": "",
+    "vehicle": "JTFSAFAP108024319"
+  },
+  {
+    "reg_mark": "XF3746",
+    "vehicle_effective_date": "",
+    "vehicle": "JTFSAFAPX08024223"
+  },
+  {
+    "reg_mark": "XF5117",
+    "vehicle_effective_date": "",
+    "vehicle": "LJ11KCBE6L1117603"
+  },
+  {
+    "reg_mark": "XF6064",
+    "vehicle_effective_date": "",
+    "vehicle": "LJ11KCBE8L1112029"
+  },
+  {
+    "reg_mark": "XF6762",
+    "vehicle_effective_date": "",
+    "vehicle": "JTDBT22E200324488"
+  },
+  {
+    "reg_mark": "XF6910",
+    "vehicle_effective_date": "",
+    "vehicle": "LJ11KCBD1L1122294"
+  },
+  {
+    "reg_mark": "XF8153",
+    "vehicle_effective_date": "",
+    "vehicle": "LJ11KCBD1L1122263"
+  },
+  {
+    "reg_mark": "XH4953",
+    "vehicle_effective_date": "",
+    "vehicle": "LJ11KRBD1L1125005"
+  },
+  {
+    "reg_mark": "XH4975",
+    "vehicle_effective_date": "",
+    "vehicle": "LJ11KRBDXL1125004"
+  },
+  {
+    "reg_mark": "XK2543",
+    "vehicle_effective_date": "",
+    "vehicle": "LJ11KCBD0M1111837"
+  },
+  {
+    "reg_mark": "XK2611",
+    "vehicle_effective_date": "",
+    "vehicle": "LJ11KCBD3M1112044"
+  },
+  {
+    "reg_mark": "XK2896",
+    "vehicle_effective_date": "",
+    "vehicle": "LJ11KCBD2M1111841"
+  },
+  {
+    "reg_mark": "XK3291",
+    "vehicle_effective_date": "",
+    "vehicle": "LJ11KCBD5M1112045"
+  },
+  {
+    "reg_mark": "XK3854",
+    "vehicle_effective_date": "",
+    "vehicle": "LJ11KCBD1M1112043"
+  },
+  {
+    "reg_mark": "XK4264",
+    "vehicle_effective_date": "",
+    "vehicle": "LJ11KCBD9M1111786"
+  },
+  {
+    "reg_mark": "XL1391",
+    "vehicle_effective_date": "",
+    "vehicle": "LJ11KCBD0M1111840"
+  },
+  {
+    "reg_mark": "XP7395",
+    "vehicle_effective_date": "",
+    "vehicle": "JALFXZ777G7000031"
+  },
+  {
+    "reg_mark": "XR7264",
+    "vehicle_effective_date": "",
+    "vehicle": "S402M-0059298"
+  },
+  {
+    "reg_mark": "XU8960",
+    "vehicle_effective_date": "",
+    "vehicle": "JALCYH52TG7000024"
+  },
+  {
+    "reg_mark": "VF6741",
+    "vehicle_effective_date": "",
+    "vehicle": "V93W-1000314"
+  },
+  {
+    "reg_mark": "VF7535",
+    "vehicle_effective_date": "",
+    "vehicle": "V93W-1000317"
+  },
+  {
+    "reg_mark": "XH3149",
+    "vehicle_effective_date": "",
+    "vehicle": "VR3ERHNS3LJ547514"
+  },
+  {
+    "reg_mark": "XH3177",
+    "vehicle_effective_date": "",
+    "vehicle": "VR3ERHNS3MJ542769"
+  },
+  {
+    "reg_mark": "XH3337",
+    "vehicle_effective_date": "",
+    "vehicle": "VR3ERHNS3LJ836040"
+  },
+  {
+    "reg_mark": "XH3837",
+    "vehicle_effective_date": "",
+    "vehicle": "VR3ERHNS3LJ797492"
+  },
+  {
+    "reg_mark": "XJ5175",
+    "vehicle_effective_date": "",
+    "vehicle": "VR3ERHNS3MJ623483"
+  },
+  {
+    "reg_mark": "XJ5773",
+    "vehicle_effective_date": "",
+    "vehicle": "VR3ERHNS3MJ623482"
+  },
+  {
+    "reg_mark": "XR6532",
+    "vehicle_effective_date": "",
+    "vehicle": "VR3ERHNS3MJ782949"
+  },
+  {
+    "reg_mark": "XR6716",
+    "vehicle_effective_date": "",
+    "vehicle": "VR3ERHNS3MJ782944"
+  },
+  {
+    "reg_mark": "XR6729",
+    "vehicle_effective_date": "",
+    "vehicle": "VR3ERHNS3MJ785620"
+  },
+  {
+    "reg_mark": "XR7032",
+    "vehicle_effective_date": "",
+    "vehicle": "VR3ERHNS3MJ782946"
+  },
+  {
+    "reg_mark": "XR7195",
+    "vehicle_effective_date": "",
+    "vehicle": "VR3ERHNS3MJ782948"
+  },
+  {
+    "reg_mark": "XR7302",
+    "vehicle_effective_date": "",
+    "vehicle": "VR3ERHNS3MJ782942"
+  },
+  {
+    "reg_mark": "XR7768",
+    "vehicle_effective_date": "",
+    "vehicle": "VR3ERHNS3MJ782951"
+  },
+  {
+    "reg_mark": "XR7934",
+    "vehicle_effective_date": "",
+    "vehicle": "VR3ERHNS3MJ782947"
+  },
+  {
+    "reg_mark": "XR7998",
+    "vehicle_effective_date": "",
+    "vehicle": "VR3ERHNS3MJ782945"
+  },
+  {
+    "reg_mark": "XR8209",
+    "vehicle_effective_date": "",
+    "vehicle": "VR3ERHNS3MJ782943"
+  },
+  {
+    "reg_mark": "XR8257",
+    "vehicle_effective_date": "",
+    "vehicle": "VR3ERHNS3MJ785619"
+  },
+  {
+    "reg_mark": "XR8304",
+    "vehicle_effective_date": "",
+    "vehicle": "VR3ERHNS3MJ785621"
+  },
+  {
+    "reg_mark": "XR9478",
+    "vehicle_effective_date": "",
+    "vehicle": "VR3ERHNS3MJ782950"
+  },
+  {
+    "reg_mark": "PH6067",
+    "vehicle_effective_date": "",
+    "vehicle": "JTFHT02PX00060413"
+  },
+  {
+    "reg_mark": "XF5823",
+    "vehicle_effective_date": "",
+    "vehicle": "LJ11KCBD1L1121016"
+  },
+  {
+    "reg_mark": "XF6069",
+    "vehicle_effective_date": "",
+    "vehicle": "LJ11KCBD5L1122265"
+  },
+  {
+    "reg_mark": "PF4105",
+    "vehicle_effective_date": "",
+    "vehicle": "NCP20-0346348"
+  },
+  {
+    "reg_mark": "PU4950",
+    "vehicle_effective_date": "",
+    "vehicle": "NCP21-0067025"
+  },
+  {
+    "reg_mark": "WM1149",
+    "vehicle_effective_date": "",
+    "vehicle": "NCP100-0139934"
+  },
+  {
+    "reg_mark": "XK4424",
+    "vehicle_effective_date": "",
+    "vehicle": "LJ11KCBD7M1111785"
+  },
+  {
+    "reg_mark": "XL536",
+    "vehicle_effective_date": "",
+    "vehicle": "LJ11KCBD2M1111838"
+  },
+  {
+    "reg_mark": "XL897",
+    "vehicle_effective_date": "",
+    "vehicle": "LJ11KCBD4M1111839"
+  },
+  {
+    "reg_mark": "PX6737",
+    "vehicle_effective_date": "",
+    "vehicle": "NCP20-0338464"
+  },
+  {
+    "reg_mark": "PU6571",
+    "vehicle_effective_date": "",
+    "vehicle": "JT7X2RB7107003092"
+  },
+  {
+    "reg_mark": "WL7299",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C144J1820246"
+  },
+  {
+    "reg_mark": "TL9479",
+    "vehicle_effective_date": "",
+    "vehicle": "JT7X2RB8007003304"
+  },
+  {
+    "reg_mark": "TL9411",
+    "vehicle_effective_date": "",
+    "vehicle": "JT7X2RB8007003279"
+  },
+  {
+    "reg_mark": "TM205",
+    "vehicle_effective_date": "",
+    "vehicle": "JT7X2RB8007003297"
+  },
+  {
+    "reg_mark": "NT3755",
+    "vehicle_effective_date": "",
+    "vehicle": "JTDKB20U607846853"
+  },
+  {
+    "reg_mark": "PE1695",
+    "vehicle_effective_date": "",
+    "vehicle": "JTFHT02P800055632"
+  },
+  {
+    "reg_mark": "PH325",
+    "vehicle_effective_date": "",
+    "vehicle": "JT7X2RB7107001983"
+  },
+  {
+    "reg_mark": "RX3557",
+    "vehicle_effective_date": "",
+    "vehicle": "JT7X2RB7107005385"
+  },
+  {
+    "reg_mark": "SM7535",
+    "vehicle_effective_date": "",
+    "vehicle": "JTDKD3B3801560753"
+  },
+  {
+    "reg_mark": "SN2649",
+    "vehicle_effective_date": "",
+    "vehicle": "JT7X2RB8007000211"
+  },
+  {
+    "reg_mark": "TW9143",
+    "vehicle_effective_date": "",
+    "vehicle": "JTDKD3B3301588010"
+  },
+  {
+    "reg_mark": "UB5168",
+    "vehicle_effective_date": "",
+    "vehicle": "LVBV4JBB2FJ057708"
+  },
+  {
+    "reg_mark": "VN8488",
+    "vehicle_effective_date": "",
+    "vehicle": "JHMGD18502S232297"
+  },
+  {
+    "reg_mark": "FZ7657",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR66LR-7100203"
+  },
+  {
+    "reg_mark": "GW9959",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR66LT-7104082"
+  },
+  {
+    "reg_mark": "JV285",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR70LY7101515"
+  },
+  {
+    "reg_mark": "KR3556",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR66PV-7100347"
+  },
+  {
+    "reg_mark": "LW6692",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR70L47101043"
+  },
+  {
+    "reg_mark": "LX5573",
+    "vehicle_effective_date": "",
+    "vehicle": "MPATFS54H5H530384"
+  },
+  {
+    "reg_mark": "PV9837",
+    "vehicle_effective_date": "",
+    "vehicle": "NCP20-0342413"
+  },
+  {
+    "reg_mark": "WF4551",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C134J1819766"
+  },
+  {
+    "reg_mark": "WF4725",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C134J1820240"
+  },
+  {
+    "reg_mark": "WF4928",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C136J1820238"
+  },
+  {
+    "reg_mark": "WF5055",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C132J1820236"
+  },
+  {
+    "reg_mark": "WF5291",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C138J1820239"
+  },
+  {
+    "reg_mark": "WF5330",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C134J1820237"
+  },
+  {
+    "reg_mark": "WF5534",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C130J1820235"
+  },
+  {
+    "reg_mark": "RZ2390",
+    "vehicle_effective_date": "",
+    "vehicle": "JTDBT22E903250615"
+  },
+  {
+    "reg_mark": "VH8215",
+    "vehicle_effective_date": "",
+    "vehicle": "JTDZZ9H350L000526"
+  },
+  {
+    "reg_mark": "SM7282",
+    "vehicle_effective_date": "",
+    "vehicle": "JT7X2RB8007000172"
+  },
+  {
+    "reg_mark": "JL6687",
+    "vehicle_effective_date": "",
+    "vehicle": "JTNGK3DH60B007770"
+  },
+  {
+    "reg_mark": "KJ2226",
+    "vehicle_effective_date": "",
+    "vehicle": "JTNGZ3DH308054864"
+  },
+  {
+    "reg_mark": "TX2226",
+    "vehicle_effective_date": "",
+    "vehicle": "WDDNG71X29A240900"
+  },
+  {
+    "reg_mark": "XP5430",
+    "vehicle_effective_date": "",
+    "vehicle": "JTFSAFAP008028216"
+  },
+  {
+    "reg_mark": "XP6155",
+    "vehicle_effective_date": "",
+    "vehicle": "JTFSAFAP408029160"
+  },
+  {
+    "reg_mark": "XP6491",
+    "vehicle_effective_date": "",
+    "vehicle": "JTFSAFAP008028135"
+  },
+  {
+    "reg_mark": "XS2149",
+    "vehicle_effective_date": "",
+    "vehicle": "LGDCLA1G5MA124495"
+  },
+  {
+    "reg_mark": "PH5888",
+    "vehicle_effective_date": "",
+    "vehicle": "JTFHT02P000060596"
+  },
+  {
+    "reg_mark": "PU7444",
+    "vehicle_effective_date": "",
+    "vehicle": "JT7X2RB7107003027"
+  },
+  {
+    "reg_mark": "SB5159",
+    "vehicle_effective_date": "",
+    "vehicle": "JT7X2RB7107005799"
+  },
+  {
+    "reg_mark": "VE7364",
+    "vehicle_effective_date": "",
+    "vehicle": "JN1MC2E26Z0010069"
+  },
+  {
+    "reg_mark": "VF3861",
+    "vehicle_effective_date": "",
+    "vehicle": "JN1MC2E26Z0010075"
+  },
+  {
+    "reg_mark": "VF4436",
+    "vehicle_effective_date": "",
+    "vehicle": "JN1MC2E26Z0010052"
+  },
+  {
+    "reg_mark": "VF7374",
+    "vehicle_effective_date": "",
+    "vehicle": "JTDKD3B3501607978"
+  },
+  {
+    "reg_mark": "VG1280",
+    "vehicle_effective_date": "",
+    "vehicle": "WVWZZZAUZJW904154"
+  },
+  {
+    "reg_mark": "VG3314",
+    "vehicle_effective_date": "",
+    "vehicle": "WVWZZZAUZJW904107"
+  },
+  {
+    "reg_mark": "VH7359",
+    "vehicle_effective_date": "",
+    "vehicle": "JTDZZ9H370L000527"
+  },
+  {
+    "reg_mark": "51370T",
+    "vehicle_effective_date": "",
+    "vehicle": "12048"
+  },
+  {
+    "reg_mark": "SM6713",
+    "vehicle_effective_date": "",
+    "vehicle": "JTDKD3B3401560801"
+  },
+  {
+    "reg_mark": "PU3922",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR75HB7100960"
+  },
+  {
+    "reg_mark": "RE1210",
+    "vehicle_effective_date": "",
+    "vehicle": "JAAN1R75KC7100008"
+  },
+  {
+    "reg_mark": "HX9660",
+    "vehicle_effective_date": "",
+    "vehicle": "ZCFA1GD0002233595"
+  },
+  {
+    "reg_mark": "PE5749",
+    "vehicle_effective_date": "",
+    "vehicle": "JTFHT02P900055834"
+  },
+  {
+    "reg_mark": "PE6278",
+    "vehicle_effective_date": "",
+    "vehicle": "JTFHT02PX00055597"
+  },
+  {
+    "reg_mark": "RS5388",
+    "vehicle_effective_date": "",
+    "vehicle": "KMFWBX7KLCU504845"
+  },
+  {
+    "reg_mark": "UX8909",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2C147H1817688"
+  },
+  {
+    "reg_mark": "VG8014",
+    "vehicle_effective_date": "",
+    "vehicle": "LJ11KCBD6H8023632"
+  },
+  {
+    "reg_mark": "WN4055",
+    "vehicle_effective_date": "",
+    "vehicle": "LJ11KCBE4K1112043"
+  },
+  {
+    "reg_mark": "XW8025",
+    "vehicle_effective_date": "",
+    "vehicle": "MMCJLKL60LH132478"
+  },
+  {
+    "reg_mark": "XW7182",
+    "vehicle_effective_date": "",
+    "vehicle": "MMCJLKL60LH133890"
+  },
+  {
+    "reg_mark": "XW8461",
+    "vehicle_effective_date": "",
+    "vehicle": "LGDCLA1G4NA103400"
+  },
+  {
+    "reg_mark": "XW7441",
+    "vehicle_effective_date": "",
+    "vehicle": "LGDCLA1G4NA500430"
+  },
+  {
+    "reg_mark": "XW7269",
+    "vehicle_effective_date": "",
+    "vehicle": "LGDCLA1G8NA500429"
+  },
+  {
+    "reg_mark": "XW6857",
+    "vehicle_effective_date": "",
+    "vehicle": "LGDCLA1G8NA103397"
+  },
+  {
+    "reg_mark": "XW6716",
+    "vehicle_effective_date": "",
+    "vehicle": "LGDCLA1G6NA500431"
+  },
+  {
+    "reg_mark": "XW6951",
+    "vehicle_effective_date": "",
+    "vehicle": "LGDCLA1GXNA500433"
+  },
+  {
+    "reg_mark": "XW7749",
+    "vehicle_effective_date": "",
+    "vehicle": "JHMRP1850LC200220"
+  },
+  {
+    "reg_mark": "XW6670",
+    "vehicle_effective_date": "",
+    "vehicle": "JHMRP1850LC200495"
+  },
+  {
+    "reg_mark": "XW6914",
+    "vehicle_effective_date": "",
+    "vehicle": "JHMRP1850LC200576"
+  },
+  {
+    "reg_mark": "XW7626",
+    "vehicle_effective_date": "",
+    "vehicle": "JHMRP1850LC200577"
+  },
+  {
+    "reg_mark": "XW7264",
+    "vehicle_effective_date": "",
+    "vehicle": "JHMRP1850LC200602"
+  },
+  {
+    "reg_mark": "XW8121",
+    "vehicle_effective_date": "",
+    "vehicle": "JHMRP1850LC200603"
+  },
+  {
+    "reg_mark": "XW8110",
+    "vehicle_effective_date": "",
+    "vehicle": "JHMRP1850LC200667"
+  },
+  {
+    "reg_mark": "XW7854",
+    "vehicle_effective_date": "",
+    "vehicle": "JHMRP1850LC200668"
+  },
+  {
+    "reg_mark": "XW7792",
+    "vehicle_effective_date": "",
+    "vehicle": "JHMRP1850LC200664"
+  },
+  {
+    "reg_mark": "XW8281",
+    "vehicle_effective_date": "",
+    "vehicle": "JHMRP1850LC200665"
+  },
+  {
+    "reg_mark": "XW8478",
+    "vehicle_effective_date": "",
+    "vehicle": "JHMRP1850LC200689"
+  },
+  {
+    "reg_mark": "XW7406",
+    "vehicle_effective_date": "",
+    "vehicle": "JHMRP1850LC200690"
+  },
+  {
+    "reg_mark": "XW7121",
+    "vehicle_effective_date": "",
+    "vehicle": "JHMRP1850LC200692"
+  },
+  {
+    "reg_mark": "XW6631",
+    "vehicle_effective_date": "",
+    "vehicle": "LHMRP1850LC200677"
+  },
+  {
+    "reg_mark": "XW8178",
+    "vehicle_effective_date": "",
+    "vehicle": "LHMRP1850LC200678"
+  },
+  {
+    "reg_mark": "XW8352",
+    "vehicle_effective_date": "",
+    "vehicle": "LHMRP1850LC200679"
+  },
+  {
+    "reg_mark": "XW6957",
+    "vehicle_effective_date": "",
+    "vehicle": "LHMRP1850LC200680"
+  },
+  {
+    "reg_mark": "XW7314",
+    "vehicle_effective_date": "",
+    "vehicle": "JHMRP3870LC201271"
+  },
+  {
+    "reg_mark": "XW8442",
+    "vehicle_effective_date": "",
+    "vehicle": "JHMRP3870LC201299"
+  },
+  {
+    "reg_mark": "XW7420",
+    "vehicle_effective_date": "",
+    "vehicle": "JHMRP3870LC201303"
+  },
+  {
+    "reg_mark": "XW6773",
+    "vehicle_effective_date": "",
+    "vehicle": "JHMRP3870LC201304"
+  },
+  {
+    "reg_mark": "XW7451",
+    "vehicle_effective_date": "",
+    "vehicle": "JHMRP3870LC201350"
+  },
+  {
+    "reg_mark": "XW8067",
+    "vehicle_effective_date": "",
+    "vehicle": "JHMRP3870LC201348"
+  },
+  {
+    "reg_mark": "XW7379",
+    "vehicle_effective_date": "",
+    "vehicle": "JHMRP3870LC201344"
+  },
+  {
+    "reg_mark": "XW6853",
+    "vehicle_effective_date": "",
+    "vehicle": "JHMRP3870LC201345"
+  },
+  {
+    "reg_mark": "XW8234",
+    "vehicle_effective_date": "",
+    "vehicle": "KPAY61EESMP146362"
+  },
+  {
+    "reg_mark": "XW8141",
+    "vehicle_effective_date": "",
+    "vehicle": "KPAY61EESMP157215"
+  },
+  {
+    "reg_mark": "XW8500",
+    "vehicle_effective_date": "",
+    "vehicle": "KPAY61EESMP157210"
+  },
+  {
+    "reg_mark": "XW7378",
+    "vehicle_effective_date": "",
+    "vehicle": "KPAY61EESMP157214"
+  },
+  {
+    "reg_mark": "XW8012",
+    "vehicle_effective_date": "",
+    "vehicle": "KPAY61EESMP157216"
+  },
+  {
+    "reg_mark": "XT5108",
+    "vehicle_effective_date": "",
+    "vehicle": "JTDBT42E209046876"
+  },
+  {
+    "reg_mark": "NS4903",
+    "vehicle_effective_date": "",
+    "vehicle": "JTDBT42E309100637"
+  },
+  {
+    "reg_mark": "WE7297",
+    "vehicle_effective_date": "",
+    "vehicle": "JTDBT42E609105220"
+  },
+  {
+    "reg_mark": "XY1630",
+    "vehicle_effective_date": "",
+    "vehicle": "MMCJLKL60LH133869"
+  },
+  {
+    "reg_mark": "XS4840",
+    "vehicle_effective_date": "",
+    "vehicle": "JTDBT40E109073683"
+  },
+  {
+    "reg_mark": "XA2618",
+    "vehicle_effective_date": "",
+    "vehicle": "JTDBT42E309105711"
+  },
+  {
+    "reg_mark": "PR9489",
+    "vehicle_effective_date": "",
+    "vehicle": "JTDBT42E409100792"
+  },
+  {
+    "reg_mark": "YF7607",
+    "vehicle_effective_date": "",
+    "vehicle": "KPAY61EESNP160060"
+  },
+  {
+    "reg_mark": "YF7645",
+    "vehicle_effective_date": "",
+    "vehicle": "KPAY61EESNP157209"
+  },
+  {
+    "reg_mark": "SB9520",
+    "vehicle_effective_date": "",
+    "vehicle": "JTDBT40E409062807"
+  },
+  {
+    "reg_mark": "XY3699",
+    "vehicle_effective_date": "",
+    "vehicle": "LGDCLB1L3MH133335"
+  },
+  {
+    "reg_mark": "XY4326",
+    "vehicle_effective_date": "",
+    "vehicle": "LGDCLB1G3NH500447"
+  },
+  {
+    "reg_mark": "XY4459",
+    "vehicle_effective_date": "",
+    "vehicle": "LGDCLB1G5NH500448"
+  },
+  {
+    "reg_mark": "XY5844",
+    "vehicle_effective_date": "",
+    "vehicle": "LGDCLB1L1MH133527"
+  },
+  {
+    "reg_mark": "XY6420",
+    "vehicle_effective_date": "",
+    "vehicle": "LGDCLB1L1MH132975"
+  },
+  {
+    "reg_mark": "XY4868",
+    "vehicle_effective_date": "",
+    "vehicle": "LGDCLB1LXMH133526"
+  },
+  {
+    "reg_mark": "XY4527",
+    "vehicle_effective_date": "",
+    "vehicle": "LJ11KCBE3L1121558"
+  },
+  {
+    "reg_mark": "XY5193",
+    "vehicle_effective_date": "",
+    "vehicle": "LJ11KCBE1L1121557"
+  },
+  {
+    "reg_mark": "XY6436",
+    "vehicle_effective_date": "",
+    "vehicle": "LJ11KCBE6N1108967"
+  },
+  {
+    "reg_mark": "XY5313",
+    "vehicle_effective_date": "",
+    "vehicle": "LGDCLA1G9NA103411"
+  },
+  {
+    "reg_mark": "XY3475",
+    "vehicle_effective_date": "",
+    "vehicle": "LGDCLA1G6NA103401"
+  },
+  {
+    "reg_mark": "XY5182",
+    "vehicle_effective_date": "",
+    "vehicle": "LGDCLA1G7NA103410"
+  },
+  {
+    "reg_mark": "XY5819",
+    "vehicle_effective_date": "",
+    "vehicle": "LGDCLA1G9NA103408"
+  },
+  {
+    "reg_mark": "XY5690",
+    "vehicle_effective_date": "",
+    "vehicle": "LGDCLA1G0NA103409"
+  },
+  {
+    "reg_mark": "XY5708",
+    "vehicle_effective_date": "",
+    "vehicle": "LGDCLA1G0NA103412"
+  },
+  {
+    "reg_mark": "XY5540",
+    "vehicle_effective_date": "",
+    "vehicle": "LGDCLA1GXNA103398"
+  },
+  {
+    "reg_mark": "XY5783",
+    "vehicle_effective_date": "",
+    "vehicle": "LGDCLA1G1NA103399"
+  },
+  {
+    "reg_mark": "XZ2096",
+    "vehicle_effective_date": "",
+    "vehicle": "JHMRP3870LC201431"
+  },
+  {
+    "reg_mark": "XZ2061",
+    "vehicle_effective_date": "",
+    "vehicle": "JHMRP3870LC201358"
+  },
+  {
+    "reg_mark": "TN1787",
+    "vehicle_effective_date": "",
+    "vehicle": "JAAN1R75KF7100363"
+  },
+  {
+    "reg_mark": "XZ7771",
+    "vehicle_effective_date": "",
+    "vehicle": "JHMRP3870LC201422"
+  },
+  {
+    "reg_mark": "XZ7648",
+    "vehicle_effective_date": "",
+    "vehicle": "JHMRP3870LC201380"
+  },
+  {
+    "reg_mark": "XZ6764",
+    "vehicle_effective_date": "",
+    "vehicle": "JHMRP3870LC201327"
+  },
+  {
+    "reg_mark": "YA2736",
+    "vehicle_effective_date": "",
+    "vehicle": "LJ11KRBD0M1122114"
+  },
+  {
+    "reg_mark": "YA2698",
+    "vehicle_effective_date": "",
+    "vehicle": "LJ11KRBD2M1122115"
+  },
+  {
+    "reg_mark": "UA3998",
+    "vehicle_effective_date": "2023-03-20",
+    "vehicle": "JTFHT02P800191808"
+  },
+  {
+    "reg_mark": "JR5315",
+    "vehicle_effective_date": "",
+    "vehicle": "JT753AEB005349977"
+  },
+  {
+    "reg_mark": "YD542",
+    "vehicle_effective_date": "",
+    "vehicle": "JTFSAFAP508044119"
+  },
+  {
+    "reg_mark": "YF371",
+    "vehicle_effective_date": "",
+    "vehicle": "JAANPR75HN7101512"
+  },
+  {
+    "reg_mark": "YB8056",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2D130NT827525"
+  },
+  {
+    "reg_mark": "YC4930",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2D134NT827527"
+  },
+  {
+    "reg_mark": "YC5996",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2D137NT827828"
+  },
+  {
+    "reg_mark": "YD1700",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2D135NT827827"
+  },
+  {
+    "reg_mark": "YD5491",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2D132NT827526"
+  },
+  {
+    "reg_mark": "YD8482",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2D136NT827528"
+  },
+  {
+    "reg_mark": "YD9729",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2D139NT827829"
+  },
+  {
+    "reg_mark": "YD9708",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2D135NT827830"
+  },
+  {
+    "reg_mark": "YE5942",
+    "vehicle_effective_date": "",
+    "vehicle": "LGAX2D137NT827831"
+  },
+  {
+    "reg_mark": "YA8047",
+    "vehicle_effective_date": "",
+    "vehicle": "JTDBT22E903324678"
+  },
+  {
+    "reg_mark": "KX8097",
+    "vehicle_effective_date": "",
+    "vehicle": "JTDBT22E403177119"
+  },
+  {
+    "reg_mark": "XA2914",
+    "vehicle_effective_date": "",
+    "vehicle": "JTDBT42EX09065577"
+  },
+  {
+    "reg_mark": "WU2784",
+    "vehicle_effective_date": "",
+    "vehicle": "JTDBT22E400296645"
+  },
+  {
+    "reg_mark": "YA6711",
+    "vehicle_effective_date": "",
+    "vehicle": "JTDBT22E903218845"
+  },
+  {
+    "reg_mark": "RW1700",
+    "vehicle_effective_date": "",
+    "vehicle": "JZDBT22E200018052"
+  },
+  {
+    "reg_mark": "NX8145",
+    "vehicle_effective_date": "",
+    "vehicle": "JTDBT42E409120847"
+  },
+  {
+    "reg_mark": "TM9321",
+    "vehicle_effective_date": "",
+    "vehicle": "JTDBT22E303278863"
+  },
+  {
+    "reg_mark": "JZ2394",
+    "vehicle_effective_date": "",
+    "vehicle": "JTDBT22E603030283"
+  },
+  {
+    "reg_mark": "YH467",
+    "vehicle_effective_date": "",
+    "vehicle": "JHMRP6830NX200028"
+  },
+  {
+    "reg_mark": "YG5800",
+    "vehicle_effective_date": "2023-03-20",
+    "vehicle": "LGDCLA1G3NA109642"
+  },
+  {
+    "reg_mark": "YG5953",
+    "vehicle_effective_date": "",
+    "vehicle": "LGDCLA1G0NA112403"
+  },
+  {
+    "reg_mark": "YG6462",
+    "vehicle_effective_date": "",
+    "vehicle": "LGDCLA1G5NA112400"
+  },
+  {
+    "reg_mark": "YG4833",
+    "vehicle_effective_date": "",
+    "vehicle": "LGDCLA1G1NA109641"
+  },
+  {
+    "reg_mark": "YE7791",
+    "vehicle_effective_date": "",
+    "vehicle": "MMCJLKL60NH020946"
+  },
+  {
+    "reg_mark": "YM8829",
+    "vehicle_effective_date": "",
+    "vehicle": "MMCJLKL60NH021060"
+  },
+  {
+    "reg_mark": "YN4107",
+    "vehicle_effective_date": "",
+    "vehicle": "MMCJLKL60NH020990"
+  },
+  {
+    "reg_mark": "YN8957",
+    "vehicle_effective_date": "",
+    "vehicle": "MMCJLKL60NH020989"
+  },
+  {
+    "reg_mark": "YN9028",
+    "vehicle_effective_date": "",
+    "vehicle": "MMCJLKL60NH021058"
+  },
+  {
+    "reg_mark": "YP729",
+    "vehicle_effective_date": "",
+    "vehicle": "MMCJLKL60MH021067"
+  },
+  {
+    "reg_mark": "YP2248",
+    "vehicle_effective_date": "",
+    "vehicle": "MMCJLKL60MH020987"
+  },
+  {
+    "reg_mark": "YP7278",
+    "vehicle_effective_date": "",
+    "vehicle": "MMCJLKL60NH021294"
+  },
+  {
+    "reg_mark": "YP7540",
+    "vehicle_effective_date": "",
+    "vehicle": "MMCJLKL60NH021296"
+  },
+  {
+    "reg_mark": "YT5223",
+    "vehicle_effective_date": "",
+    "vehicle": "MMCJLKL60NH021372"
+  },
+  {
+    "reg_mark": "YR119",
+    "vehicle_effective_date": "",
+    "vehicle": "MMCJLKL60NH021298"
+  },
+  {
+    "reg_mark": "YP8578",
+    "vehicle_effective_date": "",
+    "vehicle": "MMCJLKL60NH021304"
+  },
+  {
+    "reg_mark": "YH8749",
+    "vehicle_effective_date": "2023-03-20",
+    "vehicle": "LGDCLA1GXNA121335"
+  },
+  {
+    "reg_mark": "YJ3037",
+    "vehicle_effective_date": "",
+    "vehicle": "LGDCLA1G7NA112401"
+  },
+  {
+    "reg_mark": "YJ3295",
+    "vehicle_effective_date": "",
+    "vehicle": "LGDCLA1G2NA112404"
+  },
+  {
+    "reg_mark": "YJ574",
+    "vehicle_effective_date": "",
+    "vehicle": "VR3EFYHZRNJ578166"
+  },
+  {
+    "reg_mark": "YJ947",
+    "vehicle_effective_date": "",
+    "vehicle": "VR3EFYHZRNJ578167"
+  },
+  {
+    "reg_mark": "YL7358",
+    "vehicle_effective_date": "",
+    "vehicle": "LC0CE4DC3P0009883"
+  },
+  {
+    "reg_mark": "YM3460",
+    "vehicle_effective_date": "",
+    "vehicle": "LSJE24030PG020394"
+  },
+  {
+    "reg_mark": "YM4165",
+    "vehicle_effective_date": "",
+    "vehicle": "LSJE24031PG020498"
+  },
+  {
+    "reg_mark": "YN5662",
+    "vehicle_effective_date": "",
+    "vehicle": "LSJE24032PG020395"
+  },
+  {
+    "reg_mark": "YM8079",
+    "vehicle_effective_date": "",
+    "vehicle": "LSJE24034PG020589"
+  },
+  {
+    "reg_mark": "YM8431",
+    "vehicle_effective_date": "",
+    "vehicle": "LSJE24033PG020499"
+  },
+  {
+    "reg_mark": "YM8005",
+    "vehicle_effective_date": "",
+    "vehicle": "LSJE24030PG020590"
+  },
+  {
+    "reg_mark": "YN2909",
+    "vehicle_effective_date": "",
+    "vehicle": "LJ11KCBE4N1112094"
+  },
+  {
+    "reg_mark": "YP4510",
+    "vehicle_effective_date": "",
+    "vehicle": "WMA08DZZ9NY443969"
+  },
+  {
+    "reg_mark": "YM7465",
+    "vehicle_effective_date": "",
+    "vehicle": "WMA08DZZONY443553"
+  },
+  {
+    "reg_mark": "YM8678",
+    "vehicle_effective_date": "",
+    "vehicle": "ZA9S5020EDAC38330"
+  },
+  {
+    "reg_mark": "YH5856",
+    "vehicle_effective_date": "",
+    "vehicle": "LGDCLA1G6NA121333"
+  },
+  {
+    "reg_mark": "YH5473",
+    "vehicle_effective_date": "",
+    "vehicle": "LGDCLA1G4NA121329"
+  },
+  {
+    "reg_mark": "YH6435",
+    "vehicle_effective_date": "",
+    "vehicle": "LGDCLA1G4NA121330"
+  },
+  {
+    "reg_mark": "YH7674",
+    "vehicle_effective_date": "",
+    "vehicle": "LGDCLA1G8NA121334"
+  },
+  {
+    "reg_mark": "YH8918",
+    "vehicle_effective_date": "",
+    "vehicle": "LGDCLA1G2NA121331"
+  },
+  {
+    "reg_mark": "YH8332",
+    "vehicle_effective_date": "",
+    "vehicle": "LGDCLA1G2NA121328"
+  },
+  {
+    "reg_mark": "YH6714",
+    "vehicle_effective_date": "",
+    "vehicle": "LGDCLA1G4NA121332"
+  },
+  {
+    "reg_mark": "VJ6327",
+    "vehicle_effective_date": "",
+    "vehicle": ""
+  },
+  {
+    "reg_mark": "YT4227",
+    "vehicle_effective_date": "",
+    "vehicle": "LSJE24034PG020480"
+  }
+]
