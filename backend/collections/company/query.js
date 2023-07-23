@@ -14,6 +14,20 @@ export const query = `#graphql
     email: String
     remarks: String
     status: Boolean
+
+    relation: CompanyRelationInput
+  }
+
+  input CompanyRelationInput {
+    collection: Collection!
+    action: String!
+    doc_id: ID
+    target_id: ID
+    status: Boolean
+
+    effective_date: String
+    end_date: String
+    value: String
   }
 
   extend input EntityInput {
@@ -60,5 +74,17 @@ export const query = `#graphql
     sign_image: ID
     chop_image: ID
     logo_image: ID
+
+    vehicles: [CompanyVehicle]
+  }
+
+  type CompanyVehicle {
+    doc_id: ID
+    target_id: ID
+    effective_date: String
+    end_date: String
+
+    chassis_number: String
+    reg_mark: String
   }
 `

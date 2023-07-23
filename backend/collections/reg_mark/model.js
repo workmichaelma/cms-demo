@@ -77,7 +77,7 @@ export class RegMark extends Model {
             body: args,
           })
 
-          if (_doc && _doc?._id) {
+          if (_doc && _doc?._id && vehicleId) {
             await this.insertVehicle({
               filter: { _id: _doc._id },
               body: {

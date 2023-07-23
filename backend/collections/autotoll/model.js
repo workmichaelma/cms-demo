@@ -80,12 +80,10 @@ export class Autotoll extends Model {
             `Failed to import row[${key}], reason: ${JSON.stringify(error)}`
           )
         } else {
-          const _doc = await super.updateOne(
-            { filter: { autotoll_number } },
-            {
-              body: args,
-            }
-          )
+          const _doc = await super.updateOne({
+            filter: { autotoll_number },
+            body: args,
+          })
 
           if (_doc && _doc?._id) {
             await this.insertVehicle({

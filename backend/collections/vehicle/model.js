@@ -10,6 +10,9 @@ const { isEmpty, reduce } = lodash
 export class Vehicle extends Model {
   constructor() {
     super('vehicle', schema)
+    this.Schema.statics.insertCompany = this.insertCompany.bind(this)
+    this.Schema.statics.updateCompany = this.updateCompany.bind(this)
+    this.Schema.statics.deleteCompany = this.deleteCompany.bind(this)
     super.buildModel()
   }
 
@@ -428,6 +431,66 @@ export class Vehicle extends Model {
       },
       options: {
         upsert: false,
+      },
+    })
+  }
+
+  async deleteCompany({ filter, body }) {
+    const { _id } = filter
+    const { doc_id } = body
+
+    return await super.updateOne({
+      filter: {
+        _id,
+      },
+      body: {
+        $pull: {
+          companies: {
+            _id: new mongoose.Types.ObjectId(doc_id),
+          },
+        },
+      },
+    })
+  }
+
+  async insertCompany({ filter, body }) {
+    const { _id } = filter
+    const { target_id, ...args } = body
+
+    return await super.updateOne({
+      filter: {
+        _id,
+      },
+      body: {
+        $push: {
+          companies: {
+            company: new mongoose.Types.ObjectId(target_id),
+            ...args,
+          },
+        },
+      },
+    })
+  }
+
+  async updateCompany({ filter, body }) {
+    const { _id } = filter
+    const { doc_id, ...args } = body
+
+    const updateDoc = reduce(
+      args,
+      (doc, value, key) => {
+        doc[`companies.$.${key}`] = value
+        return doc
+      },
+      {}
+    )
+    return await super.updateOne({
+      filter: {
+        _id,
+        [`companies._id`]: new mongoose.Types.ObjectId(doc_id),
+      },
+      body: {
+        $set: updateDoc,
       },
     })
   }
