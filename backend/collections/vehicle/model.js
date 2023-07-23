@@ -13,6 +13,10 @@ export class Vehicle extends Model {
     this.Schema.statics.insertCompany = this.insertCompany.bind(this)
     this.Schema.statics.updateCompany = this.updateCompany.bind(this)
     this.Schema.statics.deleteCompany = this.deleteCompany.bind(this)
+
+    this.Schema.statics.insertPermitArea = this.insertPermitArea.bind(this)
+    this.Schema.statics.updatePermitArea = this.updatePermitArea.bind(this)
+    this.Schema.statics.deletePermitArea = this.deletePermitArea.bind(this)
     super.buildModel()
   }
 
@@ -221,7 +225,58 @@ export class Vehicle extends Model {
             })
           }
           break
+        case 'permitArea':
+          if (action === 'DELETE') {
+            doc = await this.deletePermitArea({
+              filter,
+              body: {
+                doc_id,
+              },
+            })
+          } else if (action === 'INSERT') {
+            doc = await this.insertPermitArea({
+              filter,
+              body: {
+                target_id,
+                ...relationArgs,
+              },
+            })
+          } else if (action === 'UPDATE') {
+            doc = await this.updatePermitArea({
+              filter,
+              body: {
+                doc_id,
+                ...relationArgs,
+              },
+            })
+          }
+          break
         case 'company':
+          if (action === 'DELETE') {
+            doc = await this.deleteCompany({
+              filter,
+              body: {
+                doc_id,
+              },
+            })
+          } else if (action === 'INSERT') {
+            doc = await this.insertCompany({
+              filter,
+              body: {
+                target_id,
+                ...relationArgs,
+              },
+            })
+          } else if (action === 'UPDATE') {
+            doc = await this.updateCompany({
+              filter,
+              body: {
+                doc_id,
+                ...relationArgs,
+              },
+            })
+          }
+          break
         case 'contract':
           const arrKeyMap = {
             company: 'companies',
@@ -488,6 +543,66 @@ export class Vehicle extends Model {
       filter: {
         _id,
         [`companies._id`]: new mongoose.Types.ObjectId(doc_id),
+      },
+      body: {
+        $set: updateDoc,
+      },
+    })
+  }
+
+  async deletePermitArea({ filter, body }) {
+    const { _id } = filter
+    const { doc_id } = body
+
+    return await super.updateOne({
+      filter: {
+        _id,
+      },
+      body: {
+        $pull: {
+          permit_areas: {
+            _id: new mongoose.Types.ObjectId(doc_id),
+          },
+        },
+      },
+    })
+  }
+
+  async insertPermitArea({ filter, body }) {
+    const { _id } = filter
+    const { target_id, ...args } = body
+
+    return await super.updateOne({
+      filter: {
+        _id,
+      },
+      body: {
+        $push: {
+          permit_areas: {
+            permit_area: new mongoose.Types.ObjectId(target_id),
+            ...args,
+          },
+        },
+      },
+    })
+  }
+
+  async updatePermitArea({ filter, body }) {
+    const { _id } = filter
+    const { doc_id, ...args } = body
+
+    const updateDoc = reduce(
+      args,
+      (doc, value, key) => {
+        doc[`permit_areas.$.${key}`] = value
+        return doc
+      },
+      {}
+    )
+    return await super.updateOne({
+      filter: {
+        _id,
+        [`permit_areas._id`]: new mongoose.Types.ObjectId(doc_id),
       },
       body: {
         $set: updateDoc,

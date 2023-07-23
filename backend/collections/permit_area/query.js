@@ -13,6 +13,18 @@ export const query = `#graphql
     remarks: String
     effective_date: String
     end_date: String
+
+    vehicles: [PermitAreaVehicle]
+  }
+
+  type PermitAreaVehicle {
+    doc_id: ID
+    target_id: ID
+    effective_date: String
+    end_date: String
+
+    chassis_number: String
+    reg_mark: String
   }
 
   extend input EntityInput {
@@ -51,5 +63,18 @@ export const query = `#graphql
     effective_date: String
     end_date: String
     contract: ID
+
+    relation: PermitAreaRelationInput
+  }
+
+  input PermitAreaRelationInput {
+    collection: Collection!
+    action: String!
+    doc_id: ID
+    target_id: ID
+    status: Boolean
+
+    effective_date: String
+    end_date: String
   }
 `
