@@ -11,16 +11,22 @@ export class GPS extends Model {
   constructor() {
     super('gps', schema)
     this.Schema.statics.insertVehicle = this.insertVehicle.bind(this)
+    this.Schema.statics.updateVehicle = this.updateVehicle.bind(this)
     this.Schema.statics.deleteVehicle = this.deleteVehicle.bind(this)
     super.buildModel()
   }
 
   async import({ body }) {
     try {
-      const unsetCurrentVehicles = []
-      const requests = {}
+      const requests = []
 
-      const vehicles = await this.Model.model('vehicle').findAll({ filter: { chassis_number: { $in: uniq(compact(map(body, (item) => item.vehicle))) } } })
+      const vehicles = await this.Model.model('vehicle').findAll({
+        filter: {
+          chassis_number: {
+            $in: uniq(compact(map(body, (item) => item.vehicle))),
+          },
+        },
+      })
 
       const vehicleIds = reduce(
         vehicles,
@@ -30,100 +36,73 @@ export class GPS extends Model {
         },
         {}
       )
-      const items = reduce(
-        body,
-        (item, row, key) => {
-          const { error, obj } = checkFieldIsValidToSchema({
-            schema: [
-              ...schema,
-              {
-                field: 'vehicle',
-                type: 'text',
-              },
-              {
-                field: 'vehicle_effective_date',
-                type: 'date',
-              },
-              {
-                field: 'vehicle_end_date',
-                type: 'date',
-              },
-            ],
-            args: row,
-          })
-          const { vehicle, vehicle_effective_date, vehicle_end_date, gps_number, ...args } = obj
 
-          const vehicleId = vehicleIds[vehicle]
+      for (const key in body) {
+        const row = body[key]
+        const { error, obj } = checkFieldIsValidToSchema({
+          schema: [
+            ...schema,
+            {
+              field: 'vehicle',
+              type: 'text',
+            },
+            {
+              field: 'vehicle_effective_date',
+              type: 'date',
+            },
+            {
+              field: 'vehicle_end_date',
+              type: 'date',
+            },
+          ],
+          args: row,
+        })
+        const {
+          vehicle,
+          vehicle_effective_date,
+          vehicle_end_date,
+          gps_number,
+          ...args
+        } = obj
 
-          if (!gps_number) {
-            console.error(`Failed to import row[${key}], reason: no gps_number`)
-          } else if (!vehicleId) {
-            console.error(`Failed to import row[${key}], reason: vehicle [${vehicle}] not found`)
-          } else if (!isEmpty(error)) {
-            console.error(`Failed to import row[${key}], reason: ${JSON.stringify(error)}`)
-          } else {
-            const vehicleObj = {
-              vehicle: vehicleId,
-              effective_date: vehicle_effective_date || dayjs('2023-1-1'),
-              end_date: vehicle_end_date,
-            }
-            item[gps_number] = {
-              vehicles: [...(item[gps_number]?.vehicles || []), vehicleObj],
+        const vehicleId = vehicleIds[vehicle]
+
+        if (!gps_number) {
+          console.error(`Failed to import row[${key}], reason: no gps_number`)
+        } else if (!vehicleId) {
+          console.error(
+            `Failed to import row[${key}], reason: vehicle [${vehicle}] not found`
+          )
+        } else if (!isEmpty(error)) {
+          console.error(
+            `Failed to import row[${key}], reason: ${JSON.stringify(error)}`
+          )
+        } else {
+          const _doc = await super.updateOne(
+            { filter: { gps_number } },
+            {
               body: args,
             }
-          }
-          return item
-        },
-        {}
-      )
-
-      for (const key in items) {
-        const item = items[key]
-        const latestVehicle = last(item.vehicles).vehicle
-        const update = {
-          ...item?.body,
-          $push: {
-            vehicles: item.vehicles,
-          },
-        }
-        const prevCurrentVehicleKey = findKey(requests, { current_vehicle: latestVehicle })
-        if (prevCurrentVehicleKey) {
-          requests[prevCurrentVehicleKey].current_vehicle = undefined
-        }
-        unsetCurrentVehicles.push(latestVehicle)
-        requests[key] = { current_vehicle: latestVehicle, update }
-      }
-
-      return await super
-        .updateMany({
-          filter: {
-            current_vehicle: {
-              $in: unsetCurrentVehicles,
-            },
-          },
-          body: {
-            $unset: {
-              current_vehicle: 1,
-            },
-          },
-        })
-        .then(async () => {
-          const requestResults = await Promise.all(
-            map(requests, ({ update, current_vehicle }, gps_number) => {
-              return super.updateOne({
-                filter: {
-                  gps_number,
-                },
-                body: {
-                  ...update,
-                  current_vehicle,
-                },
-              })
-            })
           )
 
-          return requestResults.length
-        })
+          if (_doc && _doc?._id) {
+            await this.insertVehicle({
+              filter: { _id: _doc?._id },
+              body: {
+                target_id: vehicleId,
+                effective_date: vehicle_effective_date || dayjs('2023-1-1'),
+                end_date: vehicle_end_date,
+              },
+            })
+          }
+
+          requests.push(_doc)
+        }
+      }
+
+      const requestResult = await Promise.all(requests)
+
+      return requestResult?.length
     } catch (err) {
       console.error(`Failed to import, reason: ${err}`)
       return {
@@ -132,110 +111,190 @@ export class GPS extends Model {
     }
   }
 
+  async updateOne({ filter, body }) {
+    const { _id } = filter
+    const { relation, ...args } = body
+
+    let doc
+    if (relation) {
+      const { collection, action, doc_id, target_id, ...relationArgs } =
+        relation
+
+      switch (collection) {
+        case 'vehicle':
+          if (action === 'DELETE') {
+            doc = await this.deleteVehicle({
+              filter: {
+                _id,
+              },
+              body: {
+                doc_id,
+              },
+            })
+          } else if (action === 'INSERT') {
+            doc = await this.insertVehicle({
+              filter: {
+                _id,
+              },
+              body: {
+                target_id,
+                ...relationArgs,
+              },
+            })
+          } else if (action === 'UPDATE') {
+            doc = await this.updateVehicle({
+              filter: {
+                _id,
+              },
+              body: {
+                doc_id,
+                ...relationArgs,
+              },
+            })
+          }
+          break
+        default:
+          break
+      }
+    }
+
+    return doc
+  }
+
   async deleteVehicle({ filter, body }) {
     try {
       const { _id } = filter
       const { doc_id } = body
-      const docId = new mongoose.Types.ObjectId(doc_id)
-      const _doc = await super
-        .updateOne({
-          filter: { _id },
-          body: [
-            {
-              $set: {
-                current_vehicle: {
-                  $cond: [
-                    {
-                      $eq: [{ $arrayElemAt: ['$vehicles._id', -1] }, docId],
-                    },
-                    '$$REMOVE',
-                    '$current_vehicle',
-                  ],
-                },
-              },
-            },
-          ],
-          options: {
-            upsert: false,
-          },
-        })
-        .then(async () => {
-          return await super.updateOne({
-            filter: { _id },
-            body: {
-              $pull: {
-                vehicles: {
-                  _id: docId,
-                },
-              },
-            },
-          })
-        })
 
-      return _doc
+      await super.updateOne({
+        filter: { _id },
+        body: [
+          {
+            $set: {
+              current_vehicle: {
+                $cond: [
+                  {
+                    $eq: [
+                      { $arrayElemAt: ['$vehicles._id', -1] },
+                      new mongoose.Types.ObjectId(doc_id),
+                    ],
+                  },
+                  '$$REMOVE',
+                  '$current_vehicle',
+                ],
+              },
+            },
+          },
+        ],
+        options: {
+          upsert: false,
+        },
+      })
+      return await super.updateOne({
+        filter: { _id },
+        body: {
+          $pull: {
+            vehicles: {
+              _id: doc_id,
+            },
+          },
+        },
+      })
     } catch (err) {
-      console.error(`Failed to insert vehicle to ${this.modelName}, reason: ${err}`)
+      console.error(
+        `Failed to insert vehicle to ${this.modelName}, reason: ${err}`
+      )
       return null
     }
+  }
+
+  async updateVehicle({ filter, body }) {
+    const { _id } = filter
+    const { doc_id, ...args } = body
+
+    const docId = new mongoose.Types.ObjectId(doc_id)
+    return await super.updateOne({
+      filter: {
+        _id,
+      },
+      body: {
+        $set: {
+          ...reduce(
+            args,
+            (body, value, key) => {
+              body[`vehicles.$[doc].${key}`] = value
+              return body
+            },
+            {}
+          ),
+        },
+      },
+      options: {
+        upsert: false,
+        arrayFilters: [
+          {
+            [`doc._id`]: docId,
+          },
+        ],
+      },
+    })
   }
 
   async insertVehicle({ filter, body }) {
     try {
       const { _id } = filter
-      const { vehicle, effective_date, ...args } = body
-      const vehicleId = new mongoose.Types.ObjectId(vehicle)
-      const _doc = await super
-        .updateMany({
-          filter: {
-            current_vehicle: vehicleId,
-          },
-          body: {
-            $unset: {
-              current_vehicle: 1,
-            },
-          },
-        })
-        .then(async () => {
-          return await super.updateOne({
-            filter: { _id },
-            body: {
-              $set: {
-                'vehicles.$[vehicle].end_date': dayjs(effective_date).subtract(1, 'day'),
-              },
-            },
-            options: {
-              arrayFilters: [
-                {
-                  'vehicle.end_date': { $exists: false },
-                },
-              ],
-              projection: {
-                vehicles: { $slice: -1 },
-              },
-            },
-          })
-        })
-        .then(async () => {
-          return super.updateOne({
-            filter: { _id },
-            body: {
-              $set: {
-                current_vehicle: vehicleId,
-              },
-              $push: {
-                vehicles: {
-                  vehicle: vehicleId,
-                  effective_date,
-                  ...args,
-                },
-              },
-            },
-          })
-        })
+      const { target_id, effective_date, ...args } = body
 
-      return _doc
+      await super.updateMany({
+        filter: {
+          current_vehicle: target_id,
+        },
+        body: {
+          $unset: {
+            current_vehicle: 1,
+          },
+        },
+      })
+      await super.updateOne({
+        filter: { _id },
+        body: {
+          $set: {
+            'vehicles.$[vehicle].end_date': dayjs(effective_date).subtract(
+              1,
+              'day'
+            ),
+          },
+        },
+        options: {
+          arrayFilters: [
+            {
+              'vehicle.end_date': { $exists: false },
+            },
+          ],
+          projection: {
+            vehicles: { $slice: -1 },
+          },
+        },
+      })
+      return await super.updateOne({
+        filter: { _id },
+        body: {
+          $set: {
+            current_vehicle: target_id,
+          },
+          $push: {
+            vehicles: {
+              vehicle: target_id,
+              effective_date,
+              ...args,
+            },
+          },
+        },
+      })
     } catch (err) {
-      console.error(`Failed to insert vehicle to ${this.modelName}, reason: ${err}`)
+      console.error(
+        `[${this.modelName}] Failed to INSERT vehicle, reason: ${err}`
+      )
       return null
     }
   }

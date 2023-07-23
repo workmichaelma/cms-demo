@@ -10,6 +10,19 @@ export const query = `#graphql
 
     gps_number: String
     charge: String
+
+    vehicles: [AutotollVehicle]
+    current_vehicle: Vehicle
+  }
+
+  type GPSVehicle {
+    doc_id: ID
+    target_id: ID
+    effective_date: String
+    end_date: String
+
+    chassis_number: String
+    reg_mark: String
   }
 
   extend input EntityInput {

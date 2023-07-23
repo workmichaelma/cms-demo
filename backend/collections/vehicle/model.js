@@ -178,26 +178,16 @@ export class Vehicle extends Model {
             doc = await this.Model.model(collection).insertVehicle({
               filter: { _id: target_id },
               body: {
-                vehicle: _id,
+                target_id: _id,
                 ...relationArgs,
               },
             })
           } else if (action === 'UPDATE') {
-            const updateDoc = reduce(
-              relationArgs,
-              (args, value, key) => {
-                args[`vehicles.$.${key}`] = value
-                return args
-              },
-              {}
-            )
-            doc = await this.Model.model(collection).updateOne({
-              filter: {
-                _id: target_id,
-                'vehicles._id': new mongoose.Types.ObjectId(doc_id),
-              },
+            doc = await this.Model.model(collection).updateVehicle({
+              filter: { _id: target_id },
               body: {
-                $set: updateDoc,
+                doc_id,
+                ...relationArgs,
               },
             })
           }

@@ -1,0 +1,3397 @@
+[
+  {
+    "vehicle": "PC9480TD-SM-03-084",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JAANPR70L47101042",
+    "gps_number": "13390003236",
+    "vehicle_effective_date": "2010-07-22",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JHMGD18707S227163",
+    "gps_number": "13200208079",
+    "vehicle_effective_date": "2015-03-17",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "WDB9061352N344555",
+    "gps_number": "868998033260635",
+    "vehicle_effective_date": "2018-04-04",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR66LS-7100763",
+    "gps_number": "863835028952302",
+    "vehicle_effective_date": "2010-07-30",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR75K97100768",
+    "gps_number": "868998034779617",
+    "vehicle_effective_date": "2010-06-21",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR75K97100767",
+    "gps_number": "13600001527",
+    "vehicle_effective_date": "2010-06-21",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "WMAN08ZZ69Y226132",
+    "gps_number": "13600003165",
+    "vehicle_effective_date": "2015-06-10",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JT7X2RB7107001794",
+    "gps_number": "864394040401608",
+    "vehicle_effective_date": "2018-06-23",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JT7X2RB7107001834",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "23/12/2022",
+    "charge": ""
+  },
+  {
+    "vehicle": "JT7X2RB7107001986",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "23/12/2022",
+    "charge": ""
+  },
+  {
+    "vehicle": "JAAN1R75KA7100167",
+    "gps_number": "13000110347",
+    "vehicle_effective_date": "2011-05-18",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "NCP20-0331962",
+    "gps_number": "13300217505",
+    "vehicle_effective_date": "2011-09-08",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR75HB7101138",
+    "gps_number": "864606047300271",
+    "vehicle_effective_date": "2011-04-14",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JT7X2RB7107003098",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "23/12/2022",
+    "charge": ""
+  },
+  {
+    "vehicle": "NCP81-0115605",
+    "gps_number": "863835026308655",
+    "vehicle_effective_date": "2011-11-15",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "RFGHV15WYCS004714",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JTDKD3B3701028250",
+    "gps_number": "863835028612526",
+    "vehicle_effective_date": "2019-07-08",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "CWB8E-00391",
+    "gps_number": "13600003838",
+    "vehicle_effective_date": "2014-01-21",
+    "vehicle_end_date": "",
+    "charge": "260"
+  },
+  {
+    "vehicle": "JT7X2RB7107001931",
+    "gps_number": "868998030081422",
+    "vehicle_effective_date": "2018-09-27",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "KNABX512MGT231030",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "23/12/2022",
+    "charge": ""
+  },
+  {
+    "vehicle": "LGAX5DF40F3816051",
+    "gps_number": "13600002870",
+    "vehicle_effective_date": "2016-03-15",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "KNABX512MGT251093",
+    "gps_number": "864507030201833",
+    "vehicle_effective_date": "2016-03-31",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JALFVR347F7000252",
+    "gps_number": "863835029168650",
+    "vehicle_effective_date": "2016-10-28",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JALFVR347F7001239",
+    "gps_number": "864352048670483",
+    "vehicle_effective_date": "2016-05-08",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JALFVR347F7000273",
+    "gps_number": "863835026801824",
+    "vehicle_effective_date": "2016-12-02",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C135G1816450",
+    "gps_number": "864606045904702",
+    "vehicle_effective_date": "2020-07-02",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "KNABX512MHT266306",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "23/12/2022",
+    "charge": ""
+  },
+  {
+    "vehicle": "KNABX512MHT266307",
+    "gps_number": "864507031068330",
+    "vehicle_effective_date": "2016-11-21",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JALFXZ777H7000003",
+    "gps_number": "863835027150577",
+    "vehicle_effective_date": "2021-11-15",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LVBV4JBB3GJ004078",
+    "gps_number": "864507031087827",
+    "vehicle_effective_date": "2016-07-27",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LVBV3JBB1GJ019746",
+    "gps_number": "863835027152896",
+    "vehicle_effective_date": "2016-07-26",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C138G1816491",
+    "gps_number": "864606048619331",
+    "vehicle_effective_date": "2022-07-20",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C13XG1816492",
+    "gps_number": "863835028956717",
+    "vehicle_effective_date": "2022-07-20",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C137G1816496",
+    "gps_number": "863835026312731",
+    "vehicle_effective_date": "2016-07-26",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C132G1816499",
+    "gps_number": "864606047302673",
+    "vehicle_effective_date": "2016-09-02",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C131G1816493",
+    "gps_number": "868998033967411",
+    "vehicle_effective_date": "2016-07-26",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C130G1816498",
+    "gps_number": "863835027270789",
+    "vehicle_effective_date": "2016-12-22",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR75KG7100839",
+    "gps_number": "13600004213",
+    "vehicle_effective_date": "2016-07-26",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR75KG7100832",
+    "gps_number": "13200193055",
+    "vehicle_effective_date": "2016-07-26",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR75KG7101022",
+    "gps_number": "868998034783999",
+    "vehicle_effective_date": "2016-07-26",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C139G1816497",
+    "gps_number": "868998034635256",
+    "vehicle_effective_date": "2016-07-26",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C133G1816494",
+    "gps_number": "868998030029645",
+    "vehicle_effective_date": "2016-07-26",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR75KG7101023",
+    "gps_number": "13510060989",
+    "vehicle_effective_date": "2016-08-29",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR75KG7100831",
+    "gps_number": "13510061019",
+    "vehicle_effective_date": "2016-08-29",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR75KG7101021",
+    "gps_number": "864352045819984",
+    "vehicle_effective_date": "2016-08-29",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR75HG7102568",
+    "gps_number": "868998031043298",
+    "vehicle_effective_date": "2016-08-29",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR75HG7102198",
+    "gps_number": "864352047145834",
+    "vehicle_effective_date": "2016-09-28",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C140F1816069",
+    "gps_number": "13600007015",
+    "vehicle_effective_date": "2016-09-28",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR75HG7102666",
+    "gps_number": "13510061077",
+    "vehicle_effective_date": "2016-08-29",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LVBV3JBB2GJ032764",
+    "gps_number": "13510095532",
+    "vehicle_effective_date": "2016-08-29",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR75KG7101025",
+    "gps_number": "13510061057",
+    "vehicle_effective_date": "2016-08-29",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JHHYCT2H60K012637",
+    "gps_number": "13510000865",
+    "vehicle_effective_date": "2016-08-29",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "YV2TH60A0GZ105425",
+    "gps_number": "864352045835519",
+    "vehicle_effective_date": "2016-12-14",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "MPATFR86JGT003346",
+    "gps_number": "868998030000307",
+    "vehicle_effective_date": "2016-07-17",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C138G1817334",
+    "gps_number": "863835026308531",
+    "vehicle_effective_date": "2016-10-11",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C134G1817332",
+    "gps_number": "868998037264492",
+    "vehicle_effective_date": "2022-07-20",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C136G1817333",
+    "gps_number": "864507039725964",
+    "vehicle_effective_date": "2022-09-06",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LVBV3JBB4GJ032765",
+    "gps_number": "863835028583404",
+    "vehicle_effective_date": "2017-06-30",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LVBV3JBB6GJ032766",
+    "gps_number": "13200140358",
+    "vehicle_effective_date": "2017-06-30",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LVBV3JBB8GJ032770",
+    "gps_number": "868998031037324",
+    "vehicle_effective_date": "2017-06-30",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "MPATFR86JGT003347",
+    "gps_number": "13420601868",
+    "vehicle_effective_date": "2016-11-24",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LVBV3JBB1GJ032769",
+    "gps_number": "13200192866",
+    "vehicle_effective_date": "2017-06-30",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LVBV3JBBXGJ032768",
+    "gps_number": "13200131656",
+    "vehicle_effective_date": "2017-06-30",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C133G1817337",
+    "gps_number": "863835028951288",
+    "vehicle_effective_date": "2016-11-24",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C135G1817338",
+    "gps_number": "864352045763851",
+    "vehicle_effective_date": "2016-11-24",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C131G1817336",
+    "gps_number": "868998033266525",
+    "vehicle_effective_date": "2016-11-24",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C130G1817330",
+    "gps_number": "864352044658045",
+    "vehicle_effective_date": "2016-11-24",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR75HG7101538",
+    "gps_number": "13600004169",
+    "vehicle_effective_date": "2016-11-24",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR75KF7106187",
+    "gps_number": "863835026797592",
+    "vehicle_effective_date": "2022-07-20",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR75KG7101882",
+    "gps_number": "13600004080",
+    "vehicle_effective_date": "2016-11-24",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C130G1817344",
+    "gps_number": "13300218144",
+    "vehicle_effective_date": "2016-11-24",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C132G1817345",
+    "gps_number": "13600003766",
+    "vehicle_effective_date": "2017-08-21",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C130H1817684",
+    "gps_number": "863835029172538",
+    "vehicle_effective_date": "2017-12-12",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX5D643J8819683",
+    "gps_number": "864507039726327",
+    "vehicle_effective_date": "2018-06-19",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JHDSH1EEKXXX10015",
+    "gps_number": "868998032870699",
+    "vehicle_effective_date": "2020-04-20",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LZZ1EXVB8JW354517",
+    "gps_number": "864606040848433",
+    "vehicle_effective_date": "2019-11-04",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LZZ1EXVB3FW118817",
+    "gps_number": "864352048689962",
+    "vehicle_effective_date": "2020-02-05",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "NCP100-2016700",
+    "gps_number": "868998032866036",
+    "vehicle_effective_date": "2019-12-11",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LZZ1BBMG7EW869801",
+    "gps_number": "864394040539514",
+    "vehicle_effective_date": "2021-02-03",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JN1MC2E26Z0005509",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "MPATFR86JFT003968",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "V93W-0900227",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "V93W-0900228",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "MPATFR86JFT004527",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "V93W-0900230",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JM6CW1071G0123573",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JM6CW1071G0123478",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JM6CW1071G0123582",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JM6CW1071G0123570",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JM6CW1071G0123559",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JM6CW1071G0123499",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JM6CW1071G0123465",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "MPATFR86JGT001834",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JM6CW1071G0123564",
+    "gps_number": "868998039217811",
+    "vehicle_effective_date": "2022-09-21",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "MPATFR86JGT001835",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "MPATFR86JGT001290",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "MPATFR86JGT003344",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "MPATFR86JGT003345",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JM6CW1071H0127821",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JM6CW1071H0127979",
+    "gps_number": "864352045818861",
+    "vehicle_effective_date": "2022-09-21",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "CV5W-1200957",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JM6CW1071H0126126",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "WVWZZZ9NZ6Y187938",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "23/12/2022",
+    "charge": ""
+  },
+  {
+    "vehicle": "FM657L-B00152",
+    "gps_number": "13390001435",
+    "vehicle_effective_date": "2016-11-12",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR58LN-7103411",
+    "gps_number": "13600001759",
+    "vehicle_effective_date": "2010-07-29",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR66PR-7100074",
+    "gps_number": "13600004086",
+    "vehicle_effective_date": "2010-07-13",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR66LP-7102394",
+    "gps_number": "13610000371",
+    "vehicle_effective_date": "2016-11-22",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR66LN-7100846",
+    "gps_number": "864606046129499",
+    "vehicle_effective_date": "2011-08-26",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR66LS-7101395",
+    "gps_number": "864507031068454",
+    "vehicle_effective_date": "2016-09-12",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR66PS-7100575",
+    "gps_number": "868998034778643",
+    "vehicle_effective_date": "2010-07-22",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR66LS-7103188",
+    "gps_number": "868998030074104",
+    "vehicle_effective_date": "2010-07-22",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR66PT-7101394",
+    "gps_number": "864507031068611",
+    "vehicle_effective_date": "2010-06-21",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR66LT-7103064",
+    "gps_number": "864606045853107",
+    "vehicle_effective_date": "2017-11-16",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JALFTR32NP-3000021",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JALFVR23PX-300007",
+    "gps_number": "864394040403521",
+    "vehicle_effective_date": "2016-11-12",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "FH211H-A00363",
+    "gps_number": "",
+    "vehicle_effective_date": "2010-07-28",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR66LS-7103675",
+    "gps_number": "13600000560",
+    "vehicle_effective_date": "2010-07-29",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "FM617J-B00071",
+    "gps_number": "863835029213571",
+    "vehicle_effective_date": "2011-08-16",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JALFVR23PV-3000235",
+    "gps_number": "13300208640",
+    "vehicle_effective_date": "2016-11-12",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JALFVR23P57000031",
+    "gps_number": "13200208581",
+    "vehicle_effective_date": "2016-11-12",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR70L57100166",
+    "gps_number": "868998031042274",
+    "vehicle_effective_date": "2016-11-12",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JALFVR23P57000048",
+    "gps_number": "868998034819108",
+    "vehicle_effective_date": "2016-11-16",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR70L57100160",
+    "gps_number": "13200140981",
+    "vehicle_effective_date": "2010-08-05",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR70L57100071",
+    "gps_number": "13600003908",
+    "vehicle_effective_date": "2010-07-29",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JALFVR23P57000030",
+    "gps_number": "13600004903",
+    "vehicle_effective_date": "2011-08-12",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR70L57100072",
+    "gps_number": "868998032871085",
+    "vehicle_effective_date": "2010-07-30",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JALFVR23P57000028",
+    "gps_number": "13200208217",
+    "vehicle_effective_date": "2010-07-27",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "MPATFS54H4H534030",
+    "gps_number": "13600000912",
+    "vehicle_effective_date": "2013-11-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "MPATFS54H4H533929",
+    "gps_number": "868998030019141",
+    "vehicle_effective_date": "2013-12-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JTDKW223500369768",
+    "gps_number": "13390002185",
+    "vehicle_effective_date": "2010-09-06",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR70L17100137",
+    "gps_number": "864352045836004",
+    "vehicle_effective_date": "2010-07-28",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR66PS-7101461",
+    "gps_number": "13390001969",
+    "vehicle_effective_date": "2010-07-30",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR66LV-7100565",
+    "gps_number": "13300202560",
+    "vehicle_effective_date": "2016-11-12",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR66PV-7100261",
+    "gps_number": "13600000494",
+    "vehicle_effective_date": "2010-07-29",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR70PY7100808",
+    "gps_number": "863835025010922",
+    "vehicle_effective_date": "2016-11-12",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR70P27100233",
+    "gps_number": "13000115252",
+    "vehicle_effective_date": "2010-07-30",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JALFVR23P57000099",
+    "gps_number": "13600004715",
+    "vehicle_effective_date": "2010-07-16",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JALFVR34787000095",
+    "gps_number": "13390002672",
+    "vehicle_effective_date": "2017-09-19",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR75K87100101",
+    "gps_number": "864352045758547",
+    "vehicle_effective_date": "2010-08-03",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JALFVR34787000091",
+    "gps_number": "868998032874055",
+    "vehicle_effective_date": "2016-11-15",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JT7X2RB7107001808",
+    "gps_number": "864606040847757",
+    "vehicle_effective_date": "2019-11-11",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR75HA7100772",
+    "gps_number": "864352045778602",
+    "vehicle_effective_date": "2010-08-03",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR75HA7100779",
+    "gps_number": "13000086681",
+    "vehicle_effective_date": "2010-08-03",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR75KA7100644",
+    "gps_number": "13600003687",
+    "vehicle_effective_date": "2010-08-04",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR75HA7100777",
+    "gps_number": "13600004106",
+    "vehicle_effective_date": "2010-08-03",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR75HA7100686",
+    "gps_number": "868998030000695",
+    "vehicle_effective_date": "2010-08-03",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR75HA7100685",
+    "gps_number": "863835026796701",
+    "vehicle_effective_date": "2010-08-03",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "NCP20-0329371",
+    "gps_number": "863835028953490",
+    "vehicle_effective_date": "2011-05-20",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAAN1R75KB7100239",
+    "gps_number": "864606040217266",
+    "vehicle_effective_date": "2011-09-06",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "NCP81-0041991",
+    "gps_number": "13300218089",
+    "vehicle_effective_date": "2011-11-15",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAAN1R75KB7100310",
+    "gps_number": "13600004741",
+    "vehicle_effective_date": "2011-12-13",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JT7X2RB7107005727",
+    "gps_number": "864606045864500",
+    "vehicle_effective_date": "2019-12-30",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR75HE7103628",
+    "gps_number": "864352047146261",
+    "vehicle_effective_date": "2019-05-29",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR75HE7102200",
+    "gps_number": "863553060378027",
+    "vehicle_effective_date": "2019-05-29",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JALFVR347E7000431",
+    "gps_number": "863553060367376",
+    "vehicle_effective_date": "2019-03-15",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "KNABX512MGT230844",
+    "gps_number": "13600004248",
+    "vehicle_effective_date": "2016-03-31",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JN1MC2E26Z0005618",
+    "gps_number": "13600004660",
+    "vehicle_effective_date": "2016-03-24",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C135G1816447",
+    "gps_number": "863835027270110",
+    "vehicle_effective_date": "2016-12-17",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JALFRR90KF7000112",
+    "gps_number": "13200193051",
+    "vehicle_effective_date": "2016-09-05",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JHDFS1ELRXXX10146",
+    "gps_number": "13510098193",
+    "vehicle_effective_date": "2016-08-29",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C132G1817331",
+    "gps_number": "13390001511",
+    "vehicle_effective_date": "2016-11-24",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C139G1817343",
+    "gps_number": "863553060371345",
+    "vehicle_effective_date": "2016-11-24",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C137G1817342",
+    "gps_number": "13300217938",
+    "vehicle_effective_date": "2017-02-22",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C13XG1817335",
+    "gps_number": "13390003266",
+    "vehicle_effective_date": "2016-11-24",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C136G1817347",
+    "gps_number": "868998034782587",
+    "vehicle_effective_date": "2017-04-06",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C138G1817348",
+    "gps_number": "863835025912283",
+    "vehicle_effective_date": "2017-04-06",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C134G1817346",
+    "gps_number": "864352048682199",
+    "vehicle_effective_date": "2017-04-10",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C135G1817341",
+    "gps_number": "13390000095",
+    "vehicle_effective_date": "2017-04-10",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JALFVR347H7000708",
+    "gps_number": "868998030033480",
+    "vehicle_effective_date": "2018-09-24",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C135H1818538",
+    "gps_number": "863835027187785",
+    "vehicle_effective_date": "2018-01-04",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "WVWZZZAUZJW904231",
+    "gps_number": "863835028949209",
+    "vehicle_effective_date": "2017-01-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JTDZZ9H310L000524",
+    "gps_number": "864507031110090",
+    "vehicle_effective_date": "2018-03-08",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JALCYH52SA7000068",
+    "gps_number": "868998033957933",
+    "vehicle_effective_date": "2019-05-20",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C134H1818711",
+    "gps_number": "868998032868016",
+    "vehicle_effective_date": "2018-03-29",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LZZ1BBMG5EW869795",
+    "gps_number": "868998034867115",
+    "vehicle_effective_date": "2019-06-26",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "WV2ZZZ2KZJX160920",
+    "gps_number": "868998037274525",
+    "vehicle_effective_date": "2019-11-05",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LZZ1BBMG5EW871630",
+    "gps_number": "863835025914503",
+    "vehicle_effective_date": "2020-05-18",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LZZ1BBMG0EW872071",
+    "gps_number": "864606047062707",
+    "vehicle_effective_date": "2020-05-13",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "NCP100-2016057",
+    "gps_number": "864606046124797",
+    "vehicle_effective_date": "2019-12-27",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "NCP100-0134371",
+    "gps_number": "864606040854852",
+    "vehicle_effective_date": "2019-12-27",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LZZ1BBMG1FW110837",
+    "gps_number": "863835027177182",
+    "vehicle_effective_date": "2020-03-04",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LZZ1BBMGXFW110836",
+    "gps_number": "868998035593249",
+    "vehicle_effective_date": "2019-09-06",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LZZ1BBMG8FW110835",
+    "gps_number": "868998034768867",
+    "vehicle_effective_date": "2019-09-06",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "ZA9S5020E6AC38281",
+    "gps_number": "864606046130828",
+    "vehicle_effective_date": "2020-07-16",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "WV2ZZZ2KZKX098541",
+    "gps_number": "864606048618101",
+    "vehicle_effective_date": "2020-09-16",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "WMAN08ZZ2LY410927",
+    "gps_number": "864352044659118",
+    "vehicle_effective_date": "2021-06-18",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "WMAN08ZZ4LY410833",
+    "gps_number": "864606047075972",
+    "vehicle_effective_date": "2021-07-16",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "WMAN08ZZ3LY410614",
+    "gps_number": "864352045813326",
+    "vehicle_effective_date": "2021-08-09",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "WMAN08ZZ9LY410911",
+    "gps_number": "864352045782836",
+    "vehicle_effective_date": "2021-08-09",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "WMAN08ZZ5LY410775",
+    "gps_number": "864352045772068",
+    "vehicle_effective_date": "2021-08-09",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "MPATFR86JDT000803",
+    "gps_number": "864352048701494",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "MPATFR86JDT001025",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "MPATFR86JDT001024",
+    "gps_number": "864352048670640",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "MPATFR86JCT101113",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "MPATFR86JDT000712",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "MPATFR86JCT101112",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "MPATFR86JDT000713",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "V93W1200157",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "GC27-800141",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "GC27-800129",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "GC27-800142",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "GC27-800133",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "GC27-800134",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "GC27-800145",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "GC27-800136",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "V93W1200153",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "MMCJLKL60LH132461",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "MMCJLKL60LH133842",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "MMCJLKL60LH133859",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "MMCJLKL60LH133832",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "MMCJLKL60LH133838",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "MMCJLKL60LH133888",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "WMAH21ZZ28M493806",
+    "gps_number": "864507031109084",
+    "vehicle_effective_date": "2018-04-04",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR66LP-7102099",
+    "gps_number": "13600003695",
+    "vehicle_effective_date": "2011-08-12",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR70L47101051",
+    "gps_number": "13300218066",
+    "vehicle_effective_date": "2010-07-30",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JT7X2RB7107003071",
+    "gps_number": "13600003322",
+    "vehicle_effective_date": "2017-07-20",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JN1MC2E26Z0005490",
+    "gps_number": "13600000930",
+    "vehicle_effective_date": "2016-03-31",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "YV2TH60AXDB640783",
+    "gps_number": "13300202978",
+    "vehicle_effective_date": "2013-04-15",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "PKC8E-01295",
+    "gps_number": "13390001611",
+    "vehicle_effective_date": "2013-12-18",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "YV2TH60A9DB640788",
+    "gps_number": "863835027173058",
+    "vehicle_effective_date": "2013-04-15",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JTDBT42EX09070780",
+    "gps_number": "868998037265697",
+    "vehicle_effective_date": "2008-01-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JTDBT22E300169384",
+    "gps_number": "868998032873206",
+    "vehicle_effective_date": "2021-03-13",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAAN1R75K87100201",
+    "gps_number": "868998037267032",
+    "vehicle_effective_date": "2010-07-30",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JT7X2RB7107001934",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "23/12/2022",
+    "charge": ""
+  },
+  {
+    "vehicle": "JTFHT02P900060290",
+    "gps_number": "864507030206147",
+    "vehicle_effective_date": "2011-04-20",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR75HB7101375",
+    "gps_number": "864352048700736",
+    "vehicle_effective_date": "2011-05-04",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JT7X2RB8007000179",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "LVBV4JBB5GJ004082",
+    "gps_number": "13300217992",
+    "vehicle_effective_date": "2018-08-03",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAAN1R75KJ7100192",
+    "gps_number": "863835025004321",
+    "vehicle_effective_date": "2021-08-17",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JTDBT22E400246344",
+    "gps_number": "868998030031013",
+    "vehicle_effective_date": "2021-05-31",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C139J1820234",
+    "gps_number": "864352045773041",
+    "vehicle_effective_date": "2019-07-29",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JTDBT22E700014935",
+    "gps_number": "864352048701528",
+    "vehicle_effective_date": "2022-12-29",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LJ11KCBE4L1112027",
+    "gps_number": "868998037265986",
+    "vehicle_effective_date": "2020-12-23",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JTDBT22EX03307288",
+    "gps_number": "864352044648772",
+    "vehicle_effective_date": "2021-03-31",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JTDBT22E203245000",
+    "gps_number": "864507031063877",
+    "vehicle_effective_date": "2021-03-13",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JTDBT22E400154621",
+    "gps_number": "864507031096356",
+    "vehicle_effective_date": "2021-03-13",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LJ11KCBE8L1112032",
+    "gps_number": "864352047140314",
+    "vehicle_effective_date": "2021-03-23",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JTFSAFAP908024441",
+    "gps_number": "864606045897237",
+    "vehicle_effective_date": "2021-03-26",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JTFSAFAP108024319",
+    "gps_number": "863835025898144",
+    "vehicle_effective_date": "2021-03-26",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JTFSAFAPX08024223",
+    "gps_number": "868998037271133",
+    "vehicle_effective_date": "2021-03-26",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LJ11KCBE6L1117603",
+    "gps_number": "864606047062616",
+    "vehicle_effective_date": "2021-03-26",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LJ11KCBE8L1112029",
+    "gps_number": "863835027270979",
+    "vehicle_effective_date": "2021-03-26",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JTDBT22E200324488",
+    "gps_number": "864352044145977",
+    "vehicle_effective_date": "2021-03-31",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LJ11KCBD1L1122294",
+    "gps_number": "863835027270813",
+    "vehicle_effective_date": "2021-04-08",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LJ11KCBD1L1122263",
+    "gps_number": "864352044654333",
+    "vehicle_effective_date": "2021-04-19",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LJ11KRBD1L1125005",
+    "gps_number": "863835026801378",
+    "vehicle_effective_date": "2021-05-18",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LJ11KRBDXL1125004",
+    "gps_number": "863835027187843",
+    "vehicle_effective_date": "2021-05-18",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LJ11KCBD0M1111837",
+    "gps_number": "864352044659936",
+    "vehicle_effective_date": "2021-06-23",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LJ11KCBD3M1112044",
+    "gps_number": "864352044650133",
+    "vehicle_effective_date": "2021-06-23",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LJ11KCBD2M1111841",
+    "gps_number": "864352044148161",
+    "vehicle_effective_date": "2021-06-23",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LJ11KCBD5M1112045",
+    "gps_number": "864352044642718",
+    "vehicle_effective_date": "2021-06-23",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LJ11KCBD1M1112043",
+    "gps_number": "864352044642676",
+    "vehicle_effective_date": "2021-06-23",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LJ11KCBD9M1111786",
+    "gps_number": "864352044669737",
+    "vehicle_effective_date": "2021-06-23",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LJ11KCBD0M1111840",
+    "gps_number": "863553060363698",
+    "vehicle_effective_date": "2021-07-23",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JALFXZ777G7000031",
+    "gps_number": "864352045766292",
+    "vehicle_effective_date": "2021-10-08",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "S402M-0059298",
+    "gps_number": "863835028949100",
+    "vehicle_effective_date": "2021-11-09",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JALCYH52TG7000024",
+    "gps_number": "864606040214784",
+    "vehicle_effective_date": "2022-02-07",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "V93W-1000314",
+    "gps_number": "863835027269393",
+    "vehicle_effective_date": "2018-01-24",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "V93W-1000317",
+    "gps_number": "864507031082117",
+    "vehicle_effective_date": "2018-01-24",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "VR3ERHNS3LJ547514",
+    "gps_number": "",
+    "vehicle_effective_date": "-",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ542769",
+    "gps_number": "",
+    "vehicle_effective_date": "-",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "VR3ERHNS3LJ836040",
+    "gps_number": "",
+    "vehicle_effective_date": "-",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "VR3ERHNS3LJ797492",
+    "gps_number": "",
+    "vehicle_effective_date": "-",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ623483",
+    "gps_number": "",
+    "vehicle_effective_date": "-",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ623482",
+    "gps_number": "",
+    "vehicle_effective_date": "-",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ782949",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ782944",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ785620",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ782946",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ782948",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ782942",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ782951",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ782947",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ782945",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ782943",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ785619",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ785621",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ782950",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JTFHT02PX00060413",
+    "gps_number": "13300217665",
+    "vehicle_effective_date": "2011-04-20",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LJ11KCBD1L1121016",
+    "gps_number": "868998034548194",
+    "vehicle_effective_date": "2021-03-26",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LJ11KCBD5L1122265",
+    "gps_number": "864606049387813",
+    "vehicle_effective_date": "2021-03-26",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "NCP20-0346348",
+    "gps_number": "13300217723",
+    "vehicle_effective_date": "2011-05-04",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "NCP21-0067025",
+    "gps_number": "13300217926",
+    "vehicle_effective_date": "2011-04-14",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "NCP100-0139934",
+    "gps_number": "864606047062897",
+    "vehicle_effective_date": "2019-12-11",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LJ11KCBD7M1111785",
+    "gps_number": "864352044649077",
+    "vehicle_effective_date": "2021-06-23",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LJ11KCBD2M1111838",
+    "gps_number": "864352045816196",
+    "vehicle_effective_date": "2021-07-23",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LJ11KCBD4M1111839",
+    "gps_number": "864352045813698",
+    "vehicle_effective_date": "2021-07-23",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "NCP20-0338464",
+    "gps_number": "13300217676",
+    "vehicle_effective_date": "2011-08-11",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JT7X2RB7107003092",
+    "gps_number": "864606040854357",
+    "vehicle_effective_date": "2019-10-30",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C144J1820246",
+    "gps_number": "864606040857608",
+    "vehicle_effective_date": "2019-11-30",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JT7X2RB8007003304",
+    "gps_number": "863835026809587",
+    "vehicle_effective_date": "2021-11-12",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JT7X2RB8007003279",
+    "gps_number": "868998037267461",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JT7X2RB8007003297",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JTDKB20U607846853",
+    "gps_number": "863835028600851",
+    "vehicle_effective_date": "2018-08-07",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JTFHT02P800055632",
+    "gps_number": "13600000663",
+    "vehicle_effective_date": "2010-06-21",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JT7X2RB7107001983",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JT7X2RB7107005385",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JTDKD3B3801560753",
+    "gps_number": "864352047155205",
+    "vehicle_effective_date": "2014-03-26",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JT7X2RB8007000211",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JTDKD3B3301588010",
+    "gps_number": "13400004872",
+    "vehicle_effective_date": "2016-02-15",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LVBV4JBB2FJ057708",
+    "gps_number": "13390001585",
+    "vehicle_effective_date": "2016-05-09",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JHMGD18502S232297",
+    "gps_number": "868998032865376",
+    "vehicle_effective_date": "2021-04-19",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR66LR-7100203",
+    "gps_number": "13600001990",
+    "vehicle_effective_date": "2010-08-05",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR66LT-7104082",
+    "gps_number": "868998032873396",
+    "vehicle_effective_date": "2010-07-29",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR70LY7101515",
+    "gps_number": "863835029177792",
+    "vehicle_effective_date": "2010-07-13",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR66PV-7100347",
+    "gps_number": "13600003866",
+    "vehicle_effective_date": "2010-07-13",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR70L47101043",
+    "gps_number": "13200192900",
+    "vehicle_effective_date": "2010-07-22",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "MPATFS54H5H530384",
+    "gps_number": "863835029167116",
+    "vehicle_effective_date": "2013-11-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "NCP20-0342413",
+    "gps_number": "13600003476",
+    "vehicle_effective_date": "2011-05-20",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C134J1819766",
+    "gps_number": "864606045899357",
+    "vehicle_effective_date": "2019-07-29",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C134J1820240",
+    "gps_number": "13600000750",
+    "vehicle_effective_date": "2019-07-29",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C136J1820238",
+    "gps_number": "13600003859",
+    "vehicle_effective_date": "2019-07-29",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C132J1820236",
+    "gps_number": "13600003601",
+    "vehicle_effective_date": "2019-07-29",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C138J1820239",
+    "gps_number": "864606045900296",
+    "vehicle_effective_date": "2019-07-29",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C134J1820237",
+    "gps_number": "13600001672",
+    "vehicle_effective_date": "2019-07-29",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C130J1820235",
+    "gps_number": "868998032865566",
+    "vehicle_effective_date": "2019-07-29",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JTDBT22E903250615",
+    "gps_number": "863835029202277",
+    "vehicle_effective_date": "2004-01-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JTDZZ9H350L000526",
+    "gps_number": "",
+    "vehicle_effective_date": "2018-03-20",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JT7X2RB8007000172",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JTNGK3DH60B007770",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JTNGZ3DH308054864",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "WDDNG71X29A240900",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JTFSAFAP008028216",
+    "gps_number": "864352045774387",
+    "vehicle_effective_date": "2021-09-27",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JTFSAFAP408029160",
+    "gps_number": "868998039223918",
+    "vehicle_effective_date": "2021-09-27",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JTFSAFAP008028135",
+    "gps_number": "863835027174890",
+    "vehicle_effective_date": "2021-09-27",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGDCLA1G5MA124495",
+    "gps_number": "863835026805940",
+    "vehicle_effective_date": "2021-11-19",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JTFHT02P000060596",
+    "gps_number": "864606046129465",
+    "vehicle_effective_date": "2022-12-29",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JT7X2RB7107003027",
+    "gps_number": "13300203038",
+    "vehicle_effective_date": "2017-02-20",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JT7X2RB7107005799",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "23/12/2022",
+    "charge": ""
+  },
+  {
+    "vehicle": "JN1MC2E26Z0010069",
+    "gps_number": "863835028957079",
+    "vehicle_effective_date": "2018-02-07",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JN1MC2E26Z0010075",
+    "gps_number": "864507031082083",
+    "vehicle_effective_date": "2018-02-13",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JN1MC2E26Z0010052",
+    "gps_number": "864507030195217",
+    "vehicle_effective_date": "2018-01-26",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JTDKD3B3501607978",
+    "gps_number": "863835029192494",
+    "vehicle_effective_date": "2017-01-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "WVWZZZAUZJW904154",
+    "gps_number": "863835028949399",
+    "vehicle_effective_date": "2017-01-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "WVWZZZAUZJW904107",
+    "gps_number": "864507031108680",
+    "vehicle_effective_date": "2017-01-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JTDZZ9H370L000527",
+    "gps_number": "864352044659159",
+    "vehicle_effective_date": "2018-03-20",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "12048",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JTDKD3B3401560801",
+    "gps_number": "864352048690606",
+    "vehicle_effective_date": "2022-12-09",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR75HB7100960",
+    "gps_number": "864352048699615",
+    "vehicle_effective_date": "2011-04-14",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAAN1R75KC7100008",
+    "gps_number": "13300217724",
+    "vehicle_effective_date": "2017-06-19",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "ZCFA1GD0002233595",
+    "gps_number": "864507031088189",
+    "vehicle_effective_date": "2010-08-03",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JTFHT02P900055834",
+    "gps_number": "13300217745",
+    "vehicle_effective_date": "2010-08-05",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JTFHT02PX00055597",
+    "gps_number": "868998033265790",
+    "vehicle_effective_date": "2010-06-21",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "KMFWBX7KLCU504845",
+    "gps_number": "13420600143",
+    "vehicle_effective_date": "2012-11-02",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2C147H1817688",
+    "gps_number": "13600002975",
+    "vehicle_effective_date": "2017-08-21",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LJ11KCBD6H8023632",
+    "gps_number": "864507031066201",
+    "vehicle_effective_date": "2018-02-26",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LJ11KCBE4K1112043",
+    "gps_number": "864606044993912",
+    "vehicle_effective_date": "2019-12-27",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "MMCJLKL60LH132478",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "MMCJLKL60LH133890",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "LGDCLA1G4NA103400",
+    "gps_number": "864352047148002",
+    "vehicle_effective_date": "2022-03-28",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGDCLA1G4NA500430",
+    "gps_number": "864352045779683",
+    "vehicle_effective_date": "2022-03-28",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGDCLA1G8NA500429",
+    "gps_number": "864606045863809",
+    "vehicle_effective_date": "2022-03-28",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGDCLA1G8NA103397",
+    "gps_number": "863835029177412",
+    "vehicle_effective_date": "2022-03-28",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGDCLA1G6NA500431",
+    "gps_number": "864352047153937",
+    "vehicle_effective_date": "2022-03-28",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGDCLA1GXNA500433",
+    "gps_number": "868998033265345",
+    "vehicle_effective_date": "2022-03-28",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JHMRP1850LC200220",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JHMRP1850LC200495",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JHMRP1850LC200576",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JHMRP1850LC200577",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JHMRP1850LC200602",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JHMRP1850LC200603",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JHMRP1850LC200667",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JHMRP1850LC200668",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JHMRP1850LC200664",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JHMRP1850LC200665",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JHMRP1850LC200689",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JHMRP1850LC200690",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JHMRP1850LC200692",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "LHMRP1850LC200677",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "LHMRP1850LC200678",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "LHMRP1850LC200679",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "LHMRP1850LC200680",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JHMRP3870LC201271",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JHMRP3870LC201299",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JHMRP3870LC201303",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JHMRP3870LC201304",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JHMRP3870LC201350",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JHMRP3870LC201348",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JHMRP3870LC201344",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JHMRP3870LC201345",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "KPAY61EESMP146362",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "KPAY61EESMP157215",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "KPAY61EESMP157210",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "KPAY61EESMP157214",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "KPAY61EESMP157216",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JTDBT42E209046876",
+    "gps_number": "868998034635587",
+    "vehicle_effective_date": "2022-07-30",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JTDBT42E309100637",
+    "gps_number": "868998031044866",
+    "vehicle_effective_date": "2017-01-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JTDBT42E609105220",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "MMCJLKL60LH133869",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JTDBT40E109073683",
+    "gps_number": "864606048607708",
+    "vehicle_effective_date": "2017-01-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JTDBT42E309105711",
+    "gps_number": "864352047156773",
+    "vehicle_effective_date": "2017-01-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JTDBT42E409100792",
+    "gps_number": "868998039208802",
+    "vehicle_effective_date": "2017-01-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "KPAY61EESNP160060",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "KPAY61EESNP157209",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JTDBT40E409062807",
+    "gps_number": "864352047140975",
+    "vehicle_effective_date": "2022-07-30",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGDCLB1L3MH133335",
+    "gps_number": "864352047145750",
+    "vehicle_effective_date": "2022-04-22",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGDCLB1G3NH500447",
+    "gps_number": "864352047155700",
+    "vehicle_effective_date": "2022-04-22",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGDCLB1G5NH500448",
+    "gps_number": "864606045906434",
+    "vehicle_effective_date": "2022-04-22",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGDCLB1L1MH133527",
+    "gps_number": "868998031039668",
+    "vehicle_effective_date": "2022-04-22",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGDCLB1L1MH132975",
+    "gps_number": "864352047155296",
+    "vehicle_effective_date": "2022-04-22",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGDCLB1LXMH133526",
+    "gps_number": "864352047143730",
+    "vehicle_effective_date": "2022-04-22",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LJ11KCBE3L1121558",
+    "gps_number": "864352047139084",
+    "vehicle_effective_date": "2022-04-20",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LJ11KCBE1L1121557",
+    "gps_number": "868998032873867",
+    "vehicle_effective_date": "2022-04-20",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LJ11KCBE6N1108967",
+    "gps_number": "864352045838687",
+    "vehicle_effective_date": "2022-04-20",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGDCLA1G9NA103411",
+    "gps_number": "864352047142435",
+    "vehicle_effective_date": "2022-04-21",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGDCLA1G6NA103401",
+    "gps_number": "864352047147897",
+    "vehicle_effective_date": "2022-04-21",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGDCLA1G7NA103410",
+    "gps_number": "864352047145420",
+    "vehicle_effective_date": "2022-04-22",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGDCLA1G9NA103408",
+    "gps_number": "864352047135363",
+    "vehicle_effective_date": "2022-04-21",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGDCLA1G0NA103409",
+    "gps_number": "864352045775426",
+    "vehicle_effective_date": "2022-04-21",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGDCLA1G0NA103412",
+    "gps_number": "864352047144779",
+    "vehicle_effective_date": "2022-04-21",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGDCLA1GXNA103398",
+    "gps_number": "864352047136775",
+    "vehicle_effective_date": "2022-04-21",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGDCLA1G1NA103399",
+    "gps_number": "864352047151493",
+    "vehicle_effective_date": "2022-04-21",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JHMRP3870LC201431",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JHMRP3870LC201358",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JAAN1R75KF7100363",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JHMRP3870LC201422",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JHMRP3870LC201380",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JHMRP3870LC201327",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "LJ11KRBD0M1122114",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "LJ11KRBD2M1122115",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JTFHT02P800191808",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JT753AEB005349977",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "JTFSAFAP508044119",
+    "gps_number": "868998030004580",
+    "vehicle_effective_date": "2022-01-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JAANPR75HN7101512",
+    "gps_number": "863835028614993",
+    "vehicle_effective_date": "2022-01-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2D130NT827525",
+    "gps_number": "864507032225632",
+    "vehicle_effective_date": "2023-01-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2D134NT827527",
+    "gps_number": "868998037267560",
+    "vehicle_effective_date": "2023-01-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2D137NT827828",
+    "gps_number": "863835029181745",
+    "vehicle_effective_date": "2023-01-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2D135NT827827",
+    "gps_number": "868998030015180",
+    "vehicle_effective_date": "2023-01-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2D132NT827526",
+    "gps_number": "864352047152772",
+    "vehicle_effective_date": "2023-01-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2D136NT827528",
+    "gps_number": "868998037267024",
+    "vehicle_effective_date": "2023-01-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2D139NT827829",
+    "gps_number": "864606047076590",
+    "vehicle_effective_date": "2023-01-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2D135NT827830",
+    "gps_number": "864606045853040",
+    "vehicle_effective_date": "2023-01-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGAX2D137NT827831",
+    "gps_number": "868998033263936",
+    "vehicle_effective_date": "2023-01-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JTDBT22E903324678",
+    "gps_number": "864352047156492",
+    "vehicle_effective_date": "2022-07-30",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JTDBT22E403177119",
+    "gps_number": "864352047143904",
+    "vehicle_effective_date": "2022-12-09",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JTDBT42EX09065577",
+    "gps_number": "864352047153952",
+    "vehicle_effective_date": "2022-07-30",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JTDBT22E400296645",
+    "gps_number": "864352047150107",
+    "vehicle_effective_date": "2022-07-30",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JTDBT22E903218845",
+    "gps_number": "864352047158738",
+    "vehicle_effective_date": "2022-07-30",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JZDBT22E200018052",
+    "gps_number": "864352047140181",
+    "vehicle_effective_date": "2022-07-30",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JTDBT42E409120847",
+    "gps_number": "864352047149299",
+    "vehicle_effective_date": "2022-07-30",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JTDBT22E303278863",
+    "gps_number": "864606047292635",
+    "vehicle_effective_date": "2022-07-30",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JTDBT22E603030283",
+    "gps_number": "864352047153044",
+    "vehicle_effective_date": "2022-07-30",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "JHMRP6830NX200028",
+    "gps_number": "",
+    "vehicle_effective_date": "",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "LGDCLA1G3NA109642",
+    "gps_number": "868998033955473",
+    "vehicle_effective_date": "2023-01-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGDCLA1G0NA112403",
+    "gps_number": "864352047146873",
+    "vehicle_effective_date": "2023-01-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGDCLA1G5NA112400",
+    "gps_number": "864352045766003",
+    "vehicle_effective_date": "2023-01-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGDCLA1G1NA109641",
+    "gps_number": "868998039203266",
+    "vehicle_effective_date": "2023-01-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "MMCJLKL60NH020946",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "MMCJLKL60NH021060",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "MMCJLKL60NH020990",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "MMCJLKL60NH020989",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "MMCJLKL60NH021058",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "MMCJLKL60MH021067",
+    "gps_number": "863553060367343",
+    "vehicle_effective_date": "2023-01-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "MMCJLKL60MH020987",
+    "gps_number": "863553060364043",
+    "vehicle_effective_date": "2023-01-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "MMCJLKL60NH021294",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "MMCJLKL60NH021296",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "MMCJLKL60NH021372",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "MMCJLKL60NH021298",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "MMCJLKL60NH021304",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "LGDCLA1GXNA121335",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "LGDCLA1G7NA112401",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "LGDCLA1G2NA112404",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "VR3EFYHZRNJ578166",
+    "gps_number": "864352048699649",
+    "vehicle_effective_date": "2022-12-31",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "VR3EFYHZRNJ578167",
+    "gps_number": "864352048694269",
+    "vehicle_effective_date": "2022-12-31",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LC0CE4DC3P0009883",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LSJE24030PG020394",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "LSJE24031PG020498",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "LSJE24032PG020395",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "LSJE24034PG020589",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "LSJE24033PG020499",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "LSJE24030PG020590",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "LJ11KCBE4N1112094",
+    "gps_number": "863553060378092",
+    "vehicle_effective_date": "2023-01-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "WMA08DZZ9NY443969",
+    "gps_number": "863553060368234",
+    "vehicle_effective_date": "2023-01-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "WMA08DZZONY443553",
+    "gps_number": "863553060345588",
+    "vehicle_effective_date": "2023-01-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "ZA9S5020EDAC38330",
+    "gps_number": "863553060380015",
+    "vehicle_effective_date": "2023-01-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGDCLA1G6NA121333",
+    "gps_number": "863553060345356",
+    "vehicle_effective_date": "2023-01-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGDCLA1G4NA121329",
+    "gps_number": "",
+    "vehicle_effective_date": "",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "LGDCLA1G4NA121330",
+    "gps_number": "864352048701833",
+    "vehicle_effective_date": "2023-01-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGDCLA1G8NA121334",
+    "gps_number": "864352048695118",
+    "vehicle_effective_date": "2023-01-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGDCLA1G2NA121331",
+    "gps_number": "864352048695043",
+    "vehicle_effective_date": "2023-01-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LGDCLA1G2NA121328",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  },
+  {
+    "vehicle": "LGDCLA1G4NA121332",
+    "gps_number": "864606047064752",
+    "vehicle_effective_date": "2023-01-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "",
+    "gps_number": "868998030069690",
+    "vehicle_effective_date": "2023-01-01",
+    "vehicle_end_date": "",
+    "charge": "110"
+  },
+  {
+    "vehicle": "LSJE24034PG020480",
+    "gps_number": "",
+    "vehicle_effective_date": "--",
+    "vehicle_end_date": "",
+    "charge": ""
+  }
+]

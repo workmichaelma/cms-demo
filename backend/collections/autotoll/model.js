@@ -11,6 +11,7 @@ export class Autotoll extends Model {
   constructor() {
     super('autotoll', schema)
     this.Schema.statics.insertVehicle = this.insertVehicle.bind(this)
+    this.Schema.statics.updateVehicle = this.updateVehicle.bind(this)
     this.Schema.statics.deleteVehicle = this.deleteVehicle.bind(this)
     super.buildModel()
   }

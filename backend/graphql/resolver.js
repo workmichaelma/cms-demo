@@ -5,7 +5,10 @@ import { GraphQLScalarType } from 'graphql'
 
 const { capitalize, isEmpty } = lodash
 
-const normalizedPath = path.join(path.dirname(new URL(import.meta.url).pathname), '../collections/')
+const normalizedPath = path.join(
+  path.dirname(new URL(import.meta.url).pathname),
+  '../collections/'
+)
 
 const getResolvers = async () => {
   let Query = {
@@ -59,7 +62,10 @@ const getResolvers = async () => {
       const { collection, _id, body } = args || {}
       if (collection) {
         const Model = contextValue?.Model[collection]
-        const doc = await Model.updateOne({ filter: { _id }, body: body[collection] })
+        const doc = await Model.updateOne({
+          filter: { _id },
+          body: body[collection],
+        })
         if (doc && doc._id) {
           return true
         }
@@ -98,6 +104,10 @@ const getResolvers = async () => {
     Entity: {
       __resolveType: (obj, contextValue, info) => {
         const { collection } = info?.variableValues || {}
+
+        if (collection === 'gps') {
+          return 'GPS'
+        }
 
         return `${capitalize(collection.charAt(0))}${collection.slice(1)}`
       },
