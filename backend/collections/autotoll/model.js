@@ -156,6 +156,11 @@ export class Autotoll extends Model {
         default:
           break
       }
+    } else if (!isEmpty(args)) {
+      doc = await super.updateOne({
+        filter,
+        body: args,
+      })
     }
 
     return doc

@@ -1,0 +1,3882 @@
+[
+  {
+    "vehicle": "PC9480TD-SM-03-084",
+    "fuel_type": "",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR70L47101042",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JHMGD18707S227163",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265010056",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "WDB9061352N344555",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR66LS-7100763",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR75K97100768",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR75K97100767",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "WMAN08ZZ69Y226132",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JT7X2RB7107001794",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300506",
+    "card_number": "'7002821059156000020",
+    "vehicle_effective_date": "2027-04-30"
+  },
+  {
+    "vehicle": "JT7X2RB7107001834",
+    "fuel_type": "Petrol",
+    "provider": "ESSO",
+    "account_number": "707592",
+    "card_number": "780034470759000000",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JT7X2RB7107001986",
+    "fuel_type": "Petrol",
+    "provider": "ESSO",
+    "account_number": "707592",
+    "card_number": "'7800344707593000509",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAAN1R75KA7100167",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "NCP20-0331962",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300068",
+    "card_number": "'7002821221265001428",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "JAANPR75HB7101138",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JT7X2RB7107003098",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300506",
+    "card_number": "HOLD",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "NCP81-0115605",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265004422",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "RFGHV15WYCS004714",
+    "fuel_type": "Petrol",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JTDKD3B3701028250",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300068",
+    "card_number": "'7002821221265005387",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "CWB8E-00391",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JT7X2RB7107001931",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300506",
+    "card_number": "'7002821059111400026",
+    "vehicle_effective_date": "2026-10-31"
+  },
+  {
+    "vehicle": "KNABX512MGT231030",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300506",
+    "card_number": "'7002821221265010239",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "LGAX5DF40F3816051",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "KNABX512MGT251093",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300068",
+    "card_number": "'7002821221265010007",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JALFVR347F7000252",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JALFVR347F7001239",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JALFVR347F7000273",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2C135G1816450",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "KNABX512MHT266306",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300506",
+    "card_number": "'7002821221265007292",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "KNABX512MHT266307",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300068",
+    "card_number": "'7002821221265007300",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "JALFXZ777H7000003",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LVBV4JBB3GJ004078",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LVBV3JBB1GJ019746",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2C138G1816491",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2C13XG1816492",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2C137G1816496",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2C132G1816499",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2C131G1816493",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2C130G1816498",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR75KG7100839",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR75KG7100832",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR75KG7101022",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2C139G1816497",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2C133G1816494",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR75KG7101023",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR75KG7100831",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR75KG7101021",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR75HG7102568",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR75HG7102198",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2C140F1816069",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR75HG7102666",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LVBV3JBB2GJ032764",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR75KG7101025",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JHHYCT2H60K012637",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "YV2TH60A0GZ105425",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "MPATFR86JGT003346",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2C138G1817334",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2C134G1817332",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2C136G1817333",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LVBV3JBB4GJ032765",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LVBV3JBB6GJ032766",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LVBV3JBB8GJ032770",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "MPATFR86JGT003347",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LVBV3JBB1GJ032769",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LVBV3JBBXGJ032768",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2C133G1817337",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2C135G1817338",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2C131G1817336",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2C130G1817330",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR75HG7101538",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR75KF7106187",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR75KG7101882",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2C130G1817344",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2C132G1817345",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2C130H1817684",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX5D643J8819683",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JHDSH1EEKXXX10015",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LZZ1EXVB8JW354517",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LZZ1EXVB3FW118817",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "NCP100-2016700",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300068",
+    "card_number": "'7002821059111400059",
+    "vehicle_effective_date": "2026-11-30"
+  },
+  {
+    "vehicle": "LZZ1BBMG7EW869801",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JN1MC2E26Z0005509",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "MPATFR86JFT003968",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "V93W-0900227",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300068",
+    "card_number": "'7002821221265007276",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "V93W-0900228",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300068",
+    "card_number": "'7002821221265010072",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "MPATFR86JFT004527",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "V93W-0900230",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300506",
+    "card_number": "'7002821221265007250",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "JM6CW1071G0123573",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265007219",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "JM6CW1071G0123478",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300068",
+    "card_number": "'7002821059111400018",
+    "vehicle_effective_date": "2026-08-31"
+  },
+  {
+    "vehicle": "JM6CW1071G0123582",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300506",
+    "card_number": "'7002821221265007193",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "JM6CW1071G0123570",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300068",
+    "card_number": "'7002821221265007227",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "JM6CW1071G0123559",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265007235",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "JM6CW1071G0123499",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265007185",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "JM6CW1071G0123465",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300068",
+    "card_number": "'7002821221265007169",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "MPATFR86JGT001834",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JM6CW1071G0123564",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265007201",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "MPATFR86JGT001835",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "MPATFR86JGT001290",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "MPATFR86JGT003344",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "MPATFR86JGT003345",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JM6CW1071H0127821",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300068",
+    "card_number": "'7002821221265007805",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "JM6CW1071H0127979",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265008969",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "CV5W-1200957",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300068",
+    "card_number": "'7002821059111400034",
+    "vehicle_effective_date": "2026-11-30"
+  },
+  {
+    "vehicle": "JM6CW1071H0126126",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300068",
+    "card_number": "'7002821221265009967",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "WVWZZZ9NZ6Y187938",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300506",
+    "card_number": "'7002821059156000012",
+    "vehicle_effective_date": "2026-11-30"
+  },
+  {
+    "vehicle": "FM657L-B00152",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR58LN-7103411",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR66PR-7100074",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR66LP-7102394",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR66LN-7100846",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR66LS-7101395",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR66PS-7100575",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR66LS-7103188",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR66PT-7101394",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR66LT-7103064",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JALFTR32NP-3000021",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JALFVR23PX-300007",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "FH211H-A00363",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR66LS-7103675",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "FM617J-B00071",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JALFVR23PV-3000235",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JALFVR23P57000031",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR70L57100166",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JALFVR23P57000048",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR70L57100160",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR70L57100071",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JALFVR23P57000030",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR70L57100072",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JALFVR23P57000028",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "MPATFS54H4H534030",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "MPATFS54H4H533929",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JTDKW223500369768",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300070",
+    "card_number": "'7002821221265009702",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "JAANPR70L17100137",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR66PS-7101461",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR66LV-7100565",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR66PV-7100261",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR70PY7100808",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR70P27100233",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JALFVR23P57000099",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JALFVR34787000095",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR75K87100101",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JALFVR34787000091",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JT7X2RB7107001808",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300070",
+    "card_number": "'7002821059111600047",
+    "vehicle_effective_date": "2027-04-30"
+  },
+  {
+    "vehicle": "JAANPR75HA7100772",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR75HA7100779",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR75KA7100644",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR75HA7100777",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR75HA7100686",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR75HA7100685",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "NCP20-0329371",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300070",
+    "card_number": "'7002821221265001451",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "JAAN1R75KB7100239",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "NCP81-0041991",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300070",
+    "card_number": "'7002821221265004414",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "JAAN1R75KB7100310",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JT7X2RB7107005727",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300070",
+    "card_number": "'7002821221265005544",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "JAANPR75HE7103628",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR75HE7102200",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JALFVR347E7000431",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "KNABX512MGT230844",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300070",
+    "card_number": "'7002821221265007672",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "JN1MC2E26Z0005618",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2C135G1816447",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JALFRR90KF7000112",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JHDFS1ELRXXX10146",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2C132G1817331",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2C139G1817343",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2C137G1817342",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2C13XG1817335",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2C136G1817347",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2C138G1817348",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2C134G1817346",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2C135G1817341",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JALFVR347H7000708",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2C135H1818538",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "WVWZZZAUZJW904231",
+    "fuel_type": "Electric",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JTDZZ9H310L000524",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300070",
+    "card_number": "'7002821221265010536",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JALCYH52SA7000068",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2C134H1818711",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LZZ1BBMG5EW869795",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "WV2ZZZ2KZJX160920",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LZZ1BBMG5EW871630",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LZZ1BBMG0EW872071",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "NCP100-2016057",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300070",
+    "card_number": "'7002821059111600039",
+    "vehicle_effective_date": "2026-11-30"
+  },
+  {
+    "vehicle": "NCP100-0134371",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300070",
+    "card_number": "'7002821059111600021",
+    "vehicle_effective_date": "2026-11-30"
+  },
+  {
+    "vehicle": "LZZ1BBMG1FW110837",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LZZ1BBMGXFW110836",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LZZ1BBMG8FW110835",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "ZA9S5020E6AC38281",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "WV2ZZZ2KZKX098541",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "WMAN08ZZ2LY410927",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "WMAN08ZZ4LY410833",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "WMAN08ZZ3LY410614",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "WMAN08ZZ9LY410911",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "WMAN08ZZ5LY410775",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "MPATFR86JDT000803",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "MPATFR86JDT001025",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "MPATFR86JDT001024",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "MPATFR86JCT101113",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "MPATFR86JDT000712",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "MPATFR86JCT101112",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "MPATFR86JDT000713",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "V93W1200157",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300070",
+    "card_number": "'7002821221265009579",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "GC27-800141",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300070",
+    "card_number": "'7002821221265009595",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "GC27-800129",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300070",
+    "card_number": "'7002821059111600013",
+    "vehicle_effective_date": "2026-11-30"
+  },
+  {
+    "vehicle": "GC27-800142",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300070",
+    "card_number": "'7002821221265009637",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "GC27-800133",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300070",
+    "card_number": "'7002821221265009645",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "GC27-800134",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300070",
+    "card_number": "'7002821221265009629",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "GC27-800145",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300070",
+    "card_number": "'7002821221265009603",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "GC27-800136",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300070",
+    "card_number": "'7002821221265009611",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "V93W1200153",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300070",
+    "card_number": "'7002821221265009587",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "MMCJLKL60LH132461",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "MMCJLKL60LH133842",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "MMCJLKL60LH133859",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "MMCJLKL60LH133832",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "MMCJLKL60LH133838",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "MMCJLKL60LH133888",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "WMAH21ZZ28M493806",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR66LP-7102099",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR70L47101051",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JT7X2RB7107003071",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300070",
+    "card_number": "'7002821221615001193",
+    "vehicle_effective_date": "2025-08-31"
+  },
+  {
+    "vehicle": "JN1MC2E26Z0005490",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "YV2TH60AXDB640783",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "PKC8E-01295",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "YV2TH60A9DB640788",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JTDBT42EX09070780",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265010155",
+    "vehicle_effective_date": "2025-03-31"
+  },
+  {
+    "vehicle": "JTDBT22E300169384",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300069",
+    "card_number": "'7002821221265010130",
+    "vehicle_effective_date": "2025-03-31"
+  },
+  {
+    "vehicle": "JAAN1R75K87100201",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JT7X2RB7107001934",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300506",
+    "card_number": "HOLD",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JTFHT02P900060290",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR75HB7101375",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JT7X2RB8007000179",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300069",
+    "card_number": "'7002821221265008050",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "LVBV4JBB5GJ004082",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAAN1R75KJ7100192",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JTDBT22E400246344",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300069",
+    "card_number": "'7002821059111500064",
+    "vehicle_effective_date": "2026-11-30"
+  },
+  {
+    "vehicle": "LGAX2C139J1820234",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JTDBT22E700014935",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265010163",
+    "vehicle_effective_date": "2025-03-31"
+  },
+  {
+    "vehicle": "LJ11KCBE4L1112027",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JTDBT22EX03307288",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300069",
+    "card_number": "'7002821221265010320",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JTDBT22E203245000",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265010122",
+    "vehicle_effective_date": "2025-03-31"
+  },
+  {
+    "vehicle": "JTDBT22E400154621",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300069",
+    "card_number": "'7002821221265010114",
+    "vehicle_effective_date": "2025-03-31"
+  },
+  {
+    "vehicle": "LJ11KCBE8L1112032",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JTFSAFAP908024441",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JTFSAFAP108024319",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JTFSAFAPX08024223",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LJ11KCBE6L1117603",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LJ11KCBE8L1112029",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JTDBT22E200324488",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300069",
+    "card_number": "'7002821221265010197",
+    "vehicle_effective_date": "2025-03-31"
+  },
+  {
+    "vehicle": "LJ11KCBD1L1122294",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LJ11KCBD1L1122263",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LJ11KRBD1L1125005",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LJ11KRBDXL1125004",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LJ11KCBD0M1111837",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LJ11KCBD3M1112044",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LJ11KCBD2M1111841",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LJ11KCBD5M1112045",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LJ11KCBD1M1112043",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LJ11KCBD9M1111786",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LJ11KCBD0M1111840",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JALFXZ777G7000031",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "S402M-0059298",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300069",
+    "card_number": "'7002821221265010494",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JALCYH52TG7000024",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "V93W-1000314",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300506",
+    "card_number": "'7002821221265010825",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "V93W-1000317",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300069",
+    "card_number": "'7002821221265010809",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "VR3ERHNS3LJ547514",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300069",
+    "card_number": "'7002821059111500072",
+    "vehicle_effective_date": "2026-11-30"
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ542769",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300069",
+    "card_number": "'7002821221265010247",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "VR3ERHNS3LJ836040",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300069",
+    "card_number": "'7002821221265010254",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "VR3ERHNS3LJ797492",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300069",
+    "card_number": "'7002821059111500031",
+    "vehicle_effective_date": "2026-11-30"
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ623483",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300069",
+    "card_number": "'7002821059111500049",
+    "vehicle_effective_date": "2026-11-30"
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ623482",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300069",
+    "card_number": "'7002821059111500106",
+    "vehicle_effective_date": "2026-11-30"
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ782949",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300069",
+    "card_number": "'7002821059111500122",
+    "vehicle_effective_date": "2026-11-30"
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ782944",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300069",
+    "card_number": "'7002821059111500205",
+    "vehicle_effective_date": "2026-11-30"
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ785620",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300069",
+    "card_number": "'7002821059111500148",
+    "vehicle_effective_date": "2026-11-30"
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ782946",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300069",
+    "card_number": "'7002821059111500171",
+    "vehicle_effective_date": "2026-11-30"
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ782948",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300069",
+    "card_number": "'7002821059111500098",
+    "vehicle_effective_date": "2026-11-30"
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ782942",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300069",
+    "card_number": "'7002821059111500239",
+    "vehicle_effective_date": "2026-11-30"
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ782951",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300069",
+    "card_number": "'7002821059111500114",
+    "vehicle_effective_date": "2026-11-30"
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ782947",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300069",
+    "card_number": "'7002821059111500163",
+    "vehicle_effective_date": "2026-11-30"
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ782945",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300069",
+    "card_number": "'7002821059111500155",
+    "vehicle_effective_date": "2026-11-30"
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ782943",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300069",
+    "card_number": "'7002821059111500197",
+    "vehicle_effective_date": "2026-11-30"
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ785619",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300069",
+    "card_number": "'7002821059111500189",
+    "vehicle_effective_date": "2026-11-30"
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ785621",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300069",
+    "card_number": "'7002821059111500130",
+    "vehicle_effective_date": "2026-11-30"
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ782950",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300069",
+    "card_number": "'7002821059111500221",
+    "vehicle_effective_date": "2026-11-30"
+  },
+  {
+    "vehicle": "JTFHT02PX00060413",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LJ11KCBD1L1121016",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LJ11KCBD5L1122265",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "NCP20-0346348",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300069",
+    "card_number": "'7002821059111500080",
+    "vehicle_effective_date": "2026-11-30"
+  },
+  {
+    "vehicle": "NCP21-0067025",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300069",
+    "card_number": "'7002821059111500056",
+    "vehicle_effective_date": "2026-11-30"
+  },
+  {
+    "vehicle": "NCP100-0139934",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300068",
+    "card_number": "'7002821059111400042",
+    "vehicle_effective_date": "2026-11-30"
+  },
+  {
+    "vehicle": "LJ11KCBD7M1111785",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LJ11KCBD2M1111838",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LJ11KCBD4M1111839",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "NCP20-0338464",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265001956",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "JT7X2RB7107003092",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300069",
+    "card_number": "'7002821059111500015",
+    "vehicle_effective_date": "2026-09-30"
+  },
+  {
+    "vehicle": "LGAX2C144J1820246",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JT7X2RB8007003304",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300068",
+    "card_number": "'7002821221265010940",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JT7X2RB8007003279",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300068",
+    "card_number": "'7002821221265010916",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JT7X2RB8007003297",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300068",
+    "card_number": "'7002821221265010908",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JTDKB20U607846853",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300506",
+    "card_number": "'7002821221265003085",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "JTFHT02P800055632",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JT7X2RB7107001983",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300506",
+    "card_number": "'7002821221265006278",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "JT7X2RB7107005385",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300066",
+    "card_number": "'7002821221265005395",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "JTDKD3B3801560753",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265008076",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "JT7X2RB8007000211",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300066",
+    "card_number": "'7002821059111200038",
+    "vehicle_effective_date": "2027-03-31"
+  },
+  {
+    "vehicle": "JTDKD3B3301588010",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300506",
+    "card_number": "'7002821221265006666",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "LVBV4JBB2FJ057708",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JHMGD18502S232297",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300068",
+    "card_number": "'7002821221265010213",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JAANPR66LR-7100203",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR66LT-7104082",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR70LY7101515",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR66PV-7100347",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR70L47101043",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "MPATFS54H5H530384",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "NCP20-0342413",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300070",
+    "card_number": "'7002821059111600062",
+    "vehicle_effective_date": "2027-04-30"
+  },
+  {
+    "vehicle": "LGAX2C134J1819766",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2C134J1820240",
+    "fuel_type": "Petrol",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2C136J1820238",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2C132J1820236",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2C138J1820239",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2C134J1820237",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2C130J1820235",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JTDBT22E903250615",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821059111300028",
+    "vehicle_effective_date": "2026-11-30"
+  },
+  {
+    "vehicle": "JTDZZ9H350L000526",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265010858",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JT7X2RB8007000172",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300066",
+    "card_number": "'7002821221265008019",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "JTNGK3DH60B007770",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300506",
+    "card_number": "'7077821218631000631",
+    "vehicle_effective_date": "2026-11-30"
+  },
+  {
+    "vehicle": "JTNGZ3DH308054864",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300506",
+    "card_number": "'7077821218631000722",
+    "vehicle_effective_date": "2026-11-30"
+  },
+  {
+    "vehicle": "WDDNG71X29A240900",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300066",
+    "card_number": "'7077821218631000664",
+    "vehicle_effective_date": "2026-11-30"
+  },
+  {
+    "vehicle": "JTFSAFAP008028216",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JTFSAFAP408029160",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JTFSAFAP008028135",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGDCLA1G5MA124495",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JTFHT02P000060596",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JT7X2RB7107003027",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300506",
+    "card_number": "'7002821221265001394",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "JT7X2RB7107005799",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300506",
+    "card_number": "'7002821221265010148",
+    "vehicle_effective_date": "2025-03-31"
+  },
+  {
+    "vehicle": "JN1MC2E26Z0010069",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JN1MC2E26Z0010075",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JN1MC2E26Z0010052",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JTDKD3B3501607978",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265010841",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "WVWZZZAUZJW904154",
+    "fuel_type": "Electric",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "WVWZZZAUZJW904107",
+    "fuel_type": "Electric",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JTDZZ9H370L000527",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300069",
+    "card_number": "'7002821221265010833",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "12048",
+    "fuel_type": "",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JTDKD3B3401560801",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265008084",
+    "vehicle_effective_date": "2024-12-31"
+  },
+  {
+    "vehicle": "JAANPR75HB7100960",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAAN1R75KC7100008",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "ZCFA1GD0002233595",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JTFHT02P900055834",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JTFHT02PX00055597",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "KMFWBX7KLCU504845",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2C147H1817688",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LJ11KCBD6H8023632",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LJ11KCBE4K1112043",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "MMCJLKL60LH132478",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "MMCJLKL60LH133890",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGDCLA1G4NA103400",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGDCLA1G4NA500430",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGDCLA1G8NA500429",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGDCLA1G8NA103397",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGDCLA1G6NA500431",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGDCLA1GXNA500433",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JHMRP1850LC200220",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265010635",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JHMRP1850LC200495",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265010627",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JHMRP1850LC200576",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265010650",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JHMRP1850LC200577",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265010643",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JHMRP1850LC200602",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265010668",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JHMRP1850LC200603",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265010718",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JHMRP1850LC200667",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265010676",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JHMRP1850LC200668",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265010684",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JHMRP1850LC200664",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265010692",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JHMRP1850LC200665",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265010700",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JHMRP1850LC200689",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265010726",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JHMRP1850LC200690",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265010759",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JHMRP1850LC200692",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265010734",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "LHMRP1850LC200677",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265010767",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "LHMRP1850LC200678",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265010742",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "LHMRP1850LC200679",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265010783",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "LHMRP1850LC200680",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265010775",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JHMRP3870LC201271",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300068",
+    "card_number": "'7002821221265010544",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JHMRP3870LC201299",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300068",
+    "card_number": "'7002821221265010551",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JHMRP3870LC201303",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300068",
+    "card_number": "'7002821221265010569",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JHMRP3870LC201304",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300068",
+    "card_number": "'7002821221265010585",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JHMRP3870LC201350",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300068",
+    "card_number": "'7002821221265010577",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JHMRP3870LC201348",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300068",
+    "card_number": "'7002821221265010601",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JHMRP3870LC201344",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300069",
+    "card_number": "'7002821221265010593",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JHMRP3870LC201345",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300068",
+    "card_number": "'7002821221265010619",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "KPAY61EESMP146362",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300068",
+    "card_number": "'7002821221265011153",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "KPAY61EESMP157215",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "KPAY61EESMP157210",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "KPAY61EESMP157214",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "KPAY61EESMP157216",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JTDBT42E209046876",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265011104",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JTDBT42E309100637",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265011070",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JTDBT42E609105220",
+    "fuel_type": "Petrol",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "MMCJLKL60LH133869",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300070",
+    "card_number": "'7002821059111600054",
+    "vehicle_effective_date": "2027-04-30"
+  },
+  {
+    "vehicle": "JTDBT40E109073683",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821081610200046",
+    "vehicle_effective_date": "2027-02-28"
+  },
+  {
+    "vehicle": "JTDBT42E309105711",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265011088",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JTDBT42E409100792",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300069",
+    "card_number": "'7002821221265011187",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "KPAY61EESNP160060",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "KPAY61EESNP157209",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JTDBT40E409062807",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300068",
+    "card_number": "'7002821221265011179",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "LGDCLB1L3MH133335",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGDCLB1G3NH500447",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGDCLB1G5NH500448",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGDCLB1L1MH133527",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGDCLB1L1MH132975",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGDCLB1LXMH133526",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LJ11KCBE3L1121558",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LJ11KCBE1L1121557",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LJ11KCBE6N1108967",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGDCLA1G9NA103411",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGDCLA1G6NA103401",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGDCLA1G7NA103410",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGDCLA1G9NA103408",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGDCLA1G0NA103409",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGDCLA1G0NA103412",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGDCLA1GXNA103398",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGDCLA1G1NA103399",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JHMRP3870LC201431",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300069",
+    "card_number": "'7002821221265011054",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JHMRP3870LC201358",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300069",
+    "card_number": "'7002821221265011047",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JAAN1R75KF7100363",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JHMRP3870LC201422",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300068",
+    "card_number": "'7002821221265011062",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JHMRP3870LC201380",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300068",
+    "card_number": "'7002821221265011120",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JHMRP3870LC201327",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300068",
+    "card_number": "'7002821221265011138",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "LJ11KRBD0M1122114",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LJ11KRBD2M1122115",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JTFHT02P800191808",
+    "fuel_type": "",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JT753AEB005349977",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300069",
+    "card_number": "'7002821221265011195",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JTFSAFAP508044119",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JAANPR75HN7101512",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2D130NT827525",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2D134NT827527",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2D137NT827828",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2D135NT827827",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2D132NT827526",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2D136NT827528",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2D139NT827829",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2D135NT827830",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGAX2D137NT827831",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "JTDBT22E903324678",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265010957",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JTDBT22E403177119",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265010965",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JTDBT42EX09065577",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300069",
+    "card_number": "'7002821221265010973",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JTDBT22E400296645",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265010981",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JTDBT22E903218845",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265010999",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JZDBT22E200018052",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265011005",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JTDBT42E409120847",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265011013",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JTDBT22E303278863",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265011021",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JTDBT22E603030283",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821221265011039",
+    "vehicle_effective_date": "2025-04-30"
+  },
+  {
+    "vehicle": "JHMRP6830NX200028",
+    "fuel_type": "Petrol",
+    "provider": "SHELL",
+    "account_number": "HK23300067",
+    "card_number": "'7002821081610200053",
+    "vehicle_effective_date": "2027-03-31"
+  },
+  {
+    "vehicle": "LGDCLA1G3NA109642",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGDCLA1G0NA112403",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGDCLA1G5NA112400",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGDCLA1G1NA109641",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "MMCJLKL60NH020946",
+    "fuel_type": "",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "MMCJLKL60NH021060",
+    "fuel_type": "Electric",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "MMCJLKL60NH020990",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "MMCJLKL60NH020989",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "MMCJLKL60NH021058",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "MMCJLKL60MH021067",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "MMCJLKL60MH020987",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "MMCJLKL60NH021294",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "MMCJLKL60NH021296",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "MMCJLKL60NH021372",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "MMCJLKL60NH021298",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "MMCJLKL60NH021304",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGDCLA1GXNA121335",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGDCLA1G7NA112401",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGDCLA1G2NA112404",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "VR3EFYHZRNJ578166",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "VR3EFYHZRNJ578167",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LC0CE4DC3P0009883",
+    "fuel_type": "Electric",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LSJE24030PG020394",
+    "fuel_type": "Electric",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LSJE24031PG020498",
+    "fuel_type": "Electric",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LSJE24032PG020395",
+    "fuel_type": "Electric",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LSJE24034PG020589",
+    "fuel_type": "Electric",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LSJE24033PG020499",
+    "fuel_type": "Electric",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LSJE24030PG020590",
+    "fuel_type": "Electric",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LJ11KCBE4N1112094",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "WMA08DZZ9NY443969",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "WMA08DZZONY443553",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "ZA9S5020EDAC38330",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGDCLA1G6NA121333",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGDCLA1G4NA121329",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGDCLA1G4NA121330",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGDCLA1G8NA121334",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGDCLA1G2NA121331",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGDCLA1G2NA121328",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LGDCLA1G4NA121332",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "",
+    "fuel_type": "Diesel",
+    "provider": "",
+    "account_number": "",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  },
+  {
+    "vehicle": "LSJE24034PG020480",
+    "fuel_type": "Electric",
+    "provider": "",
+    "account_number": "-",
+    "card_number": "",
+    "vehicle_effective_date": ""
+  }
+]

@@ -52,5 +52,17 @@ export const query = `#graphql
     card_number: String
     effective_date: String
     end_date: String
+    vehicles: [FuelVehicle]
+    current_vehicle: Vehicle
+  }
+
+  type FuelVehicle {
+    doc_id: ID
+    target_id: ID
+    effective_date: String
+    end_date: String
+
+    chassis_number: String
+    reg_mark: String
   }
 `
