@@ -17,6 +17,10 @@ export class Vehicle extends Model {
     this.Schema.statics.insertPermitArea = this.insertPermitArea.bind(this)
     this.Schema.statics.updatePermitArea = this.updatePermitArea.bind(this)
     this.Schema.statics.deletePermitArea = this.deletePermitArea.bind(this)
+
+    this.Schema.statics.insertLicense = this.insertLicense.bind(this)
+    this.Schema.statics.updateLicense = this.updateLicense.bind(this)
+    this.Schema.statics.deleteLicense = this.deleteLicense.bind(this)
     super.buildModel()
   }
 
@@ -269,6 +273,32 @@ export class Vehicle extends Model {
             })
           } else if (action === 'UPDATE') {
             doc = await this.updateCompany({
+              filter,
+              body: {
+                doc_id,
+                ...relationArgs,
+              },
+            })
+          }
+          break
+        case 'license':
+          if (action === 'DELETE') {
+            doc = await this.deleteLicense({
+              filter,
+              body: {
+                doc_id,
+              },
+            })
+          } else if (action === 'INSERT') {
+            doc = await this.insertLicense({
+              filter,
+              body: {
+                target_id,
+                ...relationArgs,
+              },
+            })
+          } else if (action === 'UPDATE') {
+            doc = await this.updateLicense({
               filter,
               body: {
                 doc_id,
@@ -603,6 +633,66 @@ export class Vehicle extends Model {
       filter: {
         _id,
         [`permit_areas._id`]: new mongoose.Types.ObjectId(doc_id),
+      },
+      body: {
+        $set: updateDoc,
+      },
+    })
+  }
+
+  async deleteLicense({ filter, body }) {
+    const { _id } = filter
+    const { doc_id } = body
+
+    return await super.updateOne({
+      filter: {
+        _id,
+      },
+      body: {
+        $pull: {
+          licenses: {
+            _id: new mongoose.Types.ObjectId(doc_id),
+          },
+        },
+      },
+    })
+  }
+
+  async insertLicense({ filter, body }) {
+    const { _id } = filter
+    const { target_id, ...args } = body
+
+    return await super.updateOne({
+      filter: {
+        _id,
+      },
+      body: {
+        $push: {
+          licenses: {
+            license: new mongoose.Types.ObjectId(target_id),
+            ...args,
+          },
+        },
+      },
+    })
+  }
+
+  async updateLicense({ filter, body }) {
+    const { _id } = filter
+    const { doc_id, ...args } = body
+
+    const updateDoc = reduce(
+      args,
+      (doc, value, key) => {
+        doc[`licenses.$.${key}`] = value
+        return doc
+      },
+      {}
+    )
+    return await super.updateOne({
+      filter: {
+        _id,
+        [`licenses._id`]: new mongoose.Types.ObjectId(doc_id),
       },
       body: {
         $set: updateDoc,

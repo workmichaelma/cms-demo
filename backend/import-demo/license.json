@@ -1,0 +1,2427 @@
+[
+  {
+    "vehicle": "PC9480TD-SM-03-084",
+    "vehicle_end_date": "2022-10-31",
+    "license_fee": "4,670.00"
+  },
+  {
+    "vehicle": "JAANPR70L47101042",
+    "vehicle_end_date": "2024-04-15",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JHMGD18707S227163",
+    "vehicle_end_date": "2023-08-04",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "WDB9061352N344555",
+    "vehicle_end_date": "2024-04-20",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAANPR66LS-7100763",
+    "vehicle_end_date": "2024-03-16",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAANPR75K97100768",
+    "vehicle_end_date": "2024-01-13",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAANPR75K97100767",
+    "vehicle_end_date": "2023-04-10",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "WMAN08ZZ69Y226132",
+    "vehicle_end_date": "2023-06-10",
+    "license_fee": "4,914.00"
+  },
+  {
+    "vehicle": "JT7X2RB7107001794",
+    "vehicle_end_date": "2023-04-14",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "JT7X2RB7107001834",
+    "vehicle_end_date": "2023-05-31",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "JT7X2RB7107001986",
+    "vehicle_end_date": "2023-06-15",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "JAAN1R75KA7100167",
+    "vehicle_end_date": "2023-09-07",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "NCP20-0331962",
+    "vehicle_end_date": "2024-02-18",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "JAANPR75HB7101138",
+    "vehicle_end_date": "2024-04-04",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JT7X2RB7107003098",
+    "vehicle_end_date": "2022-08-14",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "NCP81-0115605",
+    "vehicle_end_date": "2023-10-20",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "RFGHV15WYCS004714",
+    "vehicle_end_date": "2023-06-10",
+    "license_fee": "1,314.00"
+  },
+  {
+    "vehicle": "JTDKD3B3701028250",
+    "vehicle_end_date": "2024-02-25",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "CWB8E-00391",
+    "vehicle_end_date": "2024-01-09",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "JT7X2RB7107001931",
+    "vehicle_end_date": "2024-02-03",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "KNABX512MGT231030",
+    "vehicle_end_date": "2023-03-12",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "LGAX5DF40F3816051",
+    "vehicle_end_date": "2023-03-30",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "KNABX512MGT251093",
+    "vehicle_end_date": "2024-03-12",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "JALFVR347F7000252",
+    "vehicle_end_date": "2024-04-04",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "JALFVR347F7001239",
+    "vehicle_end_date": "2023-04-04",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "JALFVR347F7000273",
+    "vehicle_end_date": "2024-04-04",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "LGAX2C135G1816450",
+    "vehicle_end_date": "2024-04-12",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "KNABX512MHT266306",
+    "vehicle_end_date": "2023-04-18",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "KNABX512MHT266307",
+    "vehicle_end_date": "2024-04-18",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "JALFXZ777H7000003",
+    "vehicle_end_date": "2024-04-10",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "LVBV4JBB3GJ004078",
+    "vehicle_end_date": "2024-06-23",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "LVBV3JBB1GJ019746",
+    "vehicle_end_date": "2024-06-20",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "LGAX2C138G1816491",
+    "vehicle_end_date": "2023-09-08",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "LGAX2C13XG1816492",
+    "vehicle_end_date": "2023-10-10",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "LGAX2C137G1816496",
+    "vehicle_end_date": "2023-06-27",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "LGAX2C132G1816499",
+    "vehicle_end_date": "2023-06-27",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "LGAX2C131G1816493",
+    "vehicle_end_date": "2024-06-24",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "LGAX2C130G1816498",
+    "vehicle_end_date": "2024-06-29",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "JAANPR75KG7100839",
+    "vehicle_end_date": "2024-07-05",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAANPR75KG7100832",
+    "vehicle_end_date": "2024-07-05",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAANPR75KG7101022",
+    "vehicle_end_date": "2024-07-05",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "LGAX2C139G1816497",
+    "vehicle_end_date": "2024-06-27",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "LGAX2C133G1816494",
+    "vehicle_end_date": "2023-08-06",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "JAANPR75KG7101023",
+    "vehicle_end_date": "2024-07-17",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAANPR75KG7100831",
+    "vehicle_end_date": "2024-07-17",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAANPR75KG7101021",
+    "vehicle_end_date": "2024-07-17",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAANPR75HG7102568",
+    "vehicle_end_date": "2023-07-25",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAANPR75HG7102198",
+    "vehicle_end_date": "2023-07-25",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "LGAX2C140F1816069",
+    "vehicle_end_date": "2023-07-27",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "JAANPR75HG7102666",
+    "vehicle_end_date": "2023-07-25",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "LVBV3JBB2GJ032764",
+    "vehicle_end_date": "2023-07-25",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAANPR75KG7101025",
+    "vehicle_end_date": "2023-10-11",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JHHYCT2H60K012637",
+    "vehicle_end_date": "2023-08-03",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "YV2TH60A0GZ105425",
+    "vehicle_end_date": "2023-08-17",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "MPATFR86JGT003346",
+    "vehicle_end_date": "2023-08-28",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "LGAX2C138G1817334",
+    "vehicle_end_date": "2023-09-20",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "LGAX2C134G1817332",
+    "vehicle_end_date": "2023-09-20",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "LGAX2C136G1817333",
+    "vehicle_end_date": "2023-09-20",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "LVBV3JBB4GJ032765",
+    "vehicle_end_date": "2023-09-22",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "LVBV3JBB6GJ032766",
+    "vehicle_end_date": "2023-09-22",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "LVBV3JBB8GJ032770",
+    "vehicle_end_date": "2023-09-22",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "MPATFR86JGT003347",
+    "vehicle_end_date": "2023-09-27",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "LVBV3JBB1GJ032769",
+    "vehicle_end_date": "2023-09-27",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "LVBV3JBBXGJ032768",
+    "vehicle_end_date": "2023-09-27",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "LGAX2C133G1817337",
+    "vehicle_end_date": "2023-10-10",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "LGAX2C135G1817338",
+    "vehicle_end_date": "2023-10-10",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "LGAX2C131G1817336",
+    "vehicle_end_date": "2023-10-30",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "LGAX2C130G1817330",
+    "vehicle_end_date": "2023-10-30",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "JAANPR75HG7101538",
+    "vehicle_end_date": "2023-11-01",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAANPR75KF7106187",
+    "vehicle_end_date": "2023-11-01",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAANPR75KG7101882",
+    "vehicle_end_date": "2023-12-02",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "LGAX2C130G1817344",
+    "vehicle_end_date": "2023-11-06",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "LGAX2C132G1817345",
+    "vehicle_end_date": "2024-01-05",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "LGAX2C130H1817684",
+    "vehicle_end_date": "2023-11-06",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "LGAX5D643J8819683",
+    "vehicle_end_date": "2023-10-26",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "JHDSH1EEKXXX10015",
+    "vehicle_end_date": "2024-03-13",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "LZZ1EXVB8JW354517",
+    "vehicle_end_date": "2023-10-27",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "LZZ1EXVB3FW118817",
+    "vehicle_end_date": "2023-11-05",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "NCP100-2016700",
+    "vehicle_end_date": "2023-12-03",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "LZZ1BBMG7EW869801",
+    "vehicle_end_date": "2024-02-01",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "JN1MC2E26Z0005509",
+    "vehicle_end_date": "2024-04-20",
+    "license_fee": "4,254.00"
+  },
+  {
+    "vehicle": "MPATFR86JFT003968",
+    "vehicle_end_date": "2023-05-19",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "V93W-0900227",
+    "vehicle_end_date": "2023-05-18",
+    "license_fee": "9,929.00"
+  },
+  {
+    "vehicle": "V93W-0900228",
+    "vehicle_end_date": "2023-05-18",
+    "license_fee": "9,929.00"
+  },
+  {
+    "vehicle": "MPATFR86JFT004527",
+    "vehicle_end_date": "2023-05-19",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "V93W-0900230",
+    "vehicle_end_date": "2023-05-18",
+    "license_fee": "9,929.00"
+  },
+  {
+    "vehicle": "JM6CW1071G0123573",
+    "vehicle_end_date": "2024-05-30",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "JM6CW1071G0123478",
+    "vehicle_end_date": "2024-05-30",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "JM6CW1071G0123582",
+    "vehicle_end_date": "2024-05-30",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "JM6CW1071G0123570",
+    "vehicle_end_date": "2023-05-30",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "JM6CW1071G0123559",
+    "vehicle_end_date": "2023-05-30",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "JM6CW1071G0123499",
+    "vehicle_end_date": "2023-05-30",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "JM6CW1071G0123465",
+    "vehicle_end_date": "2023-05-30",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "MPATFR86JGT001834",
+    "vehicle_end_date": "2024-06-05",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JM6CW1071G0123564",
+    "vehicle_end_date": "2023-05-30",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "MPATFR86JGT001835",
+    "vehicle_end_date": "2024-06-02",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "MPATFR86JGT001290",
+    "vehicle_end_date": "2024-06-02",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "MPATFR86JGT003344",
+    "vehicle_end_date": "2022-08-28",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "MPATFR86JGT003345",
+    "vehicle_end_date": "2022-08-28",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JM6CW1071H0127821",
+    "vehicle_end_date": "2024-01-10",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "JM6CW1071H0127979",
+    "vehicle_end_date": "2022-10-30",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "CV5W-1200957",
+    "vehicle_end_date": "2024-03-19",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "JM6CW1071H0126126",
+    "vehicle_end_date": "2022-09-27",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "WVWZZZ9NZ6Y187938",
+    "vehicle_end_date": "2023-01-11",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "FM657L-B00152",
+    "vehicle_end_date": "2023-06-20",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "JAANPR58LN-7103411",
+    "vehicle_end_date": "2023-10-05",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAANPR66PR-7100074",
+    "vehicle_end_date": "2024-01-18",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAANPR66LP-7102394",
+    "vehicle_end_date": "2023-09-21",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAANPR66LN-7100846",
+    "vehicle_end_date": "2023-08-07",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAANPR66LS-7101395",
+    "vehicle_end_date": "2024-01-15",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAANPR66PS-7100575",
+    "vehicle_end_date": "2023-12-12",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAANPR66LS-7103188",
+    "vehicle_end_date": "2024-04-13",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAANPR66PT-7101394",
+    "vehicle_end_date": "2024-07-08",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAANPR66LT-7103064",
+    "vehicle_end_date": "2023-12-02",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JALFTR32NP-3000021",
+    "vehicle_end_date": "2021-04-26",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "JALFVR23PX-300007",
+    "vehicle_end_date": "2024-01-12",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "FH211H-A00363",
+    "vehicle_end_date": "2023-04-24",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "JAANPR66LS-7103675",
+    "vehicle_end_date": "2023-12-28",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "FM617J-B00071",
+    "vehicle_end_date": "2024-04-28",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "JALFVR23PV-3000235",
+    "vehicle_end_date": "2023-06-20",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "JALFVR23P57000031",
+    "vehicle_end_date": "2024-05-09",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "JAANPR70L57100166",
+    "vehicle_end_date": "2024-04-15",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JALFVR23P57000048",
+    "vehicle_end_date": "2023-05-04",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "JAANPR70L57100160",
+    "vehicle_end_date": "2024-04-14",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAANPR70L57100071",
+    "vehicle_end_date": "2024-04-22",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JALFVR23P57000030",
+    "vehicle_end_date": "2023-08-11",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "JAANPR70L57100072",
+    "vehicle_end_date": "2024-04-14",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JALFVR23P57000028",
+    "vehicle_end_date": "2024-05-11",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "MPATFS54H4H534030",
+    "vehicle_end_date": "2/5//2023",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "MPATFS54H4H533929",
+    "vehicle_end_date": "2023-07-28",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JTDKW223500369768",
+    "vehicle_end_date": "2024-07-07",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "JAANPR70L17100137",
+    "vehicle_end_date": "2024-10-06",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAANPR66PS-7101461",
+    "vehicle_end_date": "2023-09-08",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAANPR66LV-7100565",
+    "vehicle_end_date": "2023-08-18",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAANPR66PV-7100261",
+    "vehicle_end_date": "2023-09-23",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAANPR70PY7100808",
+    "vehicle_end_date": "2024-03-16",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAANPR70P27100233",
+    "vehicle_end_date": "2024-01-11",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JALFVR23P57000099",
+    "vehicle_end_date": "2023-01-12",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "JALFVR34787000095",
+    "vehicle_end_date": "2024-04-24",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "JAANPR75K87100101",
+    "vehicle_end_date": "2024-01-13",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JALFVR34787000091",
+    "vehicle_end_date": "2024-02-25",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "JT7X2RB7107001808",
+    "vehicle_end_date": "2024-04-06",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "JAANPR75HA7100772",
+    "vehicle_end_date": "2024-06-06",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAANPR75HA7100779",
+    "vehicle_end_date": "2024-06-06",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAANPR75KA7100644",
+    "vehicle_end_date": "2023-06-22",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAANPR75HA7100777",
+    "vehicle_end_date": "2024-06-06",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAANPR75HA7100686",
+    "vehicle_end_date": "2024-07-05",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAANPR75HA7100685",
+    "vehicle_end_date": "2024-07-17",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "NCP20-0329371",
+    "vehicle_end_date": "2024-05-08",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "JAAN1R75KB7100239",
+    "vehicle_end_date": "2023-08-31",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "NCP81-0041991",
+    "vehicle_end_date": "2023-10-20",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "JAAN1R75KB7100310",
+    "vehicle_end_date": "2023-11-30",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "JT7X2RB7107005727",
+    "vehicle_end_date": "2024-06-09",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "JAANPR75HE7103628",
+    "vehicle_end_date": "2023-07-28",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAANPR75HE7102200",
+    "vehicle_end_date": "2023-07-27",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JALFVR347E7000431",
+    "vehicle_end_date": "2023-10-07",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "KNABX512MGT230844",
+    "vehicle_end_date": "2024-03-07",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "JN1MC2E26Z0005618",
+    "vehicle_end_date": "2023-03-06",
+    "license_fee": "4,254.00"
+  },
+  {
+    "vehicle": "LGAX2C135G1816447",
+    "vehicle_end_date": "2024-03-28",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "JALFRR90KF7000112",
+    "vehicle_end_date": "2023-07-31",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "JHDFS1ELRXXX10146",
+    "vehicle_end_date": "2023-08-15",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "LGAX2C132G1817331",
+    "vehicle_end_date": "2023-10-30",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "LGAX2C139G1817343",
+    "vehicle_end_date": "2023-11-06",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "LGAX2C137G1817342",
+    "vehicle_end_date": "2023-11-06",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "LGAX2C13XG1817335",
+    "vehicle_end_date": "2023-11-06",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "LGAX2C136G1817347",
+    "vehicle_end_date": "2024-02-01",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "LGAX2C138G1817348",
+    "vehicle_end_date": "2024-02-05",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "LGAX2C134G1817346",
+    "vehicle_end_date": "2024-04-05",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "LGAX2C135G1817341",
+    "vehicle_end_date": "2023-04-05",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "JALFVR347H7000708",
+    "vehicle_end_date": "2023-10-02",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "LGAX2C135H1818538",
+    "vehicle_end_date": "2023-12-19",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "WVWZZZAUZJW904231",
+    "vehicle_end_date": "2024-01-30",
+    "license_fee": "1,058.00"
+  },
+  {
+    "vehicle": "JTDZZ9H310L000524",
+    "vehicle_end_date": "2024-03-01",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "JALCYH52SA7000068",
+    "vehicle_end_date": "2023-07-24",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "LGAX2C134H1818711",
+    "vehicle_end_date": "2024-03-21",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "LZZ1BBMG5EW869795",
+    "vehicle_end_date": "2023-05-23",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "WV2ZZZ2KZJX160920",
+    "vehicle_end_date": "2024-03-27",
+    "license_fee": "4,254.00"
+  },
+  {
+    "vehicle": "LZZ1BBMG5EW871630",
+    "vehicle_end_date": "2024-02-20",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "LZZ1BBMG0EW872071",
+    "vehicle_end_date": "2024-02-20",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "NCP100-2016057",
+    "vehicle_end_date": "2023-11-24",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "NCP100-0134371",
+    "vehicle_end_date": "2023-12-03",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "LZZ1BBMG1FW110837",
+    "vehicle_end_date": "2023-01-08",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "LZZ1BBMGXFW110836",
+    "vehicle_end_date": "2022-08-25",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "LZZ1BBMG8FW110835",
+    "vehicle_end_date": "2022-08-25",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "ZA9S5020E6AC38281",
+    "vehicle_end_date": "2023-07-27",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "WV2ZZZ2KZKX098541",
+    "vehicle_end_date": "2023-08-27",
+    "license_fee": "4,254.00"
+  },
+  {
+    "vehicle": "WMAN08ZZ2LY410927",
+    "vehicle_end_date": "2024-06-01",
+    "license_fee": "4,914.00"
+  },
+  {
+    "vehicle": "WMAN08ZZ4LY410833",
+    "vehicle_end_date": "2024-06-28",
+    "license_fee": "4,914.00"
+  },
+  {
+    "vehicle": "WMAN08ZZ3LY410614",
+    "vehicle_end_date": "2024-07-07",
+    "license_fee": "4,914.00"
+  },
+  {
+    "vehicle": "WMAN08ZZ9LY410911",
+    "vehicle_end_date": "2024-07-12",
+    "license_fee": "4,914.00"
+  },
+  {
+    "vehicle": "WMAN08ZZ5LY410775",
+    "vehicle_end_date": "2024-07-18",
+    "license_fee": "4,914.00"
+  },
+  {
+    "vehicle": "MPATFR86JDT000803",
+    "vehicle_end_date": "2024-06-24",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "MPATFR86JDT001025",
+    "vehicle_end_date": "2024-06-24",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "MPATFR86JDT001024",
+    "vehicle_end_date": "2024-06-24",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "MPATFR86JCT101113",
+    "vehicle_end_date": "2024-06-24",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "MPATFR86JDT000712",
+    "vehicle_end_date": "2024-06-24",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "MPATFR86JCT101112",
+    "vehicle_end_date": "2024-06-24",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "MPATFR86JDT000713",
+    "vehicle_end_date": "2024-06-24",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "V93W1200157",
+    "vehicle_end_date": "2024-05-06",
+    "license_fee": "9,929.00"
+  },
+  {
+    "vehicle": "GC27-800141",
+    "vehicle_end_date": "2024-05-06",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "GC27-800129",
+    "vehicle_end_date": "2024-05-06",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "GC27-800142",
+    "vehicle_end_date": "2024-05-06",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "GC27-800133",
+    "vehicle_end_date": "2024-05-06",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "GC27-800134",
+    "vehicle_end_date": "2024-05-06",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "GC27-800145",
+    "vehicle_end_date": "2024-05-06",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "GC27-800136",
+    "vehicle_end_date": "2024-05-06",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "V93W1200153",
+    "vehicle_end_date": "2024-05-06",
+    "license_fee": "9,929.00"
+  },
+  {
+    "vehicle": "MMCJLKL60LH132461",
+    "vehicle_end_date": "2023-12-05",
+    "license_fee": "2,504.00"
+  },
+  {
+    "vehicle": "MMCJLKL60LH133842",
+    "vehicle_end_date": "2024-01-18",
+    "license_fee": "2,504.00"
+  },
+  {
+    "vehicle": "MMCJLKL60LH133859",
+    "vehicle_end_date": "2024-02-08",
+    "license_fee": "2,504.00"
+  },
+  {
+    "vehicle": "MMCJLKL60LH133832",
+    "vehicle_end_date": "2023-02-20",
+    "license_fee": "2,504.00"
+  },
+  {
+    "vehicle": "MMCJLKL60LH133838",
+    "vehicle_end_date": "2024-02-29",
+    "license_fee": "2,504.00"
+  },
+  {
+    "vehicle": "MMCJLKL60LH133888",
+    "vehicle_end_date": "6/3//2024",
+    "license_fee": "2,504.00"
+  },
+  {
+    "vehicle": "WMAH21ZZ28M493806",
+    "vehicle_end_date": "2024-06-12",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "JAANPR66LP-7102099",
+    "vehicle_end_date": "2024-05-25",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAANPR70L47101051",
+    "vehicle_end_date": "2024-04-17",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JT7X2RB7107003071",
+    "vehicle_end_date": "2023-08-14",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "JN1MC2E26Z0005490",
+    "vehicle_end_date": "2024-03-06",
+    "license_fee": "4,254.00"
+  },
+  {
+    "vehicle": "YV2TH60AXDB640783",
+    "vehicle_end_date": "2023-11-02",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "PKC8E-01295",
+    "vehicle_end_date": "2023-11-29",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "YV2TH60A9DB640788",
+    "vehicle_end_date": "2023-08-23",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "JTDBT42EX09070780",
+    "vehicle_end_date": "2024-03-17",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "JTDBT22E300169384",
+    "vehicle_end_date": "2023-10-26",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "JAAN1R75K87100201",
+    "vehicle_end_date": "2023-07-17",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "JT7X2RB7107001934",
+    "vehicle_end_date": "2023-06-17",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "JTFHT02P900060290",
+    "vehicle_end_date": "2024-06-29",
+    "license_fee": "4,254.00"
+  },
+  {
+    "vehicle": "JAANPR75HB7101375",
+    "vehicle_end_date": "2024-04-21",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JT7X2RB8007000179",
+    "vehicle_end_date": "2024-07-05",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "LVBV4JBB5GJ004082",
+    "vehicle_end_date": "2024-03-28",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAAN1R75KJ7100192",
+    "vehicle_end_date": "2024-05-16",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "JTDBT22E400246344",
+    "vehicle_end_date": "2023-10-13",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "LGAX2C139J1820234",
+    "vehicle_end_date": "2024-07-09",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "JTDBT22E700014935",
+    "vehicle_end_date": "2024-03-22",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "LJ11KCBE4L1112027",
+    "vehicle_end_date": "2023-12-16",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JTDBT22EX03307288",
+    "vehicle_end_date": "2023-09-11",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "JTDBT22E203245000",
+    "vehicle_end_date": "2024-03-25",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "JTDBT22E400154621",
+    "vehicle_end_date": "2023-08-31",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "LJ11KCBE8L1112032",
+    "vehicle_end_date": "2024-03-16",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JTFSAFAP908024441",
+    "vehicle_end_date": "2024-03-17",
+    "license_fee": "4,254.00"
+  },
+  {
+    "vehicle": "JTFSAFAP108024319",
+    "vehicle_end_date": "2024-03-17",
+    "license_fee": "4,254.00"
+  },
+  {
+    "vehicle": "JTFSAFAPX08024223",
+    "vehicle_end_date": "2024-03-17",
+    "license_fee": "4,254.00"
+  },
+  {
+    "vehicle": "LJ11KCBE6L1117603",
+    "vehicle_end_date": "2024-03-21",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "LJ11KCBE8L1112029",
+    "vehicle_end_date": "2024-03-21",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JTDBT22E200324488",
+    "vehicle_end_date": "2024-04-21",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "LJ11KCBD1L1122294",
+    "vehicle_end_date": "2024-03-23",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "LJ11KCBD1L1122263",
+    "vehicle_end_date": "2024-03-23",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "LJ11KRBD1L1125005",
+    "vehicle_end_date": "2024-05-05",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "LJ11KRBDXL1125004",
+    "vehicle_end_date": "2024-05-05",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "LJ11KCBD0M1111837",
+    "vehicle_end_date": "2023-06-16",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "LJ11KCBD3M1112044",
+    "vehicle_end_date": "2024-06-16",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "LJ11KCBD2M1111841",
+    "vehicle_end_date": "2023-06-16",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "LJ11KCBD5M1112045",
+    "vehicle_end_date": "2023-06-16",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "LJ11KCBD1M1112043",
+    "vehicle_end_date": "2023-06-16",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "LJ11KCBD9M1111786",
+    "vehicle_end_date": "2023-06-16",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "LJ11KCBD0M1111840",
+    "vehicle_end_date": "2024-07-06",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JALFXZ777G7000031",
+    "vehicle_end_date": "2023-11-21",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "S402M-0059298",
+    "vehicle_end_date": "2023-10-27",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JALCYH52TG7000024",
+    "vehicle_end_date": "2024-01-16",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "V93W-1000314",
+    "vehicle_end_date": "2024-01-18",
+    "license_fee": "9,929.00"
+  },
+  {
+    "vehicle": "V93W-1000317",
+    "vehicle_end_date": "2024-01-18",
+    "license_fee": "9,929.00"
+  },
+  {
+    "vehicle": "VR3ERHNS3LJ547514",
+    "vehicle_end_date": "2023-05-03",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ542769",
+    "vehicle_end_date": "2023-05-03",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "VR3ERHNS3LJ836040",
+    "vehicle_end_date": "2023-05-03",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "VR3ERHNS3LJ797492",
+    "vehicle_end_date": "2023-05-03",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ623483",
+    "vehicle_end_date": "2023-05-03",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ623482",
+    "vehicle_end_date": "2023-05-30",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ782949",
+    "vehicle_end_date": "2023-10-26",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ782944",
+    "vehicle_end_date": "2023-10-26",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ785620",
+    "vehicle_end_date": "2023-10-26",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ782946",
+    "vehicle_end_date": "2023-10-26",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ782948",
+    "vehicle_end_date": "2023-10-26",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ782942",
+    "vehicle_end_date": "2023-10-26",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ782951",
+    "vehicle_end_date": "2023-10-26",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ782947",
+    "vehicle_end_date": "2023-10-26",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ782945",
+    "vehicle_end_date": "2023-10-26",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ782943",
+    "vehicle_end_date": "2023-10-26",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ785619",
+    "vehicle_end_date": "2023-10-26",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ785621",
+    "vehicle_end_date": "2023-10-26",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "VR3ERHNS3MJ782950",
+    "vehicle_end_date": "2023-10-28",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "JTFHT02PX00060413",
+    "vehicle_end_date": "2024-06-29",
+    "license_fee": "4,254.00"
+  },
+  {
+    "vehicle": "LJ11KCBD1L1121016",
+    "vehicle_end_date": "2024-03-22",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "LJ11KCBD5L1122265",
+    "vehicle_end_date": "2024-03-22",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "NCP20-0346348",
+    "vehicle_end_date": "2024-04-28",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "NCP21-0067025",
+    "vehicle_end_date": "2024-04-05",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "NCP100-0139934",
+    "vehicle_end_date": "2023-11-24",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "LJ11KCBD7M1111785",
+    "vehicle_end_date": "2024-06-16",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "LJ11KCBD2M1111838",
+    "vehicle_end_date": "2024-07-06",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "LJ11KCBD4M1111839",
+    "vehicle_end_date": "2024-07-06",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "NCP20-0338464",
+    "vehicle_end_date": "2024-07-05",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "JT7X2RB7107003092",
+    "vehicle_end_date": "2023-08-15",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "LGAX2C144J1820246",
+    "vehicle_end_date": "2023-11-14",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "JT7X2RB8007003304",
+    "vehicle_end_date": "2024-06-24",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "JT7X2RB8007003279",
+    "vehicle_end_date": "2024-06-24",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "JT7X2RB8007003297",
+    "vehicle_end_date": "2024-06-24",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "JTDKB20U607846853",
+    "vehicle_end_date": "2024-03-09",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "JTFHT02P800055632",
+    "vehicle_end_date": "2024-03-22",
+    "license_fee": "4,254.00"
+  },
+  {
+    "vehicle": "JT7X2RB7107001983",
+    "vehicle_end_date": "2024-06-17",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "JT7X2RB7107005385",
+    "vehicle_end_date": "2024-02-25",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "JTDKD3B3801560753",
+    "vehicle_end_date": "2024-07-05",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "JT7X2RB8007000211",
+    "vehicle_end_date": "2024-07-06",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "JTDKD3B3301588010",
+    "vehicle_end_date": "2023-12-30",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "LVBV4JBB2FJ057708",
+    "vehicle_end_date": "2024-04-27",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JHMGD18502S232297",
+    "vehicle_end_date": "2023-12-09",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "JAANPR66LR-7100203",
+    "vehicle_end_date": "2023-09-13",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAANPR66LT-7104082",
+    "vehicle_end_date": "2024-03-16",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAANPR70LY7101515",
+    "vehicle_end_date": "2024-01-15",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAANPR66PV-7100347",
+    "vehicle_end_date": "2024-01-15",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAANPR70L47101043",
+    "vehicle_end_date": "2024-04-17",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "MPATFS54H5H530384",
+    "vehicle_end_date": "2024-06-26",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "NCP20-0342413",
+    "vehicle_end_date": "2024-05-16",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "LGAX2C134J1819766",
+    "vehicle_end_date": "2024-07-09",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "LGAX2C134J1820240",
+    "vehicle_end_date": "2024-07-09",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "LGAX2C136J1820238",
+    "vehicle_end_date": "2024-07-09",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "LGAX2C132J1820236",
+    "vehicle_end_date": "2023-10-19",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "LGAX2C138J1820239",
+    "vehicle_end_date": "2024-07-09",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "LGAX2C134J1820237",
+    "vehicle_end_date": "2024-07-09",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "LGAX2C130J1820235",
+    "vehicle_end_date": "2024-07-09",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "JTDBT22E903250615",
+    "vehicle_end_date": "2024-04-16",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "JTDZZ9H350L000526",
+    "vehicle_end_date": "2024-03-14",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "JT7X2RB8007000172",
+    "vehicle_end_date": "2023-07-05",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "JTNGK3DH60B007770",
+    "vehicle_end_date": "2024-04-07",
+    "license_fee": "9,929.00"
+  },
+  {
+    "vehicle": "JTNGZ3DH308054864",
+    "vehicle_end_date": "2023-06-04",
+    "license_fee": "9,929.00"
+  },
+  {
+    "vehicle": "WDDNG71X29A240900",
+    "vehicle_end_date": "2024-03-16",
+    "license_fee": "14,694.00"
+  },
+  {
+    "vehicle": "JTFSAFAP008028216",
+    "vehicle_end_date": "2023-10-02",
+    "license_fee": "4,254.00"
+  },
+  {
+    "vehicle": "JTFSAFAP408029160",
+    "vehicle_end_date": "2023-09-23",
+    "license_fee": "4,254.00"
+  },
+  {
+    "vehicle": "JTFSAFAP008028135",
+    "vehicle_end_date": "2023-09-23",
+    "license_fee": "4,254.00"
+  },
+  {
+    "vehicle": "LGDCLA1G5MA124495",
+    "vehicle_end_date": "2023-11-04",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JTFHT02P000060596",
+    "vehicle_end_date": "2024-06-29",
+    "license_fee": "4,254.00"
+  },
+  {
+    "vehicle": "JT7X2RB7107003027",
+    "vehicle_end_date": "2023-08-14",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "JT7X2RB7107005799",
+    "vehicle_end_date": "2023-06-09",
+    "license_fee": "7,498.00"
+  },
+  {
+    "vehicle": "JN1MC2E26Z0010069",
+    "vehicle_end_date": "2023-12-27",
+    "license_fee": "4,254.00"
+  },
+  {
+    "vehicle": "JN1MC2E26Z0010075",
+    "vehicle_end_date": "2024-01-09",
+    "license_fee": "4,254.00"
+  },
+  {
+    "vehicle": "JN1MC2E26Z0010052",
+    "vehicle_end_date": "2024-01-09",
+    "license_fee": "4,254.00"
+  },
+  {
+    "vehicle": "JTDKD3B3501607978",
+    "vehicle_end_date": "2024-01-17",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "WVWZZZAUZJW904154",
+    "vehicle_end_date": "2024-01-30",
+    "license_fee": "1,058.00"
+  },
+  {
+    "vehicle": "WVWZZZAUZJW904107",
+    "vehicle_end_date": "2024-01-30",
+    "license_fee": "1,058.00"
+  },
+  {
+    "vehicle": "JTDZZ9H370L000527",
+    "vehicle_end_date": "2024-03-14",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "12048",
+    "vehicle_end_date": "2013-06-14",
+    "license_fee": "2,016.00"
+  },
+  {
+    "vehicle": "JTDKD3B3401560801",
+    "vehicle_end_date": "2024-07-10",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "JAANPR75HB7100960",
+    "vehicle_end_date": "2024-04-14",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "JAAN1R75KC7100008",
+    "vehicle_end_date": "2023-12-19",
+    "license_fee": "4,694.00"
+  },
+  {
+    "vehicle": "ZCFA1GD0002233595",
+    "vehicle_end_date": "2024-01-29",
+    "license_fee": "4,914.00"
+  },
+  {
+    "vehicle": "JTFHT02P900055834",
+    "vehicle_end_date": "2024-04-25",
+    "license_fee": "4,254.00"
+  },
+  {
+    "vehicle": "JTFHT02PX00055597",
+    "vehicle_end_date": "2024-04-06",
+    "license_fee": "4,254.00"
+  },
+  {
+    "vehicle": "KMFWBX7KLCU504845",
+    "vehicle_end_date": "2023-10-17",
+    "license_fee": "4,254.00"
+  },
+  {
+    "vehicle": "LGAX2C147H1817688",
+    "vehicle_end_date": "2023-07-25",
+    "license_fee": "4,804.00"
+  },
+  {
+    "vehicle": "LJ11KCBD6H8023632",
+    "vehicle_end_date": "2024-02-11",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "LJ11KCBE4K1112043",
+    "vehicle_end_date": "2023-12-22",
+    "license_fee": "2,404.00"
+  },
+  {
+    "vehicle": "MMCJLKL60LH132478",
+    "vehicle_end_date": "2024-03-22",
+    "license_fee": "2,504.00"
+  },
+  {
+    "vehicle": "MMCJLKL60LH133890",
+    "vehicle_end_date": "2024-03-23",
+    "license_fee": "2,504.00"
+  },
+  {
+    "vehicle": "LGDCLA1G4NA103400",
+    "vehicle_end_date": "2024-03-23",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGDCLA1G4NA500430",
+    "vehicle_end_date": "2024-03-23",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGDCLA1G8NA500429",
+    "vehicle_end_date": "2024-03-21",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGDCLA1G8NA103397",
+    "vehicle_end_date": "2024-03-21",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGDCLA1G6NA500431",
+    "vehicle_end_date": "2024-03-21",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGDCLA1GXNA500433",
+    "vehicle_end_date": "2024-03-21",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JHMRP1850LC200220",
+    "vehicle_end_date": "2024-03-22",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JHMRP1850LC200495",
+    "vehicle_end_date": "2024-03-22",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JHMRP1850LC200576",
+    "vehicle_end_date": "2024-03-22",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JHMRP1850LC200577",
+    "vehicle_end_date": "2024-03-22",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JHMRP1850LC200602",
+    "vehicle_end_date": "2024-03-22",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JHMRP1850LC200603",
+    "vehicle_end_date": "2024-03-22",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JHMRP1850LC200667",
+    "vehicle_end_date": "2024-03-22",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JHMRP1850LC200668",
+    "vehicle_end_date": "2024-03-22",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JHMRP1850LC200664",
+    "vehicle_end_date": "2024-03-22",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JHMRP1850LC200665",
+    "vehicle_end_date": "2024-03-22",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JHMRP1850LC200689",
+    "vehicle_end_date": "2024-03-22",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JHMRP1850LC200690",
+    "vehicle_end_date": "2024-03-22",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JHMRP1850LC200692",
+    "vehicle_end_date": "2024-03-22",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LHMRP1850LC200677",
+    "vehicle_end_date": "2024-03-22",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LHMRP1850LC200678",
+    "vehicle_end_date": "2024-03-22",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LHMRP1850LC200679",
+    "vehicle_end_date": "2024-03-22",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LHMRP1850LC200680",
+    "vehicle_end_date": "2024-03-22",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JHMRP3870LC201271",
+    "vehicle_end_date": "2024-03-22",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JHMRP3870LC201299",
+    "vehicle_end_date": "2024-03-22",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JHMRP3870LC201303",
+    "vehicle_end_date": "2024-03-22",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JHMRP3870LC201304",
+    "vehicle_end_date": "2024-03-22",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JHMRP3870LC201350",
+    "vehicle_end_date": "2024-03-22",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JHMRP3870LC201348",
+    "vehicle_end_date": "2024-03-22",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JHMRP3870LC201344",
+    "vehicle_end_date": "2024-03-22",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JHMRP3870LC201345",
+    "vehicle_end_date": "2024-03-22",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "KPAY61EESMP146362",
+    "vehicle_end_date": "2024-03-22",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "KPAY61EESMP157215",
+    "vehicle_end_date": "2024-03-24",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "KPAY61EESMP157210",
+    "vehicle_end_date": "2024-03-24",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "KPAY61EESMP157214",
+    "vehicle_end_date": "2024-03-24",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "KPAY61EESMP157216",
+    "vehicle_end_date": "2024-03-24",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JTDBT42E209046876",
+    "vehicle_end_date": "2023-10-11",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "JTDBT42E309100637",
+    "vehicle_end_date": "2024-04-06",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "JTDBT42E609105220",
+    "vehicle_end_date": "2022-10-03",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "MMCJLKL60LH133869",
+    "vehicle_end_date": "2024-04-03",
+    "license_fee": "2,504.00"
+  },
+  {
+    "vehicle": "JTDBT40E109073683",
+    "vehicle_end_date": "2024-04-11",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "JTDBT42E309105711",
+    "vehicle_end_date": "2024-05-10",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "JTDBT42E409100792",
+    "vehicle_end_date": "2024-05-13",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "KPAY61EESNP160060",
+    "vehicle_end_date": "2023-10-11",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "KPAY61EESNP157209",
+    "vehicle_end_date": "2023-10-11",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JTDBT40E409062807",
+    "vehicle_end_date": "2024-06-24",
+    "license_fee": "5,074.00"
+  },
+  {
+    "vehicle": "LGDCLB1L3MH133335",
+    "vehicle_end_date": "2024-04-11",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGDCLB1G3NH500447",
+    "vehicle_end_date": "2024-04-11",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGDCLB1G5NH500448",
+    "vehicle_end_date": "2024-04-11",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGDCLB1L1MH133527",
+    "vehicle_end_date": "2024-04-13",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGDCLB1L1MH132975",
+    "vehicle_end_date": "0204-04-13",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGDCLB1LXMH133526",
+    "vehicle_end_date": "2024-04-13",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LJ11KCBE3L1121558",
+    "vehicle_end_date": "2024-04-18",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LJ11KCBE1L1121557",
+    "vehicle_end_date": "2024-04-18",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LJ11KCBE6N1108967",
+    "vehicle_end_date": "2024-04-18",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGDCLA1G9NA103411",
+    "vehicle_end_date": "2024-04-13",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGDCLA1G6NA103401",
+    "vehicle_end_date": "2024-04-11",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGDCLA1G7NA103410",
+    "vehicle_end_date": "2024-04-19",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGDCLA1G9NA103408",
+    "vehicle_end_date": "2024-04-19",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGDCLA1G0NA103409",
+    "vehicle_end_date": "2024-04-19",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGDCLA1G0NA103412",
+    "vehicle_end_date": "2024-04-19",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGDCLA1GXNA103398",
+    "vehicle_end_date": "2024-04-19",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGDCLA1G1NA103399",
+    "vehicle_end_date": "2024-04-19",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JHMRP3870LC201431",
+    "vehicle_end_date": "2023-05-02",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JHMRP3870LC201358",
+    "vehicle_end_date": "2023-05-02",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JAAN1R75KF7100363",
+    "vehicle_end_date": "2024-06-15",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JHMRP3870LC201422",
+    "vehicle_end_date": "2023-05-17",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JHMRP3870LC201380",
+    "vehicle_end_date": "2023-05-17",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JHMRP3870LC201327",
+    "vehicle_end_date": "2023-05-17",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LJ11KRBD0M1122114",
+    "vehicle_end_date": "2024-05-26",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LJ11KRBD2M1122115",
+    "vehicle_end_date": "2024-05-26",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JTFHT02P800191808",
+    "vehicle_end_date": "2024-05-05",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JT753AEB005349977",
+    "vehicle_end_date": "2024-06-05",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JTFSAFAP508044119",
+    "vehicle_end_date": "2023-08-09",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JAANPR75HN7101512",
+    "vehicle_end_date": "2023-08-21",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGAX2D130NT827525",
+    "vehicle_end_date": "2024-07-06",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGAX2D134NT827527",
+    "vehicle_end_date": "2023-07-25",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGAX2D137NT827828",
+    "vehicle_end_date": "2023-07-25",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGAX2D135NT827827",
+    "vehicle_end_date": "2023-08-10",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGAX2D132NT827526",
+    "vehicle_end_date": "2023-08-18",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGAX2D136NT827528",
+    "vehicle_end_date": "2023-08-23",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGAX2D139NT827829",
+    "vehicle_end_date": "2023-08-30",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGAX2D135NT827830",
+    "vehicle_end_date": "2023-08-30",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGAX2D137NT827831",
+    "vehicle_end_date": "2023-09-15",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JTDBT22E903324678",
+    "vehicle_end_date": "2024-06-16",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JTDBT22E403177119",
+    "vehicle_end_date": "2024-06-20",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JTDBT42EX09065577",
+    "vehicle_end_date": "2023-11-13",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JTDBT22E400296645",
+    "vehicle_end_date": "2024-07-08",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JTDBT22E903218845",
+    "vehicle_end_date": "2023-10-14",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JZDBT22E200018052",
+    "vehicle_end_date": "2024-06-20",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JTDBT42E409120847",
+    "vehicle_end_date": "2023-08-23",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JTDBT22E303278863",
+    "vehicle_end_date": "2024-06-22",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JTDBT22E603030283",
+    "vehicle_end_date": "2024-06-26",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "JHMRP6830NX200028",
+    "vehicle_end_date": "2023-11-07",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGDCLA1G3NA109642",
+    "vehicle_end_date": "2023-10-26",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGDCLA1G0NA112403",
+    "vehicle_end_date": "2023-10-26",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGDCLA1G5NA112400",
+    "vehicle_end_date": "2023-10-26",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGDCLA1G1NA109641",
+    "vehicle_end_date": "2023-10-26",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "MMCJLKL60NH020946",
+    "vehicle_end_date": "2023-09-18",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "MMCJLKL60NH021060",
+    "vehicle_end_date": "2024-03-19",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "MMCJLKL60NH020990",
+    "vehicle_end_date": "2024-03-28",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "MMCJLKL60NH020989",
+    "vehicle_end_date": "2024-04-16",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "MMCJLKL60NH021058",
+    "vehicle_end_date": "2024-04-16",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "MMCJLKL60MH021067",
+    "vehicle_end_date": "2024-04-18",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "MMCJLKL60MH020987",
+    "vehicle_end_date": "2024-04-18",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "MMCJLKL60NH021294",
+    "vehicle_end_date": "2024-05-07",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "MMCJLKL60NH021296",
+    "vehicle_end_date": "2024-05-07",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "MMCJLKL60NH021372",
+    "vehicle_end_date": "2024-05-09",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "MMCJLKL60NH021298",
+    "vehicle_end_date": "2024-05-07",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "MMCJLKL60NH021304",
+    "vehicle_end_date": "2024-05-07",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGDCLA1GXNA121335",
+    "vehicle_end_date": "2023-11-29",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGDCLA1G7NA112401",
+    "vehicle_end_date": "2023-12-12",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGDCLA1G2NA112404",
+    "vehicle_end_date": "2023-12-12",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "VR3EFYHZRNJ578166",
+    "vehicle_end_date": "2023-12-01",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "VR3EFYHZRNJ578167",
+    "vehicle_end_date": "2023-12-01",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LC0CE4DC3P0009883",
+    "vehicle_end_date": "2024-02-16",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LSJE24030PG020394",
+    "vehicle_end_date": "2024-03-05",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LSJE24031PG020498",
+    "vehicle_end_date": "2024-03-05",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LSJE24032PG020395",
+    "vehicle_end_date": "2024-03-05",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LSJE24034PG020589",
+    "vehicle_end_date": "2024-03-12",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LSJE24033PG020499",
+    "vehicle_end_date": "2024-03-12",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LSJE24030PG020590",
+    "vehicle_end_date": "2024-03-12",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LJ11KCBE4N1112094",
+    "vehicle_end_date": "2024-03-28",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "WMA08DZZ9NY443969",
+    "vehicle_end_date": "2024-03-02",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "WMA08DZZONY443553",
+    "vehicle_end_date": "2024-03-13",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "ZA9S5020EDAC38330",
+    "vehicle_end_date": "2024-03-21",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGDCLA1G6NA121333",
+    "vehicle_end_date": "",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGDCLA1G4NA121329",
+    "vehicle_end_date": "",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGDCLA1G4NA121330",
+    "vehicle_end_date": "",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGDCLA1G8NA121334",
+    "vehicle_end_date": "",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGDCLA1G2NA121331",
+    "vehicle_end_date": "",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGDCLA1G2NA121328",
+    "vehicle_end_date": "",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LGDCLA1G4NA121332",
+    "vehicle_end_date": "",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "",
+    "vehicle_end_date": "",
+    "license_fee": ""
+  },
+  {
+    "vehicle": "LSJE24034PG020480",
+    "vehicle_end_date": "/",
+    "license_fee": ""
+  }
+]

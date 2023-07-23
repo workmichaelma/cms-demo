@@ -10,6 +10,19 @@ export const query = `#graphql
     end_date: String
     contract: ID
     reg_mark: ID
+
+    relation: LicenseRelationInput
+  }
+
+  input LicenseRelationInput {
+    collection: Collection!
+    action: String!
+    doc_id: ID
+    target_id: ID
+    status: Boolean
+
+    effective_date: String
+    end_date: String
   }
 
   extend input EntityInput {
@@ -54,5 +67,17 @@ export const query = `#graphql
     remarks: String
     effective_date: Float
     end_date: String
+
+    vehicles: [LicenseVehicle]
+  }
+
+  type LicenseVehicle {
+    doc_id: ID
+    target_id: ID
+    effective_date: String
+    end_date: String
+
+    chassis_number: String
+    reg_mark: String
   }
 `
