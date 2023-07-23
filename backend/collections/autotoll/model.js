@@ -90,7 +90,7 @@ export class Autotoll extends Model {
             await this.insertVehicle({
               filter: { _id: _doc?._id },
               body: {
-                vehicle: vehicleId,
+                target_id: vehicleId,
                 effective_date: vehicle_effective_date || dayjs('2023-1-1'),
                 end_date: vehicle_end_date,
               },
@@ -112,47 +112,95 @@ export class Autotoll extends Model {
     }
   }
 
+  async updateOne({ filter, body }) {
+    const { _id } = filter
+    const { relation, ...args } = body
+
+    let doc
+    if (relation) {
+      const { collection, action, doc_id, target_id, ...relationArgs } =
+        relation
+
+      switch (collection) {
+        case 'vehicle':
+          if (action === 'DELETE') {
+            doc = await this.deleteVehicle({
+              filter: {
+                _id,
+              },
+              body: {
+                doc_id,
+              },
+            })
+          } else if (action === 'INSERT') {
+            doc = await this.insertVehicle({
+              filter: {
+                _id,
+              },
+              body: {
+                target_id,
+                ...relationArgs,
+              },
+            })
+          } else if (action === 'UPDATE') {
+            doc = await this.updateVehicle({
+              filter: {
+                _id,
+              },
+              body: {
+                doc_id,
+                ...relationArgs,
+              },
+            })
+          }
+          break
+        default:
+          break
+      }
+    }
+
+    return doc
+  }
+
   async deleteVehicle({ filter, body }) {
     try {
       const { _id } = filter
       const { doc_id } = body
-      const docId = new mongoose.Types.ObjectId(doc_id)
-      const _doc = await super
-        .updateOne({
-          filter: { _id },
-          body: [
-            {
-              $set: {
-                current_vehicle: {
-                  $cond: [
-                    {
-                      $eq: [{ $arrayElemAt: ['$vehicles._id', -1] }, docId],
-                    },
-                    '$$REMOVE',
-                    '$current_vehicle',
-                  ],
-                },
-              },
-            },
-          ],
-          options: {
-            upsert: false,
-          },
-        })
-        .then(async () => {
-          return await super.updateOne({
-            filter: { _id },
-            body: {
-              $pull: {
-                vehicles: {
-                  _id: docId,
-                },
-              },
-            },
-          })
-        })
 
-      return _doc
+      await super.updateOne({
+        filter: { _id },
+        body: [
+          {
+            $set: {
+              current_vehicle: {
+                $cond: [
+                  {
+                    $eq: [
+                      { $arrayElemAt: ['$vehicles._id', -1] },
+                      new mongoose.Types.ObjectId(doc_id),
+                    ],
+                  },
+                  '$$REMOVE',
+                  '$current_vehicle',
+                ],
+              },
+            },
+          },
+        ],
+        options: {
+          upsert: false,
+        },
+      })
+      return await super.updateOne({
+        filter: { _id },
+        body: {
+          $pull: {
+            vehicles: {
+              _id: doc_id,
+            },
+          },
+        },
+      })
     } catch (err) {
       console.error(
         `Failed to insert vehicle to ${this.modelName}, reason: ${err}`
@@ -161,14 +209,46 @@ export class Autotoll extends Model {
     }
   }
 
-  async insertVehicle({ filter, body }) {
+  async updateVehicle({ filter, body }) {
     const { _id } = filter
-    const { vehicle, effective_date, ...args } = body
-    const vehicleId = new mongoose.Types.ObjectId(vehicle)
-    const _doc = await super
-      .updateMany({
+    const { doc_id, ...args } = body
+
+    const docId = new mongoose.Types.ObjectId(doc_id)
+    return await super.updateOne({
+      filter: {
+        _id,
+      },
+      body: {
+        $set: {
+          ...reduce(
+            args,
+            (body, value, key) => {
+              body[`vehicles.$[doc].${key}`] = value
+              return body
+            },
+            {}
+          ),
+        },
+      },
+      options: {
+        upsert: false,
+        arrayFilters: [
+          {
+            [`doc._id`]: docId,
+          },
+        ],
+      },
+    })
+  }
+
+  async insertVehicle({ filter, body }) {
+    try {
+      const { _id } = filter
+      const { target_id, effective_date, ...args } = body
+
+      await super.updateMany({
         filter: {
-          current_vehicle: vehicleId,
+          current_vehicle: target_id,
         },
         body: {
           $unset: {
@@ -176,47 +256,47 @@ export class Autotoll extends Model {
           },
         },
       })
-      .then(async () => {
-        return await super.updateOne({
-          filter: { _id },
-          body: {
-            $set: {
-              'vehicles.$[vehicle].end_date': dayjs(effective_date).subtract(
-                1,
-                'day'
-              ),
-            },
+      await super.updateOne({
+        filter: { _id },
+        body: {
+          $set: {
+            'vehicles.$[vehicle].end_date': dayjs(effective_date).subtract(
+              1,
+              'day'
+            ),
           },
-          options: {
-            arrayFilters: [
-              {
-                'vehicle.end_date': { $exists: false },
-              },
-            ],
-            projection: {
-              vehicles: { $slice: -1 },
+        },
+        options: {
+          arrayFilters: [
+            {
+              'vehicle.end_date': { $exists: false },
             },
+          ],
+          projection: {
+            vehicles: { $slice: -1 },
           },
-        })
+        },
       })
-      .then(async () => {
-        return super.updateOne({
-          filter: { _id },
-          body: {
-            $set: {
-              current_vehicle: vehicleId,
-            },
-            $push: {
-              vehicles: {
-                vehicle: vehicleId,
-                effective_date,
-                ...args,
-              },
+      return await super.updateOne({
+        filter: { _id },
+        body: {
+          $set: {
+            current_vehicle: target_id,
+          },
+          $push: {
+            vehicles: {
+              vehicle: target_id,
+              effective_date,
+              ...args,
             },
           },
-        })
+        },
       })
-
-    return _doc
+    } catch (err) {
+      console.error(
+        `[${this.modelName}] Failed to INSERT vehicle, reason: ${err}`
+      )
+      return null
+    }
   }
 }

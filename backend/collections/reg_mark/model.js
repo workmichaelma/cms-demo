@@ -128,7 +128,7 @@ export class RegMark extends Model {
               },
               body: {
                 target_id,
-                ...args,
+                ...relationArgs,
               },
             })
           } else if (action === 'UPDATE') {
@@ -136,7 +136,7 @@ export class RegMark extends Model {
               body: {
                 target_id,
                 doc_id,
-                ...args,
+                ...relationArgs,
               },
             })
           }

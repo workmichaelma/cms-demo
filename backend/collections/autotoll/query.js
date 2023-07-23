@@ -1,6 +1,19 @@
 export const query = `#graphql
   input AutotollInput {
     autotoll_number: String
+
+    relation: AutotollRelationInput
+  }
+
+  input AutotollRelationInput {
+    collection: Collection!
+    action: String
+    doc_id: ID
+    target_id: ID
+    status: Boolean
+
+    effective_date: String
+    end_date: String
   }
 
   extend input EntityInput {
@@ -31,5 +44,18 @@ export const query = `#graphql
     updated_by: User
     updated_at: String
     autotoll_number: String
+
+    vehicles: [AutotollVehicle]
+    current_vehicle: Vehicle
+  }
+
+  type AutotollVehicle {
+    doc_id: ID
+    target_id: ID
+    effective_date: String
+    end_date: String
+
+    chassis_number: String
+    reg_mark: String
   }
 `
