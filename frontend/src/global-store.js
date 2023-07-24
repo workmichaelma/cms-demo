@@ -6,12 +6,13 @@ export const isNewPage = atom((get) => get(pageType) === 'new')
 export const isCopyPage = atom((get) => get(pageType) === 'copy')
 export const isListingPage = atom((get) => get(pageType) === 'listing')
 export const topBar = atom({
-	url: '/',
-	title: '',
-	createable: false,
-	copyable: false,
-	saveable: false,
+  url: '/',
+  title: '',
+  createable: false,
+  copyable: false,
+  saveable: false,
 })
 export const sideBar = atom({
-	open: true,
+  open: true,
+  activeItem: ['DATABASE', 'contract'],
 })
