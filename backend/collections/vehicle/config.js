@@ -477,10 +477,23 @@ export const schema = [
   },
 ]
 
-// export const pageConfig = {
-// 	pages: {
-// 		listing: {
-// 			fieldsToDisplay:
-// 		}
-// 	}
-// }
+export const pageConfig = {
+  pages: {
+    listing: {
+      fieldsToDisplay: [
+        'in_charge',
+        'chassis_number',
+        'print_number',
+        'type',
+        'purpose',
+        'make',
+        'vehicle_class',
+        'license',
+        'color',
+        'manufacture_year',
+        'reg_mark',
+        'status',
+      ],
+    },
+  },
+}

@@ -55,6 +55,16 @@ const getResolvers = async () => {
       }
       return null
     },
+    listing: async (parent, args, contextValue, info) => {
+      const { collection, ...props } = args || {}
+      if (collection) {
+        const Model = contextValue?.Model[collection]
+        if (Model) {
+          return Model.listing({ ...props })
+        }
+      }
+      return null
+    },
   }
   let Mutation = {
     isHealthy: () => true,
@@ -118,6 +128,18 @@ const getResolvers = async () => {
         return `$${value.toString()}`
       },
     }),
+    ListingResultData: {
+      __resolveType: (obj, contextValue, info) => {
+        const { collection } = info?.variableValues || {}
+        let prefix = `${capitalize(collection.charAt(0))}${collection.slice(1)}`
+
+        if (collection === 'gps') {
+          prefix = 'GPS'
+        }
+
+        return `${prefix}ListingResultData`
+      },
+    },
   }
   for (const folder of fs.readdirSync(normalizedPath)) {
     const resolver = await import(`../collections/${folder}/resolver.js`)

@@ -1,3 +1,23 @@
+const Listing = `#graphql
+  type VehicleListingResultData {
+    status: String
+
+    reg_mark: String
+    chassis_number: String
+    print_number: String
+    in_charge: String
+    type: String
+    purpose: String
+    make: String
+    vehicle_class: String
+    license: String
+    color: String
+    manufacture_year: String
+  }
+
+  extend union ListingResultData = VehicleListingResultData
+`
+
 export const query = `#graphql
 
   type Vehicle {
@@ -244,4 +264,6 @@ export const query = `#graphql
   extend input ImportEntityInput {
     vehicle: [ImportVehicleInput]
   }
+
+  ${Listing}
 `

@@ -1,12 +1,12 @@
 import { diff } from 'just-diff'
 import { Model } from '#_/lib/model.js'
-import { schema } from './config.js'
+import { schema, pageConfig } from './config.js'
 import lodash from 'lodash'
 const { isEmpty } = lodash
 
 export class Log extends Model {
   constructor() {
-    super('log', schema, { addLog: false })
+    super('log', schema, pageConfig, { addLog: false })
     this.Schema.statics.log = this.log.bind(this)
 
     super.buildModel()

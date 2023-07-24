@@ -98,7 +98,8 @@ const buildSchema = (schema) => {
 }
 
 export class Model {
-  constructor(modelName, schema, metadata) {
+  constructor(modelName, schema, pageConfig, metadata) {
+    this.pageConfig = pageConfig
     this.Schema = new mongoose.Schema(buildSchema(schema))
     this.Schema.plugin(mongooseLeanVirtuals)
 
@@ -226,6 +227,79 @@ export class Model {
     } catch (e) {
       console.error(e)
       return null
+    }
+  }
+
+  async listing({ filter, sort, page = 1, pageSize = 50 }, pipelines = {}) {
+    let pipeline = []
+    const { fieldsToDisplay } = this.pageConfig?.pages?.listing
+    const { searchPipeline = [], projectionPipeline = [] } = pipelines
+
+    const skip = (page - 1) * pageSize
+    const limit = pageSize
+
+    const projection = fieldsToDisplay.reduce((fields, field) => {
+      fields[field] = `$${field}`
+      return fields
+    }, {})
+
+    projectionPipeline.push({
+      $project: projection,
+    })
+
+    if (sort) {
+      const order = sort.field === 'DESC' ? -1 : 1
+      pipeline.push({
+        $facet: {
+          records: [
+            ...projectionPipeline,
+            { $sort: { [sort.field]: order } },
+            { $skip: skip },
+            { $limit: limit },
+          ],
+          totalCount: [{ $count: 'count' }],
+        },
+      })
+    } else {
+      pipeline.push({
+        $facet: {
+          records: [
+            {
+              $sort: {
+                createdAt: -1,
+              },
+            },
+            { $skip: skip },
+            { $limit: limit },
+            ...projectionPipeline,
+          ],
+          totalCount: [{ $count: 'count' }],
+        },
+      })
+    }
+
+    const result = await this.Model.aggregate(pipeline)
+
+    if (result) {
+      const [{ records, totalCount }] = result || {}
+      console.log(records)
+      const count = !isEmpty(records) ? totalCount[0]?.count : 0
+      return {
+        data: records,
+        metadata: {
+          total: count,
+          page,
+          pageSize,
+          hasNextPage: (page - 1) * pageSize + records?.length < count,
+          hasPrevPage: page > 1,
+          pipeline,
+        },
+      }
+    }
+    console.log({ filter, sort, page, pageSize })
+    return {
+      data: [],
+      metadata: {},
     }
   }
 }

@@ -3,13 +3,13 @@ import dayjs from 'dayjs'
 import mongoose from 'mongoose'
 import { Model } from '#_/lib/model.js'
 import { encrypt, decrypt } from '#_/lib/crypto.js'
-import { schema } from './config.js'
+import { schema, pageConfig } from './config.js'
 import { checkFieldIsValidToSchema } from '#_/lib/common.js'
 const { isEmpty, reduce } = lodash
 
 export class Vehicle extends Model {
   constructor() {
-    super('vehicle', schema)
+    super('vehicle', schema, pageConfig)
     this.Schema.statics.insertCompany = this.insertCompany.bind(this)
     this.Schema.statics.updateCompany = this.updateCompany.bind(this)
     this.Schema.statics.deleteCompany = this.deleteCompany.bind(this)
