@@ -237,6 +237,9 @@ export class Model {
 
     const skip = (page - 1) * pageSize
     const limit = pageSize
+    if (!isEmpty(searchPipeline)) {
+      pipeline = [...pipeline, ...searchPipeline]
+    }
 
     const projection = fieldsToDisplay.reduce((fields, field) => {
       fields[field] = `$${field}`
@@ -282,7 +285,6 @@ export class Model {
 
     if (result) {
       const [{ records, totalCount }] = result || {}
-      console.log(records)
       const count = !isEmpty(records) ? totalCount[0]?.count : 0
       return {
         data: records,

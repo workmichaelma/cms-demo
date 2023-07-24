@@ -58,6 +58,32 @@ export class Vehicle extends Model {
     }
   }
 
+  async listing(props) {
+    const { filter } = props
+
+    const customFilterFields = ['reg_mark']
+
+    const searchPipeline = [
+      {
+        $lookup: {
+          from: 'reg_marks',
+          localField: 'current_reg_mark',
+          foreignField: '_id',
+          as: 'current_reg_mark',
+        },
+      },
+      {
+        $addFields: {
+          reg_mark: {
+            $first: '$current_reg_mark',
+          },
+        },
+      },
+    ]
+
+    return await super.listing(props, { searchPipeline })
+  }
+
   async getAllAutoTolls({ _id }) {
     try {
       const query = [
