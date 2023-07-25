@@ -9,8 +9,7 @@ function AlertComponent() {
   const [alert] = useAtom(_alert)
   useEffect(() => {
     let timer = null
-    console.log(alert)
-    if (alert) {
+    if (alert?.message) {
       setActive(true)
       timer = setTimeout(() => {
         setActive(false)

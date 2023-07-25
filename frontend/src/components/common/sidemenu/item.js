@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import List from '@mui/material/List'
 import ListItemButton from '@mui/material/ListItemButton'
 import ListItemIcon from '@mui/material/ListItemIcon'
@@ -6,8 +6,9 @@ import ListItemText from '@mui/material/ListItemText'
 import Collapse from '@mui/material/Collapse'
 import ExpandLess from '@mui/icons-material/ExpandLess'
 import ExpandMore from '@mui/icons-material/ExpandMore'
-
 import { useAtom } from 'jotai'
+import { map } from 'lodash'
+
 import { sideBar } from 'global-store'
 
 const Bar = ({ item, onClick, open, activeItem }) => {
@@ -41,7 +42,12 @@ const Bar = ({ item, onClick, open, activeItem }) => {
 
 export default function Item({ item }) {
   const [{ activeItem = [] }] = useAtom(sideBar)
-  const [open, setOpen] = useState(activeItem[0] === item.key)
+  const [open, setOpen] = useState(false)
+
+  useEffect(() => {
+    const childrenKeys = map(item?.children, (item) => item.key)
+    setOpen(activeItem[0] === item.key || childrenKeys.includes(activeItem[1]))
+  }, [activeItem, item])
 
   const handleClick = () => {
     setOpen(!open)
