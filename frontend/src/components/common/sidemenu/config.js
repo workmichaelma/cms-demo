@@ -1,5 +1,4 @@
 import {
-  KeyboardArrowDown,
   OtherHouses,
   Storage,
   Topic,
@@ -15,7 +14,6 @@ export const items = [
     url: '/',
     icon: <OtherHouses sx={{ color: 'white', fontSize: 20 }} />,
     disabled: true,
-    key: '',
     isRoot: true,
   },
   {
@@ -125,6 +123,7 @@ export const items = [
     ],
   },
   {
+    key: 'EXPENSE',
     name: '支出',
     icon: <AttachMoney sx={{ color: 'white' }} />,
     children: [
@@ -163,8 +162,8 @@ export const items = [
     ],
   },
   {
-    name: '系統設置',
     key: 'SETTING',
+    name: '系統設置',
     icon: <Settings sx={{ color: 'white' }} />,
     isAdminOnly: true,
     children: [
