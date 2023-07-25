@@ -20,7 +20,11 @@ export default function withPage(Page, PageProps) {
     const isCopy = mode === 'copy'
     const isTab = mode === 'tab'
 
-    const Query = isHome ? QUERY.GET_LISTING : QUERY.GET_ENTITY(tab)
+    const Query = isHome
+      ? QUERY.GET_LISTING
+      : isNew
+      ? QUERY.GET_SCHEMA
+      : QUERY.GET_ENTITY(tab)
     const { loading, error, data, refetch } = useQuery(Query, {
       variables: {
         collection: collection || prefix,

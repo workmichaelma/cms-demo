@@ -9,6 +9,16 @@ const GET_ENTITY = (tab) => {
   return TAB_QUERY[upperCase(tab)]
 }
 
+const GET_SCHEMA = gql`
+  query getSchema($collection: Collection!) {
+    page(collection: $collection) {
+      ...PageSchemaFragment
+    }
+  }
+
+  ${PAGE_SCHEMA_FRAGMENT}
+`
+
 const GET_LISTING = gql`
   query getListing($collection: Collection!) {
     listing(collection: $collection) {
@@ -21,5 +31,6 @@ const GET_LISTING = gql`
 
 export default {
   GET_ENTITY,
+  GET_SCHEMA,
   GET_LISTING,
 }

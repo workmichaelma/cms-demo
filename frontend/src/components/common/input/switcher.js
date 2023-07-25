@@ -6,7 +6,6 @@ import Select from './select'
 import Date from './date'
 import Switch from './switch'
 import Checkbox from './checkbox'
-import WithLabel from './with-label'
 import { isArray, isEmpty } from 'lodash'
 
 import { Button } from '@mui/material'

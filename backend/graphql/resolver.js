@@ -49,7 +49,17 @@ const getResolvers = async () => {
         const Model = contextValue?.Model[collection]
         if (Model) {
           return {
-            schema: Model.schema,
+            schema: [
+              {
+                field: 'status',
+                title: 'status',
+                type: 'boolean',
+              },
+              ...Model.schema,
+            ],
+            pageConfig: {
+              pages: Model.pageConfig?.pages?.profile,
+            },
           }
         }
       }

@@ -53,6 +53,7 @@ const getQueries = async () => {
 
       type Page {
         schema: [Schema]
+        pageConfig: PageConfig
       }
 
       type Schema {
@@ -65,6 +66,15 @@ const getQueries = async () => {
         is_multiple: Boolean
         is_phone: Boolean
         is_email: Boolean
+      }
+
+      type PageConfig {
+        pages(page: String): PageConfigProfile
+      }
+
+      type PageConfigProfile {
+        page: String
+        fieldsToDisplay: [String]
       }
 
       type Query {

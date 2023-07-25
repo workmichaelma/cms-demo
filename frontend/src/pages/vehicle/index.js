@@ -18,13 +18,14 @@ function Page({
   isHome,
   isImport,
   isTab,
+  isNew,
   tab,
   data,
   refetch,
 }) {
   if (isHome) return null
   if (isImport) return null
-  if (isTab)
+  if (isTab || isNew)
     return (
       <Tabs
         tab={tab}
