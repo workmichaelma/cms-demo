@@ -65,7 +65,7 @@ function App() {
                       path={`/${prefix}/:_id`}
                       element={
                         <Element
-                          mode='edit'
+                          mode='tab'
                           {...r}
                         />
                       }

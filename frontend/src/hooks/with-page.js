@@ -9,14 +9,18 @@ export default function withPage(Page, PageProps) {
   return (props) => {
     const { collection, mode, prefix, sidebarItem, title, url, query } = props
     const { QUERY } = PageProps
-    const { _id, tab } = useParams()
+    const { _id, tab = 'general' } = useParams()
     const [_, setSideBar] = useAtom(sideBar)
     const [__, setTopBar] = useAtom(topBar)
 
     const isHome = mode === 'home'
     const isImport = mode === 'import'
+    const isEdit = mode === 'edit'
+    const isNew = mode === 'new'
+    const isCopy = mode === 'copy'
+    const isTab = mode === 'tab'
 
-    const Query = isHome ? QUERY.GET_LISTING : QUERY.GET_ENTITY
+    const Query = isHome ? QUERY.GET_LISTING : QUERY.GET_ENTITY(tab)
     const { loading, error, data, refetch } = useQuery(Query, {
       variables: {
         collection: collection || prefix,
@@ -48,6 +52,10 @@ export default function withPage(Page, PageProps) {
         {...props}
         isHome={isHome}
         isImport={isImport}
+        isTab={isTab}
+        isEdit={isEdit}
+        isNew={isNew}
+        isCopy={isCopy}
         _id={_id}
         tab={tab}
         data={data}

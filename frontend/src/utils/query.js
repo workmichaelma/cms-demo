@@ -27,3 +27,10 @@ export const ENTITY_BASIC = `
     display_name
   }
 `
+
+export const RELATION_BASIC = `
+  doc_id
+  target_id
+  effective_date
+  end_date
+`
