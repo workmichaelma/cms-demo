@@ -1,5 +1,6 @@
 const Listing = `#graphql
   type VehicleListingResultData {
+    _id: ID
     status: String
 
     reg_mark: String

@@ -4,6 +4,7 @@ import withPage from 'hooks/with-page'
 import QUERY from './query'
 
 import Tabs from './tabs'
+import Table from 'components/pages/listing/table'
 
 // import Index from '../../components/pages/listing'
 // import Profile from './profile'
@@ -21,9 +22,22 @@ function Page({
   isNew,
   tab,
   data,
+  loading,
   refetch,
+  setFilter,
+  setSort,
 }) {
-  if (isHome) return null
+  if (isHome)
+    return (
+      <Table
+        prefix={prefix}
+        data={data}
+        loading={loading}
+        refetch={refetch}
+        setFilter={setFilter}
+        setSort={setSort}
+      />
+    )
   if (isImport) return null
   if (isTab || isNew)
     return (

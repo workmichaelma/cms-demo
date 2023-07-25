@@ -22,11 +22,38 @@ const GET_SCHEMA = gql`
 const GET_LISTING = gql`
   query getListing($collection: Collection!) {
     listing(collection: $collection) {
-      ... on Vehicle {
-        _id
+      data {
+        ... on VehicleListingResultData {
+          _id
+          status
+          reg_mark
+          chassis_number
+          print_number
+          in_charge
+          type
+          purpose
+          make
+          vehicle_class
+          license
+          color
+          manufacture_year
+        }
+      }
+      metadata {
+        page
+        pageSize
+        hasNextPage
+        hasPrevPage
+        totalPages
+        total
+        pipeline
       }
     }
+    page(collection: $collection) {
+      ...PageSchemaFragment
+    }
   }
+  ${PAGE_SCHEMA_FRAGMENT}
 `
 
 export default {

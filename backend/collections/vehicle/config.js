@@ -481,6 +481,7 @@ export const pageConfig = {
   pages: {
     listing: {
       fieldsToDisplay: [
+        '_id',
         'in_charge',
         'chassis_number',
         'print_number',

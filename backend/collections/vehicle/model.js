@@ -79,6 +79,11 @@ export class Vehicle extends Model {
           },
         },
       },
+      {
+        $addFields: {
+          reg_mark: '$reg_mark.reg_mark',
+        },
+      },
     ]
 
     return await super.listing(props, { searchPipeline })
