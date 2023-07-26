@@ -11,11 +11,11 @@ function InputSwitch({ name, value, setInputs, saveBtnClicked }) {
       setInputs((v) => {
         return {
           ...v,
-          [name]: isOn,
+          [name]: isOn === value ? undefined : value,
         }
       })
     }
-  }, [name, setInputs, touched, isOn])
+  }, [name, setInputs, touched, isOn, value])
 
   return (
     <Switch

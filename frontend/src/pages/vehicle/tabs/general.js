@@ -10,12 +10,10 @@ export default function GeneralPage({
   store,
 }) {
   return (
-    <div className=''>
-      <General
-        data={data}
-        collection={collection}
-        store={store}
-      />
-    </div>
+    <General
+      data={data}
+      collection={collection}
+      store={store}
+    />
   )
 }

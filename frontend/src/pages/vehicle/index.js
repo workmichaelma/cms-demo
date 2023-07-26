@@ -47,6 +47,7 @@ function Page({
       <Tabs
         _id={_id}
         tab={tab}
+        prefix={prefix}
         data={data}
         collection={collection}
         isNew={isNew}
