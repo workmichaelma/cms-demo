@@ -1,86 +1,66 @@
 import React, { useEffect, useMemo, useState, useRef } from 'react'
+import { useLazyQuery } from '@apollo/client'
 import { Autocomplete, TextField, InputAdornment } from '@mui/material'
-import {
-  compact,
-  isEmpty,
-  isObject,
-  isString,
-  reduce,
-  find,
-  isFunction,
-} from 'lodash'
+import { isEmpty, isObject, isString, find, isFunction } from 'lodash'
 
 import { getErrorMessage } from 'utils/input'
-// import { useGet } from 'lib/request'
 
 function InputSelect({
   name,
   value = '',
   schema,
-  options,
-  suggestEndpoint,
   setInputs,
+  setInputErrors,
   saveBtnClicked,
   metadata,
   events,
 }) {
-  const {
-    is_required = false,
-    select,
-    free_solo = false,
-    editable,
-    placeholder,
-  } = schema
-  const [text, setText] = useState(value || '')
+  const { options, free_solo = false, editable, placeholder } = schema
+  const [text, setText] = useState(
+    isString(value) ? { _id: value, label: value } : value || ''
+  )
   const [touched, setTouched] = useState(false)
-  const ref = useRef()
 
-  // const { result = null, getRequest } = useGet()
   const presetOptions = useMemo(() => {
     return metadata?.preset?.options || []
   }, [metadata])
-
-  const _options = useMemo(() => {
-    if (!isEmpty(presetOptions)) return presetOptions
-    // const arr = !isEmpty(select)
-    //   ? select
-    //   : result !== null && !isEmpty(result) && !isEmpty(result?.data)
-    //   ? result.data
-    //   : []
-
-    // return compact(
-    //   reduce(
-    //     arr,
-    //     (obj, v, k) => {
-    //       if (v) {
-    //         if (isString(v)) {
-    //           obj.push({
-    //             _id: v,
-    //             label: v,
-    //           })
-    //         } else if (isObject(v)) {
-    //           obj.push(v)
-    //         }
-    //       }
-    //       return obj
-    //     },
-    //     []
-    //   )
-    // )
-  }, [select, presetOptions])
-
-  useEffect(() => {
-    setInputs((v) => {
-      return {
-        ...v,
-        [name]: ref,
-      }
-    })
-  }, [name, setInputs])
-
   const preselectedOption = useMemo(() => {
     return metadata?.preset?.selected
   }, [metadata])
+
+  const [getOptions, getOptionsResult] = useLazyQuery(
+    metadata?.optionsQuery?.query
+  )
+  const _options = useMemo(() => {
+    let arr = []
+    if (!isEmpty(presetOptions)) {
+      arr = presetOptions
+    } else if (options) {
+      arr = options
+    } else {
+      const { data, called } = getOptionsResult
+      if (called && data) {
+        arr = data[metadata?.optionsQuery.path]
+      }
+    }
+
+    return arr.map((v) => {
+      if (isObject(v)) {
+        return v
+      } else if (isString(v)) {
+        return {
+          _id: v,
+          label: v,
+        }
+      }
+      return {}
+    })
+  }, [options, getOptionsResult, presetOptions, metadata])
+
+  const errorMessage = useMemo(() => {
+    if (touched || saveBtnClicked) return getErrorMessage({ schema, text })
+  }, [schema, text, touched, saveBtnClicked])
+
   useEffect(() => {
     if (!isEmpty(_options) && preselectedOption && !touched) {
       const option = find(_options, { _id: preselectedOption })
@@ -90,38 +70,35 @@ function InputSelect({
     }
   }, [_options, preselectedOption, touched])
 
-  // useEffect(() => {
-  //   if (
-  //     isEmpty(presetOptions) &&
-  //     preselectedOption &&
-  //     isEmpty(_options) &&
-  //     result === null &&
-  //     suggestEndpoint
-  //   ) {
-  //     getRequest({ url: suggestEndpoint })
-  //   }
-  // }, [preselectedOption, _options, result, suggestEndpoint, presetOptions])
-
   useEffect(() => {
-    const v = text
-    let customValue = undefined
-    ref.current.touched = touched
-    if (!touched) {
-      if (isString(value)) {
-        customValue = value
-      }
-    } else {
-      if (isObject(v) && v?._id) {
-        customValue = v._id
-      } else if (isString(v)) {
-        customValue = v
+    if (touched || saveBtnClicked) {
+      const { _id = null } = text || {}
+
+      const output = _id === value ? undefined : _id
+
+      setInputs((v) => ({
+        ...v,
+        [name]: output,
+      }))
+      setInputErrors((v) => ({
+        ...v,
+        [name]: errorMessage,
+      }))
+      if (isFunction(events?.onChange)) {
+        events.onChange(output)
       }
     }
-    ref.current.customValue = customValue
-    if (isFunction(events?.onChange)) {
-      events.onChange(ref.current.customValue)
-    }
-  }, [text, value, touched, events])
+  }, [
+    text,
+    errorMessage,
+    name,
+    setInputs,
+    setInputErrors,
+    value,
+    touched,
+    saveBtnClicked,
+    events,
+  ])
 
   return (
     <Autocomplete
@@ -131,37 +108,43 @@ function InputSelect({
       disabled={editable === false}
       fullWidth
       freeSolo={free_solo}
-      options={free_solo ? _options : ['', ..._options]}
+      isOptionEqualToValue={(option, value) => {
+        // console.log(option, value)
+      }}
+      options={_options}
       onOpen={() => {
-        // if (isEmpty(_options) && result === null && suggestEndpoint) {
-        //   getRequest({ url: suggestEndpoint })
-        // }
+        if (isEmpty(_options) && !getOptionsResult.called) {
+          getOptions({
+            variables: {
+              ...metadata?.optionsQuery?.params,
+            },
+          })
+        }
       }}
       getOptionLabel={(v) => {
-        if (isObject(v) && v.label) {
-          return v.label
-        } else if (isString(v)) {
-          const option = find(_options, { _id: v })
-          if (option) {
-            return option.label
-          }
-          return v
-        }
-        return ''
+        return v.label || ''
       }}
       onChange={(e, v, reason) => {
-        if (isObject(v) && v.value) {
-          setText(v.value)
-        } else {
+        if (isObject(v) && v._id) {
           setText(v)
+        } else {
+          setText({ _id: v, label: v })
         }
         if (!touched) setTouched(true)
       }}
-      onInputChange={(event, v, r) => {
+      onInputChange={(event, v = null, r) => {
         if ((r === 'input' && free_solo) || r === 'clear') {
-          setText(v)
+          setText({ _id: v, label: v })
         }
         if (!touched) setTouched(true)
+      }}
+      getOptionDisabled={(option) => {
+        if (
+          option?._id === value ||
+          option?.label === value ||
+          option === value
+        )
+          return true
       }}
       renderInput={(params) => {
         const errorMessage = getErrorMessage({
@@ -175,7 +158,6 @@ function InputSelect({
             error={!!errorMessage}
             helperText={errorMessage}
             placeholder={placeholder}
-            inputRef={ref}
             sx={{
               '.MuiFormHelperText-root': {
                 display: !touched && !saveBtnClicked ? 'none' : 'inherit',

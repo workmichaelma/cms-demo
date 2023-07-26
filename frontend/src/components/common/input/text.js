@@ -1,5 +1,5 @@
-import { TextField, OutlinedInput } from '@mui/material'
 import React, { useEffect, useMemo, useState, useRef } from 'react'
+import { TextField, OutlinedInput } from '@mui/material'
 import IconButton from '@mui/material/IconButton'
 import { useFormControl, InputAdornment } from '@mui/material'
 import { Visibility, VisibilityOff } from '@mui/icons-material'
@@ -10,7 +10,7 @@ function InputText({
   setInputs,
   setInputErrors,
   name,
-  value,
+  value = undefined,
   schema,
   saveBtnClicked,
   customErrorHandler,
@@ -26,47 +26,57 @@ function InputText({
   } = schema
   const [showPassword, setShowPassword] = useState(is_password)
   const [touched, setTouched] = useState(false)
-  const [text, setText] = useState(!isUndefined(value) ? value : '')
-  const ref = useRef()
+  const [text, setText] = useState(
+    !isUndefined(value) && !isNull(value) ? value : undefined
+  )
 
   const errorMessage = useMemo(() => {
-    if (customErrorHandler && text && touched) {
-      return customErrorHandler(text)
+    if (touched || saveBtnClicked) {
+      if (customErrorHandler && text && touched) {
+        return customErrorHandler(text)
+      }
+      return getErrorMessage({ schema, text })
     }
-    return getErrorMessage({ schema, text })
-  }, [schema, text, touched, customErrorHandler])
+  }, [schema, text, touched, customErrorHandler, saveBtnClicked])
 
-  // useEffect(() => {
-  //   if (touched) {
-  //     ref.current.touched = true
-  //   }
-  // }, [touched])
+  const isTextEqualValue = useMemo(() => {
+    const isTextEmpty = isNull(text) || isUndefined(text) || text === ''
+    const isValueEmpty = isNull(value) || isUndefined(value) || value === ''
 
-  // useEffect(() => {
-  //   setInputs((v) => {
-  //     return {
-  //       ...v,
-  //       [name]: ref,
-  //     }
-  //   })
-  // }, [name, setInputs])
+    if (isTextEmpty && isValueEmpty) {
+      return true
+    } else {
+      return text === value
+    }
+  }, [text, value])
 
   useEffect(() => {
-    setInputs((v) => ({
-      ...v,
-      [name]: value === text ? undefined : text,
-    }))
-    setInputErrors((v) => ({
-      ...v,
-      [name]: errorMessage,
-    }))
-  }, [value, text, name, setInputs, setInputErrors, schema, errorMessage])
+    if (touched || saveBtnClicked) {
+      setInputs((v) => ({
+        ...v,
+        [name]: isTextEqualValue ? null : text,
+      }))
+      setInputErrors((v) => ({
+        ...v,
+        [name]: errorMessage,
+      }))
+    }
+  }, [
+    isTextEqualValue,
+    text,
+    name,
+    setInputs,
+    setInputErrors,
+    schema,
+    errorMessage,
+    touched,
+    saveBtnClicked,
+  ])
 
   if (!schema) return null
   return (
     <TextField
       type={!is_password ? 'text' : showPassword ? 'password' : 'text'}
-      inputRef={ref}
       onChange={(e) => {
         const v = e.target.value
         setText(v)

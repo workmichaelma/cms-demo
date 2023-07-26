@@ -55,6 +55,7 @@ export default function withPage(Page, PageProps) {
     return (
       <Page
         {...props}
+        collection={collection || prefix}
         isHome={isHome}
         isImport={isImport}
         isTab={isTab}

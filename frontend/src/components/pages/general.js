@@ -4,27 +4,78 @@ import { find, map } from 'lodash'
 import BlockItem from './block/item'
 
 import Switcher from 'components/common/input/switcher'
+import { GET_DISTINCT_FIELD } from 'utils/query'
 
-export default function General({ data, setInputs, setInputErrors }) {
+const fieldsToDisplay = [
+  'status',
+  'chassis_number',
+  'color',
+  'body_type',
+  'car_loan',
+  'in_charge',
+  'print_number',
+  'mvmd_remarks',
+  'district',
+  'usage',
+  'purpose',
+  'type',
+  'type_detail',
+  'make',
+  'maintainance',
+  'maintainance_remarks',
+  'maintainance_end_date',
+  'maintenance_mileage',
+  'vehicle_class',
+  'license',
+  'vehicle_model',
+  'engine_number',
+  'cylinder_capacity',
+  'gross_weight',
+  'registered_owner',
+  'owner_registration_date',
+  'manufacture_year',
+  'first_registration_date',
+  'gratia_payment_scheme',
+  'rearview_mirror',
+  'spare_key',
+  'new_car',
+  'remarks',
+]
+
+export default function General({
+  data,
+  collection,
+  setInputs,
+  setInputErrors,
+}) {
   const { entity = [], page = {} } = data || {}
-  const { schema } = page || {}
   return (
     <Block subheader='基本資料'>
-      {map(schema, (row) => {
-        const { field, title } = row
+      {map(fieldsToDisplay, (field) => {
+        const schema = find(page?.schema, { field })
         const value = entity[field]
-        if (!title) return null
+        if (!schema?.title) return null
         return (
           <BlockItem
             key={field}
-            header={title}
+            header={schema.title}
           >
             <Switcher
-              schema={row}
+              schema={schema}
               setInputs={setInputs}
               setInputErrors={setInputErrors}
               value={value}
               field={field}
+              metadata={{
+                optionsQuery: {
+                  query: GET_DISTINCT_FIELD,
+                  params: {
+                    collection,
+                    field,
+                  },
+                  path: 'entityDistinctField',
+                },
+              }}
             />
           </BlockItem>
         )

@@ -12,6 +12,7 @@ import Table from 'components/pages/listing/table'
 
 function Page({
   mode,
+  collection,
   prefix,
   title,
   sidebarItem,
@@ -44,6 +45,7 @@ function Page({
       <Tabs
         tab={tab}
         data={data}
+        collection={collection}
       />
     )
   return <div>123</div>

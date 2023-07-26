@@ -114,8 +114,8 @@ export const schema = [
     type: 'text',
     placeholder: 'license: e.g. 1 / 2 / 18 / 19',
     select: true,
+    options: ['1', '2', '18', '19'],
     free_solo: false,
-    select: ['1', '2', '18', '19'],
   },
   {
     field: 'vehicle_model',

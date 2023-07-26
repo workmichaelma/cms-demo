@@ -9,9 +9,21 @@ export const PAGE_SCHEMA_FRAGMENT = gql`
       is_phone
       title
       type
+      select
+      options
       placeholder
       is_required
+      free_solo
+      editable
+      maxlength
+      checkbox
     }
+  }
+`
+
+export const GET_DISTINCT_FIELD = gql`
+  query getDistinctField($collection: Collection!, $field: String) {
+    entityDistinctField(collection: $collection, field: $field)
   }
 `
 

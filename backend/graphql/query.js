@@ -55,7 +55,6 @@ const getQueries = async () => {
         schema: [Schema]
         pageConfig: PageConfig
       }
-
       type Schema {
         field: String
         title: String
@@ -66,6 +65,12 @@ const getQueries = async () => {
         is_multiple: Boolean
         is_phone: Boolean
         is_email: Boolean
+        select: Boolean
+        options: [String]
+        free_solo: Boolean
+        editable: Boolean
+        maxlength: Int
+        checkbox: [String]
       }
 
       type PageConfig {

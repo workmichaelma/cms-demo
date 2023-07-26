@@ -40,8 +40,8 @@ const switcher = (schema, name, metadata) => {
     case 'number':
       if (schema?.checkbox) {
         Component = <Checkbox name={name} />
-        // } else if (schema?.select) {
-        // Component = <Select name={name} />;
+      } else if (schema?.select) {
+        Component = <Select name={name} />
       } else {
         Component = <Text name={name} />
       }

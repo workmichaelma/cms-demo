@@ -15,7 +15,10 @@ export default function MenuItems() {
       }}
     >
       {items.map((item) => (
-        <Item item={item} />
+        <Item
+          item={item}
+          key={item.name}
+        />
       ))}
     </List>
   )

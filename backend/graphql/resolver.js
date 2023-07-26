@@ -52,7 +52,7 @@ const getResolvers = async () => {
             schema: [
               {
                 field: 'status',
-                title: 'status',
+                title: '狀況',
                 type: 'boolean',
               },
               ...Model.schema,
