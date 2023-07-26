@@ -52,27 +52,9 @@ export const useInputStore = ({
     return !hasError && !isEmpty(body)
   }, [hasError, body])
 
-  useEffect(() => {
-    const { data, called, error, reset } = submitMetadata
-
-    if (called && canSave) {
-      setInputs({})
-      setInputErrors({})
-      if (error) {
-        setAlert({ message: '發生錯誤', type: 'error' })
-      } else {
-        if (isEdit) {
-          setAlert({ message: '成功更新!', type: 'success' })
-          refetch().then(() => {
-            reset()
-          })
-        }
-      }
-    }
-  }, [isEdit, submitMetadata, refetch, setAlert, canSave])
-
   const save = useCallback(() => {
     if (canSave) {
+      console.log(body, 'SAVE button clicked')
       submit({
         variables: {
           collection,
@@ -81,9 +63,24 @@ export const useInputStore = ({
             [collection]: body,
           },
         },
+      }).then((data) => {
+        const { called, error, reset } = submitMetadata
+        setInputs({})
+        setInputErrors({})
+        if (isEdit) {
+          if (data?.data?.updateEntity) {
+            setAlert({ message: '成功更新!', type: 'success' })
+            refetch().then(() => {
+              console.log('REFETCHED')
+              reset()
+            })
+          } else {
+            setAlert({ message: '發生錯誤', type: 'error' })
+          }
+        }
       })
     }
-  }, [canSave, body, collection, submit, _id])
+  }, [canSave, body, collection, submit, _id, setAlert, isEdit, refetch])
 
   useEffect(() => {
     setTopBar((v) => ({

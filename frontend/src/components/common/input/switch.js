@@ -11,7 +11,7 @@ function InputSwitch({ name, value, setInputs, saveBtnClicked }) {
       setInputs((v) => {
         return {
           ...v,
-          [name]: isOn === value ? undefined : value,
+          [name]: isOn === value ? undefined : isOn,
         }
       })
     }

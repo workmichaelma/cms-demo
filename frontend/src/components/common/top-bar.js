@@ -102,7 +102,7 @@ const DefaultTopNav = ({}) => {
           <div>
             <IconButton
               aria-label='save'
-              onClick={() => save()}
+              onClick={save}
               disabled={!canSave}
             >
               <Save color={canSave ? 'primary' : ''} />

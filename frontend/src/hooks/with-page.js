@@ -27,6 +27,7 @@ export default function withPage(Page, PageProps) {
       ? QUERY.GET_SCHEMA
       : QUERY.GET_ENTITY(tab)
     const { loading, error, data, refetch } = useQuery(Query, {
+      fetchPolicy: 'no-cache',
       variables: {
         collection: collection || prefix,
         _id,
