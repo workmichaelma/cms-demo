@@ -7,6 +7,7 @@ export const Query = {
       username: session.username,
       display_name: session.display_name,
       permissions: session.permissions,
+      is_logged_in: session.is_logged_in,
     }
   },
 }
@@ -23,6 +24,7 @@ export const Mutation = {
         session.display_name = doc.display_name
         session.permissions = doc.permissions
         session.user_id = doc._id
+        session.is_logged_in = true
 
         contextValue.Model.user.setUserId(doc._id)
         return true
@@ -36,6 +38,7 @@ export const Mutation = {
     session.display_name = undefined
     session.permissions = undefined
     session.user_id = undefined
+    session.is_logged_in = undefined
     contextValue.Model.user.setUserId(null)
   },
   registerUser: async (parent, args, contextValue, info) => {

@@ -14,6 +14,7 @@ export const query = `#graphql
     is_admin: Boolean
     display_name: String
     permissions: [String]
+    is_logged_in: Boolean
   }
 
   extend input EntityInput {

@@ -10,10 +10,10 @@ export class User extends Model {
     this.buildModel()
   }
 
-  async register({ username, password }) {
+  async register({ password, ...args }) {
     const encrptedPassword = encrypt(password)
     const doc = await this.insert({
-      body: { username, password: encrptedPassword },
+      body: { password: encrptedPassword, ...args },
     })
     return doc
   }

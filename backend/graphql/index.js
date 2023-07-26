@@ -22,7 +22,10 @@ const connectGraphQL = (app) => {
   app.use(express.static(path.join(__dirname, '/frontend/build')))
   app.use(
     '/graphql',
-    cors(),
+    cors({
+      origin: 'http://localhost:3000',
+      credentials: true,
+    }),
     graphqlUploadExpress(),
     bodyParser.json({ limit: '50mb' }),
     expressMiddleware(server, {

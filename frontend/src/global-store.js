@@ -1,6 +1,6 @@
 import { atom, useAtom } from 'jotai'
 
-export const username = atom('asdsad')
+export const username = atom('')
 export const pageType = atom(null)
 export const isEditPage = atom((get) => get(pageType) === 'edit')
 export const isNewPage = atom((get) => get(pageType) === 'new')

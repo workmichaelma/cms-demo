@@ -5,30 +5,11 @@ import Drawer from '@mui/material/Drawer'
 import CssBaseline from '@mui/material/CssBaseline'
 import MuiAppBar from '@mui/material/AppBar'
 
-import {
-  gql,
-  useQuery,
-  ApolloClient,
-  ApolloProvider,
-  InMemoryCache,
-} from '@apollo/client'
-import { createUploadLink } from 'apollo-upload-client'
-
 import TopNav from 'components/common/top-bar'
 import { sideBar } from 'global-store'
 import SideMenu from 'components/common/sidemenu'
 import Alert from 'components/common/alert'
-
-const client = new ApolloClient({
-  cache: new InMemoryCache(),
-  link: createUploadLink({
-    uri: 'http://localhost/graphql',
-    headers: {
-      'Apollo-Require-Preflight': 'true',
-    },
-  }),
-})
-
+import withAuth from 'hooks/with-auth'
 const drawerWidth = 200
 
 const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })(
@@ -67,10 +48,11 @@ const AppBar = styled(MuiAppBar, {
   }),
 }))
 
-export default function PersistentDrawerLeft({ children }) {
+const Document = ({ children, loading }) => {
   const theme = useTheme()
   const [{ open }] = useAtom(sideBar)
 
+  if (loading) return null
   return (
     <Box sx={{ display: 'flex', color: 'white' }}>
       <CssBaseline />
@@ -102,16 +84,16 @@ export default function PersistentDrawerLeft({ children }) {
           <SideMenu />
         </div>
       </Drawer>
-      <ApolloProvider client={client}>
-        <Main
-          open={open}
-          sx={{ minHeight: '100vh', bgcolor: '#f5f6f9' }}
-        >
-          <Alert />
-          <div className='mt-16' />
-          <div className='text-sm text-zinc-900'>{children}</div>
-        </Main>
-      </ApolloProvider>
+      <Main
+        open={open}
+        sx={{ minHeight: '100vh', bgcolor: '#f5f6f9' }}
+      >
+        <Alert />
+        <div className='mt-16' />
+        <div className='text-sm text-zinc-900'>{children}</div>
+      </Main>
     </Box>
   )
 }
+
+export default withAuth(Document)

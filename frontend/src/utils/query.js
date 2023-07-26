@@ -62,3 +62,22 @@ export const ENTITY_INSERT = gql`
     insertEntity(collection: $collection, body: $body)
   }
 `
+
+export const CURRENT_USER = gql`
+  query Query {
+    currentUser {
+      _id
+      username
+      is_admin
+      display_name
+      permissions
+      is_logged_in
+    }
+  }
+`
+
+export const LOGIN = gql`
+  mutation Login($data: LoginInput!) {
+    login(data: $data)
+  }
+`

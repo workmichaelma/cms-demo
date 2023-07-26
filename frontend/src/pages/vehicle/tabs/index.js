@@ -27,6 +27,12 @@ function Tabs(props) {
           _id={_id}
           tab=''
         />
+        <PageTab
+          label='擁有公司'
+          prefix={prefix}
+          _id={_id}
+          tab='company'
+        />
       </PageTabs>
       {Page}
     </div>
