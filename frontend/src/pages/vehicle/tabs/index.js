@@ -3,19 +3,28 @@ import General from './general'
 import { useMemo } from 'react'
 import PageTabs from 'components/pages/tabs'
 import PageTab from 'components/pages/tabs/tab'
+import Tab from 'components/pages/tab'
 
 function Tabs(props) {
   const { tab, _id, prefix } = props
   const store = useInputStore({ ...props })
 
   const Page = useMemo(() => {
-    if (tab === 'general')
+    if (tab === 'general') {
       return (
         <General
           {...props}
           store={store}
         />
       )
+    } else {
+      return (
+        <Tab
+          {...props}
+          store={store}
+        />
+      )
+    }
   }, [tab, store, props])
 
   return (

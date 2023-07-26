@@ -110,6 +110,7 @@ function InputSelect({
       freeSolo={free_solo}
       isOptionEqualToValue={(option, value) => {
         // console.log(option, value)
+        return false
       }}
       options={_options}
       onOpen={() => {

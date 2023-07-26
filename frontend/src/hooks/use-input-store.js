@@ -1,7 +1,7 @@
 import { useAtom } from 'jotai'
 import { useMutation } from '@apollo/client'
 import { useCallback, useEffect, useMemo, useState } from 'react'
-import { isEmpty, isUndefined, reduce, isNull } from 'lodash'
+import { isEmpty, isUndefined, reduce, isNull, isFunction, set } from 'lodash'
 import { ENTITY_UPDATE, ENTITY_INSERT } from 'utils/query'
 import { alert, topBar } from 'global-store'
 
@@ -25,8 +25,9 @@ export const useInputStore = ({
   const hasError = useMemo(() => {
     return reduce(
       inputErrors,
-      (result, value) => {
-        if (!(isUndefined(value) || isNull(value))) {
+      (result, value, key) => {
+        if (key === 'relation') {
+        } else if (!(isUndefined(value) || isNull(value))) {
           result = true
         }
         return result
@@ -53,6 +54,8 @@ export const useInputStore = ({
   }, [hasError, body])
 
   const save = useCallback(() => {
+    console.log(body, canSave, inputErrors, 'save')
+
     if (canSave) {
       console.log(body, 'SAVE button clicked')
       submit({
@@ -70,17 +73,19 @@ export const useInputStore = ({
         if (isEdit) {
           if (data?.data?.updateEntity) {
             setAlert({ message: '成功更新!', type: 'success' })
-            refetch().then(() => {
-              console.log('REFETCHED')
-              reset()
-            })
+            if (isFunction(refetch)) {
+              refetch().then(() => {
+                console.log('REFETCHED')
+                reset()
+              })
+            }
           } else {
             setAlert({ message: '發生錯誤', type: 'error' })
           }
         }
       })
     }
-  }, [canSave, body, collection, submit, _id, setAlert, isEdit, refetch])
+  }, [canSave, body, collection, submit, _id, setAlert, isEdit])
 
   useEffect(() => {
     setTopBar((v) => ({
@@ -93,5 +98,6 @@ export const useInputStore = ({
   return {
     setInputs,
     setInputErrors,
+    save,
   }
 }

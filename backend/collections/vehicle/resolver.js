@@ -21,7 +21,7 @@ export const Field = {
               effective_date: doc?.effective_date,
               end_date: doc?.end_date,
               name: doc?.company?.name_tc,
-              value: doc?.company?.value,
+              value: doc?.value,
             }
           })
         }

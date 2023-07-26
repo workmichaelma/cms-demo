@@ -3,7 +3,7 @@ import { TextField, OutlinedInput } from '@mui/material'
 import IconButton from '@mui/material/IconButton'
 import { useFormControl, InputAdornment } from '@mui/material'
 import { Visibility, VisibilityOff } from '@mui/icons-material'
-import { isEmpty, isNull, isString, isUndefined } from 'lodash'
+import { isEmpty, isNull, isString, isUndefined, set } from 'lodash'
 import { getErrorMessage } from 'utils/input'
 
 function InputText({
@@ -52,14 +52,12 @@ function InputText({
 
   useEffect(() => {
     if (touched || saveBtnClicked) {
-      setInputs((v) => ({
-        ...v,
-        [name]: isTextEqualValue ? undefined : text,
-      }))
-      setInputErrors((v) => ({
-        ...v,
-        [name]: errorMessage,
-      }))
+      setInputs((v) => {
+        return set({ ...v }, name, isTextEqualValue ? undefined : text)
+      })
+      setInputErrors((v) => {
+        return set({ ...v }, name, errorMessage)
+      })
     }
   }, [
     isTextEqualValue,
@@ -67,7 +65,6 @@ function InputText({
     name,
     setInputs,
     setInputErrors,
-    schema,
     errorMessage,
     touched,
     saveBtnClicked,
