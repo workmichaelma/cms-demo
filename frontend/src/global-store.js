@@ -11,7 +11,8 @@ export const topBar = atom({
   title: '',
   createable: false,
   copyable: false,
-  saveable: false,
+  canSave: false,
+  save: null,
 })
 export const sideBar = atom({
   open: true,

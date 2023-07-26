@@ -46,3 +46,19 @@ export const RELATION_BASIC = `
   effective_date
   end_date
 `
+
+export const ENTITY_UPDATE = gql`
+  mutation UpdateEntity(
+    $collection: Collection!
+    $_id: ID!
+    $body: EntityInput
+  ) {
+    updateEntity(collection: $collection, _id: $_id, body: $body)
+  }
+`
+
+export const ENTITY_INSERT = gql`
+  mutation InsertEntity($collection: Collection!, $body: EntityInput) {
+    insertEntity(collection: $collection, body: $body)
+  }
+`

@@ -34,13 +34,13 @@ function TopNav() {
 }
 
 const DefaultTopNav = ({}) => {
-  const [{ url, title, save, saveable, copyable, createable }] = useAtom(topBar)
+  const [{ url, title, save, canSave, copyable, createable }] = useAtom(topBar)
   const [{ open: sideBarOpen }, setSideBar] = useAtom(sideBar)
   const [isCopyPage] = useAtom(_isCopyPage)
   const location = useLocation()
   const currentPath = location.pathname
   return (
-    <div className='h-16 flex items-center text-zinc-900'>
+    <div className='h-16 flex items-center text-zinc-900 pr-4'>
       {!sideBarOpen && (
         <div className='pl-2'>
           <IconButton
@@ -103,9 +103,9 @@ const DefaultTopNav = ({}) => {
             <IconButton
               aria-label='save'
               onClick={() => save()}
-              disabled={!saveable}
+              disabled={!canSave}
             >
-              <Save color={saveable ? 'primary' : ''} />
+              <Save color={canSave ? 'primary' : ''} />
             </IconButton>
           </div>
         ) : null}

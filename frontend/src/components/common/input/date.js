@@ -31,12 +31,12 @@ function InputDate({
   }, [text, touched])
 
   useEffect(() => {
-    setInputs((v) => {
-      return {
-        ...v,
-        [name]: ref,
-      }
-    })
+    // setInputs((v) => {
+    //   return {
+    //     ...v,
+    //     [name]: ref,
+    //   }
+    // })
   }, [name, setInputs])
 
   return (

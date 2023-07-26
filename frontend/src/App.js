@@ -65,7 +65,7 @@ function App() {
                       path={`/${prefix}/:_id`}
                       element={
                         <Element
-                          mode='tab'
+                          mode='edit'
                           {...r}
                         />
                       }
@@ -74,7 +74,7 @@ function App() {
                       path={`/${prefix}/:_id/:tab`}
                       element={
                         <Element
-                          mode='tab'
+                          mode='edit'
                           {...r}
                         />
                       }

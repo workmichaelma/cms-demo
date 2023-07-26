@@ -54,7 +54,7 @@ function InputText({
     if (touched || saveBtnClicked) {
       setInputs((v) => ({
         ...v,
-        [name]: isTextEqualValue ? null : text,
+        [name]: isTextEqualValue ? undefined : text,
       }))
       setInputErrors((v) => ({
         ...v,

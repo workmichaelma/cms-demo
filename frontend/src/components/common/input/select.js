@@ -138,14 +138,6 @@ function InputSelect({
         }
         if (!touched) setTouched(true)
       }}
-      getOptionDisabled={(option) => {
-        if (
-          option?._id === value ||
-          option?.label === value ||
-          option === value
-        )
-          return true
-      }}
       renderInput={(params) => {
         const errorMessage = getErrorMessage({
           schema,

@@ -140,12 +140,19 @@ export class Model {
       if (this.addLog) {
         old_data = (await this.findOne({ filter })) || null
       }
-      const _doc = await this.Model.findOneAndUpdate(filter, body, {
-        upsert: true,
-        lean: true,
-        new: true,
-        ...options,
-      })
+      const _doc = await this.Model.findOneAndUpdate(
+        filter,
+        {
+          ...body,
+          updated_at: new Date(),
+        },
+        {
+          upsert: true,
+          lean: true,
+          new: true,
+          ...options,
+        }
+      )
 
       if (this.addLog && _doc?._id) {
         if (old_data === null) {

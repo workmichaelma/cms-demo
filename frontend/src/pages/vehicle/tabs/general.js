@@ -7,19 +7,14 @@ export default function GeneralPage({
   isEdit,
   isCopy,
   isNew,
+  store,
 }) {
-  const [inputs, setInputs] = useState({})
-  const [inputErrors, setInputErrors] = useState({})
-  useEffect(() => {
-    console.log({ inputs, inputErrors })
-  }, [inputs, inputErrors])
   return (
     <div className=''>
       <General
         data={data}
-        setInputs={setInputs}
-        setInputErrors={setInputErrors}
         collection={collection}
+        store={store}
       />
     </div>
   )

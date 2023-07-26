@@ -42,13 +42,9 @@ const fieldsToDisplay = [
   'remarks',
 ]
 
-export default function General({
-  data,
-  collection,
-  setInputs,
-  setInputErrors,
-}) {
+export default function General({ data, collection, store }) {
   const { entity = [], page = {} } = data || {}
+  const { setInputs, setInputErrors } = store
   return (
     <Block subheader='基本資料'>
       {map(fieldsToDisplay, (field) => {
@@ -80,6 +76,12 @@ export default function General({
           </BlockItem>
         )
       })}
+      <BlockItem header='建立日期'>
+        <div className='leading-10'>{entity.created_at}</div>
+      </BlockItem>
+      <BlockItem header='更新日期'>
+        <div className='leading-10'>{entity.updated_at}</div>
+      </BlockItem>
     </Block>
   )
 }

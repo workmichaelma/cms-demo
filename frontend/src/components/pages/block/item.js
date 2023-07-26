@@ -1,6 +1,5 @@
 import * as React from 'react'
 import ListItem from '@mui/material/ListItem'
-import ListItemIcon from '@mui/material/ListItemIcon'
 
 export default function BlockItem({ header, children }) {
   return (

@@ -1,29 +1,35 @@
-import React, { useEffect, useMemo, useState, useRef } from 'react';
-import { Switch } from '@mui/material';
+import React, { useEffect, useMemo, useState, useRef, isNull } from 'react'
+import { Switch } from '@mui/material'
 
 function InputSwitch({ name, value, setInputs, saveBtnClicked }) {
-	const [isOn, setIsOn] = useState(value || false);
-	const ref = useRef();
+  const [isOn, setIsOn] = useState(value === true || value === 'true')
+  const [touched, setTouched] = useState(false)
+  const ref = useRef()
 
-	useEffect(() => {
-		setInputs((v) => {
-			return {
-				...v,
-				[name]: ref,
-			};
-		});
-	}, [name, setInputs]);
+  useEffect(() => {
+    if (touched) {
+      setInputs((v) => {
+        return {
+          ...v,
+          [name]: isOn,
+        }
+      })
+    }
+  }, [name, setInputs, touched, isOn])
 
-	return (
-		<Switch
-			inputRef={ref}
-			checked={isOn}
-			onChange={(e) => {
-				const on = e.target.checked;
-				setIsOn(on);
-			}}
-		/>
-	);
+  return (
+    <Switch
+      inputRef={ref}
+      checked={isOn}
+      onChange={(e) => {
+        const on = e.target.checked
+        setIsOn(on)
+        if (!touched) {
+          setTouched(true)
+        }
+      }}
+    />
+  )
 }
 
-export default InputSwitch;
+export default InputSwitch

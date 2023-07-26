@@ -12,6 +12,7 @@ import Table from 'components/pages/listing/table'
 
 function Page({
   mode,
+  _id,
   collection,
   prefix,
   title,
@@ -19,8 +20,9 @@ function Page({
   newEntry,
   isHome,
   isImport,
-  isTab,
   isNew,
+  isCopy,
+  isEdit,
   tab,
   data,
   loading,
@@ -40,12 +42,17 @@ function Page({
       />
     )
   if (isImport) return null
-  if (isTab || isNew)
+  if (isEdit || isNew || isCopy)
     return (
       <Tabs
+        _id={_id}
         tab={tab}
         data={data}
         collection={collection}
+        isNew={isNew}
+        isCopy={isCopy}
+        isEdit={isEdit}
+        refetch={refetch}
       />
     )
   return <div>123</div>

@@ -20,7 +20,6 @@ export default function withPage(Page, PageProps) {
     const isEdit = mode === 'edit'
     const isNew = mode === 'new'
     const isCopy = mode === 'copy'
-    const isTab = mode === 'tab'
 
     const Query = isHome
       ? QUERY.GET_LISTING
@@ -58,7 +57,6 @@ export default function withPage(Page, PageProps) {
         collection={collection || prefix}
         isHome={isHome}
         isImport={isImport}
-        isTab={isTab}
         isEdit={isEdit}
         isNew={isNew}
         isCopy={isCopy}
