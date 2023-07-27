@@ -3,6 +3,11 @@ const Listing = `#graphql
     _id: ID
     status: String
 
+    autotoll_number: String
+    effective_date: String
+    end_date: String
+    reg_mark: String
+    chassis_number: String
   }
 
   extend union ListingResultData = AutotollListingResultData

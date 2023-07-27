@@ -104,6 +104,37 @@ export class PermitArea extends Model {
     }
   }
 
+  async listing(props) {
+    const { filter } = props
+
+    const customFilterFields = ['contract_number']
+
+    const searchPipeline = [
+      {
+        $lookup: {
+          from: 'contracts',
+          localField: 'contract',
+          foreignField: '_id',
+          as: 'contract',
+        },
+      },
+      {
+        $addFields: {
+          contract: {
+            $first: '$contract',
+          },
+        },
+      },
+      {
+        $addFields: {
+          contract_number: '$contract.contract_number',
+        },
+      },
+    ]
+
+    return await super.listing(props, { searchPipeline })
+  }
+
   async updateOne({ filter, body }) {
     const { relation, ...args } = body
     const { _id } = filter

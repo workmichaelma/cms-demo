@@ -84,7 +84,14 @@ export const pageConfig = {
   pages: [
     {
       page: 'listing',
-      fieldsToDisplay: [],
+      fieldsToDisplay: [
+        'staff_number',
+        'name',
+        'name_tc',
+        'license',
+        'dob',
+        'hkid',
+      ],
     },
   ],
 }

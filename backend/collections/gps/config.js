@@ -56,7 +56,14 @@ export const pageConfig = {
   pages: [
     {
       page: 'listing',
-      fieldsToDisplay: [],
+      fieldsToDisplay: [
+        'gps_number',
+        'charge',
+        'reg_mark',
+        'chassis_number',
+        'effective_date',
+        'end_date',
+      ],
     },
   ],
 }

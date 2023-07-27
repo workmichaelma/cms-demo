@@ -3,6 +3,11 @@ const Listing = `#graphql
     _id: ID
     status: String
 
+    area: String
+    fee: Money
+    effective_date: String
+    end_date: String
+    contract_number: String
   }
 
   extend union ListingResultData = PermitAreaListingResultData

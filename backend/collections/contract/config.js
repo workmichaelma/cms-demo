@@ -78,7 +78,13 @@ export const pageConfig = {
   pages: [
     {
       page: 'listing',
-      fieldsToDisplay: [],
+      fieldsToDisplay: [
+        'contract_number',
+        'short_name',
+        'effective_date',
+        'end_date',
+        'status',
+      ],
     },
   ],
 }

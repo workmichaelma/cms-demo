@@ -3,6 +3,12 @@ const Listing = `#graphql
     _id: ID
     status: String
 
+    gps_number: String
+    charge: String
+    reg_mark: String
+    chassis_number: String
+    effective_date: String
+    end_date: String
   }
 
   extend union ListingResultData = GPSListingResultData

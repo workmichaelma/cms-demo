@@ -3,6 +3,9 @@ const Listing = `#graphql
     _id: ID
     status: String
 
+    short_name: String
+    name_tc: String
+    reg_number: String
   }
 
   extend union ListingResultData = CompanyListingResultData

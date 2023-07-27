@@ -111,6 +111,57 @@ export class GPS extends Model {
     }
   }
 
+  async listing(props) {
+    const { filter } = props
+
+    const customFilterFields = ['chassis_number', 'reg_mark']
+
+    const searchPipeline = [
+      {
+        $lookup: {
+          from: 'vehicles',
+          localField: 'current_vehicle',
+          foreignField: '_id',
+          as: 'current_vehicle',
+        },
+      },
+      {
+        $addFields: {
+          current_vehicle: {
+            $first: '$current_vehicle',
+          },
+        },
+      },
+      {
+        $lookup: {
+          from: 'reg_marks',
+          localField: 'current_vehicle.current_reg_mark',
+          foreignField: '_id',
+          as: 'reg_mark',
+        },
+      },
+      {
+        $addFields: {
+          reg_mark: {
+            $first: '$reg_mark',
+          },
+        },
+      },
+      {
+        $addFields: {
+          reg_mark: '$reg_mark.reg_mark',
+        },
+      },
+      {
+        $addFields: {
+          chassis_number: '$current_vehicle.chassis_number',
+        },
+      },
+    ]
+
+    return await super.listing(props, { searchPipeline })
+  }
+
   async updateOne({ filter, body }) {
     const { _id } = filter
     const { relation, ...args } = body

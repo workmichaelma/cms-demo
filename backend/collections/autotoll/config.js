@@ -49,7 +49,13 @@ export const pageConfig = {
   pages: [
     {
       page: 'listing',
-      fieldsToDisplay: [],
+      fieldsToDisplay: [
+        'autotoll_number',
+        'effective_date',
+        'end_date',
+        'reg_mark',
+        'chassis_number',
+      ],
     },
   ],
 }

@@ -68,7 +68,16 @@ export const pageConfig = {
   pages: [
     {
       page: 'listing',
-      fieldsToDisplay: [],
+      fieldsToDisplay: [
+        'insurance_company',
+        'insurance_kind',
+        'policy_number',
+        'insurance_fee',
+        'effective_date',
+        'end_date',
+        'contract_number',
+        'reg_mark',
+      ],
     },
   ],
 }

@@ -3,6 +3,11 @@ const Listing = `#graphql
     _id: ID
     status: String
 
+    fuel_type: String
+    provider: String
+    card_number: String
+    effective_date: String
+    end_date: String
   }
 
   extend union ListingResultData = FuelListingResultData

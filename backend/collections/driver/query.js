@@ -3,6 +3,12 @@ const Listing = `#graphql
     _id: ID
     status: String
 
+    staff_number: String
+    name: String
+    name_tc: String
+    license: String
+    dob: String
+    hkid: String
   }
 
   extend union ListingResultData = DriverListingResultData

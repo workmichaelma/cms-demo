@@ -82,7 +82,13 @@ export const pageConfig = {
   pages: [
     {
       page: 'listing',
-      fieldsToDisplay: [],
+      fieldsToDisplay: [
+        'fuel_type',
+        'provider',
+        'card_number',
+        'effective_date',
+        'end_date',
+      ],
     },
   ],
 }
