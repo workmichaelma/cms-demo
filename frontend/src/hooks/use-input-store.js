@@ -8,6 +8,7 @@ import { alert, topBar } from 'global-store'
 export const useInputStore = ({
   _id,
   collection,
+  tab,
   isEdit,
   isNew,
   isCopy,
@@ -41,18 +42,26 @@ export const useInputStore = ({
       inputs,
       (result, value, key) => {
         if (!isUndefined(value)) {
-          result[key] = value
+          if (key === 'relation') {
+            result.relation = {
+              ...result.relation,
+              ...value,
+              collection: tab,
+            }
+          } else {
+            result[key] = value
+          }
         }
         return result
       },
       {}
     )
-  }, [inputs])
+  }, [inputs, tab])
 
   const canSave = useMemo(() => {
     return !hasError && !isEmpty(body)
   }, [hasError, body])
-
+  console.log(body, 'body')
   const save = useCallback(() => {
     console.log(body, canSave, inputErrors, 'save')
 

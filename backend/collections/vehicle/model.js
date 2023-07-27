@@ -571,7 +571,27 @@ export class Vehicle extends Model {
 
   async insertCompany({ filter, body }) {
     const { _id } = filter
-    const { target_id, ...args } = body
+    const { target_id, effective_date, ...args } = body
+
+    await super.updateOne({
+      filter: { _id },
+      body: {
+        $set: {
+          'companies.$[doc].end_date': dayjs(effective_date).subtract(1, 'day'),
+        },
+      },
+      options: {
+        arrayFilters: [
+          {
+            'doc.end_date': { $exists: false },
+          },
+        ],
+        projection: {
+          companies: { $slice: -1 },
+        },
+        upsert: false,
+      },
+    })
 
     return await super.updateOne({
       filter: {
@@ -581,6 +601,7 @@ export class Vehicle extends Model {
         $push: {
           companies: {
             company: new mongoose.Types.ObjectId(target_id),
+            effective_date,
             ...args,
           },
         },

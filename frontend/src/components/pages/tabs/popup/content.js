@@ -1,13 +1,13 @@
 import { map } from 'lodash'
 import Switcher from 'components/common/input/switcher'
 import BlockItem from 'components/pages/block/item'
-import { useEffect } from 'react'
 
-const Content = ({ schema, row, store }) => {
+const Content = ({ schema, row, store, isAdd, isEdit }) => {
   const { setInputs, setInputErrors } = store
   return (
     <div className='flex flex-col gap-4 p-4'>
       {map(schema, (item) => {
+        const { target_id } = item
         return (
           <BlockItem
             className='w-24'
@@ -15,11 +15,14 @@ const Content = ({ schema, row, store }) => {
             header={item.title}
           >
             <Switcher
-              schema={item}
+              schema={{
+                ...item,
+                editable: isAdd ? true : item?.editable,
+              }}
               setInputs={setInputs}
               setInputErrors={setInputErrors}
-              value={row[item.field]}
-              name={`relation.${item.field}`}
+              value={row?.[item.field]}
+              name={`relation.${target_id ? 'target_id' : item?.field}`}
               // metadata={{
               //   optionsQuery: {
               //     query: GET_DISTINCT_FIELD,

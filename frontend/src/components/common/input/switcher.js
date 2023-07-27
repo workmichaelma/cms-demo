@@ -1,4 +1,7 @@
 import React from 'react'
+import { isArray, isEmpty } from 'lodash'
+import { Button } from '@mui/material'
+import { Add } from '@mui/icons-material'
 
 import Text from './text'
 import File from './file'
@@ -6,11 +9,8 @@ import Select from './select'
 import Date from './date'
 import Switch from './switch'
 import Checkbox from './checkbox'
-import { isArray, isEmpty } from 'lodash'
-
-import { Button } from '@mui/material'
-import { Add } from '@mui/icons-material'
 import Readonly from './readonly'
+import SelectWithEntitiesOptions from './select-with-entities-options'
 
 const AddNew = ({ title, pushItemToField, field }) => {
   return (
@@ -41,7 +41,17 @@ const switcher = (schema, name, metadata) => {
       if (schema?.checkbox) {
         Component = <Checkbox name={name} />
       } else if (schema?.select) {
-        Component = <Select name={name} />
+        if (schema?.with_entities_options) {
+          Component = (
+            <SelectWithEntitiesOptions
+              name={name}
+              schema={schema}
+              metadata={metadata}
+            />
+          )
+        } else {
+          Component = <Select name={name} />
+        }
       } else {
         Component = <Text name={name} />
       }

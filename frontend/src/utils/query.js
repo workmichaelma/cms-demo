@@ -81,3 +81,23 @@ export const LOGIN = gql`
     login(data: $data)
   }
 `
+
+export const DUMMY = gql`
+  query Query {
+    health
+  }
+`
+
+export const GET_ENTITIES = gql`
+  query getEntities($collection: Collection!, $filter: [ListingFilter]) {
+    listing(collection: $collection, filter: $filter, pageSize: 10000000) {
+      data {
+        ... on CompanyListingResultData {
+          _id
+          name
+          name_tc
+        }
+      }
+    }
+  }
+`

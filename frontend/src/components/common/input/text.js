@@ -27,7 +27,7 @@ function InputText({
   const [showPassword, setShowPassword] = useState(is_password)
   const [touched, setTouched] = useState(false)
   const [text, setText] = useState(
-    !isUndefined(value) && !isNull(value) ? value : undefined
+    !isUndefined(value) && !isNull(value) ? value.replace(/\$/g, '') : undefined
   )
 
   const errorMessage = useMemo(() => {

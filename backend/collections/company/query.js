@@ -4,6 +4,7 @@ const Listing = `#graphql
     status: String
 
     short_name: String
+    name: String
     name_tc: String
     reg_number: String
   }

@@ -31,11 +31,19 @@ export default function Tab({ subheader, data, collection, store }) {
 
   const schema = [
     {
-      field: 'short_name',
-      isId: true,
+      field: 'name',
+      target_id: true,
       title: '公司簡稱',
       editable: false,
       free_solo: false,
+      type: 'text',
+      select: true,
+      with_entities_options: {
+        path: 'name_tc',
+        variables: {
+          collection: 'company',
+        },
+      },
     },
     {
       field: 'effective_date',

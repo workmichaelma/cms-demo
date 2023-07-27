@@ -1,8 +1,9 @@
 import { Add } from '@mui/icons-material'
 import { Button } from '@mui/material'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { redirect } from 'utils'
 import Popup from 'components/pages/tabs/popup'
+import { set } from 'lodash'
 
 const AddButton = ({
   schema,
@@ -15,6 +16,7 @@ const AddButton = ({
   store,
 }) => {
   const [open, setOpen] = useState(false)
+  const { setInputs } = store
 
   return (
     <div>
@@ -39,6 +41,12 @@ const AddButton = ({
               toNew: true,
             })
           } else {
+            setInputs((v) => {
+              return set({ ...v }, 'relation', {
+                ...v.relation,
+                action: 'INSERT',
+              })
+            })
             setOpen(true)
           }
         }}

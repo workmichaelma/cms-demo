@@ -1,9 +1,11 @@
 import React, { useEffect, useMemo, useState, useRef } from 'react'
-import { useLazyQuery } from '@apollo/client'
+import { useLazyQuery, gql } from '@apollo/client'
 import { Autocomplete, TextField, InputAdornment } from '@mui/material'
-import { isEmpty, isObject, isString, find, isFunction } from 'lodash'
+import { isEmpty, isObject, isString, find, isFunction, set } from 'lodash'
 
 import { getErrorMessage } from 'utils/input'
+import { DUMMY } from 'utils/query'
+import * as QUERIES from 'utils/query'
 
 function InputSelect({
   name,
@@ -28,9 +30,10 @@ function InputSelect({
     return metadata?.preset?.selected
   }, [metadata])
 
-  const [getOptions, getOptionsResult] = useLazyQuery(
-    metadata?.optionsQuery?.query
-  )
+  const QUERY = useMemo(() => {
+    return metadata?.optionsQuery?.query
+  }, [metadata])
+  const [getOptions, getOptionsResult] = useLazyQuery(QUERY || DUMMY)
   const _options = useMemo(() => {
     let arr = []
     if (!isEmpty(presetOptions)) {
@@ -76,14 +79,12 @@ function InputSelect({
 
       const output = _id === value ? undefined : _id
 
-      setInputs((v) => ({
-        ...v,
-        [name]: output,
-      }))
-      setInputErrors((v) => ({
-        ...v,
-        [name]: errorMessage,
-      }))
+      setInputs((v) => {
+        return set({ ...v }, name, output)
+      })
+      setInputErrors((v) => {
+        return set({ ...v }, name, errorMessage)
+      })
       if (isFunction(events?.onChange)) {
         events.onChange(output)
       }
@@ -114,12 +115,18 @@ function InputSelect({
       }}
       options={_options}
       onOpen={() => {
-        if (isEmpty(_options) && !getOptionsResult.called) {
+        if (QUERY && isEmpty(_options) && !getOptionsResult.called) {
           getOptions({
             variables: {
               ...metadata?.optionsQuery?.params,
+              ...schema?.optionsQuery?.params,
             },
           })
+        } else if (
+          metadata?.preset?.options === null &&
+          isFunction(metadata?.preset?.getOptions)
+        ) {
+          metadata.preset.getOptions()
         }
       }}
       getOptionLabel={(v) => {

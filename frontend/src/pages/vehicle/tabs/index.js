@@ -7,7 +7,7 @@ import Tab from 'components/pages/tab'
 
 function Tabs(props) {
   const { tab, _id, prefix } = props
-  const store = useInputStore({ ...props })
+  const store = useInputStore({ ...props, tab })
 
   const Page = useMemo(() => {
     if (tab === 'general') {
