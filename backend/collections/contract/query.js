@@ -1,3 +1,13 @@
+const Listing = `#graphql
+  type ContractListingResultData {
+    _id: ID
+    status: String
+
+  }
+
+  extend union ListingResultData = ContractListingResultData
+`
+
 export const query = `#graphql
 
   input ContractInput {
@@ -50,4 +60,6 @@ export const query = `#graphql
     effective_date: String
     end_date: String
   }
+
+  ${Listing}
 `

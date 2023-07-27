@@ -1,3 +1,13 @@
+const Listing = `#graphql
+  type AutotollListingResultData {
+    _id: ID
+    status: String
+
+  }
+
+  extend union ListingResultData = AutotollListingResultData
+`
+
 export const query = `#graphql
   input AutotollInput {
     autotoll_number: String
@@ -58,4 +68,6 @@ export const query = `#graphql
     chassis_number: String
     reg_mark: String
   }
+
+  ${Listing}
 `

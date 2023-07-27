@@ -1,3 +1,13 @@
+const Listing = `#graphql
+  type FuelListingResultData {
+    _id: ID
+    status: String
+
+  }
+
+  extend union ListingResultData = FuelListingResultData
+`
+
 export const query = `#graphql
 
   extend enum Collection {
@@ -65,4 +75,6 @@ export const query = `#graphql
     chassis_number: String
     reg_mark: String
   }
+
+  ${Listing}
 `

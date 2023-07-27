@@ -35,10 +35,11 @@ export const schema = [
   },
 ]
 
-// export const pageConfig = {
-// 	pages: {
-// 		listing: {
-// 			fieldsToDisplay:
-// 		}
-// 	}
-// }
+export const pageConfig = {
+  pages: [
+    {
+      page: 'listing',
+      fieldsToDisplay: [],
+    },
+  ],
+}

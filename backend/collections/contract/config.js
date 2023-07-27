@@ -18,7 +18,8 @@ export const schema = [
     field: 'title',
     title: '合約英文名稱',
     type: 'text',
-    placeholder: 'title: eg. Highways Department Term Contract (Management and Maintenance of Roads in Tai Po and North Districts ...',
+    placeholder:
+      'title: eg. Highways Department Term Contract (Management and Maintenance of Roads in Tai Po and North Districts ...',
   },
   {
     field: 'title_tc',
@@ -72,3 +73,12 @@ export const schema = [
     ],
   },
 ]
+
+export const pageConfig = {
+  pages: [
+    {
+      page: 'listing',
+      fieldsToDisplay: [],
+    },
+  ],
+}

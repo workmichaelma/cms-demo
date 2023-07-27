@@ -55,10 +55,20 @@ export const schema = [
   },
 ]
 
-// export const pageConfig = {
-// 	pages: {
-// 		listing: {
-// 			fieldsToDisplay:
-// 		}
-// 	}
-// }
+export const pageConfig = {
+  pages: [
+    {
+      page: 'listing',
+      fieldsToDisplay: [
+        '_id',
+        'license_fee',
+        'permit_fee',
+        'special_fee',
+        'effective_date',
+        'end_date',
+        'contract_number',
+        'reg_mark',
+      ],
+    },
+  ],
+}

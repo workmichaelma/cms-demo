@@ -2,13 +2,13 @@ import lodash from 'lodash'
 import mongoose from 'mongoose'
 import dayjs from 'dayjs'
 import { Model } from '#_/lib/model.js'
-import { schema } from './config.js'
+import { schema, pageConfig } from './config.js'
 import { checkFieldIsValidToSchema } from '#_/lib/common.js'
 
 const { isEmpty, findKey, last, reduce, map, compact, uniq } = lodash
 export class Contract extends Model {
   constructor() {
-    super('contract', schema)
+    super('contract', schema, pageConfig)
     super.buildModel()
   }
 
@@ -17,7 +17,13 @@ export class Contract extends Model {
       const updateVehicles = {}
       const requests = []
 
-      const vehicles = await this.Model.model('vehicle').findAll({ filter: { chassis_number: { $in: uniq(compact(map(body, (item) => item.vehicle))) } } })
+      const vehicles = await this.Model.model('vehicle').findAll({
+        filter: {
+          chassis_number: {
+            $in: uniq(compact(map(body, (item) => item.vehicle))),
+          },
+        },
+      })
       const vehicleIds = reduce(
         vehicles,
         (obj, curr) => {
@@ -47,14 +53,27 @@ export class Contract extends Model {
           ],
           args: row,
         })
-        const { contract_number, vehicle, vehicle_effective_date, vehicle_end_date, ...args } = obj
+        const {
+          contract_number,
+          vehicle,
+          vehicle_effective_date,
+          vehicle_end_date,
+          ...args
+        } = obj
 
         if (!contract_number) {
-          console.error(`Failed to import row[${key}], reason: no contract_number`)
+          console.error(
+            `Failed to import row[${key}], reason: no contract_number`
+          )
         } else if (!isEmpty(error)) {
-          console.error(`Failed to import row[${key}], reason: ${JSON.stringify(error)}`)
+          console.error(
+            `Failed to import row[${key}], reason: ${JSON.stringify(error)}`
+          )
         } else {
-          const _doc = await super.updateOne({ filter: { contract_number }, body: args })
+          const _doc = await super.updateOne({
+            filter: { contract_number },
+            body: args,
+          })
           const vehicleId = (vehicleIds?.[vehicle] || '').toString()
           if (vehicleId) {
             let contractId
@@ -73,7 +92,10 @@ export class Contract extends Model {
                 effective_date: vehicle_effective_date || dayjs('2023-1-1'),
                 end_date: vehicle_end_date,
               }
-              updateVehicles[vehicleId] = [...(updateVehicles[vehicleId] || []), contractObj]
+              updateVehicles[vehicleId] = [
+                ...(updateVehicles[vehicleId] || []),
+                contractObj,
+              ]
             }
           }
 

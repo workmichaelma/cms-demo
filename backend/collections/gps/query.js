@@ -1,3 +1,13 @@
+const Listing = `#graphql
+  type GPSListingResultData {
+    _id: ID
+    status: String
+
+  }
+
+  extend union ListingResultData = GPSListingResultData
+`
+
 export const query = `#graphql
 
   type GPS {
@@ -54,4 +64,6 @@ export const query = `#graphql
     gps_number: String
     charge: String
   }
+
+  ${Listing}
 `

@@ -2,7 +2,7 @@ import mongoose from 'mongoose'
 import lodash from 'lodash'
 import dayjs from 'dayjs'
 import { Model } from '#_/lib/model.js'
-import { schema } from './config.js'
+import { schema, pageConfig } from './config.js'
 
 import { checkFieldIsValidToSchema } from '#_/lib/common.js'
 
@@ -10,7 +10,7 @@ const { isEmpty, findKey, last, reduce, map, compact, uniq } = lodash
 
 export class Fuel extends Model {
   constructor() {
-    super('fuel', schema)
+    super('fuel', schema, pageConfig)
     this.Schema.statics.insertVehicle = this.insertVehicle.bind(this)
     this.Schema.statics.deleteVehicle = this.deleteVehicle.bind(this)
     super.buildModel()

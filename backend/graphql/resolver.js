@@ -57,9 +57,7 @@ const getResolvers = async () => {
               },
               ...Model.schema,
             ],
-            pageConfig: {
-              pages: Model.pageConfig?.pages?.profile,
-            },
+            pageConfig: Model.pageConfig,
           }
         }
       }

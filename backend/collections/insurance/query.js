@@ -1,3 +1,13 @@
+const Listing = `#graphql
+  type InsuranceListingResultData {
+    _id: ID
+    status: String
+
+  }
+
+  extend union ListingResultData = InsuranceListingResultData
+`
+
 export const query = `#graphql
 
   type Insurance {
@@ -40,4 +50,6 @@ export const query = `#graphql
     effective_date: String
     end_date: String
   }
+
+  ${Listing}
 `

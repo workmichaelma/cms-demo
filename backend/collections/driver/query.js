@@ -1,3 +1,13 @@
+const Listing = `#graphql
+  type DriverListingResultData {
+    _id: ID
+    status: String
+
+  }
+
+  extend union ListingResultData = DriverListingResultData
+`
+
 export const query = `#graphql
 
   type Driver {
@@ -36,4 +46,6 @@ export const query = `#graphql
     regmarks: String
     status: Boolean
   }
+
+  ${Listing}
 `

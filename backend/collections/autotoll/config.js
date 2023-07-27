@@ -44,3 +44,12 @@ export const schema = [
     foreign_label: '_id',
   },
 ]
+
+export const pageConfig = {
+  pages: [
+    {
+      page: 'listing',
+      fieldsToDisplay: [],
+    },
+  ],
+}

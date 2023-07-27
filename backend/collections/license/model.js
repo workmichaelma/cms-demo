@@ -2,14 +2,14 @@ import lodash from 'lodash'
 import mongoose from 'mongoose'
 import dayjs from 'dayjs'
 import { Model } from '#_/lib/model.js'
-import { schema } from './config.js'
+import { schema, pageConfig } from './config.js'
 import { checkFieldIsValidToSchema } from '#_/lib/common.js'
 
 const { isEmpty, findKey, last, reduce, map, compact, uniq } = lodash
 
 export class License extends Model {
   constructor() {
-    super('license', schema)
+    super('license', schema, pageConfig)
     super.buildModel()
   }
 
@@ -104,6 +104,57 @@ export class License extends Model {
         err,
       }
     }
+  }
+
+  async listing(props) {
+    const { filter } = props
+
+    const customFilterFields = ['contract_number', 'reg_mark']
+
+    const searchPipeline = [
+      {
+        $lookup: {
+          from: 'reg_marks',
+          localField: 'reg_mark',
+          foreignField: '_id',
+          as: 'reg_mark',
+        },
+      },
+      {
+        $addFields: {
+          reg_mark: {
+            $first: '$reg_mark',
+          },
+        },
+      },
+      {
+        $addFields: {
+          reg_mark: '$reg_mark.reg_mark',
+        },
+      },
+      {
+        $lookup: {
+          from: 'contracts',
+          localField: 'contract',
+          foreignField: '_id',
+          as: 'contract',
+        },
+      },
+      {
+        $addFields: {
+          contract: {
+            $first: '$contract',
+          },
+        },
+      },
+      {
+        $addFields: {
+          contract_number: '$contract.contract_number',
+        },
+      },
+    ]
+
+    return await super.listing(props, { searchPipeline })
   }
 
   async updateOne({ filter, body }) {

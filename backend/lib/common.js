@@ -1,6 +1,16 @@
 import lodash from 'lodash'
 import dayjs from 'dayjs'
-const { clone, isBoolean, isEmpty, isNaN, isUndefined, find, forEach, toNumber } = lodash
+import mongoose from 'mongoose'
+const {
+  clone,
+  isBoolean,
+  isEmpty,
+  isNaN,
+  isUndefined,
+  find,
+  forEach,
+  toNumber,
+} = lodash
 
 export const isISODateString = (str) => {
   try {
@@ -40,7 +50,9 @@ export const checkFieldIsValidToSchema = ({ schema, args }) => {
       switch (config.type) {
         case 'boolean':
           if (!isBoolean(value)) {
-            error[field] = `[ ${field} ], Expected boolean value. Value: ${value}`
+            error[
+              field
+            ] = `[ ${field} ], Expected boolean value. Value: ${value}`
           }
           return
         case 'date':
@@ -60,7 +72,9 @@ export const checkFieldIsValidToSchema = ({ schema, args }) => {
             if (!isNaN(numberValue)) {
               obj[field] = numberValue
             } else {
-              error[field] = `[ ${field} ], Expected number format. Value: ${value}`
+              error[
+                field
+              ] = `[ ${field} ], Expected number format. Value: ${value}`
             }
           }
           break
@@ -73,4 +87,23 @@ export const checkFieldIsValidToSchema = ({ schema, args }) => {
     error,
     obj,
   }
+}
+
+export const getFilterValue = ({ field, operator, value }) => {
+  let v = value
+  if (field.endsWith('_id')) {
+    v = new mongoose.Types.ObjectId(value)
+  } else if (value === 'true') {
+    v = true
+  } else if (value === 'false') {
+    v = false
+  } else if (field.endsWith('_date') || field === 'dob') {
+    v = new Date(value)
+  }
+
+  if (operator === '$regex') {
+    v = new RegExp(v, 'i')
+  }
+
+  return v
 }

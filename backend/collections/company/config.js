@@ -82,3 +82,12 @@ export const schema = [
     field: 'logo_image',
   },
 ]
+
+export const pageConfig = {
+  pages: [
+    {
+      page: 'listing',
+      fieldsToDisplay: [],
+    },
+  ],
+}

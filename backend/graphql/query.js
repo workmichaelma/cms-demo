@@ -74,11 +74,16 @@ const getQueries = async () => {
       }
 
       type PageConfig {
-        pages(page: String): PageConfigProfile
+        pages(page: String): [PageConfigProfile]
       }
 
       type PageConfigProfile {
         page: String
+        fieldsToDisplay: [String]
+        tabs: [PageTabProfile]
+      }
+      type PageTabProfile {
+        tab: String
         fieldsToDisplay: [String]
       }
 

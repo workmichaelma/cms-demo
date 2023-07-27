@@ -1,3 +1,13 @@
+const Listing = `#graphql
+  type RegMarkListingResultData {
+    _id: ID
+    status: String
+
+  }
+
+  extend union ListingResultData = RegMarkListingResultData
+`
+
 export const query = `#graphql
 
   type RegMark {
@@ -58,4 +68,6 @@ export const query = `#graphql
     effective_date: String
     end_date: String
   }
+
+  ${Listing}
 `

@@ -1,3 +1,20 @@
+const Listing = `#graphql
+  type LicenseListingResultData {
+    _id: ID
+    status: String
+
+    license_fee: String
+    permit_fee: String
+    special_fee: String
+    effective_date: String
+    end_date: String
+    contract_number: String
+    reg_mark: String
+  }
+
+  extend union ListingResultData = LicenseListingResultData
+`
+
 export const query = `#graphql
   input LicenseInput {
     status: Boolean
@@ -80,4 +97,6 @@ export const query = `#graphql
     chassis_number: String
     reg_mark: String
   }
+
+  ${Listing}
 `

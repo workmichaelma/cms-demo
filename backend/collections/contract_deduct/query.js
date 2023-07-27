@@ -1,3 +1,13 @@
+const Listing = `#graphql
+  type ContractDeductListingResultData {
+    _id: ID
+    status: String
+
+  }
+
+  extend union ListingResultData = ContractDeductListingResultData
+`
+
 export const query = `#graphql
 
   input ContractDeductInput {
@@ -25,4 +35,6 @@ export const query = `#graphql
     permit_areas: [String]
     licenses: [String]
   }
+
+  ${Listing}
 `

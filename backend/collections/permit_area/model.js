@@ -2,14 +2,14 @@ import lodash from 'lodash'
 import mongoose from 'mongoose'
 import dayjs from 'dayjs'
 import { Model } from '#_/lib/model.js'
-import { schema } from './config.js'
+import { schema, pageConfig } from './config.js'
 import { checkFieldIsValidToSchema } from '#_/lib/common.js'
 
 const { isEmpty, findKey, last, reduce, map, compact, uniq } = lodash
 
 export class PermitArea extends Model {
   constructor() {
-    super('permit_area', schema)
+    super('permit_area', schema, pageConfig)
     super.buildModel()
   }
 

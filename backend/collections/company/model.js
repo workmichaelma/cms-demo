@@ -2,14 +2,14 @@ import lodash from 'lodash'
 import mongoose from 'mongoose'
 import dayjs from 'dayjs'
 import { Model } from '#_/lib/model.js'
-import { schema } from './config.js'
+import { schema, pageConfig } from './config.js'
 import { checkFieldIsValidToSchema } from '#_/lib/common.js'
 
 const { isEmpty, findKey, last, reduce, map, compact, uniq } = lodash
 
 export class Company extends Model {
   constructor() {
-    super('company', schema)
+    super('company', schema, pageConfig)
     super.buildModel()
   }
 

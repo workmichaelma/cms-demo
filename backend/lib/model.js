@@ -1,8 +1,9 @@
 import lodash from 'lodash'
 import mongoose from 'mongoose'
 import mongooseLeanVirtuals from 'mongoose-lean-virtuals'
+import { getFilterValue } from './common.js'
 
-const { forEach, isEmpty, isUndefined } = lodash
+const { find, forEach, isEmpty, isUndefined, map } = lodash
 
 const buildSchema = (schema) => {
   const fields = {
@@ -239,7 +240,9 @@ export class Model {
 
   async listing({ filter, sort, page = 1, pageSize = 50 }, pipelines = {}) {
     let pipeline = []
-    const { fieldsToDisplay } = this.pageConfig?.pages?.listing
+    const { fieldsToDisplay } = find(this.pageConfig?.pages, {
+      page: 'listing',
+    })
     const { searchPipeline = [], projectionPipeline = [] } = pipelines
 
     const skip = (page - 1) * pageSize
@@ -257,13 +260,30 @@ export class Model {
       $project: projection,
     })
 
+    if (filter) {
+      const filters = map(filter, (item) => {
+        const { field, operator } = item
+        const value = getFilterValue(item)
+        return {
+          [field]: {
+            [operator]: value,
+          },
+        }
+      })
+      if (!isEmpty(filters)) {
+        pipeline.push({ $match: { $and: filters } })
+      }
+    }
+
     if (sort) {
       const order = sort.field === 'DESC' ? -1 : 1
       pipeline.push({
         $facet: {
           records: [
             ...projectionPipeline,
-            { $sort: { [sort.field]: order } },
+            {
+              $sort: { [sort.field]: order },
+            },
             { $skip: skip },
             { $limit: limit },
           ],

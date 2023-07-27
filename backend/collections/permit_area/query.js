@@ -1,3 +1,13 @@
+const Listing = `#graphql
+  type PermitAreaListingResultData {
+    _id: ID
+    status: String
+
+  }
+
+  extend union ListingResultData = PermitAreaListingResultData
+`
+
 export const query = `#graphql
 
   type PermitArea {
@@ -77,4 +87,6 @@ export const query = `#graphql
     effective_date: String
     end_date: String
   }
+
+  ${Listing}
 `
