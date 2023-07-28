@@ -46,16 +46,19 @@ function Table({
   headerNames = {},
   setFilter,
   setSort,
+  setPage,
 }) {
   const [sortField, setSortField] = useState({ order: 'ASC' })
   const [fliterFields, setFilterFields] = useState([])
   const rows = data?.listing?.data || []
   const { hasNextPage, hasPrevPage, page, pageSize, total } =
     data?.listing?.metadata || {}
-  const schema = data?.page?.schema || []
+  const schema = useMemo(() => {
+    return data?.page?.schema || []
+  }, [data])
 
   const cols = useMemo(() => {
-    return fieldsToDisplay.map((field) => {
+    return (fieldsToDisplay || []).map((field) => {
       const _schema = find(schema, { field })
       return {
         field,
@@ -63,21 +66,21 @@ function Table({
         type: endsWith(field, '_date') ? 'date' : _schema?.type,
       }
     })
-  }, [fieldsToDisplay, headerNames, schema])
+  }, [headerNames, schema])
 
-  if (loading) {
-    return (
-      <div className='h-40 flex items-center justify-center w-full text-xl'>
-        <CircularProgress />
-      </div>
-    )
-  }
+  // if (loading) {
+  //   return (
+  //     <div className='h-40 flex items-center justify-center w-full text-xl'>
+  //       <CircularProgress />
+  //     </div>
+  //   )
+  // }
 
   return (
     <div className='w-full overflow-x-auto text-md'>
-      {!isEmpty(rows) && !loading && (
+      {!isEmpty(rows) && (
         <TableMetadata
-          setFilter={setFilter}
+          setPage={setPage}
           hasNextPage={hasNextPage}
           hasPrevPage={hasPrevPage}
           page={page}

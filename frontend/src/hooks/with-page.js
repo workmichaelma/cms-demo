@@ -11,6 +11,7 @@ export default function withPage(Page, PageProps) {
     const { QUERY } = PageProps
     const [filter, setFilter] = useState([])
     const [sort, setSort] = useState({})
+    const [page, setPage] = useState(1)
     const { _id, tab = 'general' } = useParams()
     const [_, setSideBar] = useAtom(sideBar)
     const [__, setTopBar] = useAtom(topBar)
@@ -33,8 +34,8 @@ export default function withPage(Page, PageProps) {
         _id,
         sort,
         filter,
-        page: isNew || isCopy || isEdit ? 'profile' : isHome ? 'listing' : '',
-        tab,
+        page: isNew || isCopy || isEdit ? 'profile' : isHome ? page : '',
+        tab: isHome ? undefined : isCopy || isNew ? 'general' : tab,
       },
     })
 
@@ -67,8 +68,10 @@ export default function withPage(Page, PageProps) {
         tab={tab}
         data={data}
         refetch={refetch}
+        page={page}
         setFilter={setFilter}
         setSort={setSort}
+        setPage={setPage}
         loading={loading}
       />
     )

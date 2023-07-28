@@ -27,7 +27,7 @@ export const PAGE_SCHEMA_FRAGMENT = gql`
     schema {
       ${SCHEMA}
     }
-    pageConfig(page: $page, tab: $tab) {
+    pageConfig (page: $page, tab: $tab) {
       page
       fieldsToDisplay
       tabHeaders {

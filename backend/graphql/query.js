@@ -54,6 +54,7 @@ const getQueries = async () => {
       type Page {
         schema: [Schema]
         pageConfig(page: String, tab: String): PageConfig
+        fieldsToDisplay: [String]
       }
       type Schema {
         field: String
@@ -115,7 +116,7 @@ const getQueries = async () => {
 
       type Mutation {
         isHealthy: Boolean
-        insertEntity(collection: Collection!, body: EntityInput): Boolean
+        insertEntity(collection: Collection!, body: EntityInput): ID
         updateEntity(collection: Collection!, _id: ID!, body: EntityInput): Boolean
         deleteEntity(collection: Collection!, _id: ID!): Boolean
         importEntities(collection: Collection!, body: ImportEntityInput): Int

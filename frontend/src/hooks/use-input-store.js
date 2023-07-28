@@ -4,10 +4,13 @@ import { useCallback, useEffect, useMemo, useState } from 'react'
 import { isEmpty, isUndefined, reduce, isNull, isFunction, set } from 'lodash'
 import { ENTITY_UPDATE, ENTITY_INSERT } from 'utils/query'
 import { alert, topBar } from 'global-store'
+import { redirect } from 'utils'
 
 export const useInputStore = ({
   _id,
   collection,
+  schema,
+  data,
   tab,
   isEdit,
   isNew,
@@ -41,7 +44,7 @@ export const useInputStore = ({
   }, [inputErrors])
 
   const body = useMemo(() => {
-    return reduce(
+    const edited = reduce(
       inputs,
       (result, value, key) => {
         if (!isUndefined(value)) {
@@ -51,7 +54,25 @@ export const useInputStore = ({
       },
       {}
     )
-  }, [inputs])
+
+    if (isEdit || isNew) return edited
+    if (isCopy) {
+      const input = {
+        ...data,
+        ...edited,
+      }
+      return reduce(
+        schema,
+        (v, { field }) => {
+          if (input[field]) {
+            v[field] = input[field]
+          }
+          return v
+        },
+        {}
+      )
+    }
+  }, [inputs, isCopy, isEdit, isNew, data, schema])
 
   const canSave = useMemo(() => {
     return !hasError && !isEmpty(body)
@@ -86,10 +107,14 @@ export const useInputStore = ({
           } else {
             setAlert({ message: '發生錯誤', type: 'error' })
           }
+        } else if (isNew || isCopy) {
+          if (data?.data?.insertEntity) {
+            redirect({ url: `/${collection}/${data.data.insertEntity}` })
+          }
         }
       })
     }
-  }, [canSave, body, collection, submit, _id, setAlert, isEdit])
+  }, [canSave, body, collection, submit, _id, setAlert, isEdit, isNew])
 
   useEffect(() => {
     if (showSaveIcon) {

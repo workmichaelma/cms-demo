@@ -28,6 +28,7 @@ function Page({
   loading,
   refetch,
   setFilter,
+  setPage,
   setSort,
 }) {
   if (isHome)
@@ -39,6 +40,7 @@ function Page({
         refetch={refetch}
         setFilter={setFilter}
         setSort={setSort}
+        setPage={setPage}
       />
     )
   if (isImport) return null

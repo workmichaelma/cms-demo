@@ -24,10 +24,10 @@ export default function PageTabs({
         {(tabHeaders || []).map((tab) => {
           return (
             <PageTab
-              label={tab.title}
+              label={tab?.title}
               prefix={prefix}
               _id={_id}
-              tab={tab.key}
+              tab={tab?.key}
             />
           )
         })}

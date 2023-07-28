@@ -3,7 +3,7 @@ import React from 'react'
 import { IconButton } from '@mui/material'
 import { NavigateBefore, NavigateNext } from '@mui/icons-material'
 function TableMetadata({
-  setFilter,
+  setPage,
   hasPrevPage,
   hasNextPage,
   page,
@@ -16,12 +16,7 @@ function TableMetadata({
       <div className='flex gap-2 items-center'>
         <div className=''>
           <IconButton
-            onClick={() =>
-              setFilter((v) => [
-                ...v,
-                { field: 'page', operator: '$eq', value: page - 1 },
-              ])
-            }
+            onClick={() => setPage(page - 1)}
             disabled={!hasPrevPage}
           >
             <NavigateBefore />
@@ -34,12 +29,7 @@ function TableMetadata({
         </div>
         <div className=''>
           <IconButton
-            onClick={() =>
-              setFilter((v) => [
-                ...v,
-                { field: 'page', operator: '$eq', value: page + 1 },
-              ])
-            }
+            onClick={() => setPage(page + 1)}
             disabled={!hasNextPage}
           >
             <NavigateNext />

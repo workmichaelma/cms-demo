@@ -10,6 +10,7 @@ import { useAtom } from 'jotai'
 import { map } from 'lodash'
 
 import { sideBar } from 'global-store'
+import { redirect } from 'utils'
 
 const Bar = ({ item, onClick, open, activeItem }) => {
   const hasChild = item?.children
@@ -17,7 +18,7 @@ const Bar = ({ item, onClick, open, activeItem }) => {
   return (
     <ListItemButton
       selected={hasChild && open ? false : selected}
-      onClick={onClick}
+      onClick={() => onClick(item?.url)}
       sx={{
         pl: !hasChild && !item.isRoot ? '24px' : '16px',
       }}
@@ -49,8 +50,12 @@ export default function Item({ item }) {
     setOpen(activeItem[0] === item.key || childrenKeys.includes(activeItem[1]))
   }, [activeItem, item])
 
-  const handleClick = () => {
-    setOpen(!open)
+  const handleClick = (url) => {
+    if (url) {
+      redirect({ url })
+    } else {
+      setOpen(!open)
+    }
   }
 
   return (
@@ -75,6 +80,7 @@ export default function Item({ item }) {
               <Bar
                 key={child.name}
                 activeItem={activeItem[1]}
+                onClick={handleClick}
                 item={{
                   icon: item.icon,
                   ...child,

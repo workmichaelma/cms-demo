@@ -57,6 +57,7 @@ const getResolvers = async () => {
               },
               ...Model.schema,
             ],
+            // fieldsToDisplay: Model?.fieldsToDisplay,
           }
         }
       }
@@ -94,8 +95,8 @@ const getResolvers = async () => {
       if (collection) {
         const Model = contextValue?.Model[collection]
         const doc = await Model.insert({ body: body[collection] })
-        if (doc && doc._id) {
-          return true
+        if (doc && doc?._id) {
+          return doc._id
         }
       }
       return false

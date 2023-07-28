@@ -4,11 +4,14 @@ import { useContext, useMemo } from 'react'
 import PageTabs from 'components/pages/tabs'
 import PageTab from 'components/pages/tabs/tab'
 import Tab from 'components/pages/tab'
+import { find } from 'lodash'
 
 function Tabs(props) {
-  const { tab, _id, prefix, data } = props
+  const { tab, _id, prefix, data, isEdit } = props
   const store = useInputStore({
     ...props,
+    data: data?.entity,
+    schema: data?.page?.schema,
     tab: data?.pageConfig?.tabs?.setting?.collection || tab,
     showSaveIcon: tab === 'general',
   })
@@ -35,7 +38,11 @@ function Tabs(props) {
     <div className=''>
       <PageTabs
         currentTab={tab}
-        tabHeaders={data?.page?.pageConfig?.tabHeaders}
+        tabHeaders={
+          isEdit
+            ? data?.page?.pageConfig?.tabHeaders
+            : [find(data?.page?.pageConfig?.tabHeaders, { key: 'general' })]
+        }
         prefix={prefix}
         _id={_id}
       />

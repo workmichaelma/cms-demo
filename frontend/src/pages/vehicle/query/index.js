@@ -1,6 +1,6 @@
 import { gql } from '@apollo/client'
 
-import { PAGE_SCHEMA_FRAGMENT, ENTITY_BASIC } from 'utils/query'
+import { PAGE_SCHEMA_FRAGMENT, ENTITY_BASIC, SCHEMA } from 'utils/query'
 
 import TAB_QUERY from './tab'
 
@@ -9,7 +9,7 @@ const GET_ENTITY = (tab) => {
 }
 
 const GET_SCHEMA = gql`
-  query getSchema($collection: Collection!) {
+  query getSchema($collection: Collection!, $tab: String, $page: Int) {
     page(collection: $collection) {
       ...PageSchemaFragment
     }
@@ -19,8 +19,8 @@ const GET_SCHEMA = gql`
 `
 
 const GET_LISTING = gql`
-  query getListing($collection: Collection!) {
-    listing(collection: $collection) {
+  query getListing($collection: Collection!, $page: Int) {
+    listing(collection: $collection, page: $page) {
       data {
         ... on VehicleListingResultData {
           _id
@@ -49,10 +49,12 @@ const GET_LISTING = gql`
       }
     }
     page(collection: $collection) {
-      ...PageSchemaFragment
+      fieldsToDisplay
+      schema {
+        ${SCHEMA}
+      }
     }
   }
-  ${PAGE_SCHEMA_FRAGMENT}
 `
 
 export default {
