@@ -8,6 +8,8 @@ const Content = ({ schema, row, store, isAdd, isEdit }) => {
     <div className='flex flex-col gap-4 p-4'>
       {map(schema, (item) => {
         const { target_id } = item
+
+        if (item.disabled && !target_id) return null
         return (
           <BlockItem
             className='w-24'

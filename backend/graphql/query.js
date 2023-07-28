@@ -69,6 +69,8 @@ const getQueries = async () => {
         options: [String]
         free_solo: Boolean
         editable: Boolean
+        is_number_only: Boolean
+        disabled: Boolean
         maxlength: Int
         checkbox: [String]
         with_entities_options: JSON

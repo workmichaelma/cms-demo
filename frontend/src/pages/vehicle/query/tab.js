@@ -108,9 +108,94 @@ const REG_MARK = gql`
   ${PAGE_SCHEMA_FRAGMENT}
 `
 
+const PERMIT_AREA = gql`
+  query getEntityById($collection: Collection!, $_id: ID!, $tab: String, $page: String) {
+    entity(collection: $collection, _id: $_id) {
+      ... on Vehicle {
+        ${ENTITY_BASIC}
+        permit_areas{
+          ${RELATION_BASIC}
+          area
+          fee
+        }
+      }
+    }
+
+    page(collection: $collection) {
+      ...PageSchemaFragment
+    }
+  }
+  ${PAGE_SCHEMA_FRAGMENT}
+`
+
+const GPS = gql`
+  query getEntityById($collection: Collection!, $_id: ID!, $tab: String, $page: String) {
+    entity(collection: $collection, _id: $_id) {
+      ... on Vehicle {
+        ${ENTITY_BASIC}
+        gpses{
+          ${RELATION_BASIC}
+          gps_number
+          charge
+        }
+      }
+    }
+
+    page(collection: $collection) {
+      ...PageSchemaFragment
+    }
+  }
+  ${PAGE_SCHEMA_FRAGMENT}
+`
+
+const AUTOTOLL = gql`
+  query getEntityById($collection: Collection!, $_id: ID!, $tab: String, $page: String) {
+    entity(collection: $collection, _id: $_id) {
+      ... on Vehicle {
+        ${ENTITY_BASIC}
+        autotolls{
+          ${RELATION_BASIC}
+          autotoll_number
+        }
+      }
+    }
+
+    page(collection: $collection) {
+      ...PageSchemaFragment
+    }
+  }
+  ${PAGE_SCHEMA_FRAGMENT}
+`
+
+const FUEL = gql`
+  query getEntityById($collection: Collection!, $_id: ID!, $tab: String, $page: String) {
+    entity(collection: $collection, _id: $_id) {
+      ... on Vehicle {
+        ${ENTITY_BASIC}
+        fuels{
+          ${RELATION_BASIC}
+          card_number
+          fuel_type
+          provider
+          account_number
+        }
+      }
+    }
+
+    page(collection: $collection) {
+      ...PageSchemaFragment
+    }
+  }
+  ${PAGE_SCHEMA_FRAGMENT}
+`
+
 export default {
   GENERAL,
   COMPANY,
   CONTRACT,
   REG_MARK,
+  PERMIT_AREA,
+  GPS,
+  AUTOTOLL,
+  FUEL,
 }

@@ -2,7 +2,7 @@ import { useEffect, useMemo } from 'react'
 import Block from './block'
 
 import Table from 'components/pages/tabs/table'
-import { set } from 'lodash'
+import { isEmpty, set } from 'lodash'
 
 export default function Tab({ subheader, data, collection, store }) {
   const { entity = {} } = data || {}
@@ -26,6 +26,8 @@ export default function Tab({ subheader, data, collection, store }) {
       })
     })
   }, [setting, entity, setInputs])
+
+  if (isEmpty(setting)) return null
 
   return (
     <Block subheader={subheader}>

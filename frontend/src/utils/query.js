@@ -14,6 +14,8 @@ export const SCHEMA = `
   is_required
   free_solo
   editable
+  is_number_only
+  disabled
   maxlength
   checkbox
   with_entities_options
@@ -133,6 +135,18 @@ export const GET_ENTITIES = gql`
         ... on RegMarkListingResultData {
           _id
           reg_mark
+        }
+        ... on AutotollListingResultData {
+          _id
+          autotoll_number
+        }
+        ... on GPSListingResultData {
+          _id
+          gps_number
+        }
+        ... on FuelListingResultData {
+          _id
+          card_number
         }
       }
     }

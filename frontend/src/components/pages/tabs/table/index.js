@@ -86,9 +86,9 @@ const TabTable = ({
     addable = true,
     copyable = false,
     showPopup,
-  } = setting
+  } = setting || {}
   const [order, setOrder] = useState('desc')
-  const [orderBy, setOrderBy] = useState(setting.orderBy)
+  const [orderBy, setOrderBy] = useState(setting?.orderBy)
   const [page, setPage] = useState(0)
   const [rowsPerPage, setRowsPerPage] = useState(5)
   const visibleRows = React.useMemo(
@@ -194,4 +194,4 @@ const TabTable = ({
   )
 }
 
-export default withRowsEmpty(TabTable)
+export default TabTable

@@ -250,13 +250,26 @@ export class Autotoll extends Model {
       const { _id } = filter
       const { target_id, effective_date, ...args } = body
 
-      await super.updateMany({
-        filter: {
-          current_vehicle: target_id,
-        },
+      await super.updateOne({
+        filter: { current_vehicle: target_id },
         body: {
           $unset: {
             current_vehicle: 1,
+          },
+          $set: {
+            'vehicles.$[vehicle].end_date': dayjs(
+              effective_date || new Date()
+            ).subtract(1, 'day'),
+          },
+        },
+        options: {
+          arrayFilters: [
+            {
+              'vehicle.end_date': { $exists: false },
+            },
+          ],
+          projection: {
+            vehicles: { $slice: -1 },
           },
         },
       })
@@ -264,10 +277,9 @@ export class Autotoll extends Model {
         filter: { _id },
         body: {
           $set: {
-            'vehicles.$[vehicle].end_date': dayjs(effective_date).subtract(
-              1,
-              'day'
-            ),
+            'vehicles.$[vehicle].end_date': dayjs(
+              effective_date || new Date()
+            ).subtract(1, 'day'),
           },
         },
         options: {

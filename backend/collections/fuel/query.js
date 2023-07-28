@@ -6,6 +6,7 @@ const Listing = `#graphql
     fuel_type: String
     provider: String
     card_number: String
+    account_number: String
     effective_date: String
     end_date: String
   }

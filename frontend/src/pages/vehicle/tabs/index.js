@@ -10,7 +10,7 @@ function Tabs(props) {
   const store = useInputStore({
     ...props,
     tab: data?.pageConfig?.tabs?.setting?.collection || tab,
-    showSaveIcon: false,
+    showSaveIcon: tab === 'general',
   })
 
   const Page = useMemo(() => {
