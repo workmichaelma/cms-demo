@@ -3,7 +3,7 @@ import { gql } from '@apollo/client'
 import { ENTITY_BASIC, PAGE_SCHEMA_FRAGMENT, RELATION_BASIC } from 'utils/query'
 
 const GENERAL = gql`
-  query getEntityById($collection: Collection!, $_id: ID!) {
+  query getEntityById($collection: Collection!, $_id: ID!, $tab: String, $page: String) {
     entity(collection: $collection, _id: $_id) {
       ... on Vehicle {
         ${ENTITY_BASIC}
@@ -51,7 +51,7 @@ const GENERAL = gql`
 `
 
 const COMPANY = gql`
-  query getEntityById($collection: Collection!, $_id: ID!) {
+  query getEntityById($collection: Collection!, $_id: ID!, $tab: String, $page: String) {
     entity(collection: $collection, _id: $_id) {
       ... on Vehicle {
         ${ENTITY_BASIC}
@@ -62,10 +62,55 @@ const COMPANY = gql`
         }
       }
     }
+
+    page(collection: $collection) {
+      ...PageSchemaFragment
+    }
   }
+  ${PAGE_SCHEMA_FRAGMENT}
+`
+
+const CONTRACT = gql`
+  query getEntityById($collection: Collection!, $_id: ID!, $tab: String, $page: String) {
+    entity(collection: $collection, _id: $_id) {
+      ... on Vehicle {
+        ${ENTITY_BASIC}
+        contracts {
+          ${RELATION_BASIC}
+          contract_number
+        }
+      }
+    }
+
+    page(collection: $collection) {
+      ...PageSchemaFragment
+    }
+  }
+  ${PAGE_SCHEMA_FRAGMENT}
+`
+
+const REG_MARK = gql`
+  query getEntityById($collection: Collection!, $_id: ID!, $tab: String, $page: String) {
+    entity(collection: $collection, _id: $_id) {
+      ... on Vehicle {
+        ${ENTITY_BASIC}
+        reg_marks {
+          ${RELATION_BASIC}
+          reg_mark
+        }
+      }
+    }
+
+    page(collection: $collection) {
+      ...PageSchemaFragment
+    }
+  }
+  ${PAGE_SCHEMA_FRAGMENT}
 `
 
 export default {
   GENERAL,
   COMPANY,
+  CONTRACT,
+  REG_MARK,
 }

@@ -39,7 +39,7 @@ export const pageConfig = {
   pages: [
     {
       page: 'listing',
-      fieldsToDisplay: [],
+      fieldsToDisplay: ['reg_mark'],
     },
   ],
 }

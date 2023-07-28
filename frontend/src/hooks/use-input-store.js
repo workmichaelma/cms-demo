@@ -13,11 +13,14 @@ export const useInputStore = ({
   isNew,
   isCopy,
   refetch,
+  showSaveIcon,
 }) => {
   const [inputs, setInputs] = useState({})
   const [inputErrors, setInputErrors] = useState({})
   const [_, setTopBar] = useAtom(topBar)
   const [__, setAlert] = useAtom(alert)
+
+  console.log({ tab })
 
   const [submit, submitMetadata] = useMutation(
     isEdit ? ENTITY_UPDATE : ENTITY_INSERT
@@ -42,21 +45,13 @@ export const useInputStore = ({
       inputs,
       (result, value, key) => {
         if (!isUndefined(value)) {
-          if (key === 'relation') {
-            result.relation = {
-              ...result.relation,
-              ...value,
-              collection: tab,
-            }
-          } else {
-            result[key] = value
-          }
+          result[key] = value
         }
         return result
       },
       {}
     )
-  }, [inputs, tab])
+  }, [inputs])
 
   const canSave = useMemo(() => {
     return !hasError && !isEmpty(body)
@@ -97,12 +92,14 @@ export const useInputStore = ({
   }, [canSave, body, collection, submit, _id, setAlert, isEdit])
 
   useEffect(() => {
-    setTopBar((v) => ({
-      ...v,
-      canSave,
-      save,
-    }))
-  }, [canSave, setTopBar, save])
+    if (showSaveIcon) {
+      setTopBar((v) => ({
+        ...v,
+        canSave,
+        save,
+      }))
+    }
+  }, [canSave, setTopBar, save, showSaveIcon])
 
   return {
     setInputs,

@@ -53,7 +53,7 @@ const getQueries = async () => {
 
       type Page {
         schema: [Schema]
-        pageConfig: PageConfig
+        pageConfig(page: String, tab: String): PageConfig
       }
       type Schema {
         field: String
@@ -71,20 +71,35 @@ const getQueries = async () => {
         editable: Boolean
         maxlength: Int
         checkbox: [String]
+        with_entities_options: JSON
+        target_id: Boolean
       }
 
       type PageConfig {
-        pages(page: String): [PageConfigProfile]
-      }
-
-      type PageConfigProfile {
         page: String
         fieldsToDisplay: [String]
-        tabs: [PageTabProfile]
+        tab: PageTab
+        tabHeaders: [PageTabHeader]
       }
-      type PageTabProfile {
-        tab: String
+      type PageTab {
+        title: String
         fieldsToDisplay: [String]
+        setting: PageTabSetting
+        schema: [Schema]
+      }
+      type PageTabSetting {
+        collection: Collection
+        editable: Boolean
+        deletable: Boolean
+        addable: Boolean
+        copyable: Boolean
+        showPopup: Boolean
+        prefix: String
+        path: String
+      }
+      type PageTabHeader {
+        title: String
+        key: String
       }
 
       type Query {

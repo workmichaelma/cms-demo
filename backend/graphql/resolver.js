@@ -3,7 +3,7 @@ import lodash from 'lodash'
 import path from 'path'
 import { GraphQLScalarType } from 'graphql'
 
-const { capitalize, isEmpty } = lodash
+const { capitalize, find, isEmpty } = lodash
 
 const normalizedPath = path.join(
   path.dirname(new URL(import.meta.url).pathname),
@@ -57,7 +57,6 @@ const getResolvers = async () => {
               },
               ...Model.schema,
             ],
-            pageConfig: Model.pageConfig,
           }
         }
       }
@@ -146,6 +145,32 @@ const getResolvers = async () => {
         }
 
         return `${prefix}ListingResultData`
+      },
+    },
+    Page: {
+      pageConfig: async (parent, args, contextValue, info) => {
+        const { collection } = info?.variableValues
+        const { page, tab } = args
+        if (collection) {
+          const Model = contextValue?.Model[collection]
+          if (Model) {
+            const pages = Model?.pageConfig?.pages
+            const pageConfig = find(pages, { page })
+            const tabConfig = find(pageConfig?.tabs, { key: tab })
+            if (pageConfig) {
+              return {
+                page: pageConfig.page,
+                fieldsToDisplay: pageConfig.fieldsToDisplay,
+                tab: tabConfig,
+                tabHeaders: (pageConfig?.tabs || []).map((tab) => ({
+                  title: tab?.title,
+                  key: tab?.key,
+                })),
+              }
+            }
+          }
+          return null
+        }
       },
     },
   }

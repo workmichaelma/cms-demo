@@ -3,10 +3,9 @@ import { gql } from '@apollo/client'
 import { PAGE_SCHEMA_FRAGMENT, ENTITY_BASIC } from 'utils/query'
 
 import TAB_QUERY from './tab'
-import { upperCase } from 'lodash'
 
 const GET_ENTITY = (tab) => {
-  return TAB_QUERY[upperCase(tab)]
+  return TAB_QUERY[tab.replace('_', '_').toUpperCase()]
 }
 
 const GET_SCHEMA = gql`

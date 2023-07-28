@@ -501,7 +501,8 @@ export const pageConfig = {
       page: 'profile',
       tabs: [
         {
-          tab: 'general',
+          key: 'general',
+          title: '車輛/機械基本資料',
           fieldsToDisplay: [
             'status',
             'chassis_number',
@@ -536,6 +537,134 @@ export const pageConfig = {
             'spare_key',
             'new_car',
             'remarks',
+          ],
+        },
+        {
+          key: 'company',
+          title: '擁有公司',
+          setting: {
+            collection: 'company',
+            editable: true,
+            deletable: true,
+            addable: true,
+            copyable: true,
+            showPopup: true,
+            prefix: 'company',
+            path: 'companies',
+          },
+          schema: [
+            {
+              field: 'name',
+              target_id: true,
+              title: '公司簡稱',
+              editable: false,
+              free_solo: false,
+              type: 'text',
+              select: true,
+              with_entities_options: {
+                path: 'name_tc',
+                variables: {
+                  collection: 'company',
+                },
+              },
+            },
+            {
+              field: 'effective_date',
+              title: '擁有日期',
+              type: 'date',
+            },
+            {
+              field: 'end_date',
+              title: '售出日期',
+              type: 'date',
+            },
+            {
+              field: 'value',
+              title: '價值',
+              type: 'text',
+            },
+          ],
+        },
+        {
+          key: 'contract',
+          title: '合約',
+          setting: {
+            collection: 'contract',
+            editable: true,
+            deletable: true,
+            addable: true,
+            copyable: false,
+            showPopup: true,
+            prefix: 'contract',
+            path: 'contracts',
+          },
+          schema: [
+            {
+              field: 'contract_number',
+              target_id: true,
+              title: '合約編號',
+              editable: false,
+              free_solo: false,
+              type: 'text',
+              select: true,
+              with_entities_options: {
+                path: 'contract_number',
+                variables: {
+                  collection: 'contract',
+                },
+              },
+            },
+            {
+              field: 'effective_date',
+              title: '擁有日期',
+              type: 'date',
+            },
+            {
+              field: 'end_date',
+              title: '售出日期',
+              type: 'date',
+            },
+          ],
+        },
+        {
+          key: 'reg_mark',
+          title: '車牌紀錄',
+          setting: {
+            collection: 'regMark',
+            editable: true,
+            deletable: true,
+            addable: true,
+            copyable: false,
+            showPopup: true,
+            prefix: 'reg_mark',
+            path: 'reg_marks',
+          },
+          schema: [
+            {
+              field: 'reg_mark',
+              target_id: true,
+              title: '車牌號碼',
+              editable: false,
+              free_solo: false,
+              type: 'text',
+              select: true,
+              with_entities_options: {
+                path: 'reg_mark',
+                variables: {
+                  collection: 'regMark',
+                },
+              },
+            },
+            {
+              field: 'effective_date',
+              title: '擁有日期',
+              type: 'date',
+            },
+            {
+              field: 'end_date',
+              title: '售出日期',
+              type: 'date',
+            },
           ],
         },
       ],

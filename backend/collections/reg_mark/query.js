@@ -3,6 +3,7 @@ const Listing = `#graphql
     _id: ID
     status: String
 
+    reg_mark: String
   }
 
   extend union ListingResultData = RegMarkListingResultData

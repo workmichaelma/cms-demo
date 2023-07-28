@@ -1,22 +1,55 @@
 import { gql } from '@apollo/client'
+
+export const SCHEMA = `
+  field
+  is_email
+  is_multiple
+  is_password
+  is_phone
+  title
+  type
+  select
+  options
+  placeholder
+  is_required
+  free_solo
+  editable
+  maxlength
+  checkbox
+  with_entities_options
+  target_id
+`
+
 export const PAGE_SCHEMA_FRAGMENT = gql`
   fragment PageSchemaFragment on Page {
     schema {
-      field
-      is_email
-      is_multiple
-      is_password
-      is_phone
-      title
-      type
-      select
-      options
-      placeholder
-      is_required
-      free_solo
-      editable
-      maxlength
-      checkbox
+      ${SCHEMA}
+    }
+    pageConfig(page: $page, tab: $tab) {
+      page
+      fieldsToDisplay
+      tabHeaders {
+        title
+        key
+      }
+      tab {
+        title
+        fieldsToDisplay
+        setting {
+          addable
+          collection
+          editable
+          deletable
+          addable
+          copyable
+          showPopup
+          prefix
+          path
+        }
+        schema {
+          ${SCHEMA}
+        }
+      }
     }
   }
 `
@@ -96,6 +129,10 @@ export const GET_ENTITIES = gql`
           _id
           name
           name_tc
+        }
+        ... on RegMarkListingResultData {
+          _id
+          reg_mark
         }
       }
     }

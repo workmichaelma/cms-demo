@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom'
 import { useAtom } from 'jotai'
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useState, createContext, useContext } from 'react'
 import { useQuery } from '@apollo/client'
 
 import { sideBar, topBar } from 'global-store'
@@ -33,6 +33,8 @@ export default function withPage(Page, PageProps) {
         _id,
         sort,
         filter,
+        page: isNew || isCopy || isEdit ? 'profile' : isHome ? 'listing' : '',
+        tab,
       },
     })
 
